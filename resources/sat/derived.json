@@ -1,0 +1,6 @@
+{
+  "file": "catalogs.json",
+  "sha256": "e29539923205d0308e7ca3023c4daec0f15e3ae7723025ee0aa00301c3069011",
+  "extractor": "scripts/fiscal/extract_catalogs.py",
+  "note": "BIFF numeric rate cells converted via Decimal(str(value)) to six decimal places. Invoice money never uses BIFF/float."
+}

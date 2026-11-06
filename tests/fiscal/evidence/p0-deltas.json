@@ -1,0 +1,73 @@
+[
+  {
+    "risk": "F01",
+    "old": {
+      "IVA": "24",
+      "ivaDetail": "16.00",
+      "IEPS": "8.00"
+    },
+    "corrected": {
+      "ISR_transfer": "0",
+      "IVA_transfer": "16",
+      "IEPS_transfer": "8",
+      "ISR_retention": "0",
+      "IVA_retention": "0",
+      "IEPS_retention": "0"
+    },
+    "expected_IVA": "16",
+    "expected_IEPS": "8"
+  },
+  {
+    "risk": "F02",
+    "old": {
+      "reported": "10",
+      "ISR": "0.00",
+      "nature": "Retenci\u00f3n"
+    },
+    "corrected_ISR": "10",
+    "expected": "10"
+  },
+  {
+    "risk": "F03",
+    "old_difference": -3,
+    "corrected_total": "119.00",
+    "corrected_difference": "0.00",
+    "expected_total": "119"
+  },
+  {
+    "risk": "F04",
+    "old": {
+      "zero": "100.00",
+      "exempt": "100.00"
+    },
+    "corrected": {
+      "exempt": "100",
+      "zero_rate": "0",
+      "scope": "concept IVA transfers only; no global/concept union"
+    },
+    "expected_zero": "0",
+    "expected_exempt": "100"
+  },
+  {
+    "risk": "F05",
+    "old_IVA": "32",
+    "corrected_IVA": "16",
+    "reported_formula": null,
+    "expected_IVA": "16"
+  },
+  {
+    "risk": "F06",
+    "old": {
+      "sum": 0.30000000000000004,
+      "missing": 0,
+      "invalid": 0,
+      "rounded": "1.00"
+    },
+    "corrected": {
+      "sum": "0.3",
+      "missing": null,
+      "invalid": null,
+      "rounded": "1.01"
+    }
+  }
+]

@@ -1,0 +1,83 @@
+{
+  "provenance": "Synthetic fixtures constructed from official schemas and scoped rule expectations; not SAT-issued/certified or cryptographically signed.",
+  "fixtures": [
+    {
+      "file": "p0_iva_ieps_40.xml",
+      "sha256": "e0555d2b812e8ae241bc6e5dbbb77f7794c433b9299c0324ab866b5def834497",
+      "xsd_expected": "pass",
+      "arithmetic_expected": "consistent-in-scope"
+    },
+    {
+      "file": "p0_isr_retention_40.xml",
+      "sha256": "1e23b5182e6b738bbaa68c21ff0dbf29f9a030b616bcee3948f22b3a2671e856",
+      "xsd_expected": "pass",
+      "arithmetic_expected": "consistent-in-scope"
+    },
+    {
+      "file": "p0_local_once_40.xml",
+      "sha256": "68501abea0f584b97b8bea5d76386ba2124a9ba7b79bcec4117fbf42ed9dcd61",
+      "xsd_expected": "pass",
+      "arithmetic_expected": "consistent-in-scope"
+    },
+    {
+      "file": "local_retention_40.xml",
+      "sha256": "d3a392d6ea04bd4c79ceae8bdd6ee39aa35eaa73be92852dbc684a67b266e84e",
+      "xsd_expected": "pass",
+      "arithmetic_expected": "consistent-in-scope"
+    },
+    {
+      "file": "p0_exempt_zero_40.xml",
+      "sha256": "ca4b8a458955881ef920749d01f3d5e26c91c291a3343b75c2f7635eab83816e",
+      "xsd_expected": "pass",
+      "arithmetic_expected": "consistent-in-scope"
+    },
+    {
+      "file": "p0_missing_aggregate_40.xml",
+      "sha256": "411722f7eebeaa102e69553e6d28bbb7a11135c72962c67211ef1bd4a7803abf",
+      "xsd_expected": "pass",
+      "arithmetic_expected": "error"
+    },
+    {
+      "file": "p0_missing_subtotal_40.xml",
+      "sha256": "f4c2a2e96e6db9e1d841cb8ac0467f6a147797218525f9df0e9fb4e978348aec",
+      "xsd_expected": "fail",
+      "arithmetic_expected": "error"
+    },
+    {
+      "file": "round_groups_40.xml",
+      "sha256": "0a4eed0d21bb826ef02caa2556217bc3d9dfc166ff4a7c499225db88ea8b77c6",
+      "xsd_expected": "pass",
+      "arithmetic_expected": "consistent-in-scope"
+    },
+    {
+      "file": "historical_iva_ieps_33.xml",
+      "sha256": "8794ed2d3ed4eead1e0dc4f2b8dfc64e9a6efdb9ae6605968302a55f1690da19",
+      "xsd_expected": "pass",
+      "arithmetic_expected": "consistent-in-scope"
+    },
+    {
+      "file": "latin1_40.xml",
+      "sha256": "5983c62b536a85789250ee7648795a1c9fca71eacd49b7f96a4740c4a3f19d75",
+      "xsd_expected": "pass",
+      "arithmetic_expected": "consistent-in-scope"
+    },
+    {
+      "file": "utf16_40.xml",
+      "sha256": "b28bf452f6a04f897bc3377a16bab7243be661a9f6ab1143d1ca0f01a43aa42d",
+      "xsd_expected": "pass",
+      "arithmetic_expected": "consistent-in-scope"
+    },
+    {
+      "file": "alternate_prefix_40.xml",
+      "sha256": "6db9a78fbdb75dd51f538918a97fa95657e48a37f347e037ef5b1a159e8e4bac",
+      "xsd_expected": "pass",
+      "arithmetic_expected": "consistent-in-scope"
+    },
+    {
+      "file": "unknown_complement_40.xml",
+      "sha256": "3ea09b13afbcff94a699134248ed57c4d45ad9636883aafbc2400d2b617cadf7",
+      "xsd_expected": "pending",
+      "arithmetic_expected": "partial"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "isolated_venv": true,
+  "python": "3.11.9",
+  "platform": "Windows-10-10.0.26200-SP0",
+  "lxml": [
+    6,
+    1,
+    3,
+    0
+  ],
+  "libxml2": [
+    2,
+    11,
+    9
+  ],
+  "libxslt": [
+    1,
+    1,
+    45
+  ],
+  "wheels": [
+    {
+      "name": "lxml",
+      "version": "6.1.3",
+      "url": "https://files.pythonhosted.org/packages/45/5a/15531a0d307c96282fe8b639b3d74e8bd783e4ab4cb2b0781146ac4161b8/lxml-6.1.3-cp311-cp311-win_amd64.whl",
+      "sha256": "7ae4949f212a53b007dbc355884fda122545c5764a54256c9217e419a62a6559",
+      "license_expression": null,
+      "license": "BSD-3-Clause"
+    },
+    {
+      "name": "xlrd",
+      "version": "2.0.2",
+      "url": "https://files.pythonhosted.org/packages/1a/62/c8d562e7766786ba6587d09c5a8ba9f718ed3fa8af7f4553e8f91c36f302/xlrd-2.0.2-py2.py3-none-any.whl",
+      "sha256": "ea762c3d29f4cca48d82df517b6d89fbce4db3107f9d78713e48cd321d5c9aa9",
+      "license_expression": null,
+      "license": "BSD"
+    }
+  ],
+  "note": "Observed wheel license metadata; no final distribution/license certification."
+}

@@ -1,0 +1,89 @@
+{
+  "status": "pass",
+  "scope": "independent XML/Decimal engine I/E CFDI3.3/4.0",
+  "tests": 59,
+  "recorded_cases_including_subtests": 144,
+  "official_sources_verified": 16,
+  "catalog_extraction_matches_official_xls": true,
+  "fixtures": [
+    {
+      "file": "p0_iva_ieps_40.xml",
+      "xsd": "pass",
+      "arithmetic": "consistent-in-scope"
+    },
+    {
+      "file": "p0_isr_retention_40.xml",
+      "xsd": "pass",
+      "arithmetic": "consistent-in-scope"
+    },
+    {
+      "file": "p0_local_once_40.xml",
+      "xsd": "pass",
+      "arithmetic": "consistent-in-scope"
+    },
+    {
+      "file": "local_retention_40.xml",
+      "xsd": "pass",
+      "arithmetic": "consistent-in-scope"
+    },
+    {
+      "file": "p0_exempt_zero_40.xml",
+      "xsd": "pass",
+      "arithmetic": "consistent-in-scope"
+    },
+    {
+      "file": "p0_missing_aggregate_40.xml",
+      "xsd": "pass",
+      "arithmetic": "error"
+    },
+    {
+      "file": "p0_missing_subtotal_40.xml",
+      "xsd": "fail",
+      "arithmetic": "error"
+    },
+    {
+      "file": "round_groups_40.xml",
+      "xsd": "pass",
+      "arithmetic": "consistent-in-scope"
+    },
+    {
+      "file": "historical_iva_ieps_33.xml",
+      "xsd": "pass",
+      "arithmetic": "consistent-in-scope"
+    },
+    {
+      "file": "latin1_40.xml",
+      "xsd": "pass",
+      "arithmetic": "consistent-in-scope"
+    },
+    {
+      "file": "utf16_40.xml",
+      "xsd": "pass",
+      "arithmetic": "consistent-in-scope"
+    },
+    {
+      "file": "alternate_prefix_40.xml",
+      "xsd": "pass",
+      "arithmetic": "consistent-in-scope"
+    },
+    {
+      "file": "unknown_complement_40.xml",
+      "xsd": "pending",
+      "arithmetic": "partial"
+    }
+  ],
+  "protected_files_byte_identical_to_spec011": 69,
+  "baseline_images_preserved": 60,
+  "pip_check": "No broken requirements found.",
+  "isolated_venv": true,
+  "qt_fiscal_flow": "legacy; not migrated",
+  "global_project_done": false,
+  "not_implemented": [
+    "Qt worker integration",
+    "ZIP/cache/SQLite",
+    "complete historical catalogs",
+    "full complement rules",
+    "cryptographic/SAT status validation",
+    "final EXE"
+  ]
+}

@@ -1,5 +1,7 @@
 # Matriz de riesgos y evidencia
 
+Seguimiento posterior a esta auditoría histórica: [entrega del motor independiente](15_MOTOR_FISCAL_P0_REPORT.md). F01–F06 se corrigen en su alcance I/E3.3/4.0; el flujo legado y los P0 de ZIP/caché permanecen abiertos. Esta matriz conserva los hallazgos originales y no equivale al estado global actual del producto.
+
 Severidad: **P0** impide confiar en importes, integridad o seguridad fundamental; **P1** bloquea una capacidad crítica o puede perder datos; **P2** afecta operación/claridad con alternativa; **P3** mantenimiento o detalle. Clasificación EC/RC/HP/NC en 00. EC en lector significa reproducción con adaptador XML y UI simulada, no comprobación en navegador real. Ningún hallazgo se ha corregido en el producto durante FASE 0.
 
 | ID | Sev. | Clase | Hallazgo y ubicación original | Evidencia / reproducción pendiente | Acción y aceptación futura |

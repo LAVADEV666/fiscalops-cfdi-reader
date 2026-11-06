@@ -2,6 +2,7 @@ __pycache__/
 *.py[cod]
 .venv/
 tests/visual/.work/
+tests/fiscal/.work/
 tests/visual/evidence/server.json
 tests/visual/evidence/*-profile/
 FiscalOpsData/

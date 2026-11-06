@@ -1,5 +1,7 @@
 # Handoff después de SPEC 011
 
+**Continuación implementada:** lector XML, matriz normativa y motor Decimal independiente en el siguiente hito. Estado y evidencia actuales en [15_MOTOR_FISCAL_P0_REPORT](15_MOTOR_FISCAL_P0_REPORT.md), [06_MATRIZ_NORMATIVA_SAT](06_MATRIZ_NORMATIVA_SAT.md) y [16_CONTRATO_MOTOR_FISCAL](16_CONTRATO_MOTOR_FISCAL.md). El resto de este documento conserva la situación y propuesta al cerrar SPEC011; no describe como pendientes los módulos que ya entrega el motor nuevo. El flujo Qt/JS sigue legado hasta su integración.
+
 La estabilización UI y el smoke desktop quedan implementados. El motor fiscal **no se reconstruyó**. Original, legacy y baseline permanecen intactos; el constructor de la copia de desarrollo comprueba regiones fiscales idénticas. La interfaz de desarrollo está en app/ui y el contenedor real en app/desktop/main.py.
 
 ## Riesgos que siguen abiertos

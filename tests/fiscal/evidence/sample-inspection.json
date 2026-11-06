@@ -1,0 +1,1715 @@
+{
+  "contract": "fiscalops.inspection/1",
+  "document": {
+    "parser_version": "fiscalops.xml/1.0",
+    "sha256": "e0555d2b812e8ae241bc6e5dbbb77f7794c433b9299c0324ab866b5def834497",
+    "original": {
+      "preserved_bytes": 1396,
+      "exported": false
+    },
+    "encoding": "UTF-8",
+    "namespace": "http://www.sat.gob.mx/cfd/4",
+    "version": "4.0",
+    "attributes": {
+      "Version": "4.0",
+      "Fecha": "2026-11-06T12:34:56",
+      "Sello": "QUFB",
+      "NoCertificado": "00001000000500000000",
+      "Certificado": "QUFB",
+      "Moneda": "MXN",
+      "TipoDeComprobante": "I",
+      "LugarExpedicion": "06000",
+      "MetodoPago": "PUE",
+      "FormaPago": "03",
+      "Exportacion": "01",
+      "SubTotal": "100",
+      "Total": "124"
+    },
+    "issuer": {
+      "Rfc": "AAA010101AAA",
+      "Nombre": "EMPRESA SINTÉTICA ÁRBOL",
+      "RegimenFiscal": "601"
+    },
+    "receiver": {
+      "Rfc": "BBB010101BB1",
+      "Nombre": "RECEPTOR SINTÉTICO",
+      "UsoCFDI": "G03",
+      "DomicilioFiscalReceptor": "06000",
+      "RegimenFiscalReceptor": "601"
+    },
+    "numbers": {
+      "SubTotal": {
+        "raw": "100",
+        "value": "100",
+        "state": "valid",
+        "scale": 0,
+        "path": "/Comprobante/@SubTotal"
+      },
+      "Descuento": {
+        "raw": null,
+        "value": null,
+        "state": "missing",
+        "scale": null,
+        "path": "/Comprobante/@Descuento"
+      },
+      "Total": {
+        "raw": "124",
+        "value": "124",
+        "state": "valid",
+        "scale": 0,
+        "path": "/Comprobante/@Total"
+      },
+      "TipoCambio": {
+        "raw": null,
+        "value": null,
+        "state": "missing",
+        "scale": null,
+        "path": "/Comprobante/@TipoCambio"
+      }
+    },
+    "concepts": [
+      {
+        "index": 1,
+        "path": "/Comprobante/Conceptos/Concepto[1]",
+        "attributes": {
+          "ClaveProdServ": "01010101",
+          "ClaveUnidad": "H87",
+          "Descripcion": "CASO SINTÉTICO SIN VALIDEZ FISCAL",
+          "Cantidad": "1",
+          "ValorUnitario": "100",
+          "Importe": "100",
+          "ObjetoImp": "02"
+        },
+        "numbers": {
+          "Cantidad": {
+            "raw": "1",
+            "value": "1",
+            "state": "valid",
+            "scale": 0,
+            "path": "/Comprobante/Conceptos/Concepto[1]/@Cantidad"
+          },
+          "ValorUnitario": {
+            "raw": "100",
+            "value": "100",
+            "state": "valid",
+            "scale": 0,
+            "path": "/Comprobante/Conceptos/Concepto[1]/@ValorUnitario"
+          },
+          "Importe": {
+            "raw": "100",
+            "value": "100",
+            "state": "valid",
+            "scale": 0,
+            "path": "/Comprobante/Conceptos/Concepto[1]/@Importe"
+          },
+          "Descuento": {
+            "raw": null,
+            "value": null,
+            "state": "missing",
+            "scale": null,
+            "path": "/Comprobante/Conceptos/Concepto[1]/@Descuento"
+          }
+        },
+        "taxes": [
+          {
+            "scope": "concept",
+            "nature": "transfer",
+            "code": "002",
+            "factor": "Tasa",
+            "base": {
+              "raw": "100",
+              "value": "100",
+              "state": "valid",
+              "scale": 0,
+              "path": "/Comprobante/Conceptos/Concepto[1]/Impuestos/Traslados/Traslado[1]/@Base"
+            },
+            "rate": {
+              "raw": "0.160000",
+              "value": "0.160000",
+              "state": "valid",
+              "scale": 6,
+              "path": "/Comprobante/Conceptos/Concepto[1]/Impuestos/Traslados/Traslado[1]/@TasaOCuota"
+            },
+            "amount": {
+              "raw": "16",
+              "value": "16",
+              "state": "valid",
+              "scale": 0,
+              "path": "/Comprobante/Conceptos/Concepto[1]/Impuestos/Traslados/Traslado[1]/@Importe"
+            },
+            "path": "/Comprobante/Conceptos/Concepto[1]/Impuestos/Traslados/Traslado[1]",
+            "concept_index": 1,
+            "local_name": null
+          },
+          {
+            "scope": "concept",
+            "nature": "transfer",
+            "code": "003",
+            "factor": "Tasa",
+            "base": {
+              "raw": "100",
+              "value": "100",
+              "state": "valid",
+              "scale": 0,
+              "path": "/Comprobante/Conceptos/Concepto[1]/Impuestos/Traslados/Traslado[2]/@Base"
+            },
+            "rate": {
+              "raw": "0.080000",
+              "value": "0.080000",
+              "state": "valid",
+              "scale": 6,
+              "path": "/Comprobante/Conceptos/Concepto[1]/Impuestos/Traslados/Traslado[2]/@TasaOCuota"
+            },
+            "amount": {
+              "raw": "8",
+              "value": "8",
+              "state": "valid",
+              "scale": 0,
+              "path": "/Comprobante/Conceptos/Concepto[1]/Impuestos/Traslados/Traslado[2]/@Importe"
+            },
+            "path": "/Comprobante/Conceptos/Concepto[1]/Impuestos/Traslados/Traslado[2]",
+            "concept_index": 1,
+            "local_name": null
+          }
+        ]
+      }
+    ],
+    "global_taxes_present": true,
+    "global_taxes": [
+      {
+        "scope": "global",
+        "nature": "transfer",
+        "code": "002",
+        "factor": "Tasa",
+        "base": {
+          "raw": "100",
+          "value": "100",
+          "state": "valid",
+          "scale": 0,
+          "path": "/Comprobante/Impuestos/Traslados/Traslado[1]/@Base"
+        },
+        "rate": {
+          "raw": "0.160000",
+          "value": "0.160000",
+          "state": "valid",
+          "scale": 6,
+          "path": "/Comprobante/Impuestos/Traslados/Traslado[1]/@TasaOCuota"
+        },
+        "amount": {
+          "raw": "16",
+          "value": "16",
+          "state": "valid",
+          "scale": 0,
+          "path": "/Comprobante/Impuestos/Traslados/Traslado[1]/@Importe"
+        },
+        "path": "/Comprobante/Impuestos/Traslados/Traslado[1]",
+        "concept_index": null,
+        "local_name": null
+      },
+      {
+        "scope": "global",
+        "nature": "transfer",
+        "code": "003",
+        "factor": "Tasa",
+        "base": {
+          "raw": "100",
+          "value": "100",
+          "state": "valid",
+          "scale": 0,
+          "path": "/Comprobante/Impuestos/Traslados/Traslado[2]/@Base"
+        },
+        "rate": {
+          "raw": "0.080000",
+          "value": "0.080000",
+          "state": "valid",
+          "scale": 6,
+          "path": "/Comprobante/Impuestos/Traslados/Traslado[2]/@TasaOCuota"
+        },
+        "amount": {
+          "raw": "8",
+          "value": "8",
+          "state": "valid",
+          "scale": 0,
+          "path": "/Comprobante/Impuestos/Traslados/Traslado[2]/@Importe"
+        },
+        "path": "/Comprobante/Impuestos/Traslados/Traslado[2]",
+        "concept_index": null,
+        "local_name": null
+      }
+    ],
+    "global_totals": {
+      "TotalImpuestosTrasladados": {
+        "raw": "24",
+        "value": "24",
+        "state": "valid",
+        "scale": 0,
+        "path": "/Comprobante/Impuestos/@TotalImpuestosTrasladados"
+      },
+      "TotalImpuestosRetenidos": {
+        "raw": null,
+        "value": null,
+        "state": "missing",
+        "scale": null,
+        "path": "/Comprobante/Impuestos/@TotalImpuestosRetenidos"
+      }
+    },
+    "locals": [],
+    "complements": [],
+    "uuid": null,
+    "structural_issues": []
+  },
+  "validation": {
+    "xml": "pass",
+    "xsd": {
+      "status": "pass",
+      "errors": [],
+      "core_projection_status": "pass",
+      "excluded_unvalidated_nodes": [],
+      "scope": "CFDI core + local 1.0 + TFD 1.1; strict unknown extensions excluded only from validation copy",
+      "catalog_history": "snapshot only; not complete historical catalog validation"
+    },
+    "arithmetic": "consistent-in-scope",
+    "official_sat": "not-queried",
+    "signature": "not-validated"
+  },
+  "analysis": {
+    "ruleset": "fiscalops.p0/1.0-sat-2026-11-06",
+    "status": "consistent-in-scope",
+    "scope": "CFDI I/E P0 reconciliation; not full SAT validation",
+    "currency": "MXN",
+    "currency_digits": 2,
+    "issue_date": "2026-11-06",
+    "reported": {
+      "subtotal": {
+        "raw": "100",
+        "value": "100",
+        "state": "valid",
+        "scale": 0,
+        "path": "/Comprobante/@SubTotal"
+      },
+      "discount": {
+        "raw": null,
+        "value": null,
+        "state": "missing",
+        "scale": null,
+        "path": "/Comprobante/@Descuento"
+      },
+      "total": {
+        "raw": "124",
+        "value": "124",
+        "state": "valid",
+        "scale": 0,
+        "path": "/Comprobante/@Total"
+      },
+      "federal": {
+        "TotalImpuestosTrasladados": {
+          "raw": "24",
+          "value": "24",
+          "state": "valid",
+          "scale": 0,
+          "path": "/Comprobante/Impuestos/@TotalImpuestosTrasladados"
+        },
+        "TotalImpuestosRetenidos": {
+          "raw": null,
+          "value": null,
+          "state": "missing",
+          "scale": null,
+          "path": "/Comprobante/Impuestos/@TotalImpuestosRetenidos"
+        }
+      },
+      "local": {
+        "transfer": "0",
+        "retention": "0"
+      }
+    },
+    "recalculated": {
+      "subtotal_from_concepts": "100.00",
+      "discount_from_concepts": "0.00",
+      "federal_concept_groups": [
+        {
+          "nature": "transfer",
+          "code": "002",
+          "factor": "Tasa",
+          "rate": "0.160000",
+          "amount": "16.00",
+          "base": "100.00",
+          "source_paths": [
+            "/Comprobante/Conceptos/Concepto[1]/Impuestos/Traslados/Traslado[1]"
+          ]
+        },
+        {
+          "nature": "transfer",
+          "code": "003",
+          "factor": "Tasa",
+          "rate": "0.080000",
+          "amount": "8.00",
+          "base": "100.00",
+          "source_paths": [
+            "/Comprobante/Conceptos/Concepto[1]/Impuestos/Traslados/Traslado[2]"
+          ]
+        }
+      ],
+      "federal_global_groups": [
+        {
+          "nature": "transfer",
+          "code": "002",
+          "factor": "Tasa",
+          "rate": "0.160000",
+          "amount": "16",
+          "base": "100",
+          "source_paths": [
+            "/Comprobante/Impuestos/Traslados/Traslado[1]"
+          ]
+        },
+        {
+          "nature": "transfer",
+          "code": "003",
+          "factor": "Tasa",
+          "rate": "0.080000",
+          "amount": "8",
+          "base": "100",
+          "source_paths": [
+            "/Comprobante/Impuestos/Traslados/Traslado[2]"
+          ]
+        }
+      ],
+      "selected_federal": {
+        "transfer": {
+          "source": "global-detail",
+          "groups": [
+            {
+              "nature": "transfer",
+              "code": "002",
+              "factor": "Tasa",
+              "rate": "0.160000",
+              "amount": "16",
+              "base": "100",
+              "source_paths": [
+                "/Comprobante/Impuestos/Traslados/Traslado[1]"
+              ]
+            },
+            {
+              "nature": "transfer",
+              "code": "003",
+              "factor": "Tasa",
+              "rate": "0.080000",
+              "amount": "8",
+              "base": "100",
+              "source_paths": [
+                "/Comprobante/Impuestos/Traslados/Traslado[2]"
+              ]
+            }
+          ],
+          "total": "24"
+        },
+        "retention": {
+          "source": "no-applicable-nodes",
+          "groups": [],
+          "total": "0"
+        }
+      },
+      "federal_by_code": {
+        "ISR_transfer": "0",
+        "IVA_transfer": "16",
+        "IEPS_transfer": "8",
+        "ISR_retention": "0",
+        "IVA_retention": "0",
+        "IEPS_retention": "0"
+      },
+      "local_details": {
+        "transfer": "0",
+        "retention": "0"
+      },
+      "iva_bases": {
+        "exempt": "0",
+        "zero_rate": "0",
+        "scope": "concept IVA transfers only; no global/concept union"
+      },
+      "total_from_reported_components": "124.00",
+      "total_from_tax_details": "124.00",
+      "total_from_concepts": "124.00",
+      "difference_total_minus_details": "0.00"
+    },
+    "checks": [
+      {
+        "rule": "CAT",
+        "code": "CURRENCY_PRECISION",
+        "path": "/Comprobante/@Moneda",
+        "status": "pass",
+        "reported": "MXN",
+        "expected": 2,
+        "reference": {
+          "matrix_rule": "CAT",
+          "source_ids": [
+            "catalog40"
+          ],
+          "supporting_sat_codes": [
+            "CFDI40179",
+            "CFDI40185",
+            "CFDI40219"
+          ]
+        },
+        "detail": {
+          "issue_date": "2026-11-06",
+          "snapshot": "sat-2026-11-06",
+          "row": {
+            "code": "MXN",
+            "digits": 2,
+            "valid_from": "2022-01-01",
+            "valid_to": null,
+            "sheet": "c_Moneda",
+            "row": 107
+          },
+          "complete_catalog_history": false
+        }
+      },
+      {
+        "rule": "F06",
+        "code": "NUMBER_FIELD",
+        "path": "/Comprobante/@SubTotal",
+        "status": "pass",
+        "reported": "100",
+        "expected": null,
+        "reference": {
+          "matrix_rule": "F06",
+          "source_ids": [
+            "types",
+            "standard40",
+            "catalog40",
+            "faq40"
+          ],
+          "supporting_sat_codes": [
+            "CFDI40107",
+            "CFDI40108",
+            "CFDI40111",
+            "CFDI40167",
+            "CFDI40180",
+            "CFDI40186"
+          ]
+        },
+        "detail": {
+          "state": "valid",
+          "maximum_scale": 2
+        }
+      },
+      {
+        "rule": "F06",
+        "code": "NUMBER_FIELD",
+        "path": "/Comprobante/@Total",
+        "status": "pass",
+        "reported": "124",
+        "expected": null,
+        "reference": {
+          "matrix_rule": "F06",
+          "source_ids": [
+            "types",
+            "standard40",
+            "catalog40",
+            "faq40"
+          ],
+          "supporting_sat_codes": [
+            "CFDI40107",
+            "CFDI40108",
+            "CFDI40111",
+            "CFDI40167",
+            "CFDI40180",
+            "CFDI40186"
+          ]
+        },
+        "detail": {
+          "state": "valid",
+          "maximum_scale": 2
+        }
+      },
+      {
+        "rule": "F06",
+        "code": "NUMBER_FIELD",
+        "path": "/Comprobante/Conceptos/Concepto[1]/@Cantidad",
+        "status": "pass",
+        "reported": "1",
+        "expected": null,
+        "reference": {
+          "matrix_rule": "F06",
+          "source_ids": [
+            "types",
+            "standard40",
+            "catalog40",
+            "faq40"
+          ],
+          "supporting_sat_codes": [
+            "CFDI40107",
+            "CFDI40108",
+            "CFDI40111",
+            "CFDI40167",
+            "CFDI40180",
+            "CFDI40186"
+          ]
+        },
+        "detail": {
+          "state": "valid",
+          "maximum_scale": 6
+        }
+      },
+      {
+        "rule": "F06",
+        "code": "NUMBER_FIELD",
+        "path": "/Comprobante/Conceptos/Concepto[1]/@ValorUnitario",
+        "status": "pass",
+        "reported": "100",
+        "expected": null,
+        "reference": {
+          "matrix_rule": "F06",
+          "source_ids": [
+            "types",
+            "standard40",
+            "catalog40",
+            "faq40"
+          ],
+          "supporting_sat_codes": [
+            "CFDI40107",
+            "CFDI40108",
+            "CFDI40111",
+            "CFDI40167",
+            "CFDI40180",
+            "CFDI40186"
+          ]
+        },
+        "detail": {
+          "state": "valid",
+          "maximum_scale": 6
+        }
+      },
+      {
+        "rule": "F06",
+        "code": "NUMBER_FIELD",
+        "path": "/Comprobante/Conceptos/Concepto[1]/@Importe",
+        "status": "pass",
+        "reported": "100",
+        "expected": null,
+        "reference": {
+          "matrix_rule": "F06",
+          "source_ids": [
+            "types",
+            "standard40",
+            "catalog40",
+            "faq40"
+          ],
+          "supporting_sat_codes": [
+            "CFDI40107",
+            "CFDI40108",
+            "CFDI40111",
+            "CFDI40167",
+            "CFDI40180",
+            "CFDI40186"
+          ]
+        },
+        "detail": {
+          "state": "valid",
+          "maximum_scale": 6
+        }
+      },
+      {
+        "rule": "F06",
+        "code": "POSITIVE_OPERAND",
+        "path": "/Comprobante/Conceptos/Concepto[1]/@Cantidad",
+        "status": "pass",
+        "reported": "1",
+        "expected": null,
+        "reference": {
+          "matrix_rule": "F06",
+          "source_ids": [
+            "types",
+            "standard40",
+            "catalog40",
+            "faq40"
+          ],
+          "supporting_sat_codes": [
+            "CFDI40107",
+            "CFDI40108",
+            "CFDI40111",
+            "CFDI40167",
+            "CFDI40180",
+            "CFDI40186"
+          ]
+        }
+      },
+      {
+        "rule": "F06",
+        "code": "POSITIVE_OPERAND",
+        "path": "/Comprobante/Conceptos/Concepto[1]/@ValorUnitario",
+        "status": "pass",
+        "reported": "100",
+        "expected": null,
+        "reference": {
+          "matrix_rule": "F06",
+          "source_ids": [
+            "types",
+            "standard40",
+            "catalog40",
+            "faq40"
+          ],
+          "supporting_sat_codes": [
+            "CFDI40107",
+            "CFDI40108",
+            "CFDI40111",
+            "CFDI40167",
+            "CFDI40180",
+            "CFDI40186"
+          ]
+        }
+      },
+      {
+        "rule": "F06",
+        "code": "CONCEPT_PRODUCT_INTERVAL",
+        "path": "/Comprobante/Conceptos/Concepto[1]/@Importe",
+        "status": "pass",
+        "reported": "100",
+        "expected": {
+          "lower": "49",
+          "upper": "151",
+          "exact_product": "100"
+        },
+        "reference": {
+          "matrix_rule": "F06",
+          "source_ids": [
+            "types",
+            "standard40",
+            "catalog40",
+            "faq40"
+          ],
+          "supporting_sat_codes": [
+            "CFDI40107",
+            "CFDI40108",
+            "CFDI40111",
+            "CFDI40167",
+            "CFDI40180",
+            "CFDI40186"
+          ]
+        }
+      },
+      {
+        "rule": "F01",
+        "code": "FEDERAL_TAX_CODE",
+        "path": "/Comprobante/Conceptos/Concepto[1]/Impuestos/Traslados/Traslado[1]/@Impuesto",
+        "status": "pass",
+        "reported": "002",
+        "expected": null,
+        "reference": {
+          "matrix_rule": "F01",
+          "source_ids": [
+            "cfdi40",
+            "matrix40"
+          ],
+          "supporting_sat_codes": [
+            "CFDI40205",
+            "CFDI40211",
+            "CFDI40221"
+          ]
+        }
+      },
+      {
+        "rule": "F06",
+        "code": "NUMBER_FIELD",
+        "path": "/Comprobante/Conceptos/Concepto[1]/Impuestos/Traslados/Traslado[1]/@Base",
+        "status": "pass",
+        "reported": "100",
+        "expected": null,
+        "reference": {
+          "matrix_rule": "F06",
+          "source_ids": [
+            "types",
+            "standard40",
+            "catalog40",
+            "faq40"
+          ],
+          "supporting_sat_codes": [
+            "CFDI40107",
+            "CFDI40108",
+            "CFDI40111",
+            "CFDI40167",
+            "CFDI40180",
+            "CFDI40186"
+          ]
+        },
+        "detail": {
+          "state": "valid",
+          "maximum_scale": 6
+        }
+      },
+      {
+        "rule": "F06",
+        "code": "POSITIVE_TAX_BASE",
+        "path": "/Comprobante/Conceptos/Concepto[1]/Impuestos/Traslados/Traslado[1]/@Base",
+        "status": "pass",
+        "reported": "100",
+        "expected": null,
+        "reference": {
+          "matrix_rule": "F06",
+          "source_ids": [
+            "types",
+            "standard40",
+            "catalog40",
+            "faq40"
+          ],
+          "supporting_sat_codes": [
+            "CFDI40107",
+            "CFDI40108",
+            "CFDI40111",
+            "CFDI40167",
+            "CFDI40180",
+            "CFDI40186"
+          ]
+        }
+      },
+      {
+        "rule": "F06",
+        "code": "NUMBER_FIELD",
+        "path": "/Comprobante/Conceptos/Concepto[1]/Impuestos/Traslados/Traslado[1]/@TasaOCuota",
+        "status": "pass",
+        "reported": "0.160000",
+        "expected": null,
+        "reference": {
+          "matrix_rule": "F06",
+          "source_ids": [
+            "types",
+            "standard40",
+            "catalog40",
+            "faq40"
+          ],
+          "supporting_sat_codes": [
+            "CFDI40107",
+            "CFDI40108",
+            "CFDI40111",
+            "CFDI40167",
+            "CFDI40180",
+            "CFDI40186"
+          ]
+        },
+        "detail": {
+          "state": "valid",
+          "maximum_scale": 6
+        }
+      },
+      {
+        "rule": "F06",
+        "code": "FEDERAL_RATE_SIX_DECIMALS",
+        "path": "/Comprobante/Conceptos/Concepto[1]/Impuestos/Traslados/Traslado[1]/@TasaOCuota",
+        "status": "pass",
+        "reported": "0.160000",
+        "expected": null,
+        "reference": {
+          "matrix_rule": "F06",
+          "source_ids": [
+            "types",
+            "standard40",
+            "catalog40",
+            "faq40"
+          ],
+          "supporting_sat_codes": [
+            "CFDI40107",
+            "CFDI40108",
+            "CFDI40111",
+            "CFDI40167",
+            "CFDI40180",
+            "CFDI40186"
+          ]
+        },
+        "detail": {
+          "source": "faq40",
+          "question": 40
+        }
+      },
+      {
+        "rule": "F06",
+        "code": "NUMBER_FIELD",
+        "path": "/Comprobante/Conceptos/Concepto[1]/Impuestos/Traslados/Traslado[1]/@Importe",
+        "status": "pass",
+        "reported": "16",
+        "expected": null,
+        "reference": {
+          "matrix_rule": "F06",
+          "source_ids": [
+            "types",
+            "standard40",
+            "catalog40",
+            "faq40"
+          ],
+          "supporting_sat_codes": [
+            "CFDI40107",
+            "CFDI40108",
+            "CFDI40111",
+            "CFDI40167",
+            "CFDI40180",
+            "CFDI40186"
+          ]
+        },
+        "detail": {
+          "state": "valid",
+          "maximum_scale": 6
+        }
+      },
+      {
+        "rule": "CAT",
+        "code": "RATE_CATALOG",
+        "path": "/Comprobante/Conceptos/Concepto[1]/Impuestos/Traslados/Traslado[1]/@TasaOCuota",
+        "status": "pass",
+        "reported": "0.160000",
+        "expected": null,
+        "reference": {
+          "matrix_rule": "CAT",
+          "source_ids": [
+            "catalog40"
+          ],
+          "supporting_sat_codes": [
+            "CFDI40179",
+            "CFDI40185",
+            "CFDI40219"
+          ]
+        },
+        "detail": {
+          "rows": [
+            8
+          ],
+          "issue_date": "2026-11-06",
+          "catalog_source": "catalog40"
+        }
+      },
+      {
+        "rule": "F06",
+        "code": "TAX_PRODUCT_INTERVAL",
+        "path": "/Comprobante/Conceptos/Concepto[1]/Impuestos/Traslados/Traslado[1]/@Importe",
+        "status": "pass",
+        "reported": "16",
+        "expected": {
+          "lower": "15",
+          "upper": "17",
+          "exact_product": "16.000000"
+        },
+        "reference": {
+          "matrix_rule": "F06",
+          "source_ids": [
+            "types",
+            "standard40",
+            "catalog40",
+            "faq40"
+          ],
+          "supporting_sat_codes": [
+            "CFDI40107",
+            "CFDI40108",
+            "CFDI40111",
+            "CFDI40167",
+            "CFDI40180",
+            "CFDI40186"
+          ]
+        }
+      },
+      {
+        "rule": "F01",
+        "code": "FEDERAL_TAX_CODE",
+        "path": "/Comprobante/Conceptos/Concepto[1]/Impuestos/Traslados/Traslado[2]/@Impuesto",
+        "status": "pass",
+        "reported": "003",
+        "expected": null,
+        "reference": {
+          "matrix_rule": "F01",
+          "source_ids": [
+            "cfdi40",
+            "matrix40"
+          ],
+          "supporting_sat_codes": [
+            "CFDI40205",
+            "CFDI40211",
+            "CFDI40221"
+          ]
+        }
+      },
+      {
+        "rule": "F06",
+        "code": "NUMBER_FIELD",
+        "path": "/Comprobante/Conceptos/Concepto[1]/Impuestos/Traslados/Traslado[2]/@Base",
+        "status": "pass",
+        "reported": "100",
+        "expected": null,
+        "reference": {
+          "matrix_rule": "F06",
+          "source_ids": [
+            "types",
+            "standard40",
+            "catalog40",
+            "faq40"
+          ],
+          "supporting_sat_codes": [
+            "CFDI40107",
+            "CFDI40108",
+            "CFDI40111",
+            "CFDI40167",
+            "CFDI40180",
+            "CFDI40186"
+          ]
+        },
+        "detail": {
+          "state": "valid",
+          "maximum_scale": 6
+        }
+      },
+      {
+        "rule": "F06",
+        "code": "POSITIVE_TAX_BASE",
+        "path": "/Comprobante/Conceptos/Concepto[1]/Impuestos/Traslados/Traslado[2]/@Base",
+        "status": "pass",
+        "reported": "100",
+        "expected": null,
+        "reference": {
+          "matrix_rule": "F06",
+          "source_ids": [
+            "types",
+            "standard40",
+            "catalog40",
+            "faq40"
+          ],
+          "supporting_sat_codes": [
+            "CFDI40107",
+            "CFDI40108",
+            "CFDI40111",
+            "CFDI40167",
+            "CFDI40180",
+            "CFDI40186"
+          ]
+        }
+      },
+      {
+        "rule": "F06",
+        "code": "NUMBER_FIELD",
+        "path": "/Comprobante/Conceptos/Concepto[1]/Impuestos/Traslados/Traslado[2]/@TasaOCuota",
+        "status": "pass",
+        "reported": "0.080000",
+        "expected": null,
+        "reference": {
+          "matrix_rule": "F06",
+          "source_ids": [
+            "types",
+            "standard40",
+            "catalog40",
+            "faq40"
+          ],
+          "supporting_sat_codes": [
+            "CFDI40107",
+            "CFDI40108",
+            "CFDI40111",
+            "CFDI40167",
+            "CFDI40180",
+            "CFDI40186"
+          ]
+        },
+        "detail": {
+          "state": "valid",
+          "maximum_scale": 6
+        }
+      },
+      {
+        "rule": "F06",
+        "code": "FEDERAL_RATE_SIX_DECIMALS",
+        "path": "/Comprobante/Conceptos/Concepto[1]/Impuestos/Traslados/Traslado[2]/@TasaOCuota",
+        "status": "pass",
+        "reported": "0.080000",
+        "expected": null,
+        "reference": {
+          "matrix_rule": "F06",
+          "source_ids": [
+            "types",
+            "standard40",
+            "catalog40",
+            "faq40"
+          ],
+          "supporting_sat_codes": [
+            "CFDI40107",
+            "CFDI40108",
+            "CFDI40111",
+            "CFDI40167",
+            "CFDI40180",
+            "CFDI40186"
+          ]
+        },
+        "detail": {
+          "source": "faq40",
+          "question": 40
+        }
+      },
+      {
+        "rule": "F06",
+        "code": "NUMBER_FIELD",
+        "path": "/Comprobante/Conceptos/Concepto[1]/Impuestos/Traslados/Traslado[2]/@Importe",
+        "status": "pass",
+        "reported": "8",
+        "expected": null,
+        "reference": {
+          "matrix_rule": "F06",
+          "source_ids": [
+            "types",
+            "standard40",
+            "catalog40",
+            "faq40"
+          ],
+          "supporting_sat_codes": [
+            "CFDI40107",
+            "CFDI40108",
+            "CFDI40111",
+            "CFDI40167",
+            "CFDI40180",
+            "CFDI40186"
+          ]
+        },
+        "detail": {
+          "state": "valid",
+          "maximum_scale": 6
+        }
+      },
+      {
+        "rule": "CAT",
+        "code": "RATE_CATALOG",
+        "path": "/Comprobante/Conceptos/Concepto[1]/Impuestos/Traslados/Traslado[2]/@TasaOCuota",
+        "status": "pass",
+        "reported": "0.080000",
+        "expected": null,
+        "reference": {
+          "matrix_rule": "CAT",
+          "source_ids": [
+            "catalog40"
+          ],
+          "supporting_sat_codes": [
+            "CFDI40179",
+            "CFDI40185",
+            "CFDI40219"
+          ]
+        },
+        "detail": {
+          "rows": [
+            19
+          ],
+          "issue_date": "2026-11-06",
+          "catalog_source": "catalog40"
+        }
+      },
+      {
+        "rule": "F06",
+        "code": "TAX_PRODUCT_INTERVAL",
+        "path": "/Comprobante/Conceptos/Concepto[1]/Impuestos/Traslados/Traslado[2]/@Importe",
+        "status": "pass",
+        "reported": "8",
+        "expected": {
+          "lower": "7",
+          "upper": "9",
+          "exact_product": "8.000000"
+        },
+        "reference": {
+          "matrix_rule": "F06",
+          "source_ids": [
+            "types",
+            "standard40",
+            "catalog40",
+            "faq40"
+          ],
+          "supporting_sat_codes": [
+            "CFDI40107",
+            "CFDI40108",
+            "CFDI40111",
+            "CFDI40167",
+            "CFDI40180",
+            "CFDI40186"
+          ]
+        }
+      },
+      {
+        "rule": "F01",
+        "code": "FEDERAL_TAX_CODE",
+        "path": "/Comprobante/Impuestos/Traslados/Traslado[1]/@Impuesto",
+        "status": "pass",
+        "reported": "002",
+        "expected": null,
+        "reference": {
+          "matrix_rule": "F01",
+          "source_ids": [
+            "cfdi40",
+            "matrix40"
+          ],
+          "supporting_sat_codes": [
+            "CFDI40205",
+            "CFDI40211",
+            "CFDI40221"
+          ]
+        }
+      },
+      {
+        "rule": "F06",
+        "code": "NUMBER_FIELD",
+        "path": "/Comprobante/Impuestos/Traslados/Traslado[1]/@Base",
+        "status": "pass",
+        "reported": "100",
+        "expected": null,
+        "reference": {
+          "matrix_rule": "F06",
+          "source_ids": [
+            "types",
+            "standard40",
+            "catalog40",
+            "faq40"
+          ],
+          "supporting_sat_codes": [
+            "CFDI40107",
+            "CFDI40108",
+            "CFDI40111",
+            "CFDI40167",
+            "CFDI40180",
+            "CFDI40186"
+          ]
+        },
+        "detail": {
+          "state": "valid",
+          "maximum_scale": 2
+        }
+      },
+      {
+        "rule": "F06",
+        "code": "NUMBER_FIELD",
+        "path": "/Comprobante/Impuestos/Traslados/Traslado[1]/@TasaOCuota",
+        "status": "pass",
+        "reported": "0.160000",
+        "expected": null,
+        "reference": {
+          "matrix_rule": "F06",
+          "source_ids": [
+            "types",
+            "standard40",
+            "catalog40",
+            "faq40"
+          ],
+          "supporting_sat_codes": [
+            "CFDI40107",
+            "CFDI40108",
+            "CFDI40111",
+            "CFDI40167",
+            "CFDI40180",
+            "CFDI40186"
+          ]
+        },
+        "detail": {
+          "state": "valid",
+          "maximum_scale": 6
+        }
+      },
+      {
+        "rule": "F06",
+        "code": "FEDERAL_RATE_SIX_DECIMALS",
+        "path": "/Comprobante/Impuestos/Traslados/Traslado[1]/@TasaOCuota",
+        "status": "pass",
+        "reported": "0.160000",
+        "expected": null,
+        "reference": {
+          "matrix_rule": "F06",
+          "source_ids": [
+            "types",
+            "standard40",
+            "catalog40",
+            "faq40"
+          ],
+          "supporting_sat_codes": [
+            "CFDI40107",
+            "CFDI40108",
+            "CFDI40111",
+            "CFDI40167",
+            "CFDI40180",
+            "CFDI40186"
+          ]
+        },
+        "detail": {
+          "source": "faq40",
+          "question": 40
+        }
+      },
+      {
+        "rule": "F06",
+        "code": "NUMBER_FIELD",
+        "path": "/Comprobante/Impuestos/Traslados/Traslado[1]/@Importe",
+        "status": "pass",
+        "reported": "16",
+        "expected": null,
+        "reference": {
+          "matrix_rule": "F06",
+          "source_ids": [
+            "types",
+            "standard40",
+            "catalog40",
+            "faq40"
+          ],
+          "supporting_sat_codes": [
+            "CFDI40107",
+            "CFDI40108",
+            "CFDI40111",
+            "CFDI40167",
+            "CFDI40180",
+            "CFDI40186"
+          ]
+        },
+        "detail": {
+          "state": "valid",
+          "maximum_scale": 2
+        }
+      },
+      {
+        "rule": "CAT",
+        "code": "RATE_CATALOG",
+        "path": "/Comprobante/Impuestos/Traslados/Traslado[1]/@TasaOCuota",
+        "status": "pass",
+        "reported": "0.160000",
+        "expected": null,
+        "reference": {
+          "matrix_rule": "CAT",
+          "source_ids": [
+            "catalog40"
+          ],
+          "supporting_sat_codes": [
+            "CFDI40179",
+            "CFDI40185",
+            "CFDI40219"
+          ]
+        },
+        "detail": {
+          "rows": [
+            8
+          ],
+          "issue_date": "2026-11-06",
+          "catalog_source": "catalog40"
+        }
+      },
+      {
+        "rule": "F01",
+        "code": "FEDERAL_TAX_CODE",
+        "path": "/Comprobante/Impuestos/Traslados/Traslado[2]/@Impuesto",
+        "status": "pass",
+        "reported": "003",
+        "expected": null,
+        "reference": {
+          "matrix_rule": "F01",
+          "source_ids": [
+            "cfdi40",
+            "matrix40"
+          ],
+          "supporting_sat_codes": [
+            "CFDI40205",
+            "CFDI40211",
+            "CFDI40221"
+          ]
+        }
+      },
+      {
+        "rule": "F06",
+        "code": "NUMBER_FIELD",
+        "path": "/Comprobante/Impuestos/Traslados/Traslado[2]/@Base",
+        "status": "pass",
+        "reported": "100",
+        "expected": null,
+        "reference": {
+          "matrix_rule": "F06",
+          "source_ids": [
+            "types",
+            "standard40",
+            "catalog40",
+            "faq40"
+          ],
+          "supporting_sat_codes": [
+            "CFDI40107",
+            "CFDI40108",
+            "CFDI40111",
+            "CFDI40167",
+            "CFDI40180",
+            "CFDI40186"
+          ]
+        },
+        "detail": {
+          "state": "valid",
+          "maximum_scale": 2
+        }
+      },
+      {
+        "rule": "F06",
+        "code": "NUMBER_FIELD",
+        "path": "/Comprobante/Impuestos/Traslados/Traslado[2]/@TasaOCuota",
+        "status": "pass",
+        "reported": "0.080000",
+        "expected": null,
+        "reference": {
+          "matrix_rule": "F06",
+          "source_ids": [
+            "types",
+            "standard40",
+            "catalog40",
+            "faq40"
+          ],
+          "supporting_sat_codes": [
+            "CFDI40107",
+            "CFDI40108",
+            "CFDI40111",
+            "CFDI40167",
+            "CFDI40180",
+            "CFDI40186"
+          ]
+        },
+        "detail": {
+          "state": "valid",
+          "maximum_scale": 6
+        }
+      },
+      {
+        "rule": "F06",
+        "code": "FEDERAL_RATE_SIX_DECIMALS",
+        "path": "/Comprobante/Impuestos/Traslados/Traslado[2]/@TasaOCuota",
+        "status": "pass",
+        "reported": "0.080000",
+        "expected": null,
+        "reference": {
+          "matrix_rule": "F06",
+          "source_ids": [
+            "types",
+            "standard40",
+            "catalog40",
+            "faq40"
+          ],
+          "supporting_sat_codes": [
+            "CFDI40107",
+            "CFDI40108",
+            "CFDI40111",
+            "CFDI40167",
+            "CFDI40180",
+            "CFDI40186"
+          ]
+        },
+        "detail": {
+          "source": "faq40",
+          "question": 40
+        }
+      },
+      {
+        "rule": "F06",
+        "code": "NUMBER_FIELD",
+        "path": "/Comprobante/Impuestos/Traslados/Traslado[2]/@Importe",
+        "status": "pass",
+        "reported": "8",
+        "expected": null,
+        "reference": {
+          "matrix_rule": "F06",
+          "source_ids": [
+            "types",
+            "standard40",
+            "catalog40",
+            "faq40"
+          ],
+          "supporting_sat_codes": [
+            "CFDI40107",
+            "CFDI40108",
+            "CFDI40111",
+            "CFDI40167",
+            "CFDI40180",
+            "CFDI40186"
+          ]
+        },
+        "detail": {
+          "state": "valid",
+          "maximum_scale": 2
+        }
+      },
+      {
+        "rule": "CAT",
+        "code": "RATE_CATALOG",
+        "path": "/Comprobante/Impuestos/Traslados/Traslado[2]/@TasaOCuota",
+        "status": "pass",
+        "reported": "0.080000",
+        "expected": null,
+        "reference": {
+          "matrix_rule": "CAT",
+          "source_ids": [
+            "catalog40"
+          ],
+          "supporting_sat_codes": [
+            "CFDI40179",
+            "CFDI40185",
+            "CFDI40219"
+          ]
+        },
+        "detail": {
+          "rows": [
+            19
+          ],
+          "issue_date": "2026-11-06",
+          "catalog_source": "catalog40"
+        }
+      },
+      {
+        "rule": "F01",
+        "code": "GLOBAL_GROUP_UNIQUE",
+        "path": "/Comprobante/Impuestos/Traslados/Traslado[1]",
+        "status": "pass",
+        "reported": null,
+        "expected": null,
+        "reference": {
+          "matrix_rule": "F01",
+          "source_ids": [
+            "cfdi40",
+            "matrix40"
+          ],
+          "supporting_sat_codes": [
+            "CFDI40205",
+            "CFDI40211",
+            "CFDI40221"
+          ]
+        }
+      },
+      {
+        "rule": "F01",
+        "code": "GLOBAL_AMOUNT_VS_CONCEPTS",
+        "path": "/Comprobante/Impuestos/Traslados/Traslado[1]/@Importe",
+        "status": "pass",
+        "reported": "16",
+        "expected": "16.00",
+        "reference": {
+          "matrix_rule": "F01",
+          "source_ids": [
+            "cfdi40",
+            "matrix40"
+          ],
+          "supporting_sat_codes": [
+            "CFDI40205",
+            "CFDI40211",
+            "CFDI40221"
+          ]
+        }
+      },
+      {
+        "rule": "F01",
+        "code": "GLOBAL_BASE_VS_CONCEPTS",
+        "path": "/Comprobante/Impuestos/Traslados/Traslado[1]/@Base",
+        "status": "pass",
+        "reported": "100",
+        "expected": "100.00",
+        "reference": {
+          "matrix_rule": "F01",
+          "source_ids": [
+            "cfdi40",
+            "matrix40"
+          ],
+          "supporting_sat_codes": [
+            "CFDI40205",
+            "CFDI40211",
+            "CFDI40221"
+          ]
+        }
+      },
+      {
+        "rule": "F01",
+        "code": "GLOBAL_GROUP_UNIQUE",
+        "path": "/Comprobante/Impuestos/Traslados/Traslado[2]",
+        "status": "pass",
+        "reported": null,
+        "expected": null,
+        "reference": {
+          "matrix_rule": "F01",
+          "source_ids": [
+            "cfdi40",
+            "matrix40"
+          ],
+          "supporting_sat_codes": [
+            "CFDI40205",
+            "CFDI40211",
+            "CFDI40221"
+          ]
+        }
+      },
+      {
+        "rule": "F01",
+        "code": "GLOBAL_AMOUNT_VS_CONCEPTS",
+        "path": "/Comprobante/Impuestos/Traslados/Traslado[2]/@Importe",
+        "status": "pass",
+        "reported": "8",
+        "expected": "8.00",
+        "reference": {
+          "matrix_rule": "F01",
+          "source_ids": [
+            "cfdi40",
+            "matrix40"
+          ],
+          "supporting_sat_codes": [
+            "CFDI40205",
+            "CFDI40211",
+            "CFDI40221"
+          ]
+        }
+      },
+      {
+        "rule": "F01",
+        "code": "GLOBAL_BASE_VS_CONCEPTS",
+        "path": "/Comprobante/Impuestos/Traslados/Traslado[2]/@Base",
+        "status": "pass",
+        "reported": "100",
+        "expected": "100.00",
+        "reference": {
+          "matrix_rule": "F01",
+          "source_ids": [
+            "cfdi40",
+            "matrix40"
+          ],
+          "supporting_sat_codes": [
+            "CFDI40205",
+            "CFDI40211",
+            "CFDI40221"
+          ]
+        }
+      },
+      {
+        "rule": "F06",
+        "code": "NUMBER_FIELD",
+        "path": "/Comprobante/Impuestos/@TotalImpuestosTrasladados",
+        "status": "pass",
+        "reported": "24",
+        "expected": null,
+        "reference": {
+          "matrix_rule": "F06",
+          "source_ids": [
+            "types",
+            "standard40",
+            "catalog40",
+            "faq40"
+          ],
+          "supporting_sat_codes": [
+            "CFDI40107",
+            "CFDI40108",
+            "CFDI40111",
+            "CFDI40167",
+            "CFDI40180",
+            "CFDI40186"
+          ]
+        },
+        "detail": {
+          "state": "valid",
+          "maximum_scale": 2
+        }
+      },
+      {
+        "rule": "F01",
+        "code": "FEDERAL_AGGREGATE_VS_DETAILS",
+        "path": "/Comprobante/Impuestos/@TotalImpuestosTrasladados",
+        "status": "pass",
+        "reported": "24",
+        "expected": "24",
+        "reference": {
+          "matrix_rule": "F01",
+          "source_ids": [
+            "cfdi40",
+            "matrix40"
+          ],
+          "supporting_sat_codes": [
+            "CFDI40205",
+            "CFDI40211",
+            "CFDI40221"
+          ]
+        }
+      },
+      {
+        "rule": "F06",
+        "code": "SUBTOTAL_VS_CONCEPTS",
+        "path": "/Comprobante/@SubTotal",
+        "status": "pass",
+        "reported": "100",
+        "expected": "100.00",
+        "reference": {
+          "matrix_rule": "F06",
+          "source_ids": [
+            "types",
+            "standard40",
+            "catalog40",
+            "faq40"
+          ],
+          "supporting_sat_codes": [
+            "CFDI40107",
+            "CFDI40108",
+            "CFDI40111",
+            "CFDI40167",
+            "CFDI40180",
+            "CFDI40186"
+          ]
+        }
+      },
+      {
+        "rule": "F06",
+        "code": "HEADER_DISCOUNT_LIMIT",
+        "path": "/Comprobante/@Descuento",
+        "status": "pass",
+        "reported": "0",
+        "expected": "100",
+        "reference": {
+          "matrix_rule": "F06",
+          "source_ids": [
+            "types",
+            "standard40",
+            "catalog40",
+            "faq40"
+          ],
+          "supporting_sat_codes": [
+            "CFDI40107",
+            "CFDI40108",
+            "CFDI40111",
+            "CFDI40167",
+            "CFDI40180",
+            "CFDI40186"
+          ]
+        }
+      },
+      {
+        "rule": "F03",
+        "code": "TOTAL_VS_REPORTED_COMPONENTS",
+        "path": "/Comprobante/@Total",
+        "status": "pass",
+        "reported": "124",
+        "expected": "124.00",
+        "reference": {
+          "matrix_rule": "F03",
+          "source_ids": [
+            "local10",
+            "cfdi40",
+            "standard40"
+          ],
+          "supporting_sat_codes": [
+            "CFDI40119"
+          ]
+        }
+      },
+      {
+        "rule": "F03",
+        "code": "TOTAL_VS_TAX_DETAILS",
+        "path": "/Comprobante/@Total",
+        "status": "pass",
+        "reported": "124",
+        "expected": "124.00",
+        "reference": {
+          "matrix_rule": "F03",
+          "source_ids": [
+            "local10",
+            "cfdi40",
+            "standard40"
+          ],
+          "supporting_sat_codes": [
+            "CFDI40119"
+          ]
+        }
+      }
+    ],
+    "findings": [],
+    "not_validated": [
+      "SAT status/cancellation",
+      "signature/certificate",
+      "deductibility/accreditability",
+      "complete catalog history",
+      "other SAT technical rules",
+      "unsupported complements"
+    ]
+  },
+  "normative_snapshot": "sat-2026-11-06"
+}

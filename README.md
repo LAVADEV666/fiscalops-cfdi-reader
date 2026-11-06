@@ -1,6 +1,17 @@
-# FiscalOps CFDI Reader — V21.1 / SPEC 011
+# FiscalOps CFDI Reader — V21.1 / motor XML + Decimal
 
-**Estado actual: FASE 1.1 DONE / FASE 1.2 DONE en el alcance de SPEC011.** Copia UI estabilizada y contenedor Qt ejecutado realmente en Windows. Original, legacy y60 referencias intactos. El motor fiscal sigue siendo el legado con P0 abiertos; no hay EXE final.
+**Hito actual:** motor fiscal independiente en `app/fiscal`, con lector seguro por namespaces CFDI3.3/4.0, matriz normativa SAT y reconciliación Decimal F01–F06 para ingresos/egresos. Disponible por API Python y CLI; el frontend Qt conserva su flujo legado hasta la siguiente integración en worker. No se declara corregido el motor JavaScript ni se genera EXE final.
+
+```powershell
+.\.venv\Scripts\python.exe -m pip install --require-hashes -r requirements/fiscal.txt
+.\.venv\Scripts\python.exe -m app.fiscal tests/fiscal/fixtures/p0_iva_ieps_40.xml --output resultado-fiscal.json
+```
+
+59 pruebas del motor;16 fuentes oficiales con hashes;13 fixtures sintéticos con validación XSD y reglas separadas. Leer [matriz normativa](docs/06_MATRIZ_NORMATIVA_SAT.md), [entrega fiscal](docs/15_MOTOR_FISCAL_P0_REPORT.md), [API/CLI](docs/16_CONTRATO_MOTOR_FISCAL.md) y [reproducción](scripts/fiscal/README.md).
+
+## Hito preservado — SPEC011
+
+**FASE 1.1 DONE / FASE 1.2 DONE en el alcance de SPEC011.** Copia UI estabilizada y contenedor Qt ejecutado realmente en Windows. Original, legacy y60 referencias intactos. Su flujo fiscal sigue siendo el legado con P0 abiertos; el nuevo motor se entrega por separado en el hito descrito arriba.
 
 Para abrir el contenedor:
 

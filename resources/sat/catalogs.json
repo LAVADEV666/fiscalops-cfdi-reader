@@ -1,0 +1,4799 @@
+{
+  "snapshot": "sat-2026-11-06",
+  "versions": {
+    "4.0": {
+      "source_id": "catalog40",
+      "source_sha256": "6249e37275ce164a1c4ac44e726dcd60858dac5c5604ff6c9ab06005a9199e1a",
+      "matrix_source_id": "matrix40",
+      "matrix_sha256": "bdc350035c7ed720af5be15509e01d0bda7c12cec4ad9797b0c34f889c1140a7",
+      "currencies": [
+        {
+          "code": "AED",
+          "digits": 2,
+          "valid_from": "2022-01-01",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 6
+        },
+        {
+          "code": "AFN",
+          "digits": 2,
+          "valid_from": "2022-01-01",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 7
+        },
+        {
+          "code": "ALL",
+          "digits": 2,
+          "valid_from": "2022-01-01",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 8
+        },
+        {
+          "code": "AMD",
+          "digits": 2,
+          "valid_from": "2022-01-01",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 9
+        },
+        {
+          "code": "ANG",
+          "digits": 2,
+          "valid_from": "2022-01-01",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 10
+        },
+        {
+          "code": "AOA",
+          "digits": 2,
+          "valid_from": "2022-01-01",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 11
+        },
+        {
+          "code": "ARS",
+          "digits": 2,
+          "valid_from": "2022-01-01",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 12
+        },
+        {
+          "code": "AUD",
+          "digits": 2,
+          "valid_from": "2022-01-01",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 13
+        },
+        {
+          "code": "AWG",
+          "digits": 2,
+          "valid_from": "2022-01-01",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 14
+        },
+        {
+          "code": "AZN",
+          "digits": 2,
+          "valid_from": "2022-01-01",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 15
+        },
+        {
+          "code": "BAM",
+          "digits": 2,
+          "valid_from": "2022-01-01",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 16
+        },
+        {
+          "code": "BBD",
+          "digits": 2,
+          "valid_from": "2022-01-01",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 17
+        },
+        {
+          "code": "BDT",
+          "digits": 2,
+          "valid_from": "2022-01-01",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 18
+        },
+        {
+          "code": "BGN",
+          "digits": 2,
+          "valid_from": "2022-01-01",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 19
+        },
+        {
+          "code": "BHD",
+          "digits": 3,
+          "valid_from": "2022-01-01",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 20
+        },
+        {
+          "code": "BIF",
+          "digits": 0,
+          "valid_from": "2022-01-01",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 21
+        },
+        {
+          "code": "BMD",
+          "digits": 2,
+          "valid_from": "2022-01-01",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 22
+        },
+        {
+          "code": "BND",
+          "digits": 2,
+          "valid_from": "2022-01-01",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 23
+        },
+        {
+          "code": "BOB",
+          "digits": 2,
+          "valid_from": "2022-01-01",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 24
+        },
+        {
+          "code": "BOV",
+          "digits": 2,
+          "valid_from": "2022-01-01",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 25
+        },
+        {
+          "code": "BRL",
+          "digits": 2,
+          "valid_from": "2022-01-01",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 26
+        },
+        {
+          "code": "BSD",
+          "digits": 2,
+          "valid_from": "2022-01-01",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 27
+        },
+        {
+          "code": "BTN",
+          "digits": 2,
+          "valid_from": "2022-01-01",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 28
+        },
+        {
+          "code": "BWP",
+          "digits": 2,
+          "valid_from": "2022-01-01",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 29
+        },
+        {
+          "code": "BYR",
+          "digits": 0,
+          "valid_from": "2022-01-01",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 30
+        },
+        {
+          "code": "BZD",
+          "digits": 2,
+          "valid_from": "2022-01-01",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 31
+        },
+        {
+          "code": "CAD",
+          "digits": 2,
+          "valid_from": "2022-01-01",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 32
+        },
+        {
+          "code": "CDF",
+          "digits": 2,
+          "valid_from": "2022-01-01",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 33
+        },
+        {
+          "code": "CHE",
+          "digits": 2,
+          "valid_from": "2022-01-01",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 34
+        },
+        {
+          "code": "CHF",
+          "digits": 2,
+          "valid_from": "2022-01-01",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 35
+        },
+        {
+          "code": "CHW",
+          "digits": 2,
+          "valid_from": "2022-01-01",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 36
+        },
+        {
+          "code": "CLF",
+          "digits": 4,
+          "valid_from": "2022-01-01",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 37
+        },
+        {
+          "code": "CLP",
+          "digits": 0,
+          "valid_from": "2022-01-01",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 38
+        },
+        {
+          "code": "CNH",
+          "digits": 2,
+          "valid_from": "2023-05-29",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 39
+        },
+        {
+          "code": "CNY",
+          "digits": 2,
+          "valid_from": "2022-01-01",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 40
+        },
+        {
+          "code": "COP",
+          "digits": 2,
+          "valid_from": "2022-01-01",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 41
+        },
+        {
+          "code": "COU",
+          "digits": 2,
+          "valid_from": "2022-01-01",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 42
+        },
+        {
+          "code": "CRC",
+          "digits": 2,
+          "valid_from": "2022-01-01",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 43
+        },
+        {
+          "code": "CUC",
+          "digits": 2,
+          "valid_from": "2022-01-01",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 44
+        },
+        {
+          "code": "CUP",
+          "digits": 2,
+          "valid_from": "2022-01-01",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 45
+        },
+        {
+          "code": "CVE",
+          "digits": 2,
+          "valid_from": "2022-01-01",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 46
+        },
+        {
+          "code": "CZK",
+          "digits": 2,
+          "valid_from": "2022-01-01",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 47
+        },
+        {
+          "code": "DJF",
+          "digits": 0,
+          "valid_from": "2022-01-01",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 48
+        },
+        {
+          "code": "DKK",
+          "digits": 2,
+          "valid_from": "2022-01-01",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 49
+        },
+        {
+          "code": "DOP",
+          "digits": 2,
+          "valid_from": "2022-01-01",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 50
+        },
+        {
+          "code": "DZD",
+          "digits": 2,
+          "valid_from": "2022-01-01",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 51
+        },
+        {
+          "code": "EGP",
+          "digits": 2,
+          "valid_from": "2022-01-01",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 52
+        },
+        {
+          "code": "ERN",
+          "digits": 2,
+          "valid_from": "2022-01-01",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 53
+        },
+        {
+          "code": "ESD",
+          "digits": 2,
+          "valid_from": "2023-05-29",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 54
+        },
+        {
+          "code": "ETB",
+          "digits": 2,
+          "valid_from": "2022-01-01",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 55
+        },
+        {
+          "code": "EUR",
+          "digits": 2,
+          "valid_from": "2022-01-01",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 56
+        },
+        {
+          "code": "FJD",
+          "digits": 2,
+          "valid_from": "2022-01-01",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 57
+        },
+        {
+          "code": "FKP",
+          "digits": 2,
+          "valid_from": "2022-01-01",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 58
+        },
+        {
+          "code": "GBP",
+          "digits": 2,
+          "valid_from": "2022-01-01",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 59
+        },
+        {
+          "code": "GEL",
+          "digits": 2,
+          "valid_from": "2022-01-01",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 60
+        },
+        {
+          "code": "GHS",
+          "digits": 2,
+          "valid_from": "2022-01-01",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 61
+        },
+        {
+          "code": "GIP",
+          "digits": 2,
+          "valid_from": "2022-01-01",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 62
+        },
+        {
+          "code": "GMD",
+          "digits": 2,
+          "valid_from": "2022-01-01",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 63
+        },
+        {
+          "code": "GNF",
+          "digits": 0,
+          "valid_from": "2022-01-01",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 64
+        },
+        {
+          "code": "GTQ",
+          "digits": 2,
+          "valid_from": "2022-01-01",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 65
+        },
+        {
+          "code": "GYD",
+          "digits": 2,
+          "valid_from": "2022-01-01",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 66
+        },
+        {
+          "code": "HKD",
+          "digits": 2,
+          "valid_from": "2022-01-01",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 67
+        },
+        {
+          "code": "HNL",
+          "digits": 2,
+          "valid_from": "2022-01-01",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 68
+        },
+        {
+          "code": "HRK",
+          "digits": 2,
+          "valid_from": "2022-01-01",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 69
+        },
+        {
+          "code": "HTG",
+          "digits": 2,
+          "valid_from": "2022-01-01",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 70
+        },
+        {
+          "code": "HUF",
+          "digits": 2,
+          "valid_from": "2022-01-01",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 71
+        },
+        {
+          "code": "IDR",
+          "digits": 2,
+          "valid_from": "2022-01-01",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 72
+        },
+        {
+          "code": "ILS",
+          "digits": 2,
+          "valid_from": "2022-01-01",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 73
+        },
+        {
+          "code": "INR",
+          "digits": 2,
+          "valid_from": "2022-01-01",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 74
+        },
+        {
+          "code": "IQD",
+          "digits": 3,
+          "valid_from": "2022-01-01",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 75
+        },
+        {
+          "code": "IRR",
+          "digits": 2,
+          "valid_from": "2022-01-01",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 76
+        },
+        {
+          "code": "ISK",
+          "digits": 0,
+          "valid_from": "2022-01-01",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 77
+        },
+        {
+          "code": "JMD",
+          "digits": 2,
+          "valid_from": "2022-01-01",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 78
+        },
+        {
+          "code": "JOD",
+          "digits": 3,
+          "valid_from": "2022-01-01",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 79
+        },
+        {
+          "code": "JPY",
+          "digits": 0,
+          "valid_from": "2022-01-01",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 80
+        },
+        {
+          "code": "KES",
+          "digits": 2,
+          "valid_from": "2022-01-01",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 81
+        },
+        {
+          "code": "KGS",
+          "digits": 2,
+          "valid_from": "2022-01-01",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 82
+        },
+        {
+          "code": "KHR",
+          "digits": 2,
+          "valid_from": "2022-01-01",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 83
+        },
+        {
+          "code": "KMF",
+          "digits": 0,
+          "valid_from": "2022-01-01",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 84
+        },
+        {
+          "code": "KPW",
+          "digits": 2,
+          "valid_from": "2022-01-01",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 85
+        },
+        {
+          "code": "KRW",
+          "digits": 0,
+          "valid_from": "2022-01-01",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 86
+        },
+        {
+          "code": "KWD",
+          "digits": 3,
+          "valid_from": "2022-01-01",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 87
+        },
+        {
+          "code": "KYD",
+          "digits": 2,
+          "valid_from": "2022-01-01",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 88
+        },
+        {
+          "code": "KZT",
+          "digits": 2,
+          "valid_from": "2022-01-01",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 89
+        },
+        {
+          "code": "LAK",
+          "digits": 2,
+          "valid_from": "2022-01-01",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 90
+        },
+        {
+          "code": "LBP",
+          "digits": 2,
+          "valid_from": "2022-01-01",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 91
+        },
+        {
+          "code": "LKR",
+          "digits": 2,
+          "valid_from": "2022-01-01",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 92
+        },
+        {
+          "code": "LRD",
+          "digits": 2,
+          "valid_from": "2022-01-01",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 93
+        },
+        {
+          "code": "LSL",
+          "digits": 2,
+          "valid_from": "2022-01-01",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 94
+        },
+        {
+          "code": "LYD",
+          "digits": 3,
+          "valid_from": "2022-01-01",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 95
+        },
+        {
+          "code": "MAD",
+          "digits": 2,
+          "valid_from": "2022-01-01",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 96
+        },
+        {
+          "code": "MDL",
+          "digits": 2,
+          "valid_from": "2022-01-01",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 97
+        },
+        {
+          "code": "MGA",
+          "digits": 2,
+          "valid_from": "2022-01-01",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 98
+        },
+        {
+          "code": "MKD",
+          "digits": 2,
+          "valid_from": "2022-01-01",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 99
+        },
+        {
+          "code": "MMK",
+          "digits": 2,
+          "valid_from": "2022-01-01",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 100
+        },
+        {
+          "code": "MNT",
+          "digits": 2,
+          "valid_from": "2022-01-01",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 101
+        },
+        {
+          "code": "MOP",
+          "digits": 2,
+          "valid_from": "2022-01-01",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 102
+        },
+        {
+          "code": "MRO",
+          "digits": 2,
+          "valid_from": "2022-01-01",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 103
+        },
+        {
+          "code": "MUR",
+          "digits": 2,
+          "valid_from": "2022-01-01",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 104
+        },
+        {
+          "code": "MVR",
+          "digits": 2,
+          "valid_from": "2022-01-01",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 105
+        },
+        {
+          "code": "MWK",
+          "digits": 2,
+          "valid_from": "2022-01-01",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 106
+        },
+        {
+          "code": "MXN",
+          "digits": 2,
+          "valid_from": "2022-01-01",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 107
+        },
+        {
+          "code": "MXV",
+          "digits": 2,
+          "valid_from": "2022-01-01",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 108
+        },
+        {
+          "code": "MYR",
+          "digits": 2,
+          "valid_from": "2022-01-01",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 109
+        },
+        {
+          "code": "MZN",
+          "digits": 2,
+          "valid_from": "2022-01-01",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 110
+        },
+        {
+          "code": "NAD",
+          "digits": 2,
+          "valid_from": "2022-01-01",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 111
+        },
+        {
+          "code": "NGN",
+          "digits": 2,
+          "valid_from": "2022-01-01",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 112
+        },
+        {
+          "code": "NIC",
+          "digits": 2,
+          "valid_from": "2023-05-29",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 113
+        },
+        {
+          "code": "NIO",
+          "digits": 2,
+          "valid_from": "2022-01-01",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 114
+        },
+        {
+          "code": "NOK",
+          "digits": 2,
+          "valid_from": "2022-01-01",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 115
+        },
+        {
+          "code": "NPR",
+          "digits": 2,
+          "valid_from": "2022-01-01",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 116
+        },
+        {
+          "code": "NZD",
+          "digits": 2,
+          "valid_from": "2022-01-01",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 117
+        },
+        {
+          "code": "OMR",
+          "digits": 3,
+          "valid_from": "2022-01-01",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 118
+        },
+        {
+          "code": "PAB",
+          "digits": 2,
+          "valid_from": "2022-01-01",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 119
+        },
+        {
+          "code": "PEN",
+          "digits": 2,
+          "valid_from": "2022-01-01",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 120
+        },
+        {
+          "code": "PGK",
+          "digits": 2,
+          "valid_from": "2022-01-01",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 121
+        },
+        {
+          "code": "PHP",
+          "digits": 2,
+          "valid_from": "2022-01-01",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 122
+        },
+        {
+          "code": "PKR",
+          "digits": 2,
+          "valid_from": "2022-01-01",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 123
+        },
+        {
+          "code": "PLN",
+          "digits": 2,
+          "valid_from": "2022-01-01",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 124
+        },
+        {
+          "code": "PYG",
+          "digits": 0,
+          "valid_from": "2022-01-01",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 125
+        },
+        {
+          "code": "QAR",
+          "digits": 2,
+          "valid_from": "2022-01-01",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 126
+        },
+        {
+          "code": "RON",
+          "digits": 2,
+          "valid_from": "2022-01-01",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 127
+        },
+        {
+          "code": "RSD",
+          "digits": 2,
+          "valid_from": "2022-01-01",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 128
+        },
+        {
+          "code": "RUB",
+          "digits": 2,
+          "valid_from": "2022-01-01",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 129
+        },
+        {
+          "code": "RWF",
+          "digits": 0,
+          "valid_from": "2022-01-01",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 130
+        },
+        {
+          "code": "SAR",
+          "digits": 2,
+          "valid_from": "2022-01-01",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 131
+        },
+        {
+          "code": "SBD",
+          "digits": 2,
+          "valid_from": "2022-01-01",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 132
+        },
+        {
+          "code": "SCR",
+          "digits": 2,
+          "valid_from": "2022-01-01",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 133
+        },
+        {
+          "code": "SDG",
+          "digits": 2,
+          "valid_from": "2022-01-01",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 134
+        },
+        {
+          "code": "SEK",
+          "digits": 2,
+          "valid_from": "2022-01-01",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 135
+        },
+        {
+          "code": "SGD",
+          "digits": 2,
+          "valid_from": "2022-01-01",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 136
+        },
+        {
+          "code": "SHP",
+          "digits": 2,
+          "valid_from": "2022-01-01",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 137
+        },
+        {
+          "code": "SLL",
+          "digits": 2,
+          "valid_from": "2022-01-01",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 138
+        },
+        {
+          "code": "SOS",
+          "digits": 2,
+          "valid_from": "2022-01-01",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 139
+        },
+        {
+          "code": "SRD",
+          "digits": 2,
+          "valid_from": "2022-01-01",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 140
+        },
+        {
+          "code": "SSP",
+          "digits": 2,
+          "valid_from": "2022-01-01",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 141
+        },
+        {
+          "code": "STD",
+          "digits": 2,
+          "valid_from": "2022-01-01",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 142
+        },
+        {
+          "code": "SVC",
+          "digits": 2,
+          "valid_from": "2022-01-01",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 143
+        },
+        {
+          "code": "SYP",
+          "digits": 2,
+          "valid_from": "2022-01-01",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 144
+        },
+        {
+          "code": "SZL",
+          "digits": 2,
+          "valid_from": "2022-01-01",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 145
+        },
+        {
+          "code": "THB",
+          "digits": 2,
+          "valid_from": "2022-01-01",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 146
+        },
+        {
+          "code": "TJS",
+          "digits": 2,
+          "valid_from": "2022-01-01",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 147
+        },
+        {
+          "code": "TMT",
+          "digits": 2,
+          "valid_from": "2022-01-01",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 148
+        },
+        {
+          "code": "TND",
+          "digits": 3,
+          "valid_from": "2022-01-01",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 149
+        },
+        {
+          "code": "TOP",
+          "digits": 2,
+          "valid_from": "2022-01-01",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 150
+        },
+        {
+          "code": "TRY",
+          "digits": 2,
+          "valid_from": "2022-01-01",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 151
+        },
+        {
+          "code": "TTD",
+          "digits": 2,
+          "valid_from": "2022-01-01",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 152
+        },
+        {
+          "code": "TWD",
+          "digits": 2,
+          "valid_from": "2022-01-01",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 153
+        },
+        {
+          "code": "TZS",
+          "digits": 2,
+          "valid_from": "2022-01-01",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 154
+        },
+        {
+          "code": "UAH",
+          "digits": 2,
+          "valid_from": "2022-01-01",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 155
+        },
+        {
+          "code": "UGX",
+          "digits": 0,
+          "valid_from": "2022-01-01",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 156
+        },
+        {
+          "code": "USD",
+          "digits": 2,
+          "valid_from": "2022-01-01",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 157
+        },
+        {
+          "code": "USN",
+          "digits": 2,
+          "valid_from": "2022-01-01",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 158
+        },
+        {
+          "code": "UYI",
+          "digits": 0,
+          "valid_from": "2022-01-01",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 159
+        },
+        {
+          "code": "UYP",
+          "digits": 2,
+          "valid_from": "2023-05-29",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 160
+        },
+        {
+          "code": "UYU",
+          "digits": 2,
+          "valid_from": "2022-01-01",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 161
+        },
+        {
+          "code": "UZS",
+          "digits": 2,
+          "valid_from": "2022-01-01",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 162
+        },
+        {
+          "code": "VEF",
+          "digits": 2,
+          "valid_from": "2022-01-01",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 163
+        },
+        {
+          "code": "VES",
+          "digits": 2,
+          "valid_from": "2023-05-29",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 164
+        },
+        {
+          "code": "VND",
+          "digits": 0,
+          "valid_from": "2022-01-01",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 165
+        },
+        {
+          "code": "VUV",
+          "digits": 0,
+          "valid_from": "2022-01-01",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 166
+        },
+        {
+          "code": "WST",
+          "digits": 2,
+          "valid_from": "2022-01-01",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 167
+        },
+        {
+          "code": "XAF",
+          "digits": 0,
+          "valid_from": "2022-01-01",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 168
+        },
+        {
+          "code": "XAG",
+          "digits": 0,
+          "valid_from": "2022-01-01",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 169
+        },
+        {
+          "code": "XAU",
+          "digits": 0,
+          "valid_from": "2022-01-01",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 170
+        },
+        {
+          "code": "XBA",
+          "digits": 0,
+          "valid_from": "2022-01-01",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 171
+        },
+        {
+          "code": "XBB",
+          "digits": 0,
+          "valid_from": "2022-01-01",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 172
+        },
+        {
+          "code": "XBC",
+          "digits": 0,
+          "valid_from": "2022-01-01",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 173
+        },
+        {
+          "code": "XBD",
+          "digits": 0,
+          "valid_from": "2022-01-01",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 174
+        },
+        {
+          "code": "XCD",
+          "digits": 2,
+          "valid_from": "2022-01-01",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 175
+        },
+        {
+          "code": "XDR",
+          "digits": 0,
+          "valid_from": "2022-01-01",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 176
+        },
+        {
+          "code": "XOF",
+          "digits": 0,
+          "valid_from": "2022-01-01",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 177
+        },
+        {
+          "code": "XPD",
+          "digits": 0,
+          "valid_from": "2022-01-01",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 178
+        },
+        {
+          "code": "XPF",
+          "digits": 0,
+          "valid_from": "2022-01-01",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 179
+        },
+        {
+          "code": "XPT",
+          "digits": 0,
+          "valid_from": "2022-01-01",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 180
+        },
+        {
+          "code": "XSU",
+          "digits": 0,
+          "valid_from": "2022-01-01",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 181
+        },
+        {
+          "code": "XTS",
+          "digits": 0,
+          "valid_from": "2022-01-01",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 182
+        },
+        {
+          "code": "XUA",
+          "digits": 0,
+          "valid_from": "2022-01-01",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 183
+        },
+        {
+          "code": "XXX",
+          "digits": 0,
+          "valid_from": "2022-01-01",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 184
+        },
+        {
+          "code": "YER",
+          "digits": 2,
+          "valid_from": "2022-01-01",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 185
+        },
+        {
+          "code": "ZAR",
+          "digits": 2,
+          "valid_from": "2022-01-01",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 186
+        },
+        {
+          "code": "ZMW",
+          "digits": 2,
+          "valid_from": "2022-01-01",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 187
+        },
+        {
+          "code": "ZWL",
+          "digits": 2,
+          "valid_from": "2022-01-01",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 188
+        }
+      ],
+      "rates": [
+        {
+          "kind": "Fijo",
+          "minimum": null,
+          "maximum": "0.000000",
+          "tax": "IVA",
+          "factor": "Tasa",
+          "tax_code": "002",
+          "transfer": true,
+          "retention": false,
+          "valid_from": "2022-01-01",
+          "valid_to": null,
+          "sheet": "c_TasaOCuota",
+          "row": 7
+        },
+        {
+          "kind": "Fijo",
+          "minimum": null,
+          "maximum": "0.160000",
+          "tax": "IVA",
+          "factor": "Tasa",
+          "tax_code": "002",
+          "transfer": true,
+          "retention": false,
+          "valid_from": "2022-01-01",
+          "valid_to": null,
+          "sheet": "c_TasaOCuota",
+          "row": 8
+        },
+        {
+          "kind": "Rango",
+          "minimum": "0.000000",
+          "maximum": "0.160000",
+          "tax": "IVA",
+          "factor": "Tasa",
+          "tax_code": "002",
+          "transfer": false,
+          "retention": true,
+          "valid_from": "2022-01-01",
+          "valid_to": null,
+          "sheet": "c_TasaOCuota",
+          "row": 9
+        },
+        {
+          "kind": "Fijo",
+          "minimum": null,
+          "maximum": "0.080000",
+          "tax": "IVA Crédito aplicado del 50%",
+          "factor": "Tasa",
+          "tax_code": "002",
+          "transfer": true,
+          "retention": false,
+          "valid_from": "2022-01-01",
+          "valid_to": null,
+          "sheet": "c_TasaOCuota",
+          "row": 10
+        },
+        {
+          "kind": "Fijo",
+          "minimum": null,
+          "maximum": "0.265000",
+          "tax": "IEPS",
+          "factor": "Tasa",
+          "tax_code": "003",
+          "transfer": true,
+          "retention": true,
+          "valid_from": "2022-01-01",
+          "valid_to": null,
+          "sheet": "c_TasaOCuota",
+          "row": 11
+        },
+        {
+          "kind": "Fijo",
+          "minimum": null,
+          "maximum": "0.300000",
+          "tax": "IEPS",
+          "factor": "Tasa",
+          "tax_code": "003",
+          "transfer": true,
+          "retention": true,
+          "valid_from": "2022-01-01",
+          "valid_to": null,
+          "sheet": "c_TasaOCuota",
+          "row": 12
+        },
+        {
+          "kind": "Fijo",
+          "minimum": null,
+          "maximum": "0.530000",
+          "tax": "IEPS",
+          "factor": "Tasa",
+          "tax_code": "003",
+          "transfer": true,
+          "retention": true,
+          "valid_from": "2022-01-01",
+          "valid_to": null,
+          "sheet": "c_TasaOCuota",
+          "row": 13
+        },
+        {
+          "kind": "Fijo",
+          "minimum": null,
+          "maximum": "0.500000",
+          "tax": "IEPS",
+          "factor": "Tasa",
+          "tax_code": "003",
+          "transfer": true,
+          "retention": true,
+          "valid_from": "2022-01-01",
+          "valid_to": null,
+          "sheet": "c_TasaOCuota",
+          "row": 14
+        },
+        {
+          "kind": "Fijo",
+          "minimum": null,
+          "maximum": "1.600000",
+          "tax": "IEPS",
+          "factor": "Tasa",
+          "tax_code": "003",
+          "transfer": true,
+          "retention": true,
+          "valid_from": "2022-01-01",
+          "valid_to": null,
+          "sheet": "c_TasaOCuota",
+          "row": 15
+        },
+        {
+          "kind": "Fijo",
+          "minimum": null,
+          "maximum": "0.304000",
+          "tax": "IEPS",
+          "factor": "Tasa",
+          "tax_code": "003",
+          "transfer": true,
+          "retention": true,
+          "valid_from": "2022-01-01",
+          "valid_to": null,
+          "sheet": "c_TasaOCuota",
+          "row": 16
+        },
+        {
+          "kind": "Fijo",
+          "minimum": null,
+          "maximum": "0.250000",
+          "tax": "IEPS",
+          "factor": "Tasa",
+          "tax_code": "003",
+          "transfer": true,
+          "retention": true,
+          "valid_from": "2022-01-01",
+          "valid_to": null,
+          "sheet": "c_TasaOCuota",
+          "row": 17
+        },
+        {
+          "kind": "Fijo",
+          "minimum": null,
+          "maximum": "0.090000",
+          "tax": "IEPS",
+          "factor": "Tasa",
+          "tax_code": "003",
+          "transfer": true,
+          "retention": true,
+          "valid_from": "2022-01-01",
+          "valid_to": null,
+          "sheet": "c_TasaOCuota",
+          "row": 18
+        },
+        {
+          "kind": "Fijo",
+          "minimum": null,
+          "maximum": "0.080000",
+          "tax": "IEPS",
+          "factor": "Tasa",
+          "tax_code": "003",
+          "transfer": true,
+          "retention": true,
+          "valid_from": "2022-01-01",
+          "valid_to": null,
+          "sheet": "c_TasaOCuota",
+          "row": 19
+        },
+        {
+          "kind": "Fijo",
+          "minimum": null,
+          "maximum": "0.070000",
+          "tax": "IEPS",
+          "factor": "Tasa",
+          "tax_code": "003",
+          "transfer": true,
+          "retention": true,
+          "valid_from": "2022-01-01",
+          "valid_to": null,
+          "sheet": "c_TasaOCuota",
+          "row": 20
+        },
+        {
+          "kind": "Fijo",
+          "minimum": null,
+          "maximum": "0.060000",
+          "tax": "IEPS",
+          "factor": "Tasa",
+          "tax_code": "003",
+          "transfer": true,
+          "retention": true,
+          "valid_from": "2022-01-01",
+          "valid_to": null,
+          "sheet": "c_TasaOCuota",
+          "row": 21
+        },
+        {
+          "kind": "Fijo",
+          "minimum": null,
+          "maximum": "0.030000",
+          "tax": "IEPS",
+          "factor": "Tasa",
+          "tax_code": "003",
+          "transfer": true,
+          "retention": false,
+          "valid_from": "2022-01-01",
+          "valid_to": null,
+          "sheet": "c_TasaOCuota",
+          "row": 22
+        },
+        {
+          "kind": "Fijo",
+          "minimum": null,
+          "maximum": "0.000000",
+          "tax": "IEPS",
+          "factor": "Tasa",
+          "tax_code": "003",
+          "transfer": true,
+          "retention": false,
+          "valid_from": "2022-01-01",
+          "valid_to": null,
+          "sheet": "c_TasaOCuota",
+          "row": 23
+        },
+        {
+          "kind": "Rango",
+          "minimum": "0.000000",
+          "maximum": "72.160500",
+          "tax": "IEPS",
+          "factor": "Cuota",
+          "tax_code": "003",
+          "transfer": true,
+          "retention": true,
+          "valid_from": "2026-01-01",
+          "valid_to": null,
+          "sheet": "c_TasaOCuota",
+          "row": 24
+        },
+        {
+          "kind": "Rango",
+          "minimum": "0.000000",
+          "maximum": "0.350000",
+          "tax": "ISR",
+          "factor": "Tasa",
+          "tax_code": "001",
+          "transfer": false,
+          "retention": true,
+          "valid_from": "2022-01-01",
+          "valid_to": null,
+          "sheet": "c_TasaOCuota",
+          "row": 25
+        }
+      ],
+      "rules": [
+        {
+          "code": "CFDI40101",
+          "field": "Fecha",
+          "sheet": "Códigos_Error_CFDI40",
+          "row": 3
+        },
+        {
+          "code": "CFDI40102",
+          "field": "Sello",
+          "sheet": "Códigos_Error_CFDI40",
+          "row": 4
+        },
+        {
+          "code": "CFDI40103",
+          "field": "FormaPago",
+          "sheet": "Códigos_Error_CFDI40",
+          "row": 5
+        },
+        {
+          "code": "CFDI40104",
+          "field": "FormaPago",
+          "sheet": "Códigos_Error_CFDI40",
+          "row": 6
+        },
+        {
+          "code": "CFDI40105",
+          "field": "FormaPago",
+          "sheet": "Códigos_Error_CFDI40",
+          "row": 7
+        },
+        {
+          "code": "CFDI40106",
+          "field": "Certificado",
+          "sheet": "Códigos_Error_CFDI40",
+          "row": 8
+        },
+        {
+          "code": "CFDI40107",
+          "field": "SubTotal",
+          "sheet": "Códigos_Error_CFDI40",
+          "row": 9
+        },
+        {
+          "code": "CFDI40108",
+          "field": "SubTotal",
+          "sheet": "Códigos_Error_CFDI40",
+          "row": 10
+        },
+        {
+          "code": "CFDI40109",
+          "field": "SubTotal",
+          "sheet": "Códigos_Error_CFDI40",
+          "row": 11
+        },
+        {
+          "code": "CFDI40110",
+          "field": "Descuento",
+          "sheet": "Códigos_Error_CFDI40",
+          "row": 12
+        },
+        {
+          "code": "CFDI40111",
+          "field": "Descuento",
+          "sheet": "Códigos_Error_CFDI40",
+          "row": 13
+        },
+        {
+          "code": "CFDI40112",
+          "field": "Descuento",
+          "sheet": "Códigos_Error_CFDI40",
+          "row": 14
+        },
+        {
+          "code": "CFDI40113",
+          "field": "Moneda",
+          "sheet": "Códigos_Error_CFDI40",
+          "row": 15
+        },
+        {
+          "code": "CFDI40114",
+          "field": "TipoCambio",
+          "sheet": "Códigos_Error_CFDI40",
+          "row": 16
+        },
+        {
+          "code": "CFDI40115",
+          "field": "TipoCambio",
+          "sheet": "Códigos_Error_CFDI40",
+          "row": 17
+        },
+        {
+          "code": "CFDI40116",
+          "field": "TipoCambio",
+          "sheet": "Códigos_Error_CFDI40",
+          "row": 18
+        },
+        {
+          "code": "CFDI40117",
+          "field": "TipoCambio",
+          "sheet": "Códigos_Error_CFDI40",
+          "row": 19
+        },
+        {
+          "code": "CFDI40118",
+          "field": "TipoCambio",
+          "sheet": "Códigos_Error_CFDI40",
+          "row": 20
+        },
+        {
+          "code": "CFDI40119",
+          "field": "Total",
+          "sheet": "Códigos_Error_CFDI40",
+          "row": 21
+        },
+        {
+          "code": "CFDI40120",
+          "field": "Total ",
+          "sheet": "Códigos_Error_CFDI40",
+          "row": 22
+        },
+        {
+          "code": "CFDI40121",
+          "field": "TipoDeComprobante",
+          "sheet": "Códigos_Error_CFDI40",
+          "row": 23
+        },
+        {
+          "code": "CFDI40122",
+          "field": "Exportacion",
+          "sheet": "Códigos_Error_CFDI40",
+          "row": 24
+        },
+        {
+          "code": "CFDI40123",
+          "field": "Exportacion",
+          "sheet": "Códigos_Error_CFDI40",
+          "row": 25
+        },
+        {
+          "code": "CFDI40124",
+          "field": "MetodoPago",
+          "sheet": "Códigos_Error_CFDI40",
+          "row": 26
+        },
+        {
+          "code": "CFDI40125",
+          "field": "MetodoPago",
+          "sheet": "Códigos_Error_CFDI40",
+          "row": 27
+        },
+        {
+          "code": "CFDI40126",
+          "field": "LugarExpedicion",
+          "sheet": "Códigos_Error_CFDI40",
+          "row": 28
+        },
+        {
+          "code": "CFDI40127",
+          "field": "Confirmacion",
+          "sheet": "Códigos_Error_CFDI40",
+          "row": 29
+        },
+        {
+          "code": "CFDI40128",
+          "field": "Confirmacion",
+          "sheet": "Códigos_Error_CFDI40",
+          "row": 30
+        },
+        {
+          "code": "CFDI40129",
+          "field": "Confirmacion",
+          "sheet": "Códigos_Error_CFDI40",
+          "row": 31
+        },
+        {
+          "code": "CFDI40130",
+          "field": "",
+          "sheet": "Códigos_Error_CFDI40",
+          "row": 32
+        },
+        {
+          "code": "CFDI40131",
+          "field": "Periodicidad",
+          "sheet": "Códigos_Error_CFDI40",
+          "row": 33
+        },
+        {
+          "code": "CFDI40132",
+          "field": "Periodicidad",
+          "sheet": "Códigos_Error_CFDI40",
+          "row": 34
+        },
+        {
+          "code": "CFDI40133",
+          "field": "Meses",
+          "sheet": "Códigos_Error_CFDI40",
+          "row": 35
+        },
+        {
+          "code": "CFDI40134",
+          "field": "Meses",
+          "sheet": "Códigos_Error_CFDI40",
+          "row": 36
+        },
+        {
+          "code": "CFDI40135",
+          "field": "Meses",
+          "sheet": "Códigos_Error_CFDI40",
+          "row": 37
+        },
+        {
+          "code": "CFDI40136",
+          "field": "Año",
+          "sheet": "Códigos_Error_CFDI40",
+          "row": 38
+        },
+        {
+          "code": "CFDI40137",
+          "field": "TipoRelacion",
+          "sheet": "Códigos_Error_CFDI40",
+          "row": 39
+        },
+        {
+          "code": "CFDI40138",
+          "field": "Nombre",
+          "sheet": "Códigos_Error_CFDI40",
+          "row": 40
+        },
+        {
+          "code": "CFDI40139",
+          "field": "Nombre",
+          "sheet": "Códigos_Error_CFDI40",
+          "row": 41
+        },
+        {
+          "code": "CFDI40140",
+          "field": "RegimenFiscal",
+          "sheet": "Códigos_Error_CFDI40",
+          "row": 42
+        },
+        {
+          "code": "CFDI40141",
+          "field": "RegimenFiscal",
+          "sheet": "Códigos_Error_CFDI40",
+          "row": 43
+        },
+        {
+          "code": "CFDI40142",
+          "field": "FacAtrAdquirente",
+          "sheet": "Códigos_Error_CFDI40",
+          "row": 44
+        },
+        {
+          "code": "CFDI40143",
+          "field": "Rfc",
+          "sheet": "Códigos_Error_CFDI40",
+          "row": 45
+        },
+        {
+          "code": "CFDI40144",
+          "field": "Nombre",
+          "sheet": "Códigos_Error_CFDI40",
+          "row": 46
+        },
+        {
+          "code": "CFDI40145",
+          "field": "Nombre",
+          "sheet": "Códigos_Error_CFDI40",
+          "row": 47
+        },
+        {
+          "code": "CFDI40146",
+          "field": "Nombre",
+          "sheet": "Códigos_Error_CFDI40",
+          "row": 48
+        },
+        {
+          "code": "CFDI40147",
+          "field": "DomicilioFiscalReceptor",
+          "sheet": "Códigos_Error_CFDI40",
+          "row": 49
+        },
+        {
+          "code": "CFDI40148",
+          "field": "DomicilioFiscalReceptor",
+          "sheet": "Códigos_Error_CFDI40",
+          "row": 50
+        },
+        {
+          "code": "CFDI40149",
+          "field": "DomicilioFiscalReceptor",
+          "sheet": "Códigos_Error_CFDI40",
+          "row": 51
+        },
+        {
+          "code": "CFDI40150",
+          "field": "ResidenciaFiscal",
+          "sheet": "Códigos_Error_CFDI40",
+          "row": 52
+        },
+        {
+          "code": "CFDI40151",
+          "field": "ResidenciaFiscal",
+          "sheet": "Códigos_Error_CFDI40",
+          "row": 53
+        },
+        {
+          "code": "CFDI40152",
+          "field": "ResidenciaFiscal",
+          "sheet": "Códigos_Error_CFDI40",
+          "row": 54
+        },
+        {
+          "code": "CFDI40153",
+          "field": "ResidenciaFiscal",
+          "sheet": "Códigos_Error_CFDI40",
+          "row": 55
+        },
+        {
+          "code": "CFDI40154",
+          "field": "NumRegIdTrib",
+          "sheet": "Códigos_Error_CFDI40",
+          "row": 56
+        },
+        {
+          "code": "CFDI40155",
+          "field": "NumRegIdTrib",
+          "sheet": "Códigos_Error_CFDI40",
+          "row": 57
+        },
+        {
+          "code": "CFDI40156",
+          "field": "NumRegIdTrib",
+          "sheet": "Códigos_Error_CFDI40",
+          "row": 58
+        },
+        {
+          "code": "CFDI40157",
+          "field": "RegimenFiscalReceptor",
+          "sheet": "Códigos_Error_CFDI40",
+          "row": 59
+        },
+        {
+          "code": "CFDI40158",
+          "field": "RegimenFiscalReceptor",
+          "sheet": "Códigos_Error_CFDI40",
+          "row": 60
+        },
+        {
+          "code": "CFDI40159",
+          "field": "RegimenFiscalReceptor",
+          "sheet": "Códigos_Error_CFDI40",
+          "row": 61
+        },
+        {
+          "code": "CFDI40160",
+          "field": "UsoCFDI",
+          "sheet": "Códigos_Error_CFDI40",
+          "row": 62
+        },
+        {
+          "code": "CFDI40161",
+          "field": "UsoCFDI",
+          "sheet": "Códigos_Error_CFDI40",
+          "row": 63
+        },
+        {
+          "code": "CFDI40162",
+          "field": "ClaveProdServ",
+          "sheet": "Códigos_Error_CFDI40",
+          "row": 64
+        },
+        {
+          "code": "CFDI40163",
+          "field": "ClaveProdServ",
+          "sheet": "Códigos_Error_CFDI40",
+          "row": 65
+        },
+        {
+          "code": "CFDI40164",
+          "field": "ClaveProdServ",
+          "sheet": "Códigos_Error_CFDI40",
+          "row": 66
+        },
+        {
+          "code": "CFDI40165",
+          "field": "ClaveUnidad",
+          "sheet": "Códigos_Error_CFDI40",
+          "row": 67
+        },
+        {
+          "code": "CFDI40166",
+          "field": "ValorUnitario",
+          "sheet": "Códigos_Error_CFDI40",
+          "row": 68
+        },
+        {
+          "code": "CFDI40167",
+          "field": "Importe",
+          "sheet": "Códigos_Error_CFDI40",
+          "row": 69
+        },
+        {
+          "code": "CFDI40168",
+          "field": "Descuento",
+          "sheet": "Códigos_Error_CFDI40",
+          "row": 70
+        },
+        {
+          "code": "CFDI40169",
+          "field": "Descuento",
+          "sheet": "Códigos_Error_CFDI40",
+          "row": 71
+        },
+        {
+          "code": "CFDI40170",
+          "field": "ObjetoImp",
+          "sheet": "Códigos_Error_CFDI40",
+          "row": 72
+        },
+        {
+          "code": "CFDI40171",
+          "field": "ObjetoImp",
+          "sheet": "Códigos_Error_CFDI40",
+          "row": 73
+        },
+        {
+          "code": "CFDI40172",
+          "field": "ObjetoImp",
+          "sheet": "Códigos_Error_CFDI40",
+          "row": 74
+        },
+        {
+          "code": "CFDI40173",
+          "field": "Impuestos",
+          "sheet": "Códigos_Error_CFDI40",
+          "row": 75
+        },
+        {
+          "code": "CFDI40174",
+          "field": "Base",
+          "sheet": "Códigos_Error_CFDI40",
+          "row": 76
+        },
+        {
+          "code": "CFDI40175",
+          "field": "Impuesto ",
+          "sheet": "Códigos_Error_CFDI40",
+          "row": 77
+        },
+        {
+          "code": "CFDI40176",
+          "field": "TipoFactor",
+          "sheet": "Códigos_Error_CFDI40",
+          "row": 78
+        },
+        {
+          "code": "CFDI40177",
+          "field": "TipoFactor",
+          "sheet": "Códigos_Error_CFDI40",
+          "row": 79
+        },
+        {
+          "code": "CFDI40178",
+          "field": "TipoFactor",
+          "sheet": "Códigos_Error_CFDI40",
+          "row": 80
+        },
+        {
+          "code": "CFDI40179",
+          "field": "TasaOCuota",
+          "sheet": "Códigos_Error_CFDI40",
+          "row": 81
+        },
+        {
+          "code": "CFDI40180",
+          "field": "Importe",
+          "sheet": "Códigos_Error_CFDI40",
+          "row": 82
+        },
+        {
+          "code": "CFDI40181",
+          "field": "Base",
+          "sheet": "Códigos_Error_CFDI40",
+          "row": 83
+        },
+        {
+          "code": "CFDI40182",
+          "field": "Impuesto ",
+          "sheet": "Códigos_Error_CFDI40",
+          "row": 84
+        },
+        {
+          "code": "CFDI40183",
+          "field": "TipoFactor",
+          "sheet": "Códigos_Error_CFDI40",
+          "row": 85
+        },
+        {
+          "code": "CFDI40184",
+          "field": "TipoFactor",
+          "sheet": "Códigos_Error_CFDI40",
+          "row": 86
+        },
+        {
+          "code": "CFDI40185",
+          "field": "TasaOCuota",
+          "sheet": "Códigos_Error_CFDI40",
+          "row": 87
+        },
+        {
+          "code": "CFDI40186",
+          "field": "Importe",
+          "sheet": "Códigos_Error_CFDI40",
+          "row": 88
+        },
+        {
+          "code": "CFDI40187",
+          "field": "RfcACuentaTerceros",
+          "sheet": "Códigos_Error_CFDI40",
+          "row": 89
+        },
+        {
+          "code": "CFDI40188",
+          "field": "RfcACuentaTerceros",
+          "sheet": "Códigos_Error_CFDI40",
+          "row": 90
+        },
+        {
+          "code": "CFDI40189",
+          "field": "NombreACuentaTerceros",
+          "sheet": "Códigos_Error_CFDI40",
+          "row": 91
+        },
+        {
+          "code": "CFDI40190",
+          "field": "NombreACuentaTerceros",
+          "sheet": "Códigos_Error_CFDI40",
+          "row": 92
+        },
+        {
+          "code": "CFDI40191",
+          "field": "RegimenFiscalACuentaTerceros",
+          "sheet": "Códigos_Error_CFDI40",
+          "row": 93
+        },
+        {
+          "code": "CFDI40192",
+          "field": "DomicilioFiscalACuentaTerceros",
+          "sheet": "Códigos_Error_CFDI40",
+          "row": 94
+        },
+        {
+          "code": "CFDI40193",
+          "field": "DomicilioFiscalACuentaTerceros",
+          "sheet": "Códigos_Error_CFDI40",
+          "row": 95
+        },
+        {
+          "code": "CFDI40194",
+          "field": "NumeroPedimento",
+          "sheet": "Códigos_Error_CFDI40",
+          "row": 96
+        },
+        {
+          "code": "CFDI40195",
+          "field": "NumeroPedimento",
+          "sheet": "Códigos_Error_CFDI40",
+          "row": 97
+        },
+        {
+          "code": "CFDI40196",
+          "field": "ClaveProdServ",
+          "sheet": "Códigos_Error_CFDI40",
+          "row": 98
+        },
+        {
+          "code": "CFDI40197",
+          "field": "ValorUnitario",
+          "sheet": "Códigos_Error_CFDI40",
+          "row": 99
+        },
+        {
+          "code": "CFDI40198",
+          "field": "Importe",
+          "sheet": "Códigos_Error_CFDI40",
+          "row": 100
+        },
+        {
+          "code": "CFDI40199",
+          "field": "NumeroPedimento",
+          "sheet": "Códigos_Error_CFDI40",
+          "row": 101
+        },
+        {
+          "code": "CFDI40200",
+          "field": "NumeroPedimento",
+          "sheet": "Códigos_Error_CFDI40",
+          "row": 102
+        },
+        {
+          "code": "CFDI40201",
+          "field": "Impuestos",
+          "sheet": "Códigos_Error_CFDI40",
+          "row": 103
+        },
+        {
+          "code": "CFDI40202",
+          "field": "TotalImpuestosRetenidos",
+          "sheet": "Códigos_Error_CFDI40",
+          "row": 104
+        },
+        {
+          "code": "CFDI40203",
+          "field": "TotalImpuestosRetenidos",
+          "sheet": "Códigos_Error_CFDI40",
+          "row": 105
+        },
+        {
+          "code": "CFDI40204",
+          "field": "TotalImpuestosTrasladados",
+          "sheet": "Códigos_Error_CFDI40",
+          "row": 106
+        },
+        {
+          "code": "CFDI40205",
+          "field": "TotalImpuestosTrasladados",
+          "sheet": "Códigos_Error_CFDI40",
+          "row": 107
+        },
+        {
+          "code": "CFDI40206",
+          "field": "Retenciones",
+          "sheet": "Códigos_Error_CFDI40",
+          "row": 108
+        },
+        {
+          "code": "CFDI40207",
+          "field": "Impuesto",
+          "sheet": "Códigos_Error_CFDI40",
+          "row": 109
+        },
+        {
+          "code": "CFDI40208",
+          "field": "Impuesto",
+          "sheet": "Códigos_Error_CFDI40",
+          "row": 110
+        },
+        {
+          "code": "CFDI40209",
+          "field": "Importe",
+          "sheet": "Códigos_Error_CFDI40",
+          "row": 111
+        },
+        {
+          "code": "CFDI40210",
+          "field": "Importe",
+          "sheet": "Códigos_Error_CFDI40",
+          "row": 112
+        },
+        {
+          "code": "CFDI40211",
+          "field": "Importe",
+          "sheet": "Códigos_Error_CFDI40",
+          "row": 113
+        },
+        {
+          "code": "CFDI40212",
+          "field": "Traslados",
+          "sheet": "Códigos_Error_CFDI40",
+          "row": 114
+        },
+        {
+          "code": "CFDI40213",
+          "field": "Traslado",
+          "sheet": "Códigos_Error_CFDI40",
+          "row": 115
+        },
+        {
+          "code": "CFDI40214",
+          "field": "Base",
+          "sheet": "Códigos_Error_CFDI40",
+          "row": 116
+        },
+        {
+          "code": "CFDI40215",
+          "field": "Base",
+          "sheet": "Códigos_Error_CFDI40",
+          "row": 117
+        },
+        {
+          "code": "CFDI40216",
+          "field": "Base",
+          "sheet": "Códigos_Error_CFDI40",
+          "row": 118
+        },
+        {
+          "code": "CFDI40217",
+          "field": "Impuesto",
+          "sheet": "Códigos_Error_CFDI40",
+          "row": 119
+        },
+        {
+          "code": "CFDI40218",
+          "field": "Impuesto",
+          "sheet": "Códigos_Error_CFDI40",
+          "row": 120
+        },
+        {
+          "code": "CFDI40219",
+          "field": "TasaOCuota",
+          "sheet": "Códigos_Error_CFDI40",
+          "row": 121
+        },
+        {
+          "code": "CFDI40220",
+          "field": "Importe",
+          "sheet": "Códigos_Error_CFDI40",
+          "row": 122
+        },
+        {
+          "code": "CFDI40221",
+          "field": "Importe",
+          "sheet": "Códigos_Error_CFDI40",
+          "row": 123
+        },
+        {
+          "code": "CFDI40222",
+          "field": "Exportacion",
+          "sheet": "Códigos_Error_CFDI40",
+          "row": 124
+        },
+        {
+          "code": "CFDI140223",
+          "field": "RegimenFiscalACuentaTerceros",
+          "sheet": "Códigos_Error_CFDI40",
+          "row": 125
+        },
+        {
+          "code": "CFDI140224",
+          "field": "Impuesto",
+          "sheet": "Códigos_Error_CFDI40",
+          "row": 126
+        },
+        {
+          "code": "CFDI140225",
+          "field": "Impuesto",
+          "sheet": "Códigos_Error_CFDI40",
+          "row": 127
+        },
+        {
+          "code": "CFDI140226",
+          "field": "ObjetoImp",
+          "sheet": "Códigos_Error_CFDI40",
+          "row": 128
+        },
+        {
+          "code": "CFDI140227",
+          "field": "ObjetoImp",
+          "sheet": "Códigos_Error_CFDI40",
+          "row": 129
+        },
+        {
+          "code": "CFDI140228",
+          "field": "ClaveProdServ",
+          "sheet": "Códigos_Error_CFDI40",
+          "row": 130
+        },
+        {
+          "code": "CFDI40999",
+          "field": "No clasificado",
+          "sheet": "Códigos_Error_CFDI40",
+          "row": 131
+        }
+      ]
+    },
+    "3.3": {
+      "source_id": "catalog33",
+      "source_sha256": "ef6cf4fbedcbc5a3db993b9495186762327a75cd4c826f39d7055ccf28f7a46b",
+      "matrix_source_id": "matrix33",
+      "matrix_sha256": "6d10cde320a02df06ec61678afdf08b236ec2e08f76f88f06754955d5c341998",
+      "currencies": [
+        {
+          "code": "AED",
+          "digits": 2,
+          "valid_from": "2017-08-14",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 6
+        },
+        {
+          "code": "AFN",
+          "digits": 2,
+          "valid_from": "2017-08-14",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 7
+        },
+        {
+          "code": "ALL",
+          "digits": 2,
+          "valid_from": "2017-08-14",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 8
+        },
+        {
+          "code": "AMD",
+          "digits": 2,
+          "valid_from": "2017-08-14",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 9
+        },
+        {
+          "code": "ANG",
+          "digits": 2,
+          "valid_from": "2017-08-14",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 10
+        },
+        {
+          "code": "AOA",
+          "digits": 2,
+          "valid_from": "2017-08-14",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 11
+        },
+        {
+          "code": "ARS",
+          "digits": 2,
+          "valid_from": "2017-08-14",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 12
+        },
+        {
+          "code": "AUD",
+          "digits": 2,
+          "valid_from": "2017-08-14",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 13
+        },
+        {
+          "code": "AWG",
+          "digits": 2,
+          "valid_from": "2017-08-14",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 14
+        },
+        {
+          "code": "AZN",
+          "digits": 2,
+          "valid_from": "2017-08-14",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 15
+        },
+        {
+          "code": "BAM",
+          "digits": 2,
+          "valid_from": "2017-08-14",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 16
+        },
+        {
+          "code": "BBD",
+          "digits": 2,
+          "valid_from": "2017-08-14",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 17
+        },
+        {
+          "code": "BDT",
+          "digits": 2,
+          "valid_from": "2017-08-14",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 18
+        },
+        {
+          "code": "BGN",
+          "digits": 2,
+          "valid_from": "2017-08-14",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 19
+        },
+        {
+          "code": "BHD",
+          "digits": 3,
+          "valid_from": "2017-08-14",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 20
+        },
+        {
+          "code": "BIF",
+          "digits": 0,
+          "valid_from": "2017-08-14",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 21
+        },
+        {
+          "code": "BMD",
+          "digits": 2,
+          "valid_from": "2017-08-14",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 22
+        },
+        {
+          "code": "BND",
+          "digits": 2,
+          "valid_from": "2017-08-14",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 23
+        },
+        {
+          "code": "BOB",
+          "digits": 2,
+          "valid_from": "2017-08-14",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 24
+        },
+        {
+          "code": "BOV",
+          "digits": 2,
+          "valid_from": "2017-08-14",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 25
+        },
+        {
+          "code": "BRL",
+          "digits": 2,
+          "valid_from": "2017-08-14",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 26
+        },
+        {
+          "code": "BSD",
+          "digits": 2,
+          "valid_from": "2017-08-14",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 27
+        },
+        {
+          "code": "BTN",
+          "digits": 2,
+          "valid_from": "2017-08-14",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 28
+        },
+        {
+          "code": "BWP",
+          "digits": 2,
+          "valid_from": "2017-08-14",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 29
+        },
+        {
+          "code": "BYR",
+          "digits": 0,
+          "valid_from": "2017-08-14",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 30
+        },
+        {
+          "code": "BZD",
+          "digits": 2,
+          "valid_from": "2017-08-14",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 31
+        },
+        {
+          "code": "CAD",
+          "digits": 2,
+          "valid_from": "2017-08-14",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 32
+        },
+        {
+          "code": "CDF",
+          "digits": 2,
+          "valid_from": "2017-08-14",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 33
+        },
+        {
+          "code": "CHE",
+          "digits": 2,
+          "valid_from": "2017-08-14",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 34
+        },
+        {
+          "code": "CHF",
+          "digits": 2,
+          "valid_from": "2017-08-14",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 35
+        },
+        {
+          "code": "CHW",
+          "digits": 2,
+          "valid_from": "2017-08-14",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 36
+        },
+        {
+          "code": "CLF",
+          "digits": 4,
+          "valid_from": "2017-08-14",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 37
+        },
+        {
+          "code": "CLP",
+          "digits": 0,
+          "valid_from": "2017-08-14",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 38
+        },
+        {
+          "code": "CNY",
+          "digits": 2,
+          "valid_from": "2017-08-14",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 39
+        },
+        {
+          "code": "COP",
+          "digits": 2,
+          "valid_from": "2017-08-14",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 40
+        },
+        {
+          "code": "COU",
+          "digits": 2,
+          "valid_from": "2017-08-14",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 41
+        },
+        {
+          "code": "CRC",
+          "digits": 2,
+          "valid_from": "2017-08-14",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 42
+        },
+        {
+          "code": "CUC",
+          "digits": 2,
+          "valid_from": "2017-08-14",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 43
+        },
+        {
+          "code": "CUP",
+          "digits": 2,
+          "valid_from": "2017-08-14",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 44
+        },
+        {
+          "code": "CVE",
+          "digits": 2,
+          "valid_from": "2017-08-14",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 45
+        },
+        {
+          "code": "CZK",
+          "digits": 2,
+          "valid_from": "2017-08-14",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 46
+        },
+        {
+          "code": "DJF",
+          "digits": 0,
+          "valid_from": "2017-08-14",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 47
+        },
+        {
+          "code": "DKK",
+          "digits": 2,
+          "valid_from": "2017-08-14",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 48
+        },
+        {
+          "code": "DOP",
+          "digits": 2,
+          "valid_from": "2017-08-14",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 49
+        },
+        {
+          "code": "DZD",
+          "digits": 2,
+          "valid_from": "2017-08-14",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 50
+        },
+        {
+          "code": "EGP",
+          "digits": 2,
+          "valid_from": "2017-08-14",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 51
+        },
+        {
+          "code": "ERN",
+          "digits": 2,
+          "valid_from": "2017-08-14",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 52
+        },
+        {
+          "code": "ETB",
+          "digits": 2,
+          "valid_from": "2017-08-14",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 53
+        },
+        {
+          "code": "EUR",
+          "digits": 2,
+          "valid_from": "2017-08-14",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 54
+        },
+        {
+          "code": "FJD",
+          "digits": 2,
+          "valid_from": "2017-08-14",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 55
+        },
+        {
+          "code": "FKP",
+          "digits": 2,
+          "valid_from": "2017-08-14",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 56
+        },
+        {
+          "code": "GBP",
+          "digits": 2,
+          "valid_from": "2017-08-14",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 57
+        },
+        {
+          "code": "GEL",
+          "digits": 2,
+          "valid_from": "2017-08-14",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 58
+        },
+        {
+          "code": "GHS",
+          "digits": 2,
+          "valid_from": "2017-08-14",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 59
+        },
+        {
+          "code": "GIP",
+          "digits": 2,
+          "valid_from": "2017-08-14",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 60
+        },
+        {
+          "code": "GMD",
+          "digits": 2,
+          "valid_from": "2017-08-14",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 61
+        },
+        {
+          "code": "GNF",
+          "digits": 0,
+          "valid_from": "2017-08-14",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 62
+        },
+        {
+          "code": "GTQ",
+          "digits": 2,
+          "valid_from": "2017-08-14",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 63
+        },
+        {
+          "code": "GYD",
+          "digits": 2,
+          "valid_from": "2017-08-14",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 64
+        },
+        {
+          "code": "HKD",
+          "digits": 2,
+          "valid_from": "2017-08-14",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 65
+        },
+        {
+          "code": "HNL",
+          "digits": 2,
+          "valid_from": "2017-08-14",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 66
+        },
+        {
+          "code": "HRK",
+          "digits": 2,
+          "valid_from": "2017-08-14",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 67
+        },
+        {
+          "code": "HTG",
+          "digits": 2,
+          "valid_from": "2017-08-14",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 68
+        },
+        {
+          "code": "HUF",
+          "digits": 2,
+          "valid_from": "2017-08-14",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 69
+        },
+        {
+          "code": "IDR",
+          "digits": 2,
+          "valid_from": "2017-08-14",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 70
+        },
+        {
+          "code": "ILS",
+          "digits": 2,
+          "valid_from": "2017-08-14",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 71
+        },
+        {
+          "code": "INR",
+          "digits": 2,
+          "valid_from": "2017-08-14",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 72
+        },
+        {
+          "code": "IQD",
+          "digits": 3,
+          "valid_from": "2017-08-14",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 73
+        },
+        {
+          "code": "IRR",
+          "digits": 2,
+          "valid_from": "2017-08-14",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 74
+        },
+        {
+          "code": "ISK",
+          "digits": 0,
+          "valid_from": "2017-08-14",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 75
+        },
+        {
+          "code": "JMD",
+          "digits": 2,
+          "valid_from": "2017-08-14",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 76
+        },
+        {
+          "code": "JOD",
+          "digits": 3,
+          "valid_from": "2017-08-14",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 77
+        },
+        {
+          "code": "JPY",
+          "digits": 0,
+          "valid_from": "2017-08-14",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 78
+        },
+        {
+          "code": "KES",
+          "digits": 2,
+          "valid_from": "2017-08-14",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 79
+        },
+        {
+          "code": "KGS",
+          "digits": 2,
+          "valid_from": "2017-08-14",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 80
+        },
+        {
+          "code": "KHR",
+          "digits": 2,
+          "valid_from": "2017-08-14",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 81
+        },
+        {
+          "code": "KMF",
+          "digits": 0,
+          "valid_from": "2017-08-14",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 82
+        },
+        {
+          "code": "KPW",
+          "digits": 2,
+          "valid_from": "2017-08-14",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 83
+        },
+        {
+          "code": "KRW",
+          "digits": 0,
+          "valid_from": "2017-08-14",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 84
+        },
+        {
+          "code": "KWD",
+          "digits": 3,
+          "valid_from": "2017-08-14",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 85
+        },
+        {
+          "code": "KYD",
+          "digits": 2,
+          "valid_from": "2017-08-14",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 86
+        },
+        {
+          "code": "KZT",
+          "digits": 2,
+          "valid_from": "2017-08-14",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 87
+        },
+        {
+          "code": "LAK",
+          "digits": 2,
+          "valid_from": "2017-08-14",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 88
+        },
+        {
+          "code": "LBP",
+          "digits": 2,
+          "valid_from": "2017-08-14",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 89
+        },
+        {
+          "code": "LKR",
+          "digits": 2,
+          "valid_from": "2017-08-14",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 90
+        },
+        {
+          "code": "LRD",
+          "digits": 2,
+          "valid_from": "2017-08-14",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 91
+        },
+        {
+          "code": "LSL",
+          "digits": 2,
+          "valid_from": "2017-08-14",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 92
+        },
+        {
+          "code": "LYD",
+          "digits": 3,
+          "valid_from": "2017-08-14",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 93
+        },
+        {
+          "code": "MAD",
+          "digits": 2,
+          "valid_from": "2017-08-14",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 94
+        },
+        {
+          "code": "MDL",
+          "digits": 2,
+          "valid_from": "2017-08-14",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 95
+        },
+        {
+          "code": "MGA",
+          "digits": 2,
+          "valid_from": "2017-08-14",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 96
+        },
+        {
+          "code": "MKD",
+          "digits": 2,
+          "valid_from": "2017-08-14",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 97
+        },
+        {
+          "code": "MMK",
+          "digits": 2,
+          "valid_from": "2017-08-14",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 98
+        },
+        {
+          "code": "MNT",
+          "digits": 2,
+          "valid_from": "2017-08-14",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 99
+        },
+        {
+          "code": "MOP",
+          "digits": 2,
+          "valid_from": "2017-08-14",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 100
+        },
+        {
+          "code": "MRO",
+          "digits": 2,
+          "valid_from": "2017-08-14",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 101
+        },
+        {
+          "code": "MUR",
+          "digits": 2,
+          "valid_from": "2017-08-14",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 102
+        },
+        {
+          "code": "MVR",
+          "digits": 2,
+          "valid_from": "2017-08-14",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 103
+        },
+        {
+          "code": "MWK",
+          "digits": 2,
+          "valid_from": "2017-08-14",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 104
+        },
+        {
+          "code": "MXN",
+          "digits": 2,
+          "valid_from": "2017-08-14",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 105
+        },
+        {
+          "code": "MXV",
+          "digits": 2,
+          "valid_from": "2017-08-14",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 106
+        },
+        {
+          "code": "MYR",
+          "digits": 2,
+          "valid_from": "2017-08-14",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 107
+        },
+        {
+          "code": "MZN",
+          "digits": 2,
+          "valid_from": "2017-08-14",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 108
+        },
+        {
+          "code": "NAD",
+          "digits": 2,
+          "valid_from": "2017-08-14",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 109
+        },
+        {
+          "code": "NGN",
+          "digits": 2,
+          "valid_from": "2017-08-14",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 110
+        },
+        {
+          "code": "NIO",
+          "digits": 2,
+          "valid_from": "2017-08-14",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 111
+        },
+        {
+          "code": "NOK",
+          "digits": 2,
+          "valid_from": "2017-08-14",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 112
+        },
+        {
+          "code": "NPR",
+          "digits": 2,
+          "valid_from": "2017-08-14",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 113
+        },
+        {
+          "code": "NZD",
+          "digits": 2,
+          "valid_from": "2017-08-14",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 114
+        },
+        {
+          "code": "OMR",
+          "digits": 3,
+          "valid_from": "2017-08-14",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 115
+        },
+        {
+          "code": "PAB",
+          "digits": 2,
+          "valid_from": "2017-08-14",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 116
+        },
+        {
+          "code": "PEN",
+          "digits": 2,
+          "valid_from": "2017-08-14",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 117
+        },
+        {
+          "code": "PGK",
+          "digits": 2,
+          "valid_from": "2017-08-14",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 118
+        },
+        {
+          "code": "PHP",
+          "digits": 2,
+          "valid_from": "2017-08-14",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 119
+        },
+        {
+          "code": "PKR",
+          "digits": 2,
+          "valid_from": "2017-08-14",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 120
+        },
+        {
+          "code": "PLN",
+          "digits": 2,
+          "valid_from": "2017-08-14",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 121
+        },
+        {
+          "code": "PYG",
+          "digits": 0,
+          "valid_from": "2017-08-14",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 122
+        },
+        {
+          "code": "QAR",
+          "digits": 2,
+          "valid_from": "2017-08-14",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 123
+        },
+        {
+          "code": "RON",
+          "digits": 2,
+          "valid_from": "2017-08-14",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 124
+        },
+        {
+          "code": "RSD",
+          "digits": 2,
+          "valid_from": "2017-08-14",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 125
+        },
+        {
+          "code": "RUB",
+          "digits": 2,
+          "valid_from": "2017-08-14",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 126
+        },
+        {
+          "code": "RWF",
+          "digits": 0,
+          "valid_from": "2017-08-14",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 127
+        },
+        {
+          "code": "SAR",
+          "digits": 2,
+          "valid_from": "2017-08-14",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 128
+        },
+        {
+          "code": "SBD",
+          "digits": 2,
+          "valid_from": "2017-08-14",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 129
+        },
+        {
+          "code": "SCR",
+          "digits": 2,
+          "valid_from": "2017-08-14",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 130
+        },
+        {
+          "code": "SDG",
+          "digits": 2,
+          "valid_from": "2017-08-14",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 131
+        },
+        {
+          "code": "SEK",
+          "digits": 2,
+          "valid_from": "2017-08-14",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 132
+        },
+        {
+          "code": "SGD",
+          "digits": 2,
+          "valid_from": "2017-08-14",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 133
+        },
+        {
+          "code": "SHP",
+          "digits": 2,
+          "valid_from": "2017-08-14",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 134
+        },
+        {
+          "code": "SLL",
+          "digits": 2,
+          "valid_from": "2017-08-14",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 135
+        },
+        {
+          "code": "SOS",
+          "digits": 2,
+          "valid_from": "2017-08-14",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 136
+        },
+        {
+          "code": "SRD",
+          "digits": 2,
+          "valid_from": "2017-08-14",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 137
+        },
+        {
+          "code": "SSP",
+          "digits": 2,
+          "valid_from": "2017-08-14",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 138
+        },
+        {
+          "code": "STD",
+          "digits": 2,
+          "valid_from": "2017-08-14",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 139
+        },
+        {
+          "code": "SVC",
+          "digits": 2,
+          "valid_from": "2017-08-14",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 140
+        },
+        {
+          "code": "SYP",
+          "digits": 2,
+          "valid_from": "2017-08-14",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 141
+        },
+        {
+          "code": "SZL",
+          "digits": 2,
+          "valid_from": "2017-08-14",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 142
+        },
+        {
+          "code": "THB",
+          "digits": 2,
+          "valid_from": "2017-08-14",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 143
+        },
+        {
+          "code": "TJS",
+          "digits": 2,
+          "valid_from": "2017-08-14",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 144
+        },
+        {
+          "code": "TMT",
+          "digits": 2,
+          "valid_from": "2017-08-14",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 145
+        },
+        {
+          "code": "TND",
+          "digits": 3,
+          "valid_from": "2017-08-14",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 146
+        },
+        {
+          "code": "TOP",
+          "digits": 2,
+          "valid_from": "2017-08-14",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 147
+        },
+        {
+          "code": "TRY",
+          "digits": 2,
+          "valid_from": "2017-08-14",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 148
+        },
+        {
+          "code": "TTD",
+          "digits": 2,
+          "valid_from": "2017-08-14",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 149
+        },
+        {
+          "code": "TWD",
+          "digits": 2,
+          "valid_from": "2017-08-14",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 150
+        },
+        {
+          "code": "TZS",
+          "digits": 2,
+          "valid_from": "2017-08-14",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 151
+        },
+        {
+          "code": "UAH",
+          "digits": 2,
+          "valid_from": "2017-08-14",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 152
+        },
+        {
+          "code": "UGX",
+          "digits": 0,
+          "valid_from": "2017-08-14",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 153
+        },
+        {
+          "code": "USD",
+          "digits": 2,
+          "valid_from": "2017-08-14",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 154
+        },
+        {
+          "code": "USN",
+          "digits": 2,
+          "valid_from": "2017-08-14",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 155
+        },
+        {
+          "code": "UYI",
+          "digits": 0,
+          "valid_from": "2017-08-14",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 156
+        },
+        {
+          "code": "UYU",
+          "digits": 2,
+          "valid_from": "2017-08-14",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 157
+        },
+        {
+          "code": "UZS",
+          "digits": 2,
+          "valid_from": "2017-08-14",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 158
+        },
+        {
+          "code": "VEF",
+          "digits": 2,
+          "valid_from": "2017-08-14",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 159
+        },
+        {
+          "code": "VND",
+          "digits": 0,
+          "valid_from": "2017-08-14",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 160
+        },
+        {
+          "code": "VUV",
+          "digits": 0,
+          "valid_from": "2017-08-14",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 161
+        },
+        {
+          "code": "WST",
+          "digits": 2,
+          "valid_from": "2017-08-14",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 162
+        },
+        {
+          "code": "XAF",
+          "digits": 0,
+          "valid_from": "2017-08-14",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 163
+        },
+        {
+          "code": "XAG",
+          "digits": 0,
+          "valid_from": "2017-08-14",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 164
+        },
+        {
+          "code": "XAU",
+          "digits": 0,
+          "valid_from": "2017-08-14",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 165
+        },
+        {
+          "code": "XBA",
+          "digits": 0,
+          "valid_from": "2017-08-14",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 166
+        },
+        {
+          "code": "XBB",
+          "digits": 0,
+          "valid_from": "2017-08-14",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 167
+        },
+        {
+          "code": "XBC",
+          "digits": 0,
+          "valid_from": "2017-08-14",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 168
+        },
+        {
+          "code": "XBD",
+          "digits": 0,
+          "valid_from": "2017-08-14",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 169
+        },
+        {
+          "code": "XCD",
+          "digits": 2,
+          "valid_from": "2017-08-14",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 170
+        },
+        {
+          "code": "XDR",
+          "digits": 0,
+          "valid_from": "2017-08-14",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 171
+        },
+        {
+          "code": "XOF",
+          "digits": 0,
+          "valid_from": "2017-08-14",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 172
+        },
+        {
+          "code": "XPD",
+          "digits": 0,
+          "valid_from": "2017-08-14",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 173
+        },
+        {
+          "code": "XPF",
+          "digits": 0,
+          "valid_from": "2017-08-14",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 174
+        },
+        {
+          "code": "XPT",
+          "digits": 0,
+          "valid_from": "2017-08-14",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 175
+        },
+        {
+          "code": "XSU",
+          "digits": 0,
+          "valid_from": "2017-08-14",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 176
+        },
+        {
+          "code": "XTS",
+          "digits": 0,
+          "valid_from": "2017-08-14",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 177
+        },
+        {
+          "code": "XUA",
+          "digits": 0,
+          "valid_from": "2017-08-14",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 178
+        },
+        {
+          "code": "XXX",
+          "digits": 0,
+          "valid_from": "2017-08-14",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 179
+        },
+        {
+          "code": "YER",
+          "digits": 2,
+          "valid_from": "2017-08-14",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 180
+        },
+        {
+          "code": "ZAR",
+          "digits": 2,
+          "valid_from": "2017-08-14",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 181
+        },
+        {
+          "code": "ZMW",
+          "digits": 2,
+          "valid_from": "2017-08-14",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 182
+        },
+        {
+          "code": "ZWL",
+          "digits": 2,
+          "valid_from": "2017-08-14",
+          "valid_to": null,
+          "sheet": "c_Moneda",
+          "row": 183
+        }
+      ],
+      "rates": [
+        {
+          "kind": "Fijo",
+          "minimum": null,
+          "maximum": "0.000000",
+          "tax": "IVA",
+          "factor": "Tasa",
+          "tax_code": "002",
+          "transfer": true,
+          "retention": false,
+          "valid_from": "2017-01-01",
+          "valid_to": null,
+          "sheet": "c_TasaOCuota",
+          "row": 7
+        },
+        {
+          "kind": "Fijo",
+          "minimum": null,
+          "maximum": "0.160000",
+          "tax": "IVA",
+          "factor": "Tasa",
+          "tax_code": "002",
+          "transfer": true,
+          "retention": false,
+          "valid_from": "2017-01-01",
+          "valid_to": null,
+          "sheet": "c_TasaOCuota",
+          "row": 8
+        },
+        {
+          "kind": "Rango",
+          "minimum": "0.000000",
+          "maximum": "0.160000",
+          "tax": "IVA",
+          "factor": "Tasa",
+          "tax_code": "002",
+          "transfer": false,
+          "retention": true,
+          "valid_from": "2017-01-01",
+          "valid_to": null,
+          "sheet": "c_TasaOCuota",
+          "row": 9
+        },
+        {
+          "kind": "Fijo",
+          "minimum": null,
+          "maximum": "0.080000",
+          "tax": "IVA Crédito aplicado del 50%",
+          "factor": "Tasa",
+          "tax_code": "002",
+          "transfer": true,
+          "retention": false,
+          "valid_from": "2019-01-07",
+          "valid_to": null,
+          "sheet": "c_TasaOCuota",
+          "row": 10
+        },
+        {
+          "kind": "Fijo",
+          "minimum": null,
+          "maximum": "0.265000",
+          "tax": "IEPS",
+          "factor": "Tasa",
+          "tax_code": "003",
+          "transfer": true,
+          "retention": true,
+          "valid_from": "2017-01-01",
+          "valid_to": null,
+          "sheet": "c_TasaOCuota",
+          "row": 11
+        },
+        {
+          "kind": "Fijo",
+          "minimum": null,
+          "maximum": "0.300000",
+          "tax": "IEPS",
+          "factor": "Tasa",
+          "tax_code": "003",
+          "transfer": true,
+          "retention": true,
+          "valid_from": "2017-01-01",
+          "valid_to": null,
+          "sheet": "c_TasaOCuota",
+          "row": 12
+        },
+        {
+          "kind": "Fijo",
+          "minimum": null,
+          "maximum": "0.530000",
+          "tax": "IEPS",
+          "factor": "Tasa",
+          "tax_code": "003",
+          "transfer": true,
+          "retention": true,
+          "valid_from": "2017-01-01",
+          "valid_to": null,
+          "sheet": "c_TasaOCuota",
+          "row": 13
+        },
+        {
+          "kind": "Fijo",
+          "minimum": null,
+          "maximum": "0.500000",
+          "tax": "IEPS",
+          "factor": "Tasa",
+          "tax_code": "003",
+          "transfer": true,
+          "retention": true,
+          "valid_from": "2017-01-01",
+          "valid_to": null,
+          "sheet": "c_TasaOCuota",
+          "row": 14
+        },
+        {
+          "kind": "Fijo",
+          "minimum": null,
+          "maximum": "1.600000",
+          "tax": "IEPS",
+          "factor": "Tasa",
+          "tax_code": "003",
+          "transfer": true,
+          "retention": true,
+          "valid_from": "2017-01-01",
+          "valid_to": null,
+          "sheet": "c_TasaOCuota",
+          "row": 15
+        },
+        {
+          "kind": "Fijo",
+          "minimum": null,
+          "maximum": "0.304000",
+          "tax": "IEPS",
+          "factor": "Tasa",
+          "tax_code": "003",
+          "transfer": true,
+          "retention": true,
+          "valid_from": "2017-01-01",
+          "valid_to": null,
+          "sheet": "c_TasaOCuota",
+          "row": 16
+        },
+        {
+          "kind": "Fijo",
+          "minimum": null,
+          "maximum": "0.250000",
+          "tax": "IEPS",
+          "factor": "Tasa",
+          "tax_code": "003",
+          "transfer": true,
+          "retention": true,
+          "valid_from": "2017-01-01",
+          "valid_to": null,
+          "sheet": "c_TasaOCuota",
+          "row": 17
+        },
+        {
+          "kind": "Fijo",
+          "minimum": null,
+          "maximum": "0.090000",
+          "tax": "IEPS",
+          "factor": "Tasa",
+          "tax_code": "003",
+          "transfer": true,
+          "retention": true,
+          "valid_from": "2017-01-01",
+          "valid_to": null,
+          "sheet": "c_TasaOCuota",
+          "row": 18
+        },
+        {
+          "kind": "Fijo",
+          "minimum": null,
+          "maximum": "0.080000",
+          "tax": "IEPS",
+          "factor": "Tasa",
+          "tax_code": "003",
+          "transfer": true,
+          "retention": true,
+          "valid_from": "2017-01-01",
+          "valid_to": null,
+          "sheet": "c_TasaOCuota",
+          "row": 19
+        },
+        {
+          "kind": "Fijo",
+          "minimum": null,
+          "maximum": "0.070000",
+          "tax": "IEPS",
+          "factor": "Tasa",
+          "tax_code": "003",
+          "transfer": true,
+          "retention": true,
+          "valid_from": "2017-01-01",
+          "valid_to": null,
+          "sheet": "c_TasaOCuota",
+          "row": 20
+        },
+        {
+          "kind": "Fijo",
+          "minimum": null,
+          "maximum": "0.060000",
+          "tax": "IEPS",
+          "factor": "Tasa",
+          "tax_code": "003",
+          "transfer": true,
+          "retention": true,
+          "valid_from": "2017-01-01",
+          "valid_to": null,
+          "sheet": "c_TasaOCuota",
+          "row": 21
+        },
+        {
+          "kind": "Fijo",
+          "minimum": null,
+          "maximum": "0.030000",
+          "tax": "IEPS",
+          "factor": "Tasa",
+          "tax_code": "003",
+          "transfer": true,
+          "retention": false,
+          "valid_from": "2017-01-01",
+          "valid_to": null,
+          "sheet": "c_TasaOCuota",
+          "row": 22
+        },
+        {
+          "kind": "Fijo",
+          "minimum": null,
+          "maximum": "0.000000",
+          "tax": "IEPS",
+          "factor": "Tasa",
+          "tax_code": "003",
+          "transfer": true,
+          "retention": false,
+          "valid_from": "2017-01-01",
+          "valid_to": null,
+          "sheet": "c_TasaOCuota",
+          "row": 23
+        },
+        {
+          "kind": "Rango",
+          "minimum": "0.000000",
+          "maximum": "59.144900",
+          "tax": "IEPS",
+          "factor": "Cuota",
+          "tax_code": "003",
+          "transfer": true,
+          "retention": true,
+          "valid_from": "2022-01-01",
+          "valid_to": null,
+          "sheet": "c_TasaOCuota",
+          "row": 24
+        },
+        {
+          "kind": "Rango",
+          "minimum": "0.000000",
+          "maximum": "0.350000",
+          "tax": "ISR",
+          "factor": "Tasa",
+          "tax_code": "001",
+          "transfer": false,
+          "retention": true,
+          "valid_from": "2017-01-01",
+          "valid_to": null,
+          "sheet": "c_TasaOCuota",
+          "row": 25
+        }
+      ],
+      "rules": [
+        {
+          "code": "CFDI33101",
+          "field": "Fecha",
+          "sheet": "Errores_CFDI33",
+          "row": 3
+        },
+        {
+          "code": "CFDI33102",
+          "field": "Sello",
+          "sheet": "Errores_CFDI33",
+          "row": 4
+        },
+        {
+          "code": "CFDI33103",
+          "field": "FormaPago",
+          "sheet": "Errores_CFDI33",
+          "row": 5
+        },
+        {
+          "code": "CFDI33104",
+          "field": "FormaPago",
+          "sheet": "Errores_CFDI33",
+          "row": 6
+        },
+        {
+          "code": "CFDI33105",
+          "field": "Certificado",
+          "sheet": "Errores_CFDI33",
+          "row": 7
+        },
+        {
+          "code": "CFDI33106",
+          "field": "SubTotal",
+          "sheet": "Errores_CFDI33",
+          "row": 8
+        },
+        {
+          "code": "CFDI33107",
+          "field": "SubTotal",
+          "sheet": "Errores_CFDI33",
+          "row": 9
+        },
+        {
+          "code": "CFDI33108",
+          "field": "SubTotal",
+          "sheet": "Errores_CFDI33",
+          "row": 10
+        },
+        {
+          "code": "CFDI33109",
+          "field": "Descuento",
+          "sheet": "Errores_CFDI33",
+          "row": 11
+        },
+        {
+          "code": "CFDI33110",
+          "field": "Descuento",
+          "sheet": "Errores_CFDI33",
+          "row": 12
+        },
+        {
+          "code": "CFDI33111",
+          "field": "Descuento",
+          "sheet": "Errores_CFDI33",
+          "row": 13
+        },
+        {
+          "code": "CFDI33112",
+          "field": "Moneda",
+          "sheet": "Errores_CFDI33",
+          "row": 14
+        },
+        {
+          "code": "CFDI33113",
+          "field": "TipoCambio",
+          "sheet": "Errores_CFDI33",
+          "row": 15
+        },
+        {
+          "code": "CFDI33114",
+          "field": "TipoCambio",
+          "sheet": "Errores_CFDI33",
+          "row": 16
+        },
+        {
+          "code": "CFDI33115",
+          "field": "TipoCambio",
+          "sheet": "Errores_CFDI33",
+          "row": 17
+        },
+        {
+          "code": "CFDI33116",
+          "field": "TipoCambio",
+          "sheet": "Errores_CFDI33",
+          "row": 18
+        },
+        {
+          "code": "CFDI33117",
+          "field": "TipoCambio",
+          "sheet": "Errores_CFDI33",
+          "row": 19
+        },
+        {
+          "code": "CFDI33118",
+          "field": "Total",
+          "sheet": "Errores_CFDI33",
+          "row": 20
+        },
+        {
+          "code": "CFDI33119",
+          "field": "Total ",
+          "sheet": "Errores_CFDI33",
+          "row": 21
+        },
+        {
+          "code": "CFDI33120",
+          "field": "TipoDeComprobante",
+          "sheet": "Errores_CFDI33",
+          "row": 22
+        },
+        {
+          "code": "CFDI33121",
+          "field": "MetodoPago",
+          "sheet": "Errores_CFDI33",
+          "row": 23
+        },
+        {
+          "code": "CFDI33122",
+          "field": "MetodoPago",
+          "sheet": "Errores_CFDI33",
+          "row": 24
+        },
+        {
+          "code": "CFDI33123",
+          "field": "MetodoPago",
+          "sheet": "Errores_CFDI33",
+          "row": 25
+        },
+        {
+          "code": "CFDI33124",
+          "field": "MetodoPago",
+          "sheet": "Errores_CFDI33",
+          "row": 26
+        },
+        {
+          "code": "CFDI33125",
+          "field": "LugarExpedicion",
+          "sheet": "Errores_CFDI33",
+          "row": 27
+        },
+        {
+          "code": "CFDI33126",
+          "field": "Confirmacion",
+          "sheet": "Errores_CFDI33",
+          "row": 28
+        },
+        {
+          "code": "CFDI33127",
+          "field": "Confirmacion",
+          "sheet": "Errores_CFDI33",
+          "row": 29
+        },
+        {
+          "code": "CFDI33128",
+          "field": "Confirmacion",
+          "sheet": "Errores_CFDI33",
+          "row": 30
+        },
+        {
+          "code": "CFDI33129",
+          "field": "TipoRelacion",
+          "sheet": "Errores_CFDI33",
+          "row": 31
+        },
+        {
+          "code": "CFDI33130",
+          "field": "RegimenFiscal",
+          "sheet": "Errores_CFDI33",
+          "row": 32
+        },
+        {
+          "code": "CFDI33131",
+          "field": "RegimenFiscal",
+          "sheet": "Errores_CFDI33",
+          "row": 33
+        },
+        {
+          "code": "CFDI33132",
+          "field": "Rfc",
+          "sheet": "Errores_CFDI33",
+          "row": 34
+        },
+        {
+          "code": "CFDI33133",
+          "field": "ResidenciaFiscal",
+          "sheet": "Errores_CFDI33",
+          "row": 35
+        },
+        {
+          "code": "CFDI33134",
+          "field": "ResidenciaFiscal",
+          "sheet": "Errores_CFDI33",
+          "row": 36
+        },
+        {
+          "code": "CFDI33135",
+          "field": "ResidenciaFiscal",
+          "sheet": "Errores_CFDI33",
+          "row": 37
+        },
+        {
+          "code": "CFDI33136",
+          "field": "ResidenciaFiscal",
+          "sheet": "Errores_CFDI33",
+          "row": 38
+        },
+        {
+          "code": "CFDI33137",
+          "field": "NumRegIdTrib",
+          "sheet": "Errores_CFDI33",
+          "row": 39
+        },
+        {
+          "code": "CFDI33138",
+          "field": "NumRegIdTrib",
+          "sheet": "Errores_CFDI33",
+          "row": 40
+        },
+        {
+          "code": "CFDI33139",
+          "field": "NumRegIdTrib",
+          "sheet": "Errores_CFDI33",
+          "row": 41
+        },
+        {
+          "code": "CFDI33140",
+          "field": "UsoCFDI",
+          "sheet": "Errores_CFDI33",
+          "row": 42
+        },
+        {
+          "code": "CFDI33141",
+          "field": "UsoCFDI",
+          "sheet": "Errores_CFDI33",
+          "row": 43
+        },
+        {
+          "code": "CFDI33142",
+          "field": "ClaveProdServ",
+          "sheet": "Errores_CFDI33",
+          "row": 44
+        },
+        {
+          "code": "CFDI33143",
+          "field": "ClaveProdServ",
+          "sheet": "Errores_CFDI33",
+          "row": 45
+        },
+        {
+          "code": "CFDI33144",
+          "field": "ClaveProdServ",
+          "sheet": "Errores_CFDI33",
+          "row": 46
+        },
+        {
+          "code": "CFDI33145",
+          "field": "ClaveUnidad",
+          "sheet": "Errores_CFDI33",
+          "row": 47
+        },
+        {
+          "code": "CFDI33146",
+          "field": "ValorUnitario",
+          "sheet": "Errores_CFDI33",
+          "row": 48
+        },
+        {
+          "code": "CFDI33147",
+          "field": "ValorUnitario",
+          "sheet": "Errores_CFDI33",
+          "row": 49
+        },
+        {
+          "code": "CFDI33148",
+          "field": "Importe",
+          "sheet": "Errores_CFDI33",
+          "row": 50
+        },
+        {
+          "code": "CFDI33149",
+          "field": "Importe",
+          "sheet": "Errores_CFDI33",
+          "row": 51
+        },
+        {
+          "code": "CFDI33150",
+          "field": "Descuento",
+          "sheet": "Errores_CFDI33",
+          "row": 52
+        },
+        {
+          "code": "CFDI33151",
+          "field": "Descuento",
+          "sheet": "Errores_CFDI33",
+          "row": 53
+        },
+        {
+          "code": "CFDI33152",
+          "field": "Impuestos",
+          "sheet": "Errores_CFDI33",
+          "row": 54
+        },
+        {
+          "code": "CFDI33153",
+          "field": "Base",
+          "sheet": "Errores_CFDI33",
+          "row": 55
+        },
+        {
+          "code": "CFDI33154",
+          "field": "Base",
+          "sheet": "Errores_CFDI33",
+          "row": 56
+        },
+        {
+          "code": "CFDI33155",
+          "field": "Impuesto ",
+          "sheet": "Errores_CFDI33",
+          "row": 57
+        },
+        {
+          "code": "CFDI33156",
+          "field": "TipoFactor",
+          "sheet": "Errores_CFDI33",
+          "row": 58
+        },
+        {
+          "code": "CFDI33157",
+          "field": "TipoFactor",
+          "sheet": "Errores_CFDI33",
+          "row": 59
+        },
+        {
+          "code": "CFDI33158",
+          "field": "TipoFactor",
+          "sheet": "Errores_CFDI33",
+          "row": 60
+        },
+        {
+          "code": "CFDI33159",
+          "field": "TasaOCuota",
+          "sheet": "Errores_CFDI33",
+          "row": 61
+        },
+        {
+          "code": "CFDI33160",
+          "field": "Importe",
+          "sheet": "Errores_CFDI33",
+          "row": 62
+        },
+        {
+          "code": "CFDI33161",
+          "field": "Importe",
+          "sheet": "Errores_CFDI33",
+          "row": 63
+        },
+        {
+          "code": "CFDI33162",
+          "field": "Base",
+          "sheet": "Errores_CFDI33",
+          "row": 64
+        },
+        {
+          "code": "CFDI33163",
+          "field": "Base",
+          "sheet": "Errores_CFDI33",
+          "row": 65
+        },
+        {
+          "code": "CFDI33164",
+          "field": "Impuesto ",
+          "sheet": "Errores_CFDI33",
+          "row": 66
+        },
+        {
+          "code": "CFDI33165",
+          "field": "TipoFactor",
+          "sheet": "Errores_CFDI33",
+          "row": 67
+        },
+        {
+          "code": "CFDI33166",
+          "field": "TipoFactor",
+          "sheet": "Errores_CFDI33",
+          "row": 68
+        },
+        {
+          "code": "CFDI33167",
+          "field": "TasaOCuota",
+          "sheet": "Errores_CFDI33",
+          "row": 69
+        },
+        {
+          "code": "CFDI33168",
+          "field": "Importe",
+          "sheet": "Errores_CFDI33",
+          "row": 70
+        },
+        {
+          "code": "CFDI33169",
+          "field": "Importe",
+          "sheet": "Errores_CFDI33",
+          "row": 71
+        },
+        {
+          "code": "CFDI33170",
+          "field": "NumeroPedimento",
+          "sheet": "Errores_CFDI33",
+          "row": 72
+        },
+        {
+          "code": "CFDI33171",
+          "field": "NumeroPedimento",
+          "sheet": "Errores_CFDI33",
+          "row": 73
+        },
+        {
+          "code": "CFDI33172",
+          "field": "ClaveProdServ",
+          "sheet": "Errores_CFDI33",
+          "row": 74
+        },
+        {
+          "code": "CFDI33173",
+          "field": "ValorUnitario",
+          "sheet": "Errores_CFDI33",
+          "row": 75
+        },
+        {
+          "code": "CFDI33174",
+          "field": "ValorUnitario",
+          "sheet": "Errores_CFDI33",
+          "row": 76
+        },
+        {
+          "code": "CFDI33175",
+          "field": "Importe",
+          "sheet": "Errores_CFDI33",
+          "row": 77
+        },
+        {
+          "code": "CFDI33176",
+          "field": "Importe",
+          "sheet": "Errores_CFDI33",
+          "row": 78
+        },
+        {
+          "code": "CFDI33177",
+          "field": "NumeroPedimento",
+          "sheet": "Errores_CFDI33",
+          "row": 79
+        },
+        {
+          "code": "CFDI33178",
+          "field": "NumeroPedimento",
+          "sheet": "Errores_CFDI33",
+          "row": 80
+        },
+        {
+          "code": "CFDI33179",
+          "field": "Impuestos",
+          "sheet": "Errores_CFDI33",
+          "row": 81
+        },
+        {
+          "code": "CFDI33180",
+          "field": "TotalImpuestosRetenidos",
+          "sheet": "Errores_CFDI33",
+          "row": 82
+        },
+        {
+          "code": "CFDI33181",
+          "field": "TotalImpuestosRetenidos",
+          "sheet": "Errores_CFDI33",
+          "row": 83
+        },
+        {
+          "code": "CFDI33182",
+          "field": "TotalImpuestosTrasladados",
+          "sheet": "Errores_CFDI33",
+          "row": 84
+        },
+        {
+          "code": "CFDI33183",
+          "field": "TotalImpuestosTrasladados",
+          "sheet": "Errores_CFDI33",
+          "row": 85
+        },
+        {
+          "code": "CFDI33184",
+          "field": "Retenciones",
+          "sheet": "Errores_CFDI33",
+          "row": 86
+        },
+        {
+          "code": "CFDI33185",
+          "field": "Impuesto",
+          "sheet": "Errores_CFDI33",
+          "row": 87
+        },
+        {
+          "code": "CFDI33186",
+          "field": "Impuesto",
+          "sheet": "Errores_CFDI33",
+          "row": 88
+        },
+        {
+          "code": "CFDI33187",
+          "field": "Importe",
+          "sheet": "Errores_CFDI33",
+          "row": 89
+        },
+        {
+          "code": "CFDI33188",
+          "field": "Importe",
+          "sheet": "Errores_CFDI33",
+          "row": 90
+        },
+        {
+          "code": "CFDI33189",
+          "field": "Importe",
+          "sheet": "Errores_CFDI33",
+          "row": 91
+        },
+        {
+          "code": "CFDI33190",
+          "field": "Traslados",
+          "sheet": "Errores_CFDI33",
+          "row": 92
+        },
+        {
+          "code": "CFDI33191",
+          "field": "Impuesto",
+          "sheet": "Errores_CFDI33",
+          "row": 93
+        },
+        {
+          "code": "CFDI33192",
+          "field": "Impuesto",
+          "sheet": "Errores_CFDI33",
+          "row": 94
+        },
+        {
+          "code": "CFDI33193",
+          "field": "TasaOCuota",
+          "sheet": "Errores_CFDI33",
+          "row": 95
+        },
+        {
+          "code": "CFDI33194",
+          "field": "Importe",
+          "sheet": "Errores_CFDI33",
+          "row": 96
+        },
+        {
+          "code": "CFDI33195",
+          "field": "Importe",
+          "sheet": "Errores_CFDI33",
+          "row": 97
+        },
+        {
+          "code": "CFDI33196",
+          "field": "Error no identificado",
+          "sheet": "Errores_CFDI33",
+          "row": 98
+        }
+      ]
+    }
+  }
+}

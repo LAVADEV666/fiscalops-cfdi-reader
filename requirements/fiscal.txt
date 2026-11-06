@@ -1,0 +1,4 @@
+# Windows x64 / CPython 3.11; install into project .venv only.
+--index-url https://pypi.org/simple
+--only-binary=:all:
+lxml==6.1.3 --hash=sha256:7ae4949f212a53b007dbc355884fda122545c5764a54256c9217e419a62a6559
