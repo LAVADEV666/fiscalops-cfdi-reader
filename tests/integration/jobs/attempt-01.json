@@ -1,0 +1,29 @@
+{
+  "checks": [
+    {
+      "id": "real-window",
+      "expected": true,
+      "actual": true,
+      "result": "PASS"
+    },
+    {
+      "id": "directory-input-native-selection",
+      "expected": true,
+      "actual": true,
+      "result": "PASS"
+    },
+    {
+      "id": "directory-rfc-detected",
+      "expected": "AAA010101AAA",
+      "actual": "AAA010101AAA",
+      "result": "PASS"
+    }
+  ],
+  "dataset_size": 1000,
+  "fatal": "Timed out: FiscalOpsRuntime.state.busy && FiscalOpsRuntime.state.progress && FiscalOpsRuntime.state.progress.documents>5",
+  "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\sin_s\\OneDrive\\Documents\\apps\\FISCALOPS CFDI READER\\tests\\integration\\qt_jobs.py\", line 104, in <module>\n    wait('FiscalOpsRuntime.state.busy && FiscalOpsRuntime.state.progress && FiscalOpsRuntime.state.progress.documents>5')\n  File \"C:\\Users\\sin_s\\OneDrive\\Documents\\apps\\FISCALOPS CFDI READER\\tests\\integration\\qt_jobs.py\", line 59, in wait\n    raise RuntimeError('Timed out: '+code)\nRuntimeError: Timed out: FiscalOpsRuntime.state.busy && FiscalOpsRuntime.state.progress && FiscalOpsRuntime.state.progress.documents>5\n",
+  "state": "{\"mode\":\"decimal-worker\",\"busy\":false,\"dataset_id\":\"6d4f615859b24f66ba13281b5bf3485a\",\"documents\":1001,\"totals\":\"ready\",\"last_export\":null,\"progress\":null}",
+  "status": "✅ Proceso terminado. Reporte listo · 0 incidente(s) de lectura.",
+  "closed": true,
+  "worker_stopped": true
+}

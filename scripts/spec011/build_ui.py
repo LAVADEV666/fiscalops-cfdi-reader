@@ -10,6 +10,8 @@ EXPECTED = '33eeed2334a683b5360c2fc4f9cabc26885be66fef8714e4278f97235b8c373b'
 
 
 def build():
+    if (ROOT/'app/ui/native-integration.js').exists():
+        raise SystemExit('SPEC011 is a historical builder. Use scripts/integration/build_ui.py for the native worker frontend.')
     data = (ROOT / NAME).read_bytes()
     assert hashlib.sha256(data).hexdigest() == EXPECTED
     assert (ROOT / 'legacy' / NAME).read_bytes() == data

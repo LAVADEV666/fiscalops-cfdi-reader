@@ -1,0 +1,4 @@
+﻿"UUID","Estado SAT","Fecha de emisión","Tipo","Serie","Folio","RFC emisor","Nombre emisor","RFC receptor","Nombre receptor","Moneda","Subtotal","IVA trasladado","Retenciones","Total","Resultado de revisión"
+"","SIN METADATA","06/11/2026","I","","CASE-0","AAA010101AAA","EMPRESA SINTÉTICA ÁRBOL","BBB010101BB1","RECEPTOR SINTÉTICO","MXN","100","16","0","124","SIN DIFERENCIAS"
+"","SIN METADATA","06/11/2026","I","","CASE-1","AAA010101AAA","EMPRESA SINTÉTICA ÁRBOL","BBB010101BB1","RECEPTOR SINTÉTICO","MXN","100","16","0","119","SIN DIFERENCIAS"
+"","SIN METADATA","06/11/2026","I","","CASE-2","AAA010101AAA","EMPRESA SINTÉTICA ÁRBOL","BBB010101BB1","RECEPTOR SINTÉTICO","MXN","100","0","10","90","SIN DIFERENCIAS"

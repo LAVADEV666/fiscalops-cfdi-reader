@@ -1,5 +1,7 @@
 # Contrato del motor fiscal independiente
 
+La API/CLI de este documento se mantiene. El adaptador nativo Qt posterior y sus jobs/reportes/exportaciones se documentan en [18_CONTRATO_QT_WORKERS](18_CONTRATO_QT_WORKERS.md); la ausencia de integración descrita al final corresponde al hito independiente anterior.
+
 ## Uso inmediato
 
 Desde la raíz del proyecto, con CPython3.11 x64 y `.venv`:

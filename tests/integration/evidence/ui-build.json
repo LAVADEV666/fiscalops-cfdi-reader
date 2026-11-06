@@ -1,0 +1,16 @@
+{
+  "previous_commit": "7846ebe98f0a09cecf83915c8102a6d46ce0ca1d",
+  "original_legacy_unchanged": true,
+  "html_css_unchanged": true,
+  "base_runtime_sha256": "26ddbd3a9d7cd6082a4963ef587cee8f2f73226be0e9e3590d0dbd3b55673e4f",
+  "files": {
+    "column-editor.js": "15365226020818978dd4eb2511214f503dd1ecafb4bad3d812b7d0c2ad4a9b80",
+    "desktop-bridge.js": "1c5bfd18391b634cdaff06d06af71925b540011b130a5bbab857e44789b1a427",
+    "index.html": "3f9a8812f84201ec3c130c1bc3a87151a0b8e69d7391b0e1513ff5f1ef12dadb",
+    "legacy-runtime.js": "d8fe28a48e3b276d4c8d74d84b39b4e16e45215996583ea740fb9d55cd12515b",
+    "native-integration.js": "45ea523e3a5360849938ea14b02b21e0f9302331f7a519b150a115d982915046",
+    "v20-runtime.js": "2ff2813c438434b3b65059a64fe119276b31c777c6948fce456020de11ae2b84"
+  },
+  "native_mode": "fiscal Python worker; JavaScript fiscal entry points fail closed",
+  "browser_mode": "Processing/export blocked without Qt; legacy execution requires explicit QA-server visual-reference flag"
+}

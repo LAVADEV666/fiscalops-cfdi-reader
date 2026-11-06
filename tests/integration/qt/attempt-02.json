@@ -1,0 +1,46 @@
+{
+  "checks": [
+    {
+      "id": "native-window-exposed",
+      "expected": true,
+      "actual": true,
+      "result": "PASS"
+    },
+    {
+      "id": "windows-platform",
+      "expected": "windows",
+      "actual": "windows",
+      "result": "PASS"
+    },
+    {
+      "id": "native-engine-advertised",
+      "expected": "python-decimal-worker",
+      "actual": "python-decimal-worker",
+      "result": "PASS"
+    },
+    {
+      "id": "runtime-native-mode",
+      "expected": "decimal-worker",
+      "actual": "decimal-worker",
+      "result": "PASS"
+    }
+  ],
+  "qt": "6.12.0",
+  "captures": [],
+  "platform": "windows",
+  "native_win_id": 18747872,
+  "fatal": "Timed out: FiscalOpsRuntime.state.documents===3 && !FiscalOpsRuntime.state.busy && !!document.querySelector(\"#s3.on\")",
+  "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\sin_s\\OneDrive\\Documents\\apps\\FISCALOPS CFDI READER\\tests\\integration\\qt_smoke.py\", line 99, in <module>\n    wait('FiscalOpsRuntime.state.documents===3 && !FiscalOpsRuntime.state.busy && !!document.querySelector(\"#s3.on\")')\n  File \"C:\\Users\\sin_s\\OneDrive\\Documents\\apps\\FISCALOPS CFDI READER\\tests\\integration\\qt_smoke.py\", line 55, in wait\n    raise RuntimeError('Timed out: '+expression)\nRuntimeError: Timed out: FiscalOpsRuntime.state.documents===3 && !FiscalOpsRuntime.state.busy && !!document.querySelector(\"#s3.on\")\n",
+  "failure_state": "{\"state\":{\"mode\":\"decimal-worker\",\"busy\":false,\"dataset_id\":null,\"documents\":0,\"totals\":\"empty\",\"last_export\":null},\"status\":\"✅ Proceso terminado. Reporte listo · 0 incidente(s) de lectura.\",\"files\":\"p0_iva_ieps_40.xml1 KBp0_local_once_40.xml1 KBp0_isr_retention_40.xml1 KB\",\"processDisabled\":false}",
+  "console": [
+    {
+      "level": "JavaScriptConsoleMessageLevel.ErrorMessageLevel",
+      "message": "Uncaught ReferenceError: sumNodes is not defined",
+      "line": 782
+    }
+  ],
+  "pending": [],
+  "worker_thread_ids": [],
+  "closed": true,
+  "worker_stopped": true
+}

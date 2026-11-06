@@ -88,8 +88,9 @@ def render():
     for version, data in catalogs['versions'].items():
         lines.append(f'- CFDI{version}: {len(data["currencies"])} monedas, {len(data["rates"])} filas de tasas/cuotas y {len(data["rules"])} referencias de códigos de la matriz. '
                      'Fila y hoja oficiales retenidas en `catalogs.json`; hash del XLS de origen y del JSON derivado comprobados.')
-    lines += ['', 'Pendientes: historia completa de catálogos, todos los catálogos/condicionales SAT ajenos al alcance, datos de contribuyentes, '
-              'firmas/estatus externo, REP/nómina/CP, ZIP seguro, SQLite/caché, integración Qt con worker y sustitución de cálculos/reportes heredados. '
+    lines += ['', 'La integración Qt con worker y sustitución del flujo nativo se entrega en docs/17_INTEGRACION_QT_WORKERS_REPORT.md; no amplía la cobertura normativa de estas reglas.', '',
+              'Pendientes: historia completa de catálogos, todos los catálogos/condicionales SAT ajenos al alcance, datos de contribuyentes, '
+              'firmas/estatus externo, REP/nómina/CP y SQLite/caché. ZIP tiene controles de integración documentados en18, sin certificación exhaustiva. '
               'Los P0 Z03/C01 y los P0 fiscales del flujo legado no se declaran cerrados por este módulo.', '']
     (ROOT/'docs/06_MATRIZ_NORMATIVA_SAT.md').write_text('\n'.join(lines), encoding='utf-8')
     print('Normative matrix rendered from 16 verified sources and actual tests')

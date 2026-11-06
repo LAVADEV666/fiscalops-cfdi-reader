@@ -1,0 +1,3 @@
+# Current desktop: frozen Qt wheels plus the Decimal/XML runtime.
+-r desktop-spec011.txt
+-r fiscal.txt

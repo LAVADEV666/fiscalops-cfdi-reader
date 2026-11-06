@@ -1,0 +1,181 @@
+{
+  "checks": [
+    {
+      "id": "native-window-exposed",
+      "expected": true,
+      "actual": true,
+      "result": "PASS"
+    },
+    {
+      "id": "windows-platform",
+      "expected": "windows",
+      "actual": "windows",
+      "result": "PASS"
+    },
+    {
+      "id": "native-engine-advertised",
+      "expected": "python-decimal-worker",
+      "actual": "python-decimal-worker",
+      "result": "PASS"
+    },
+    {
+      "id": "runtime-native-mode",
+      "expected": "decimal-worker",
+      "actual": "decimal-worker",
+      "result": "PASS"
+    },
+    {
+      "id": "three-documents",
+      "expected": 3,
+      "actual": 3.0,
+      "result": "PASS"
+    },
+    {
+      "id": "native-import-off-gui-thread",
+      "expected": true,
+      "actual": true,
+      "result": "PASS"
+    },
+    {
+      "id": "gui-heartbeat-during-import",
+      "expected": true,
+      "actual": true,
+      "result": "PASS"
+    },
+    {
+      "id": "iva-not-federal-aggregate",
+      "expected": "$16.00",
+      "actual": "$16.00",
+      "result": "PASS"
+    },
+    {
+      "id": "decimal-total-333",
+      "expected": true,
+      "actual": true,
+      "result": "PASS"
+    },
+    {
+      "id": "decimal-iva-32",
+      "expected": true,
+      "actual": true,
+      "result": "PASS"
+    },
+    {
+      "id": "visor-five-tabs",
+      "expected": 5,
+      "actual": 5.0,
+      "result": "PASS"
+    },
+    {
+      "id": "visor-iva-correct",
+      "expected": true,
+      "actual": true,
+      "result": "PASS"
+    },
+    {
+      "id": "visor-tab-resumen",
+      "expected": true,
+      "actual": true,
+      "result": "PASS"
+    },
+    {
+      "id": "visor-tab-impuestos",
+      "expected": true,
+      "actual": true,
+      "result": "PASS"
+    },
+    {
+      "id": "visor-tab-conceptos",
+      "expected": true,
+      "actual": true,
+      "result": "PASS"
+    },
+    {
+      "id": "visor-tab-datos",
+      "expected": true,
+      "actual": true,
+      "result": "PASS"
+    },
+    {
+      "id": "visor-tab-xml",
+      "expected": true,
+      "actual": true,
+      "result": "PASS"
+    },
+    {
+      "id": "viewport-1366",
+      "expected": "1366x768",
+      "actual": "1366x768",
+      "result": "PASS"
+    },
+    {
+      "id": "viewport-1600",
+      "expected": "1600x900",
+      "actual": "1600x900",
+      "result": "PASS"
+    },
+    {
+      "id": "viewport-1920",
+      "expected": "1920x1080",
+      "actual": "1920x1080",
+      "result": "PASS"
+    },
+    {
+      "id": "editor-focus",
+      "expected": "colSearch",
+      "actual": "colSearch",
+      "result": "PASS"
+    },
+    {
+      "id": "editor-escape-closes",
+      "expected": false,
+      "actual": false,
+      "result": "PASS"
+    },
+    {
+      "id": "editor-restores-invoker",
+      "expected": "editcols",
+      "actual": "editcols",
+      "result": "PASS"
+    },
+    {
+      "id": "xlsx-eight-sheets",
+      "expected": 8,
+      "actual": 1.0,
+      "result": "FAIL"
+    },
+    {
+      "id": "xlsx-three-rows",
+      "expected": 3,
+      "actual": 3.0,
+      "result": "PASS"
+    },
+    {
+      "id": "xlsx-saved-through-native-dialog",
+      "expected": true,
+      "actual": true,
+      "result": "PASS"
+    },
+    {
+      "id": "no-uncaught-javascript",
+      "expected": false,
+      "actual": false,
+      "result": "PASS"
+    }
+  ],
+  "qt": "6.12.0",
+  "captures": [
+    "tests\\integration\\qt\\report_1366x768.png",
+    "tests\\integration\\qt\\report_1600x900.png",
+    "tests\\integration\\qt\\report_1920x1080.png"
+  ],
+  "platform": "windows",
+  "native_win_id": 61866456,
+  "gui_thread_id": 20464,
+  "worker_thread_ids": [
+    37808
+  ],
+  "console": [],
+  "closed": true,
+  "worker_stopped": true
+}

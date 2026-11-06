@@ -4,13 +4,16 @@ import argparse
 import hashlib
 import json
 import sys
+import threading
 
-from PySide6.QtCore import QFile, QIODevice, QObject, QUrl, Slot
+from PySide6.QtCore import QFile, QIODevice, QObject, QUrl, Slot, Qt
 from PySide6.QtWidgets import QApplication, QMainWindow
-from PySide6.QtWebEngineCore import QWebEnginePage, QWebEngineProfile, QWebEngineScript, QWebEngineUrlRequestInterceptor
+from PySide6.QtWebEngineCore import QWebEnginePage, QWebEngineProfile, QWebEngineScript, QWebEngineUrlRequestInterceptor, QWebEngineDownloadRequest
 from PySide6.QtWebEngineWidgets import QWebEngineView
 from PySide6.QtWebChannel import QWebChannel
 from app.resources import ROOT, ORIGINAL, EXPECTED, UI
+from app.desktop.fiscal_worker import FiscalBridge
+from PySide6.QtWidgets import QFileDialog
 
 ALLOWED_FILES = {ORIGINAL.resolve(), *(p.resolve() for p in UI.glob('*.js')), (UI/'index.html').resolve()}
 
@@ -22,11 +25,11 @@ def local_resource_allowed(url):
 
 
 class Diagnostics(QObject):
-    """No filesystem, SQL or fiscal capabilities exposed to the page."""
+    """Diagnostics only; the separate fiscal object accepts selected bytes, never paths."""
     @Slot(result=str)
     def describe(self):
-        return json.dumps({'protocol':'fiscalops.desktop/1', 'capabilities':['diagnostics.describe','diagnostics.ping'],
-                           'fiscal_engine':'legacy-javascript-unchanged', 'filesystem':'legacy-browser-flow'})
+        return json.dumps({'protocol':'fiscalops.desktop/2', 'capabilities':['diagnostics.describe','diagnostics.ping','fiscal.worker','fiscal.import','fiscal.export','fiscal.cancel'],
+                           'fiscal_engine':'python-decimal-worker', 'filesystem':'user-selected browser bytes; native save dialog'})
 
     @Slot(str, result=str)
     def ping(self, request_id):
@@ -82,6 +85,9 @@ class DesktopWindow(QMainWindow):
         self.channel = QWebChannel(self.web_page)
         self.diagnostics = Diagnostics(self.channel)
         self.channel.registerObject('desktop', self.diagnostics)
+        self.fiscal = FiscalBridge(self.channel)
+        self.channel.registerObject('fiscal', self.fiscal)
+        self.fiscal.thread.finished.connect(self._worker_stopped, Qt.ConnectionType.QueuedConnection)
         self.web_page.setWebChannel(self.channel)
         library = QFile(':/qtwebchannel/qwebchannel.js')
         if not library.open(QIODevice.OpenModeFlag.ReadOnly):
@@ -98,12 +104,57 @@ class DesktopWindow(QMainWindow):
         self.setCentralWidget(self.view)
         self.resize(width,height)
         self._closed = False
+        self._closing = False
+        self.save_picker = None  # Python-only test hook; no path is accepted from JavaScript.
+        self.active_downloads = set()
+        self.profile.downloadRequested.connect(self._download_requested)
         self.view.load(self.reference_url if reference else self.frontend_url)
 
     def closeEvent(self, event):
+        if self.active_downloads:
+            event.ignore()
+            self._closing = True
+            self.setEnabled(False)
+            return
+        if self.fiscal.thread.isRunning():
+            event.ignore()
+            self._closing = True
+            self.setEnabled(False)
+            self.view.stop()
+            self.fiscal.shutdown()
+            return
         self.view.stop()
         self._closed = True
         super().closeEvent(event)
+
+    @Slot()
+    def _worker_stopped(self):
+        self._close_callback_thread = threading.get_ident()
+        if self._closing:
+            self.close()
+
+    def _download_requested(self, request):
+        suggested = Path(request.suggestedFileName()).name
+        target = self.save_picker(suggested) if self.save_picker else QFileDialog.getSaveFileName(self, 'Guardar exportación FiscalOps', suggested)[0]
+        if not target:
+            request.cancel()
+            self.fiscal.downloadStatus.emit('cancelled')
+            return
+        path = Path(target)
+        request.setDownloadDirectory(str(path.parent))
+        request.setDownloadFileName(path.name)
+        self.active_downloads.add(request)
+        request.isFinishedChanged.connect(lambda: self._download_finished(request))
+        request.accept()
+
+    def _download_finished(self, request):
+        if not request.isFinished():
+            return
+        self.active_downloads.discard(request)
+        state = 'saved' if request.state() == QWebEngineDownloadRequest.DownloadState.DownloadCompleted else 'failed'
+        self.fiscal.downloadStatus.emit(state)
+        if self._closing and not self.active_downloads:
+            self.close()
 
 
 def main():

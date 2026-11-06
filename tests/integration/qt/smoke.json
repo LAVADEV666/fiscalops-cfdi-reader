@@ -1,0 +1,270 @@
+{
+  "checks": [
+    {
+      "id": "native-window-exposed",
+      "expected": true,
+      "actual": true,
+      "result": "PASS"
+    },
+    {
+      "id": "windows-platform",
+      "expected": "windows",
+      "actual": "windows",
+      "result": "PASS"
+    },
+    {
+      "id": "native-engine-advertised",
+      "expected": "python-decimal-worker",
+      "actual": "python-decimal-worker",
+      "result": "PASS"
+    },
+    {
+      "id": "runtime-native-mode",
+      "expected": "decimal-worker",
+      "actual": "decimal-worker",
+      "result": "PASS"
+    },
+    {
+      "id": "three-documents",
+      "expected": 3,
+      "actual": 3.0,
+      "result": "PASS"
+    },
+    {
+      "id": "native-import-off-gui-thread",
+      "expected": true,
+      "actual": true,
+      "result": "PASS"
+    },
+    {
+      "id": "gui-heartbeat-during-import",
+      "expected": true,
+      "actual": true,
+      "result": "PASS"
+    },
+    {
+      "id": "iva-not-federal-aggregate",
+      "expected": "$16.00",
+      "actual": "$16.00",
+      "result": "PASS"
+    },
+    {
+      "id": "decimal-total-333",
+      "expected": true,
+      "actual": true,
+      "result": "PASS"
+    },
+    {
+      "id": "decimal-iva-32",
+      "expected": true,
+      "actual": true,
+      "result": "PASS"
+    },
+    {
+      "id": "visor-five-tabs",
+      "expected": 5,
+      "actual": 5.0,
+      "result": "PASS"
+    },
+    {
+      "id": "visor-iva-correct",
+      "expected": true,
+      "actual": true,
+      "result": "PASS"
+    },
+    {
+      "id": "visor-tab-resumen",
+      "expected": true,
+      "actual": true,
+      "result": "PASS"
+    },
+    {
+      "id": "visor-tab-impuestos",
+      "expected": true,
+      "actual": true,
+      "result": "PASS"
+    },
+    {
+      "id": "visor-tab-conceptos",
+      "expected": true,
+      "actual": true,
+      "result": "PASS"
+    },
+    {
+      "id": "visor-tab-datos",
+      "expected": true,
+      "actual": true,
+      "result": "PASS"
+    },
+    {
+      "id": "visor-tab-xml",
+      "expected": true,
+      "actual": true,
+      "result": "PASS"
+    },
+    {
+      "id": "viewport-1366",
+      "expected": "1366x768",
+      "actual": "1366x768",
+      "result": "PASS"
+    },
+    {
+      "id": "viewport-1600",
+      "expected": "1600x900",
+      "actual": "1600x900",
+      "result": "PASS"
+    },
+    {
+      "id": "viewport-1920",
+      "expected": "1920x1080",
+      "actual": "1920x1080",
+      "result": "PASS"
+    },
+    {
+      "id": "editor-focus",
+      "expected": "colSearch",
+      "actual": "colSearch",
+      "result": "PASS"
+    },
+    {
+      "id": "editor-escape-closes",
+      "expected": false,
+      "actual": false,
+      "result": "PASS"
+    },
+    {
+      "id": "editor-restores-invoker",
+      "expected": "editcols",
+      "actual": "editcols",
+      "result": "PASS"
+    },
+    {
+      "id": "analysis-seven-selected",
+      "expected": 7,
+      "actual": 7.0,
+      "result": "PASS"
+    },
+    {
+      "id": "xlsx-eight-sheets",
+      "expected": 8,
+      "actual": 8.0,
+      "result": "PASS"
+    },
+    {
+      "id": "xlsx-three-rows",
+      "expected": 3,
+      "actual": 3.0,
+      "result": "PASS"
+    },
+    {
+      "id": "xlsx-saved-through-native-dialog",
+      "expected": true,
+      "actual": true,
+      "result": "PASS"
+    },
+    {
+      "id": "xlsx-download-completed",
+      "expected": "DownloadCompleted",
+      "actual": "DownloadCompleted",
+      "result": "PASS"
+    },
+    {
+      "id": "all-downloads-completed",
+      "expected": true,
+      "actual": true,
+      "result": "PASS"
+    },
+    {
+      "id": "filter-one-document",
+      "expected": true,
+      "actual": true,
+      "result": "PASS"
+    },
+    {
+      "id": "filtered-export-one-row",
+      "expected": 1,
+      "actual": 1.0,
+      "result": "PASS"
+    },
+    {
+      "id": "filtered-download-completed",
+      "expected": "DownloadCompleted",
+      "actual": "DownloadCompleted",
+      "result": "PASS"
+    },
+    {
+      "id": "no-uncaught-javascript",
+      "expected": false,
+      "actual": false,
+      "result": "PASS"
+    },
+    {
+      "id": "close-callback-on-gui-thread",
+      "expected": true,
+      "actual": true,
+      "result": "PASS"
+    }
+  ],
+  "qt": "6.12.0",
+  "captures": [
+    "tests\\integration\\qt\\report_1366x768.png",
+    "tests\\integration\\qt\\report_1600x900.png",
+    "tests\\integration\\qt\\report_1920x1080.png"
+  ],
+  "source_sha256": {
+    "app/desktop/exports.py": "7d23a2070fb96438fb22f073fad9fff952f3f26a036f0f716cf2204eee4019e3",
+    "app/desktop/fiscal_worker.py": "e75c26eacee3828a3ab10bc391ab1a3f753132a23fb96feb0042426f9f5d57f8",
+    "app/desktop/imports.py": "03919021c846bbd6a20fd627a14f35b20130b055f2e85605c2ada9bff70369e1",
+    "app/desktop/main.py": "77f2c6af0c97306898b8cdbbae22fc9c102d94ebbb4dbad1680a453f4c861665",
+    "app/desktop/reports.py": "c68296b1944c4f47f5cfddca8c32664e5dd006b29d66a9675614ea2d7539c7ae",
+    "app/fiscal/__init__.py": "efb950d7ff882e5c9fa25a6645ef6b5405b270b104215534062d7d75d120817c",
+    "app/fiscal/__main__.py": "f5396658524f8da3457faccd7ddced0794738367754f6749737b66c9cb590595",
+    "app/fiscal/calculations.py": "3392a51d078f914d8c25202605c7d98115497101e09562e1d1bc941e5f6f1e3f",
+    "app/fiscal/models.py": "c88d6a6576e674348484a88be3653e6c96d994375e486529f96120f3ec713a0b",
+    "app/fiscal/numbers.py": "f072b41664b8224fca75c3f34a3aee92bd4b75bb0877c0f402c20db8d702d4c1",
+    "app/fiscal/reader.py": "e5f226ecd5ce01ebf678e48308b755c284e1b6f2f6fa7712b0230323cb335ec2",
+    "app/fiscal/rules.py": "b071eae4837af1b55b1e5262842b31580eba27d1af56735ea46e2d019d18c832",
+    "app/fiscal/security.py": "6255fd3343362eb787d6be16d8666081d82038b0fee1419ce4527df802c5eefd",
+    "app/fiscal/service.py": "d649280e9a0297f81cf95c3f1f3f3e11709c0985f1bd2fc8b39a73854fc7018b",
+    "app/fiscal/sources.py": "05592216721e10ffb476c0ed93e8b26f446fa209a5bb5576969d7cf2d61a9f81",
+    "app/fiscal/ui_adapter.py": "f7ce006b32fe8eaa702ef6764191660527e86b1636a18cb87347d5310db851df",
+    "app/ui/column-editor.js": "15365226020818978dd4eb2511214f503dd1ecafb4bad3d812b7d0c2ad4a9b80",
+    "app/ui/desktop-bridge.js": "1c5bfd18391b634cdaff06d06af71925b540011b130a5bbab857e44789b1a427",
+    "app/ui/index.html": "3f9a8812f84201ec3c130c1bc3a87151a0b8e69d7391b0e1513ff5f1ef12dadb",
+    "app/ui/legacy-runtime.js": "d8fe28a48e3b276d4c8d74d84b39b4e16e45215996583ea740fb9d55cd12515b",
+    "app/ui/native-integration.js": "45ea523e3a5360849938ea14b02b21e0f9302331f7a519b150a115d982915046",
+    "app/ui/v20-runtime.js": "2ff2813c438434b3b65059a64fe119276b31c777c6948fce456020de11ae2b84"
+  },
+  "platform": "windows",
+  "native_win_id": 2429884,
+  "screen": {
+    "logical_dpi": 96.0,
+    "device_pixel_ratio": 1.0,
+    "geometry": [
+      1920,
+      1080
+    ]
+  },
+  "selected_analysis_ids": [
+    "resumen",
+    "monedas",
+    "mensual",
+    "contrapartes",
+    "pagos",
+    "impuestos",
+    "conceptos"
+  ],
+  "download_files": [
+    "C:\\Users\\sin_s\\OneDrive\\Documents\\apps\\FISCALOPS CFDI READER\\tests\\integration\\qt\\FiscalOps_summary.xlsx",
+    "C:\\Users\\sin_s\\OneDrive\\Documents\\apps\\FISCALOPS CFDI READER\\tests\\integration\\qt\\FiscalOps_summary.csv",
+    "C:\\Users\\sin_s\\OneDrive\\Documents\\apps\\FISCALOPS CFDI READER\\tests\\integration\\qt\\FiscalOps_summary.txt"
+  ],
+  "filtered_download_file": "C:\\Users\\sin_s\\OneDrive\\Documents\\apps\\FISCALOPS CFDI READER\\tests\\integration\\qt\\filtered_FiscalOps_summary.csv",
+  "gui_thread_id": 40380,
+  "worker_thread_ids": [
+    29416
+  ],
+  "console": [],
+  "closed": true,
+  "worker_stopped": true
+}

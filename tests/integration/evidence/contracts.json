@@ -1,0 +1,233 @@
+{
+  "success": true,
+  "tests": 28,
+  "failures": 0,
+  "errors": 0,
+  "elapsed_seconds": 15.656000000002678,
+  "source_sha256": {
+    "app/desktop/exports.py": "7d23a2070fb96438fb22f073fad9fff952f3f26a036f0f716cf2204eee4019e3",
+    "app/desktop/fiscal_worker.py": "e75c26eacee3828a3ab10bc391ab1a3f753132a23fb96feb0042426f9f5d57f8",
+    "app/desktop/imports.py": "03919021c846bbd6a20fd627a14f35b20130b055f2e85605c2ada9bff70369e1",
+    "app/desktop/main.py": "77f2c6af0c97306898b8cdbbae22fc9c102d94ebbb4dbad1680a453f4c861665",
+    "app/desktop/reports.py": "c68296b1944c4f47f5cfddca8c32664e5dd006b29d66a9675614ea2d7539c7ae",
+    "app/fiscal/__init__.py": "efb950d7ff882e5c9fa25a6645ef6b5405b270b104215534062d7d75d120817c",
+    "app/fiscal/__main__.py": "f5396658524f8da3457faccd7ddced0794738367754f6749737b66c9cb590595",
+    "app/fiscal/calculations.py": "3392a51d078f914d8c25202605c7d98115497101e09562e1d1bc941e5f6f1e3f",
+    "app/fiscal/models.py": "c88d6a6576e674348484a88be3653e6c96d994375e486529f96120f3ec713a0b",
+    "app/fiscal/numbers.py": "f072b41664b8224fca75c3f34a3aee92bd4b75bb0877c0f402c20db8d702d4c1",
+    "app/fiscal/reader.py": "e5f226ecd5ce01ebf678e48308b755c284e1b6f2f6fa7712b0230323cb335ec2",
+    "app/fiscal/rules.py": "b071eae4837af1b55b1e5262842b31580eba27d1af56735ea46e2d019d18c832",
+    "app/fiscal/security.py": "6255fd3343362eb787d6be16d8666081d82038b0fee1419ce4527df802c5eefd",
+    "app/fiscal/service.py": "d649280e9a0297f81cf95c3f1f3f3e11709c0985f1bd2fc8b39a73854fc7018b",
+    "app/fiscal/sources.py": "05592216721e10ffb476c0ed93e8b26f446fa209a5bb5576969d7cf2d61a9f81",
+    "app/fiscal/ui_adapter.py": "f7ce006b32fe8eaa702ef6764191660527e86b1636a18cb87347d5310db851df",
+    "app/ui/column-editor.js": "15365226020818978dd4eb2511214f503dd1ecafb4bad3d812b7d0c2ad4a9b80",
+    "app/ui/desktop-bridge.js": "1c5bfd18391b634cdaff06d06af71925b540011b130a5bbab857e44789b1a427",
+    "app/ui/index.html": "3f9a8812f84201ec3c130c1bc3a87151a0b8e69d7391b0e1513ff5f1ef12dadb",
+    "app/ui/legacy-runtime.js": "d8fe28a48e3b276d4c8d74d84b39b4e16e45215996583ea740fb9d55cd12515b",
+    "app/ui/native-integration.js": "45ea523e3a5360849938ea14b02b21e0f9302331f7a519b150a115d982915046",
+    "app/ui/v20-runtime.js": "2ff2813c438434b3b65059a64fe119276b31c777c6948fce456020de11ae2b84"
+  },
+  "cases": [
+    {
+      "id": "test_contract.NativeContractTests.test_absent_and_invalid_not_zero_in_ui_or_aggregate",
+      "status": "pass"
+    },
+    {
+      "id": "test_contract.NativeContractTests.test_all_report_keys_are_usable_and_identity_stable (report='summary')",
+      "status": "pass"
+    },
+    {
+      "id": "test_contract.NativeContractTests.test_all_report_keys_are_usable_and_identity_stable (report='payrollPerceptions')",
+      "status": "pass"
+    },
+    {
+      "id": "test_contract.NativeContractTests.test_all_report_keys_are_usable_and_identity_stable (report='locations')",
+      "status": "pass"
+    },
+    {
+      "id": "test_contract.NativeContractTests.test_all_report_keys_are_usable_and_identity_stable (report='relations')",
+      "status": "pass"
+    },
+    {
+      "id": "test_contract.NativeContractTests.test_all_report_keys_are_usable_and_identity_stable (report='conceptTaxes')",
+      "status": "pass"
+    },
+    {
+      "id": "test_contract.NativeContractTests.test_all_report_keys_are_usable_and_identity_stable (report='duplicates')",
+      "status": "pass"
+    },
+    {
+      "id": "test_contract.NativeContractTests.test_all_report_keys_are_usable_and_identity_stable (report='readErrors')",
+      "status": "pass"
+    },
+    {
+      "id": "test_contract.NativeContractTests.test_all_report_keys_are_usable_and_identity_stable (report='transportFigures')",
+      "status": "pass"
+    },
+    {
+      "id": "test_contract.NativeContractTests.test_all_report_keys_are_usable_and_identity_stable (report='payrollDeductions')",
+      "status": "pass"
+    },
+    {
+      "id": "test_contract.NativeContractTests.test_all_report_keys_are_usable_and_identity_stable (report='payrollOvertime')",
+      "status": "pass"
+    },
+    {
+      "id": "test_contract.NativeContractTests.test_all_report_keys_are_usable_and_identity_stable (report='goods')",
+      "status": "pass"
+    },
+    {
+      "id": "test_contract.NativeContractTests.test_all_report_keys_are_usable_and_identity_stable (report='payrollOtherPayments')",
+      "status": "pass"
+    },
+    {
+      "id": "test_contract.NativeContractTests.test_all_report_keys_are_usable_and_identity_stable (report='findings')",
+      "status": "pass"
+    },
+    {
+      "id": "test_contract.NativeContractTests.test_all_report_keys_are_usable_and_identity_stable (report='missingMetadata')",
+      "status": "pass"
+    },
+    {
+      "id": "test_contract.NativeContractTests.test_all_report_keys_are_usable_and_identity_stable (report='payments')",
+      "status": "pass"
+    },
+    {
+      "id": "test_contract.NativeContractTests.test_all_report_keys_are_usable_and_identity_stable (report='concepts')",
+      "status": "pass"
+    },
+    {
+      "id": "test_contract.NativeContractTests.test_all_report_keys_are_usable_and_identity_stable (report='globalTaxes')",
+      "status": "pass"
+    },
+    {
+      "id": "test_contract.NativeContractTests.test_all_report_keys_are_usable_and_identity_stable (report='payrollIncapacities')",
+      "status": "pass"
+    },
+    {
+      "id": "test_contract.NativeContractTests.test_all_report_keys_are_usable_and_identity_stable (report='complements')",
+      "status": "pass"
+    },
+    {
+      "id": "test_contract.NativeContractTests.test_all_report_keys_are_usable_and_identity_stable (report='canceled')",
+      "status": "pass"
+    },
+    {
+      "id": "test_contract.NativeContractTests.test_all_report_keys_are_usable_and_identity_stable (report='paymentDocs')",
+      "status": "pass"
+    },
+    {
+      "id": "test_contract.NativeContractTests.test_all_report_keys_are_usable_and_identity_stable (report='paymentTaxes')",
+      "status": "pass"
+    },
+    {
+      "id": "test_contract.NativeContractTests.test_all_report_keys_are_usable_and_identity_stable",
+      "status": "pass"
+    },
+    {
+      "id": "test_contract.NativeContractTests.test_all_seven_analysis_sheets_use_exact_decimals",
+      "status": "pass"
+    },
+    {
+      "id": "test_contract.NativeContractTests.test_cancel_preserves_committed_dataset",
+      "status": "pass"
+    },
+    {
+      "id": "test_contract.NativeContractTests.test_carta_porte_reports_preserved_without_certifying_rules",
+      "status": "pass"
+    },
+    {
+      "id": "test_contract.NativeContractTests.test_csv_txt_zero_null_and_formula_safety",
+      "status": "pass"
+    },
+    {
+      "id": "test_contract.NativeContractTests.test_display_rounding_does_not_depend_on_global_context",
+      "status": "pass"
+    },
+    {
+      "id": "test_contract.NativeContractTests.test_exempt_zero_distinct_in_all_columns",
+      "status": "pass"
+    },
+    {
+      "id": "test_contract.NativeContractTests.test_export_order_and_columns_share_selection",
+      "status": "pass"
+    },
+    {
+      "id": "test_contract.NativeContractTests.test_export_rejects_xml_controls_instead_of_corrupting_xlsx",
+      "status": "pass"
+    },
+    {
+      "id": "test_contract.NativeContractTests.test_group_rounding_exact_after_native_projection",
+      "status": "pass"
+    },
+    {
+      "id": "test_contract.NativeContractTests.test_import_session_limits_fail_without_replacing_previous_report",
+      "status": "pass"
+    },
+    {
+      "id": "test_contract.NativeContractTests.test_large_excel_amount_remains_exact_text",
+      "status": "pass"
+    },
+    {
+      "id": "test_contract.NativeContractTests.test_large_transport_pages_keep_all_rows_and_incidents_once",
+      "status": "pass"
+    },
+    {
+      "id": "test_contract.NativeContractTests.test_metadata_conflict_and_duplicate_rows_are_not_lost",
+      "status": "pass"
+    },
+    {
+      "id": "test_contract.NativeContractTests.test_multiple_currencies_not_combined",
+      "status": "pass"
+    },
+    {
+      "id": "test_contract.NativeContractTests.test_namespace_safe_unknown_complement_not_mistaken_for_tax",
+      "status": "pass"
+    },
+    {
+      "id": "test_contract.NativeContractTests.test_p0_summary_details_and_single_source",
+      "status": "pass"
+    },
+    {
+      "id": "test_contract.NativeContractTests.test_payroll_all_five_reports_and_decimal_perception",
+      "status": "pass"
+    },
+    {
+      "id": "test_contract.NativeContractTests.test_prepared_rows_not_activated_until_commit",
+      "status": "pass"
+    },
+    {
+      "id": "test_contract.NativeContractTests.test_rep_multiple_payment_document_and_tax_reports_preserved",
+      "status": "pass"
+    },
+    {
+      "id": "test_contract.NativeContractTests.test_report_export_cannot_accept_forged_or_stale_rows",
+      "status": "pass"
+    },
+    {
+      "id": "test_contract.NativeContractTests.test_unknown_namespace_cannot_impersonate_payments",
+      "status": "pass"
+    },
+    {
+      "id": "test_contract.NativeContractTests.test_utf16_and_latin1_preserve_names_and_bytes",
+      "status": "pass"
+    },
+    {
+      "id": "test_contract.NativeContractTests.test_webchannel_exports_only_the_three_intended_slots",
+      "status": "pass"
+    },
+    {
+      "id": "test_contract.NativeContractTests.test_xml_dtd_failure_is_incident_and_next_file_still_imports",
+      "status": "pass"
+    },
+    {
+      "id": "test_contract.NativeContractTests.test_zip_crc_rejected_and_valid_entries_accounted",
+      "status": "pass"
+    },
+    {
+      "id": "test_contract.NativeContractTests.test_zip_limits_paths_methods_and_no_extraction",
+      "status": "pass"
+    }
+  ]
+}

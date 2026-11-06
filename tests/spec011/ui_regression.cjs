@@ -5,7 +5,7 @@ const args=process.argv.slice(2),opt=(name,fallback)=>args.includes(name)?args[a
 const modules=opt('--modules',process.env.FISCALOPS_NODE_MODULES);
 const {chromium}=require(modules?path.join(modules,'playwright'):'playwright');
 const base=opt('--url',JSON.parse(fs.readFileSync(path.join(root,'tests/spec011/evidence/server.json'),'utf8')).url);
-const out=path.join(root,'tests/spec011/targeted');fs.mkdirSync(out,{recursive:true});
+const out=path.resolve(root,opt('--output','tests/spec011/targeted'));if(!out.startsWith(root+path.sep))throw Error('Evidence outside workspace');fs.mkdirSync(out,{recursive:true});
 const report={before:[],after:[],console:[],export:null};
 function save(){fs.writeFileSync(path.join(out,'results.json'),JSON.stringify(report,null,2))}
 async function record(list,id,expected,run){try{const actual=await run();list.push({id,expected,actual,result:JSON.stringify(expected)===JSON.stringify(actual)?'PASS':'FAIL'})}catch(error){list.push({id,expected,error:String(error),result:'ERROR'})}save()}

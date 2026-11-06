@@ -1,6 +1,7 @@
 """Standard-library test runner with machine-readable cases and nonzero failure status."""
 import json
 import hashlib
+import argparse
 from pathlib import Path
 import platform
 import sys
@@ -37,6 +38,9 @@ class RecordedResult(unittest.TextTestResult):
 
 
 def main():
+    parser=argparse.ArgumentParser()
+    parser.add_argument('--output',default='tests/fiscal/evidence/tests.json')
+    args=parser.parse_args()
     suite = unittest.defaultTestLoader.discover(str(ROOT/'tests/fiscal'), pattern='test_*.py')
     started = time.perf_counter()
     result = unittest.TextTestRunner(verbosity=2, resultclass=RecordedResult).run(suite)
@@ -47,7 +51,11 @@ def main():
                 'lxml': etree.LXML_VERSION, 'libxml2': etree.LIBXML_VERSION, 'expat': expat.EXPAT_VERSION,
                 'tests_run': result.testsRun, 'failures': len(result.failures), 'errors': len(result.errors),
                 'success': result.wasSuccessful(), 'elapsed_seconds': time.perf_counter()-started, 'cases': result.records}
-    (ROOT/'tests/fiscal/evidence/tests.json').write_text(json.dumps(evidence, indent=2), encoding='utf-8')
+    destination=(ROOT/args.output).resolve()
+    if not destination.is_relative_to(ROOT):
+        raise ValueError('Test evidence outside workspace')
+    destination.parent.mkdir(parents=True,exist_ok=True)
+    destination.write_text(json.dumps(evidence, indent=2), encoding='utf-8')
     return 0 if result.wasSuccessful() else 1
 
 

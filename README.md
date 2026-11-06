@@ -1,6 +1,17 @@
 # FiscalOps CFDI Reader — V21.1 / motor XML + Decimal
 
-**Hito actual:** motor fiscal independiente en `app/fiscal`, con lector seguro por namespaces CFDI3.3/4.0, matriz normativa SAT y reconciliación Decimal F01–F06 para ingresos/egresos. Disponible por API Python y CLI; el frontend Qt conserva su flujo legado hasta la siguiente integración en worker. No se declara corregido el motor JavaScript ni se genera EXE final.
+**Hito actual: Qt integrado con el motor fiscal mediante worker.** Importación, cálculos Decimal, totales por moneda y exportaciones usan el backend; el flujo nativo bloquea los cálculos antiguos. Se conservan interfaz,22 reportes, editor y visor. Sin Qt no se permite procesar/exportar mediante el legado. [Entrega](docs/17_INTEGRACION_QT_WORKERS_REPORT.md) · [Contrato](docs/18_CONTRATO_QT_WORKERS.md) · [Pruebas](scripts/integration/README.md).
+
+```powershell
+.\.venv\Scripts\python.exe -m pip install --require-hashes -r requirements/desktop.txt
+.\.venv\Scripts\python.exe -m app.desktop.main
+```
+
+Original, legacy y60 referencias preservados. La carga y los permisos son de sesión; SQLite/memoria portable, validaciones integrales de complementos y EXE final siguen pendientes.
+
+## Hito anterior — motor independiente
+
+Motor fiscal independiente en `app/fiscal`, con lector seguro por namespaces CFDI3.3/4.0, matriz normativa SAT y reconciliación Decimal F01–F06 para ingresos/egresos. Su API y CLI continúan disponibles. La integración Qt posterior se describe arriba; el HTML original sigue como referencia inmutable.
 
 ```powershell
 .\.venv\Scripts\python.exe -m pip install --require-hashes -r requirements/fiscal.txt
@@ -11,13 +22,13 @@
 
 ## Hito preservado — SPEC011
 
-**FASE 1.1 DONE / FASE 1.2 DONE en el alcance de SPEC011.** Copia UI estabilizada y contenedor Qt ejecutado realmente en Windows. Original, legacy y60 referencias intactos. Su flujo fiscal sigue siendo el legado con P0 abiertos; el nuevo motor se entrega por separado en el hito descrito arriba.
+**FASE 1.1 DONE / FASE 1.2 DONE en el alcance de SPEC011.** En ese hito se estabilizó la UI y se ejecutó Qt en Windows conservando el flujo fiscal legado. La integración actual, descrita arriba, ya lo sustituye en Qt. Original, legacy y60 referencias permanecen intactos.
 
 Para abrir el contenedor:
 
 ```powershell
 python -m venv .venv
-./.venv/Scripts/python.exe -m pip install --require-hashes -r requirements/desktop-spec011.txt
+./.venv/Scripts/python.exe -m pip install --require-hashes -r requirements/desktop.txt
 ./.venv/Scripts/python.exe -m app.desktop.main
 ```
 

@@ -1,0 +1,94 @@
+{
+  "checks": [
+    {
+      "id": "real-window",
+      "expected": true,
+      "actual": true,
+      "result": "PASS"
+    },
+    {
+      "id": "directory-input-native-selection",
+      "expected": true,
+      "actual": true,
+      "result": "PASS"
+    },
+    {
+      "id": "directory-rfc-detected",
+      "expected": "AAA010101AAA",
+      "actual": "AAA010101AAA",
+      "result": "PASS"
+    },
+    {
+      "id": "gui-heartbeat-during-zip",
+      "expected": true,
+      "actual": true,
+      "result": "PASS"
+    },
+    {
+      "id": "cancel-keeps-previous-dataset",
+      "expected": "815ec1900a504f1bb7041cc96a462a57",
+      "actual": "815ec1900a504f1bb7041cc96a462a57",
+      "result": "PASS"
+    },
+    {
+      "id": "cancel-keeps-previous-documents",
+      "expected": 1,
+      "actual": 1.0,
+      "result": "PASS"
+    },
+    {
+      "id": "cancel-status",
+      "expected": true,
+      "actual": true,
+      "result": "PASS"
+    },
+    {
+      "id": "retry-after-cancel-completes",
+      "expected": 1001,
+      "actual": 1001.0,
+      "result": "PASS"
+    },
+    {
+      "id": "retry-replaces-dataset",
+      "expected": true,
+      "actual": true,
+      "result": "PASS"
+    },
+    {
+      "id": "progress-completed",
+      "expected": 100,
+      "actual": 100.0,
+      "result": "PASS"
+    },
+    {
+      "id": "worker-total-124124",
+      "expected": true,
+      "actual": true,
+      "result": "PASS"
+    },
+    {
+      "id": "export-cancel-no-artifact",
+      "expected": null,
+      "actual": "",
+      "result": "FAIL"
+    },
+    {
+      "id": "close-cancels-inflight-and-stops-thread",
+      "expected": true,
+      "actual": true,
+      "result": "PASS"
+    },
+    {
+      "id": "no-uncaught-javascript",
+      "expected": false,
+      "actual": false,
+      "result": "PASS"
+    }
+  ],
+  "dataset_size": 1000,
+  "cancellation_seconds": 0.01600000000325963,
+  "close_seconds": 0.04700000000593718,
+  "console": [],
+  "closed": true,
+  "worker_stopped": true
+}

@@ -1,0 +1,195 @@
+{
+  "source_sha256": {
+    "app/desktop/exports.py": "7d23a2070fb96438fb22f073fad9fff952f3f26a036f0f716cf2204eee4019e3",
+    "app/desktop/fiscal_worker.py": "e75c26eacee3828a3ab10bc391ab1a3f753132a23fb96feb0042426f9f5d57f8",
+    "app/desktop/imports.py": "03919021c846bbd6a20fd627a14f35b20130b055f2e85605c2ada9bff70369e1",
+    "app/desktop/main.py": "77f2c6af0c97306898b8cdbbae22fc9c102d94ebbb4dbad1680a453f4c861665",
+    "app/desktop/reports.py": "c68296b1944c4f47f5cfddca8c32664e5dd006b29d66a9675614ea2d7539c7ae",
+    "app/fiscal/__init__.py": "efb950d7ff882e5c9fa25a6645ef6b5405b270b104215534062d7d75d120817c",
+    "app/fiscal/__main__.py": "f5396658524f8da3457faccd7ddced0794738367754f6749737b66c9cb590595",
+    "app/fiscal/calculations.py": "3392a51d078f914d8c25202605c7d98115497101e09562e1d1bc941e5f6f1e3f",
+    "app/fiscal/models.py": "c88d6a6576e674348484a88be3653e6c96d994375e486529f96120f3ec713a0b",
+    "app/fiscal/numbers.py": "f072b41664b8224fca75c3f34a3aee92bd4b75bb0877c0f402c20db8d702d4c1",
+    "app/fiscal/reader.py": "e5f226ecd5ce01ebf678e48308b755c284e1b6f2f6fa7712b0230323cb335ec2",
+    "app/fiscal/rules.py": "b071eae4837af1b55b1e5262842b31580eba27d1af56735ea46e2d019d18c832",
+    "app/fiscal/security.py": "6255fd3343362eb787d6be16d8666081d82038b0fee1419ce4527df802c5eefd",
+    "app/fiscal/service.py": "d649280e9a0297f81cf95c3f1f3f3e11709c0985f1bd2fc8b39a73854fc7018b",
+    "app/fiscal/sources.py": "05592216721e10ffb476c0ed93e8b26f446fa209a5bb5576969d7cf2d61a9f81",
+    "app/fiscal/ui_adapter.py": "f7ce006b32fe8eaa702ef6764191660527e86b1636a18cb87347d5310db851df",
+    "app/ui/column-editor.js": "15365226020818978dd4eb2511214f503dd1ecafb4bad3d812b7d0c2ad4a9b80",
+    "app/ui/desktop-bridge.js": "1c5bfd18391b634cdaff06d06af71925b540011b130a5bbab857e44789b1a427",
+    "app/ui/index.html": "3f9a8812f84201ec3c130c1bc3a87151a0b8e69d7391b0e1513ff5f1ef12dadb",
+    "app/ui/legacy-runtime.js": "d8fe28a48e3b276d4c8d74d84b39b4e16e45215996583ea740fb9d55cd12515b",
+    "app/ui/native-integration.js": "45ea523e3a5360849938ea14b02b21e0f9302331f7a519b150a115d982915046",
+    "app/ui/v20-runtime.js": "2ff2813c438434b3b65059a64fe119276b31c777c6948fce456020de11ae2b84"
+  },
+  "fixture_sha256": "cf99b6d5aa2d950cbdb541b452bddde4658aecd691ab49afc10b992a32b64a74",
+  "captures": [
+    {
+      "role": "before",
+      "scene": "upload",
+      "width": 1366,
+      "height": 768,
+      "actual_viewport": "1366x768",
+      "file": "tests/integration/visual/upload_before_1366x768.png",
+      "sha256": "720e40df6b0f6c71d6976b2261dbf3387ba2251e0914a08b3a4675e8a43cd634"
+    },
+    {
+      "role": "before",
+      "scene": "report",
+      "width": 1366,
+      "height": 768,
+      "actual_viewport": "1366x768",
+      "file": "tests/integration/visual/report_before_1366x768.png",
+      "sha256": "699b351cf0869dedcd39596b941b377d73f5cf13a9300455eb84b64515db411a"
+    },
+    {
+      "role": "before",
+      "scene": "editor",
+      "width": 1366,
+      "height": 768,
+      "actual_viewport": "1366x768",
+      "file": "tests/integration/visual/editor_before_1366x768.png",
+      "sha256": "ad80c067559682155ce2cbad39cdb2bcf956429a18a285a08cc34b206a0a261c"
+    },
+    {
+      "role": "before",
+      "scene": "visor",
+      "width": 1366,
+      "height": 768,
+      "actual_viewport": "1366x768",
+      "file": "tests/integration/visual/visor_before_1366x768.png",
+      "sha256": "c2450c86d6a652a96c77b3c5281dd40d3a00b9e87969e1ecfeba6dfe1c321e17"
+    },
+    {
+      "role": "before",
+      "scene": "taxes",
+      "width": 1366,
+      "height": 768,
+      "actual_viewport": "1366x768",
+      "file": "tests/integration/visual/taxes_before_1366x768.png",
+      "sha256": "b71dd4fef00ee688786ee8f94c3abc05c17715e54a95a0f905b7dd01f3933ef3"
+    },
+    {
+      "role": "before",
+      "scene": "excel",
+      "width": 1366,
+      "height": 768,
+      "actual_viewport": "1366x768",
+      "file": "tests/integration/visual/excel_before_1366x768.png",
+      "sha256": "0c7225c27d195fea6d9a2a4974fff1cfe1b6b1764d546617f19f32c4f88f6602"
+    },
+    {
+      "role": "before",
+      "scene": "upload",
+      "width": 1600,
+      "height": 900,
+      "actual_viewport": "1600x900",
+      "file": "tests/integration/visual/upload_before_1600x900.png",
+      "sha256": "8a0d631f880947961f58ee668a4e5eb85e2ac1b15ee99b75b06848dc7e33cb9c"
+    },
+    {
+      "role": "before",
+      "scene": "report",
+      "width": 1600,
+      "height": 900,
+      "actual_viewport": "1600x900",
+      "file": "tests/integration/visual/report_before_1600x900.png",
+      "sha256": "fbf3dd468ead5413834963ab32a817a8373a0286edf13df8cf2c7f2e218ac099"
+    },
+    {
+      "role": "before",
+      "scene": "editor",
+      "width": 1600,
+      "height": 900,
+      "actual_viewport": "1600x900",
+      "file": "tests/integration/visual/editor_before_1600x900.png",
+      "sha256": "53f4ca34eb39eae9c945e36a3f00b3e33ef7f43872abd768ebf97c51e5b1f68b"
+    },
+    {
+      "role": "before",
+      "scene": "visor",
+      "width": 1600,
+      "height": 900,
+      "actual_viewport": "1600x900",
+      "file": "tests/integration/visual/visor_before_1600x900.png",
+      "sha256": "c5d0bd0d7109877acb2d450ce40250da22e9c125d0432913969db7ffc63fb338"
+    },
+    {
+      "role": "before",
+      "scene": "taxes",
+      "width": 1600,
+      "height": 900,
+      "actual_viewport": "1600x900",
+      "file": "tests/integration/visual/taxes_before_1600x900.png",
+      "sha256": "2b4672fd4174c83669ae72ee90646a403b147c3965d7909c5af7d34aeabf057e"
+    },
+    {
+      "role": "before",
+      "scene": "excel",
+      "width": 1600,
+      "height": 900,
+      "actual_viewport": "1600x900",
+      "file": "tests/integration/visual/excel_before_1600x900.png",
+      "sha256": "f54134df09b6d8998084d174d03f60fb12efde3cc670305a694e1a75d711d66a"
+    },
+    {
+      "role": "before",
+      "scene": "upload",
+      "width": 1920,
+      "height": 1080,
+      "actual_viewport": "1920x1080",
+      "file": "tests/integration/visual/upload_before_1920x1080.png",
+      "sha256": "5d4d30e9b7806bb11bc68e4c0e755f8b4f120256bec05c77765f685ca9eb9f61"
+    },
+    {
+      "role": "before",
+      "scene": "report",
+      "width": 1920,
+      "height": 1080,
+      "actual_viewport": "1920x1080",
+      "file": "tests/integration/visual/report_before_1920x1080.png",
+      "sha256": "45f22975a1b9cb233e8f6041142fa60cab8b9dc1708dd6f4e229bcc90968fd55"
+    },
+    {
+      "role": "before",
+      "scene": "editor",
+      "width": 1920,
+      "height": 1080,
+      "actual_viewport": "1920x1080",
+      "file": "tests/integration/visual/editor_before_1920x1080.png",
+      "sha256": "5fc414495e4fe80c2b78aec49ffd2a69b3bc4280541d0b3d9245df9e5e5ed1a0"
+    },
+    {
+      "role": "before",
+      "scene": "visor",
+      "width": 1920,
+      "height": 1080,
+      "actual_viewport": "1920x1080",
+      "file": "tests/integration/visual/visor_before_1920x1080.png",
+      "sha256": "d6ec7654671fc7b1662026f62b7f26db136f3cc6918b5bfda4828909e5cfb0de"
+    },
+    {
+      "role": "before",
+      "scene": "taxes",
+      "width": 1920,
+      "height": 1080,
+      "actual_viewport": "1920x1080",
+      "file": "tests/integration/visual/taxes_before_1920x1080.png",
+      "sha256": "97b012579ee9bb49926c27068d8ecb1565c01ca00a396ecbe59dc8816c4aaa14"
+    },
+    {
+      "role": "before",
+      "scene": "excel",
+      "width": 1920,
+      "height": 1080,
+      "actual_viewport": "1920x1080",
+      "file": "tests/integration/visual/excel_before_1920x1080.png",
+      "sha256": "8be2791f2a866bff4fc698e76596e4f9e3d1340ab73a680b42711cd17dacf2d4"
+    }
+  ],
+  "windows_closed": [
+    true
+  ],
+  "purpose": "UI preservation on compatible values; P0 numeric differences verified separately"
+}

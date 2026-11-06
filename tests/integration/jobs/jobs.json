@@ -1,0 +1,157 @@
+{
+  "checks": [
+    {
+      "id": "real-window",
+      "expected": true,
+      "actual": true,
+      "result": "PASS"
+    },
+    {
+      "id": "directory-input-native-selection",
+      "expected": true,
+      "actual": true,
+      "result": "PASS"
+    },
+    {
+      "id": "directory-rfc-detected",
+      "expected": "AAA010101AAA",
+      "actual": "AAA010101AAA",
+      "result": "PASS"
+    },
+    {
+      "id": "stable-processing-screen-captured",
+      "expected": true,
+      "actual": true,
+      "result": "PASS"
+    },
+    {
+      "id": "gui-heartbeat-during-zip",
+      "expected": true,
+      "actual": true,
+      "result": "PASS"
+    },
+    {
+      "id": "cancel-keeps-previous-dataset",
+      "expected": "da97b207ca5947698193efc515ab0f00",
+      "actual": "da97b207ca5947698193efc515ab0f00",
+      "result": "PASS"
+    },
+    {
+      "id": "cancel-keeps-previous-documents",
+      "expected": 1,
+      "actual": 1.0,
+      "result": "PASS"
+    },
+    {
+      "id": "cancel-status",
+      "expected": true,
+      "actual": true,
+      "result": "PASS"
+    },
+    {
+      "id": "retry-after-cancel-completes",
+      "expected": 1001,
+      "actual": 1001.0,
+      "result": "PASS"
+    },
+    {
+      "id": "retry-replaces-dataset",
+      "expected": true,
+      "actual": true,
+      "result": "PASS"
+    },
+    {
+      "id": "progress-completed",
+      "expected": 100,
+      "actual": 100.0,
+      "result": "PASS"
+    },
+    {
+      "id": "worker-total-124124",
+      "expected": true,
+      "actual": true,
+      "result": "PASS"
+    },
+    {
+      "id": "export-cancel-no-artifact",
+      "expected": true,
+      "actual": true,
+      "result": "PASS"
+    },
+    {
+      "id": "export-cancel-no-download-request",
+      "expected": 0,
+      "actual": 0,
+      "result": "PASS"
+    },
+    {
+      "id": "close-cancels-inflight-and-stops-thread",
+      "expected": true,
+      "actual": true,
+      "result": "PASS"
+    },
+    {
+      "id": "close-callback-on-gui-thread",
+      "expected": true,
+      "actual": true,
+      "result": "PASS"
+    },
+    {
+      "id": "no-uncaught-javascript",
+      "expected": false,
+      "actual": false,
+      "result": "PASS"
+    }
+  ],
+  "dataset_size": 1000,
+  "source_sha256": {
+    "app/desktop/exports.py": "7d23a2070fb96438fb22f073fad9fff952f3f26a036f0f716cf2204eee4019e3",
+    "app/desktop/fiscal_worker.py": "e75c26eacee3828a3ab10bc391ab1a3f753132a23fb96feb0042426f9f5d57f8",
+    "app/desktop/imports.py": "03919021c846bbd6a20fd627a14f35b20130b055f2e85605c2ada9bff70369e1",
+    "app/desktop/main.py": "77f2c6af0c97306898b8cdbbae22fc9c102d94ebbb4dbad1680a453f4c861665",
+    "app/desktop/reports.py": "c68296b1944c4f47f5cfddca8c32664e5dd006b29d66a9675614ea2d7539c7ae",
+    "app/fiscal/__init__.py": "efb950d7ff882e5c9fa25a6645ef6b5405b270b104215534062d7d75d120817c",
+    "app/fiscal/__main__.py": "f5396658524f8da3457faccd7ddced0794738367754f6749737b66c9cb590595",
+    "app/fiscal/calculations.py": "3392a51d078f914d8c25202605c7d98115497101e09562e1d1bc941e5f6f1e3f",
+    "app/fiscal/models.py": "c88d6a6576e674348484a88be3653e6c96d994375e486529f96120f3ec713a0b",
+    "app/fiscal/numbers.py": "f072b41664b8224fca75c3f34a3aee92bd4b75bb0877c0f402c20db8d702d4c1",
+    "app/fiscal/reader.py": "e5f226ecd5ce01ebf678e48308b755c284e1b6f2f6fa7712b0230323cb335ec2",
+    "app/fiscal/rules.py": "b071eae4837af1b55b1e5262842b31580eba27d1af56735ea46e2d019d18c832",
+    "app/fiscal/security.py": "6255fd3343362eb787d6be16d8666081d82038b0fee1419ce4527df802c5eefd",
+    "app/fiscal/service.py": "d649280e9a0297f81cf95c3f1f3f3e11709c0985f1bd2fc8b39a73854fc7018b",
+    "app/fiscal/sources.py": "05592216721e10ffb476c0ed93e8b26f446fa209a5bb5576969d7cf2d61a9f81",
+    "app/fiscal/ui_adapter.py": "f7ce006b32fe8eaa702ef6764191660527e86b1636a18cb87347d5310db851df",
+    "app/ui/column-editor.js": "15365226020818978dd4eb2511214f503dd1ecafb4bad3d812b7d0c2ad4a9b80",
+    "app/ui/desktop-bridge.js": "1c5bfd18391b634cdaff06d06af71925b540011b130a5bbab857e44789b1a427",
+    "app/ui/index.html": "3f9a8812f84201ec3c130c1bc3a87151a0b8e69d7391b0e1513ff5f1ef12dadb",
+    "app/ui/legacy-runtime.js": "d8fe28a48e3b276d4c8d74d84b39b4e16e45215996583ea740fb9d55cd12515b",
+    "app/ui/native-integration.js": "45ea523e3a5360849938ea14b02b21e0f9302331f7a519b150a115d982915046",
+    "app/ui/v20-runtime.js": "2ff2813c438434b3b65059a64fe119276b31c777c6948fce456020de11ae2b84"
+  },
+  "progress_capture": {
+    "before": {
+      "busy": true,
+      "screen": "s2",
+      "progress": {
+        "processed": 1,
+        "documents": 8,
+        "errors": 0
+      }
+    },
+    "after": {
+      "busy": true,
+      "screen": "s2",
+      "progress": {
+        "processed": 1,
+        "documents": 8,
+        "errors": 0
+      }
+    },
+    "accepted": true
+  },
+  "cancellation_seconds": 0.0629999999946449,
+  "close_seconds": 0.0629999999946449,
+  "console": [],
+  "closed": true,
+  "worker_stopped": true
+}

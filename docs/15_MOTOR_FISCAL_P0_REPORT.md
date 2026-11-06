@@ -1,5 +1,7 @@
 # Entrega — lector XML y motor Decimal independiente
 
+Seguimiento: el siguiente hito ya integra este motor con Qt mediante workers; leer [17_INTEGRACION_QT_WORKERS_REPORT](17_INTEGRACION_QT_WORKERS_REPORT.md). Este documento conserva el alcance de la entrega independiente y sus59 pruebas. El estado «Qt continúa legado» del apartado final es histórico y queda sustituido por esa integración.
+
 Implementado el siguiente hito del handoff14: lector seguro, matriz normativa real y reconciliación F01–F06 para CFDI de ingreso/egreso3.3 y4.0. Se entrega como módulo Python/API y CLI reproducible, antes de migrar servicios al puente Qt. No es una reconstrucción integral del producto ni validación oficial SAT.
 
 ## Resultado por riesgo

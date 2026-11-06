@@ -1,0 +1,1 @@
+{"url": "http://127.0.0.1:64017", "purpose": "browser UI reference QA only; explicitly enables the frozen legacy visual path. /without-native/ tests fail-closed production HTML."}

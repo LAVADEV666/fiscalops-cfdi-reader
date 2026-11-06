@@ -1,5 +1,7 @@
 # Matriz normativa SAT — motor fiscal independiente
 
+Seguimiento de implementación: la [integración Qt/worker](17_INTEGRACION_QT_WORKERS_REPORT.md) ya consume estas reglas. La cobertura normativa I/E y sus pendientes fiscales permanecen como se documentan aquí; el estado antiguo de integración pendiente al final corresponde al hito independiente.
+
 Instantánea `sat-2026-11-06`. Matriz de implementación y evidencia; no certificación SAT. Fuentes descargadas directamente de dominios SAT; bytes archivados en `resources/sat/`, URL final, fecha UTC, Last-Modified y SHA256 en `manifest.json`. No hay descargas durante la lectura.
 
 ## Versiones, vigencias y cobertura
