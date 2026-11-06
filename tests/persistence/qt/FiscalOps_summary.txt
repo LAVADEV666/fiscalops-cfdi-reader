@@ -1,0 +1,2 @@
+﻿UUID~Estado SAT~Fecha de emisión~Fecha de timbrado~Tipo~RFC emisor~Régimen fiscal emisor~RFC receptor~C.P. receptor~Régimen fiscal receptor~Uso CFDI~Forma de pago~Método de pago~Exportación~Moneda~Subtotal~IVA trasladado~Retenciones~Total~Tipo de relación~UUID relacionado~Resultado de revisión
+~SIN METADATA~06/11/2026~~I~AAA010101AAA~601~BBB010101BB1~06000~601~G03~03~PUE~01~MXN~100~16~0~119~~~SIN DIFERENCIAS

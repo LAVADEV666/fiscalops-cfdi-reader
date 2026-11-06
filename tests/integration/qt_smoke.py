@@ -21,7 +21,7 @@ OUT.mkdir(parents=True, exist_ok=True)
 report = {'checks': [], 'qt': qVersion(), 'captures': [], 'source_sha256': source_hashes()}
 app = QApplication(sys.argv[:1])
 app.setQuitOnLastWindowClosed(False)
-window = DesktopWindow()
+window = DesktopWindow(database_path=':memory:')
 page = window.web_page
 downloads = []
 window.save_picker = lambda name: str(OUT/name)

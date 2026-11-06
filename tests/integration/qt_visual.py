@@ -80,7 +80,7 @@ def native_click(window, identity):
 
 try:
     for reference in (args.variant == 'before',):
-        window = DesktopWindow(reference=reference)
+        window = DesktopWindow(reference=reference, database_path=':memory:')
         page = window.web_page
         window.web_page.file_picker = lambda *args: [str(fixture)]
         window.show()

@@ -1,5 +1,7 @@
 # Integración Qt con motor fiscal y workers — entrega
 
+Hito histórico. La fase siguiente implementa SQLite y recuperación de sesiones: [entrega actual](20_PERSISTENCIA_SQLITE_REPORT.md) y [contrato](19_PERSISTENCIA_SQLITE.md).
+
 **Implementada y probada en Windows dentro de este alcance.** El flujo Qt deja de ejecutar el parser y cálculos monetarios JavaScript. Los reportes, visor y exportaciones reciben las filas y sumas del motor Python/Decimal. No se declara el proyecto fiscal completo ni certificación SAT.
 
 ## Cambio concreto

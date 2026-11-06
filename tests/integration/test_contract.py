@@ -26,6 +26,9 @@ class NativeContractTests(unittest.TestCase):
         self.event = threading.Event()
         self.job = 'test-job'
 
+    def tearDown(self):
+        self.store.repository.close()
+
     def call(self, op, payload=None):
         return self.store.handle(op, payload or {}, self.job, self.event, lambda value: None)
 

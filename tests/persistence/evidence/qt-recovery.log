@@ -1,0 +1,14 @@
+{
+  "success": true,
+  "separate_processes": 3,
+  "checks": 34,
+  "exported_csv_total": "119",
+  "xlsx_sheets": 8,
+  "clear_keeps_history": true,
+  "originals_and_results_durable": true,
+  "exports_sha256": {
+    "FiscalOps_summary.csv": "91f623a84fc52ad78ef7a92b7ad3443783e696a58150aaab314e1815341833ed",
+    "FiscalOps_summary.txt": "797b6db15a65963abc94a19b1664dc1b8de457db1fc12f038d8374510a973b72",
+    "FiscalOps_summary.xlsx": "4a9b9ff8710d1af5abd5745a8d5d311d254786fe95dde037dd0f126b4f5bd402"
+  }
+}

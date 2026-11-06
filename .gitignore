@@ -3,6 +3,7 @@ __pycache__/
 .venv/
 tests/visual/.work/
 tests/fiscal/.work/
+tests/persistence/.work/
 tests/visual/evidence/server.json
 tests/visual/evidence/*-profile/
 FiscalOpsData/

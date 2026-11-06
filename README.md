@@ -1,13 +1,15 @@
 # FiscalOps CFDI Reader — V21.1 / motor XML + Decimal
 
-**Hito actual: Qt integrado con el motor fiscal mediante worker.** Importación, cálculos Decimal, totales por moneda y exportaciones usan el backend; el flujo nativo bloquea los cálculos antiguos. Se conservan interfaz,22 reportes, editor y visor. Sin Qt no se permite procesar/exportar mediante el legado. [Entrega](docs/17_INTEGRACION_QT_WORKERS_REPORT.md) · [Contrato](docs/18_CONTRATO_QT_WORKERS.md) · [Pruebas](scripts/integration/README.md).
+**Hito actual: persistencia SQLite integrada con los workers Qt.** Documentos originales, resultados fiscales y sesiones se guardan en `FiscalOpsData/fiscalops.sqlite3`. Al abrir se recuperan la última sesión activa, sus filtros y columnas; se conservan interfaz,22 reportes, visor y exportaciones Decimal. [Entrega](docs/20_PERSISTENCIA_SQLITE_REPORT.md) · [Contrato](docs/19_PERSISTENCIA_SQLITE.md) · [Pruebas](scripts/persistence/README.md).
 
 ```powershell
 .\.venv\Scripts\python.exe -m pip install --require-hashes -r requirements/desktop.txt
 .\.venv\Scripts\python.exe -m app.desktop.main
 ```
 
-Original, legacy y60 referencias preservados. La carga y los permisos son de sesión; SQLite/memoria portable, validaciones integrales de complementos y EXE final siguen pendientes.
+Original, legacy y60 referencias preservados. Limpiar cierra la sesión conservando historial; doble clic en Borrar memoria elimina los datos persistidos sin tocar originales seleccionados. La conexión SQLite pertenece al worker; importación/cálculos/exportación continúan fuera del GUI. Grants de carpeta, caché incremental, validaciones integrales de complementos y EXE final siguen pendientes. Sin Qt no se permite volver al motor legado.
+
+El hito anterior de integración Qt se conserva en [17](docs/17_INTEGRACION_QT_WORKERS_REPORT.md) y [18](docs/18_CONTRATO_QT_WORKERS.md); su almacenamiento en memoria fue sustituido por la fase SQLite.
 
 ## Hito anterior — motor independiente
 

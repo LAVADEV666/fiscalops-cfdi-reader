@@ -213,9 +213,10 @@
   ],
   "source_sha256": {
     "app/desktop/exports.py": "7d23a2070fb96438fb22f073fad9fff952f3f26a036f0f716cf2204eee4019e3",
-    "app/desktop/fiscal_worker.py": "e75c26eacee3828a3ab10bc391ab1a3f753132a23fb96feb0042426f9f5d57f8",
+    "app/desktop/fiscal_worker.py": "aa5221a3c3a5de083dc90a0f9079d25ef2b0b3a7e348b7f0a070d3cb69c31e1f",
     "app/desktop/imports.py": "03919021c846bbd6a20fd627a14f35b20130b055f2e85605c2ada9bff70369e1",
-    "app/desktop/main.py": "77f2c6af0c97306898b8cdbbae22fc9c102d94ebbb4dbad1680a453f4c861665",
+    "app/desktop/main.py": "78f7194e119b9b12f0ab8d93d47aa00350cc79fa0dcf1933b571c4b1f022351e",
+    "app/desktop/persistence.py": "1d5f0a4f47997a5aee46db5b3da1d8321fefcb2cdb9bc0b98db2227f93c28318",
     "app/desktop/reports.py": "c68296b1944c4f47f5cfddca8c32664e5dd006b29d66a9675614ea2d7539c7ae",
     "app/fiscal/__init__.py": "efb950d7ff882e5c9fa25a6645ef6b5405b270b104215534062d7d75d120817c",
     "app/fiscal/__main__.py": "f5396658524f8da3457faccd7ddced0794738367754f6749737b66c9cb590595",
@@ -231,12 +232,12 @@
     "app/ui/column-editor.js": "15365226020818978dd4eb2511214f503dd1ecafb4bad3d812b7d0c2ad4a9b80",
     "app/ui/desktop-bridge.js": "1c5bfd18391b634cdaff06d06af71925b540011b130a5bbab857e44789b1a427",
     "app/ui/index.html": "3f9a8812f84201ec3c130c1bc3a87151a0b8e69d7391b0e1513ff5f1ef12dadb",
-    "app/ui/legacy-runtime.js": "d8fe28a48e3b276d4c8d74d84b39b4e16e45215996583ea740fb9d55cd12515b",
-    "app/ui/native-integration.js": "45ea523e3a5360849938ea14b02b21e0f9302331f7a519b150a115d982915046",
+    "app/ui/legacy-runtime.js": "2d7287008eae28ff55f64e0c454fb91ce8093d000c60a2c9e8f7a5b7b4091cd4",
+    "app/ui/native-integration.js": "2cb335978e3ab9ec442bac64ab966365b839a4c1cb2913e959d9f87fba9f99b5",
     "app/ui/v20-runtime.js": "2ff2813c438434b3b65059a64fe119276b31c777c6948fce456020de11ae2b84"
   },
   "platform": "windows",
-  "native_win_id": 2429884,
+  "native_win_id": 5507054,
   "screen": {
     "logical_dpi": 96.0,
     "device_pixel_ratio": 1.0,
@@ -260,9 +261,9 @@
     "C:\\Users\\sin_s\\OneDrive\\Documents\\apps\\FISCALOPS CFDI READER\\tests\\integration\\qt\\FiscalOps_summary.txt"
   ],
   "filtered_download_file": "C:\\Users\\sin_s\\OneDrive\\Documents\\apps\\FISCALOPS CFDI READER\\tests\\integration\\qt\\filtered_FiscalOps_summary.csv",
-  "gui_thread_id": 40380,
+  "gui_thread_id": 6000,
   "worker_thread_ids": [
-    29416
+    8016
   ],
   "console": [],
   "closed": true,

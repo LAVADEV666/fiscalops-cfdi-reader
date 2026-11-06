@@ -1,5 +1,7 @@
 # Contrato Qt / workers / reportes
 
+Contrato del hito de integración. La fase SQLite actual amplía el protocolo a desktop/3 y sustituye los snapshots sólo en memoria: [contrato vigente de persistencia](19_PERSISTENCIA_SQLITE.md). Los límites de carga y exportación descritos aquí se mantienen.
+
 ## Frontera del puente
 
 `desktop.describe()` informa protocolo `fiscalops.desktop/2` y motor `python-decimal-worker`. Se conserva `desktop.ping()`. El objeto `fiscal` tiene solamente tres slots propios:

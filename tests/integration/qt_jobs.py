@@ -26,7 +26,7 @@ directory.mkdir(exist_ok=True)
 (directory/'original.xml').write_bytes(base.read_bytes())
 app = QApplication(sys.argv[:1])
 app.setQuitOnLastWindowClosed(False)
-window = DesktopWindow()
+window = DesktopWindow(database_path=':memory:')
 downloads = []
 window.save_picker = lambda name: str(OUT/name)
 window.profile.downloadRequested.connect(lambda request: downloads.append(request))

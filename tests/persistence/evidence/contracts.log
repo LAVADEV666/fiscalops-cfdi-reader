@@ -1,0 +1,25 @@
+test_busy_database_fails_bounded_and_preserves_report (test_sqlite.SQLiteTests.test_busy_database_fails_bounded_and_preserves_report) ... ok
+test_cancel_during_sql_transaction_rolls_back_all_rows_and_active_pointer (test_sqlite.SQLiteTests.test_cancel_during_sql_transaction_rolls_back_all_rows_and_active_pointer) ... ok
+test_clear_deactivates_but_history_can_be_opened_and_purge_removes_all (test_sqlite.SQLiteTests.test_clear_deactivates_but_history_can_be_opened_and_purge_removes_all) ... ok
+test_concurrent_windows_cannot_silently_replace_active_session (test_sqlite.SQLiteTests.test_concurrent_windows_cannot_silently_replace_active_session) ... ok
+test_connection_cannot_be_used_from_another_thread (test_sqlite.SQLiteTests.test_connection_cannot_be_used_from_another_thread) ... ok
+test_connection_is_lazy_and_initializes_versioned_schema (test_sqlite.SQLiteTests.test_connection_is_lazy_and_initializes_versioned_schema) ... ok
+test_decimal_null_zero_and_analyses_survive_reopen (test_sqlite.SQLiteTests.test_decimal_null_zero_and_analyses_survive_reopen) ... ok
+test_duplicates_keep_instances_deduplicate_only_source_bytes (test_sqlite.SQLiteTests.test_duplicates_keep_instances_deduplicate_only_source_bytes) ... ok
+test_engine_mismatch_blocks_reuse_without_deleting_history (test_sqlite.SQLiteTests.test_engine_mismatch_blocks_reuse_without_deleting_history) ... ok
+test_exact_csv_txt_xlsx_selected_order_after_reopen (test_sqlite.SQLiteTests.test_exact_csv_txt_xlsx_selected_order_after_reopen) ... ok
+test_foreign_or_corrupt_database_is_not_replaced (test_sqlite.SQLiteTests.test_foreign_or_corrupt_database_is_not_replaced) ... ok
+test_incidents_and_local_metadata_recover_without_reinterpretation (test_sqlite.SQLiteTests.test_incidents_and_local_metadata_recover_without_reinterpretation) ... ok
+test_injected_sql_write_failure_rolls_back_without_publishing (test_sqlite.SQLiteTests.test_injected_sql_write_failure_rolls_back_without_publishing) ... ok
+test_newer_schema_is_never_downgraded (test_sqlite.SQLiteTests.test_newer_schema_is_never_downgraded) ... ok
+test_oversized_view_and_stale_session_cannot_overwrite (test_sqlite.SQLiteTests.test_oversized_view_and_stale_session_cannot_overwrite) ... ok
+test_prepared_uncommitted_load_never_replaces_previous_session (test_sqlite.SQLiteTests.test_prepared_uncommitted_load_never_replaces_previous_session) ... ok
+test_process_crash_mid_transaction_recovers_previous_commit (test_sqlite.SQLiteTests.test_process_crash_mid_transaction_recovers_previous_commit) ... ok
+test_reopen_preserves_original_utf16_and_all_report_identities (test_sqlite.SQLiteTests.test_reopen_preserves_original_utf16_and_all_report_identities) ... ok
+test_tampered_original_and_projection_are_rejected (test_sqlite.SQLiteTests.test_tampered_original_and_projection_are_rejected) ... ok
+test_view_state_and_rfc_survive_reopen (test_sqlite.SQLiteTests.test_view_state_and_rfc_survive_reopen) ... ok
+
+----------------------------------------------------------------------
+Ran 20 tests in 12.377s
+
+OK

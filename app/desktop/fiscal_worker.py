@@ -15,11 +15,13 @@ from app.fiscal.models import to_data
 from .imports import MAX_FILE, Cancelled, checkpoint, entries, metadata
 from .reports import aggregate, analysis_sheets, report_rows, selected_documents, columns, money_formats
 from .exports import build_delimited, build_workbook
+from .persistence import Repository, DEFAULT_DATABASE
 
 
 class FiscalStore:
-    """No filesystem APIs: receives only bytes explicitly selected by the user."""
-    def __init__(self):
+    """Selected source bytes and persistent snapshots, owned exclusively by the worker."""
+    def __init__(self, database_path=':memory:'):
+        self.repository = Repository(database_path)
         self.sources = None
         self.staging = {}
         self.datasets = {}
@@ -32,13 +34,51 @@ class FiscalStore:
 
     def handle(self, operation, payload, job_id, cancel, progress):
         checkpoint(cancel)
+        if operation == 'session.resume':
+            identity = self.repository.active()
+            if identity is None:
+                return {'dataset_id': None, 'persistent': self.repository.path != ':memory:'}
+            dataset = self.repository.load(identity, cancel)
+            self.datasets[identity] = dataset
+            self.active_dataset = identity
+            return self._session_info(dataset)
+        if operation == 'session.list':
+            return {'sessions': self.repository.list_sessions(payload.get('offset', 0))}
+        if operation == 'session.open':
+            identity = payload.get('dataset_id')
+            if not isinstance(identity, str):
+                raise ValueError('SESSION_UNKNOWN')
+            dataset = self.repository.load(identity, cancel)
+            checkpoint(cancel)
+            self.repository.activate(identity)
+            self.datasets = {identity: dataset}
+            self.active_dataset = identity
+            return self._session_info(dataset)
+        if operation == 'session.save':
+            identity = payload.get('dataset_id')
+            if identity != self.active_dataset or identity is None:
+                raise ValueError('DATASET_STALE_OR_UNKNOWN')
+            self.repository.save_view(identity, payload.get('view'))
+            return {'saved': True, 'dataset_id': identity}
+        if operation == 'session.purge':
+            self.repository.clear(purge=True)
+            self.datasets.clear()
+            self.staging.clear()
+            self.active_dataset = None
+            return {'purged': True}
+        if operation == 'dataset.page':
+            dataset = self.datasets.get(payload.get('dataset_id'))
+            if dataset is None:
+                raise ValueError('DATASET_STALE_OR_UNKNOWN')
+            return self._page(dataset, payload, cancel)
         if operation == 'import.begin':
+            self.repository.db()  # Fail explicitly before reading inputs when persistence is unavailable.
             # An unfinished import is never reusable as a cached or committed dataset.
             self.staging = {key: value for key, value in self.staging.items() if not value['cancel'].is_set()}
             if self.staging:
                 raise ValueError('IMPORT_ALREADY_ACTIVE')
             self.staging[job_id] = {'id': uuid.uuid4().hex, 'rows': [], 'metadata': [], 'errors': [], 'files': 0, 'source_bytes': 0, 'rfc': str(payload.get('rfc', '')).upper()[:13],
-                                    'cancel': cancel, 'prepared': False}
+                                    'cancel': cancel, 'prepared': False, 'inputs': [], 'inspections': {}}
             return {'job_id': job_id}
         if operation.startswith('import.'):
             if job_id not in self.staging:
@@ -68,6 +108,7 @@ class FiscalStore:
                     stage['source_bytes'] += len(raw)
                     if stage['source_bytes'] > 64*1024*1024:
                         raise ValueError('IMPORT_SESSION_BYTE_LIMIT')
+                    stage['inputs'].append({'raw': raw, 'filename': name, 'entry': entry})
                     try:
                         parsed_meta = None if entry.lower().endswith('.xml') else metadata(raw)
                         if parsed_meta is not None:
@@ -83,6 +124,7 @@ class FiscalStore:
                             checkpoint(cancel)
                             row = adapt_inspection(inspection, uuid.uuid4().hex, name+(' / '+entry if entry != name else ''))
                             stage['rows'].append(row)
+                            stage['inspections'][row['_docId']] = to_data(inspection)
                             if len(stage['rows']) > 10_000:
                                 raise ValueError('IMPORT_DOCUMENT_LIMIT')
                     except XmlRejected as exc:
@@ -102,27 +144,13 @@ class FiscalStore:
             if operation == 'import.page':
                 if not stage['prepared']:
                     raise ValueError('IMPORT_NOT_PREPARED')
-                offset = payload.get('offset', 0)
-                if type(offset) is not int or offset < 0:
-                    raise ValueError('PAGE_OFFSET_INVALID')
-                count, size = 0, 0
-                length = max(len(stage['rows']), len(stage['errors']))
-                for index in range(offset, min(offset+50, length)):
-                    checkpoint(cancel)
-                    pair = [items[index] for items in (stage['rows'], stage['errors']) if index < len(items)]
-                    estimate = len(json.dumps(pair, ensure_ascii=False).encode('utf-8'))
-                    if count and size+estimate > 2*1024*1024:
-                        break
-                    count += 1
-                    size += estimate
-                rows = stage['rows'][offset:offset+count]
-                return {'rows': rows, 'errors': stage['errors'][offset:offset+count], 'money_formats': money_formats(rows),
-                        'next': offset+count, 'done': offset+count >= length}
+                return self._page(stage, payload, cancel)
             if operation == 'import.commit':
                 if not stage['prepared']:
                     raise ValueError('IMPORT_NOT_PREPARED')
                 checkpoint(cancel)
-                dataset = {'id': stage['id'], 'rows': stage['rows'], 'errors': stage['errors']}
+                self.repository.commit(stage, cancel)
+                dataset = {'id': stage['id'], 'rows': stage['rows'], 'errors': stage['errors'], 'rfc': stage['rfc'], 'view': {}}
                 self.datasets[stage['id']] = dataset
                 self.active_dataset = stage['id']
                 while len(self.datasets) > 2:
@@ -131,6 +159,7 @@ class FiscalStore:
                 return {'dataset_id': dataset['id'], 'committed': True}
             raise ValueError('IMPORT_OPERATION_UNKNOWN')
         if operation == 'dataset.clear':
+            self.repository.clear()
             self.datasets.clear()
             self.staging.clear()
             self.active_dataset = None
@@ -167,6 +196,28 @@ class FiscalStore:
                     'name': 'FiscalOps_'+report+'.'+kind, 'rows': len(rows), 'sheets': sheet_count,
                     'document_ids': payload['document_ids'], 'row_ids': [r['_rowId'] for r in rows]}
         raise ValueError('OPERATION_UNKNOWN')
+
+    def _session_info(self, dataset):
+        return {'dataset_id': dataset['id'], 'documents': len(dataset['rows']), 'errors': len(dataset['errors']),
+                'rfc': dataset['rfc'], 'view': dataset['view'], 'persistent': self.repository.path != ':memory:'}
+
+    def _page(self, dataset, payload, cancel):
+        offset = payload.get('offset', 0)
+        if type(offset) is not int or offset < 0:
+            raise ValueError('PAGE_OFFSET_INVALID')
+        count, size = 0, 0
+        length = max(len(dataset['rows']), len(dataset['errors']))
+        for index in range(offset, min(offset+50, length)):
+            checkpoint(cancel)
+            pair = [items[index] for items in (dataset['rows'], dataset['errors']) if index < len(items)]
+            estimate = len(json.dumps(pair, ensure_ascii=False).encode('utf-8'))
+            if count and size+estimate > 2*1024*1024:
+                break
+            count += 1
+            size += estimate
+        rows = dataset['rows'][offset:offset+count]
+        return {'rows': rows, 'errors': dataset['errors'][offset:offset+count], 'money_formats': money_formats(rows),
+                'next': offset+count, 'done': offset+count >= length}
 
     def _prepare(self, stage, cancel):
         if stage['prepared']:
@@ -214,9 +265,9 @@ class FiscalWorker(QObject):
     result = Signal(str, str, str)
     progress = Signal(str, str)
 
-    def __init__(self):
+    def __init__(self, database_path=DEFAULT_DATABASE):
         super().__init__()
-        self.store = FiscalStore()
+        self.store = FiscalStore(database_path)
         self.thread_ids = set()
 
     @Slot(object)
@@ -245,10 +296,18 @@ class FiscalWorker(QObject):
             response = {'request_id': request_id, 'ok': False, 'code': 'FISCAL_WORKER_FAILED'}
         self.result.emit(request_id, operation, json.dumps(response, ensure_ascii=False))
 
+    @Slot()
+    def stop(self):
+        try:
+            self.store.repository.close()
+        finally:
+            QThread.currentThread().quit()
+
 
 class _DeliveryQueue(QObject):
     """Private GUI-thread receiver/dispatcher, never registered with QWebChannel."""
     send = Signal(object)
+    stop = Signal()
 
     def __init__(self, receiver, parent):
         super().__init__(parent)
@@ -263,16 +322,18 @@ class FiscalBridge(QObject):
     response = Signal(str)
     progress = Signal(str, str)
     downloadStatus = Signal(str)
-    OPERATIONS = {'import.begin', 'import.file', 'import.reject', 'import.prepare', 'import.page', 'import.commit', 'dataset.clear', 'report.aggregate', 'report.export'}
+    OPERATIONS = {'import.begin', 'import.file', 'import.reject', 'import.prepare', 'import.page', 'import.commit', 'dataset.clear', 'dataset.page',
+                  'session.resume', 'session.list', 'session.open', 'session.save', 'session.purge', 'report.aggregate', 'report.export'}
 
-    def __init__(self, parent=None):
+    def __init__(self, parent=None, database_path=DEFAULT_DATABASE):
         super().__init__(parent)
         self.thread = QThread(self)
         self.thread.setObjectName('FiscalOps-Decimal-Worker')
-        self.worker = FiscalWorker()
+        self.worker = FiscalWorker(database_path)
         self.worker.moveToThread(self.thread)
         self._delivery = _DeliveryQueue(self._received, self)
         self._delivery.send.connect(self.worker.handle, Qt.ConnectionType.QueuedConnection)
+        self._delivery.stop.connect(self.worker.stop, Qt.ConnectionType.QueuedConnection)
         self.worker.result.connect(self._delivery.receive, Qt.ConnectionType.QueuedConnection)
         self.worker.progress.connect(self.progress, Qt.ConnectionType.QueuedConnection)
         self.thread.finished.connect(self.worker.deleteLater)
@@ -314,6 +375,8 @@ class FiscalBridge(QObject):
         return json.dumps({'ok': True, 'cancelled': True})
 
     def _received(self, request_id, operation, response):
+        if request_id == 'close-session-view':
+            self.close_save_result = json.loads(response)
         packet = self.pending.pop(request_id, None)
         if packet:
             job_id = packet[0]
@@ -321,11 +384,14 @@ class FiscalBridge(QObject):
                 self.jobs.pop(job_id, None)
         self.response.emit(response)
 
-    def shutdown(self):
+    def shutdown(self, snapshot=None):
         self.closing = True
         for job in self.jobs.values():
             job['event'].set()
         for _, _, event in self.pending.values():
             event.set()
         self.thread.requestInterruption()
-        self.thread.quit()
+        if snapshot is not None:
+            # Queued after cancellation of in-flight jobs and before connection closure.
+            self._delivery.send.emit(('close-session-view', '', 'session.save', json.dumps(snapshot), threading.Event()))
+        self._delivery.stop.emit()

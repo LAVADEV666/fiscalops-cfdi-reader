@@ -6,7 +6,7 @@ import json
 import sys
 import threading
 
-from PySide6.QtCore import QFile, QIODevice, QObject, QUrl, Slot, Qt
+from PySide6.QtCore import QFile, QIODevice, QObject, QUrl, Slot, Qt, QTimer
 from PySide6.QtWidgets import QApplication, QMainWindow
 from PySide6.QtWebEngineCore import QWebEnginePage, QWebEngineProfile, QWebEngineScript, QWebEngineUrlRequestInterceptor, QWebEngineDownloadRequest
 from PySide6.QtWebEngineWidgets import QWebEngineView
@@ -28,8 +28,8 @@ class Diagnostics(QObject):
     """Diagnostics only; the separate fiscal object accepts selected bytes, never paths."""
     @Slot(result=str)
     def describe(self):
-        return json.dumps({'protocol':'fiscalops.desktop/2', 'capabilities':['diagnostics.describe','diagnostics.ping','fiscal.worker','fiscal.import','fiscal.export','fiscal.cancel'],
-                           'fiscal_engine':'python-decimal-worker', 'filesystem':'user-selected browser bytes; native save dialog'})
+        return json.dumps({'protocol':'fiscalops.desktop/3', 'capabilities':['diagnostics.describe','diagnostics.ping','fiscal.worker','fiscal.import','fiscal.export','fiscal.cancel','fiscal.sqlite','fiscal.sessions'],
+                           'fiscal_engine':'python-decimal-worker', 'filesystem':'selected bytes; native save dialog; worker-owned SQLite'})
 
     @Slot(str, result=str)
     def ping(self, request_id):
@@ -69,7 +69,7 @@ class LocalPage(QWebEnginePage):
 
 
 class DesktopWindow(QMainWindow):
-    def __init__(self, width=1366, height=768, reference=False):
+    def __init__(self, width=1366, height=768, reference=False, database_path=None):
         super().__init__()
         assert hashlib.sha256(ORIGINAL.read_bytes()).hexdigest()==EXPECTED
         assert (ROOT/'legacy'/ORIGINAL.name).read_bytes()==ORIGINAL.read_bytes()
@@ -85,7 +85,7 @@ class DesktopWindow(QMainWindow):
         self.channel = QWebChannel(self.web_page)
         self.diagnostics = Diagnostics(self.channel)
         self.channel.registerObject('desktop', self.diagnostics)
-        self.fiscal = FiscalBridge(self.channel)
+        self.fiscal = FiscalBridge(self.channel, **({'database_path': database_path} if database_path is not None else {}))
         self.channel.registerObject('fiscal', self.fiscal)
         self.fiscal.thread.finished.connect(self._worker_stopped, Qt.ConnectionType.QueuedConnection)
         self.web_page.setWebChannel(self.channel)
@@ -105,6 +105,8 @@ class DesktopWindow(QMainWindow):
         self.resize(width,height)
         self._closed = False
         self._closing = False
+        self._shutdown_started = False
+        self._capture_started = False
         self.save_picker = None  # Python-only test hook; no path is accepted from JavaScript.
         self.active_downloads = set()
         self.profile.downloadRequested.connect(self._download_requested)
@@ -118,14 +120,33 @@ class DesktopWindow(QMainWindow):
             return
         if self.fiscal.thread.isRunning():
             event.ignore()
+            if self._capture_started:
+                return
+            self._capture_started = True
             self._closing = True
             self.setEnabled(False)
-            self.view.stop()
-            self.fiscal.shutdown()
+            # Capture the final UI preferences before stopping the renderer or worker.
+            self.web_page.runJavaScript('JSON.stringify(window.FiscalOpsRuntime&&window.FiscalOpsRuntime.captureSession?window.FiscalOpsRuntime.captureSession():null)', self._flush_and_stop)
+            QTimer.singleShot(1500, self._flush_and_stop)  # Unresponsive renderer: retain the last acknowledged view.
             return
         self.view.stop()
         self._closed = True
         super().closeEvent(event)
+
+    def _flush_and_stop(self, captured=None):
+        if self._shutdown_started or not self._closing:
+            return
+        self._shutdown_started = True
+        snapshot = None
+        if isinstance(captured, str) and len(captured) <= 100000:
+            try:
+                value = json.loads(captured)
+                if isinstance(value, dict) and set(value) == {'dataset_id', 'view'}:
+                    snapshot = value
+            except ValueError:
+                pass
+        self.view.stop()
+        self.fiscal.shutdown(snapshot)
 
     @Slot()
     def _worker_stopped(self):
