@@ -11,6 +11,7 @@ const {chromium}=require(modules?path.join(modules,'playwright'):'playwright');
 const url=option('--url',JSON.parse(fs.readFileSync(path.join(root,'tests/visual/evidence/server.json'),'utf8')).url);
 if(new URL(url).hostname!=='127.0.0.1')throw Error('Only literal 127.0.0.1 is allowed');
 const executable=option('--browser',undefined);
+const target=option('--target','reference');
 const out=path.resolve(root,option('--output','tests/visual/baseline'));
 if(!out.startsWith(root+path.sep))throw Error('Capture output must remain in this workspace');
 if(fs.existsSync(path.join(out,'manifest.json')))throw Error('Baseline is frozen. Use --output tests/visual/candidate-NAME; do not overwrite reference.');
@@ -22,7 +23,8 @@ const sourceHash=hash(original);
 if(sourceHash!=='33eeed2334a683b5360c2fc4f9cabc26885be66fef8714e4278f97235b8c373b')throw Error('Prototype changed');
 if(hash(path.join(root,'legacy',path.basename(original)))!==sourceHash)throw Error('Legacy differs');
 fs.mkdirSync(out,{recursive:true});fs.mkdirSync(evidence,{recursive:true});
-const report={date:new Date().toISOString(),prototype_sha256:sourceHash,method:'Unmodified original served on loopback; normal DOM/file-input interactions; no injected product state',system:{platform:os.platform(),release:os.release(),arch:os.arch()},browser:{},captures:[],checks:[],blocked:[],console:[],requests:[],buttonStates:[]};
+const report={date:new Date().toISOString(),prototype_sha256:sourceHash,target,method:target==='development'?'SPEC011 development copy; normal DOM/file-input interactions; no injected product state':'Unmodified original served on loopback; normal DOM/file-input interactions; no injected product state',system:{platform:os.platform(),release:os.release(),arch:os.arch()},browser:{},captures:[],checks:[],blocked:[],console:[],requests:[],buttonStates:[]};
+if(target==='development')report.development_runtime_sha256=hash(path.join(root,'app/ui/legacy-runtime.js'));
 function writeReport(){fs.writeFileSync(path.join(evidence,'navigation.json'),JSON.stringify(report,null,2));}
 async function record(id,expected,action){try{const actual=await action();const pass=JSON.stringify(actual)===JSON.stringify(expected);report.checks.push({id,result:pass?'PASS':'FAIL',expected,actual});return actual}catch(e){report.checks.push({id,result:'ERROR',expected,error:String(e)});return null}finally{writeReport()}}
 async function snapshot(page,scene,size){
@@ -73,6 +75,9 @@ async function run(){
       await record(`table-has-rows-${size.width}`,true,async()=>await page.locator('#tbody tr[data-i]').count()>0);
       await record(`report-filter-single-click-${size.width}`,'I',async()=>{await page.locator('#typeTabs [data-type="I"]').click();return page.locator('#typeTabs').evaluate(n=>n.querySelector('button.on')?.getAttribute('data-type')||null)});
       await snapshot(page,'05_type_clicked',size);
+      // SPEC011 fixes the click, so explicitly restore the unfiltered scope used
+      // by all remaining historical cases. Keep the original click assertion.
+      if(target==='development' && await page.locator('#typeTabs button.on').count())await page.locator('#typeTabs button.on').click();
       await page.locator('#q').fill('NOT-A-REAL-UUID');await page.waitForTimeout(250);
       await snapshot(page,'06_empty_filter',size);
       await record(`empty-filter-${size.width}`,0,()=>page.locator('#tbody tr[data-i]').count());
@@ -116,5 +121,6 @@ async function run(){
   }catch(e){report.fatal=String(e);writeReport();throw e}
   finally{if(browser)await browser.close();if(hash(original)!==sourceHash)throw Error('Original changed during test');writeReport()}
   console.log(JSON.stringify({captures:report.captures.length,checks:report.checks.length,failed:report.checks.filter(x=>x.result!=='PASS'),blocked:report.blocked},null,2));
+  if(args.includes('--strict') && report.checks.some(x=>x.result!=='PASS'))process.exitCode=1;
 }
 run().catch(e=>{console.error(e);process.exitCode=1});

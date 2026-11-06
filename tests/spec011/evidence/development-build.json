@@ -1,0 +1,30 @@
+{
+  "original_sha256": "33eeed2334a683b5360c2fc4f9cabc26885be66fef8714e4278f97235b8c373b",
+  "modified_original_lines": [
+    539,
+    685,
+    1103,
+    1127,
+    1128,
+    1129,
+    1130,
+    1131,
+    1175,
+    1176,
+    1177
+  ],
+  "fiscal_regions_unchanged": {
+    "L618-L626": "b874c969f57f678a34b1cc7284b5b12628df7653266f8eef808038151fc0717a",
+    "L634-L666": "750dbde934733dd1ef091c775ea366eb2776820b501ab57d800122e2a0ff78ee",
+    "L973-L1020": "610ceb4cf4d4d86682699d5bfa9a40f171f03b1d08fbdbba0d49dccece374b9e",
+    "L1021-L1044": "d3c7bcc78a383f3c270d1c2fb6428cf5e37ecbd77dbd5899d603fccdf7b2ea28"
+  },
+  "css_unchanged": true,
+  "files": {
+    "index.html": "3f9a8812f84201ec3c130c1bc3a87151a0b8e69d7391b0e1513ff5f1ef12dadb",
+    "legacy-runtime.js": "26ddbd3a9d7cd6082a4963ef587cee8f2f73226be0e9e3590d0dbd3b55673e4f",
+    "v20-runtime.js": "2ff2813c438434b3b65059a64fe119276b31c777c6948fce456020de11ae2b84",
+    "column-editor.js": "15365226020818978dd4eb2511214f503dd1ecafb4bad3d812b7d0c2ad4a9b80",
+    "desktop-bridge.js": "4a6bcf7d2e5344f1dffd32a7eeeeed991910e83a30a3cfe58d883028200bb01b"
+  }
+}

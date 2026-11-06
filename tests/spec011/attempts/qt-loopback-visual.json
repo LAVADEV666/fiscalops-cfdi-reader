@@ -1,0 +1,600 @@
+{
+  "pairs": [
+    {
+      "scene": "initial",
+      "viewport": [
+        1366,
+        768
+      ],
+      "comparable": true,
+      "width": 1366,
+      "height": 768,
+      "changedPixels": 26675,
+      "totalPixels": 1049088,
+      "changedPercent": 2.54268469375305,
+      "threshold": 0.1,
+      "antialiasExcluded": true,
+      "diff": "C:\\Users\\sin_s\\OneDrive\\Documents\\apps\\FISCALOPS CFDI READER\\tests\\spec011\\qt-visual\\diff_initial_1366.png"
+    },
+    {
+      "scene": "upload",
+      "viewport": [
+        1366,
+        768
+      ],
+      "comparable": true,
+      "width": 1366,
+      "height": 768,
+      "changedPixels": 3705,
+      "totalPixels": 1049088,
+      "changedPercent": 0.3531638909224012,
+      "threshold": 0.1,
+      "antialiasExcluded": true,
+      "diff": "C:\\Users\\sin_s\\OneDrive\\Documents\\apps\\FISCALOPS CFDI READER\\tests\\spec011\\qt-visual\\diff_upload_1366.png"
+    },
+    {
+      "scene": "reports",
+      "viewport": [
+        1366,
+        768
+      ],
+      "comparable": true,
+      "width": 1366,
+      "height": 768,
+      "changedPixels": 175,
+      "totalPixels": 1049088,
+      "changedPercent": 0.016681155441678867,
+      "threshold": 0.1,
+      "antialiasExcluded": true,
+      "diff": "C:\\Users\\sin_s\\OneDrive\\Documents\\apps\\FISCALOPS CFDI READER\\tests\\spec011\\qt-visual\\diff_reports_1366.png"
+    },
+    {
+      "scene": "editor",
+      "viewport": [
+        1366,
+        768
+      ],
+      "comparable": true,
+      "width": 1366,
+      "height": 768,
+      "changedPixels": 0,
+      "totalPixels": 1049088,
+      "changedPercent": 0,
+      "threshold": 0.1,
+      "antialiasExcluded": true,
+      "diff": "C:\\Users\\sin_s\\OneDrive\\Documents\\apps\\FISCALOPS CFDI READER\\tests\\spec011\\qt-visual\\diff_editor_1366.png"
+    },
+    {
+      "scene": "viewer",
+      "viewport": [
+        1366,
+        768
+      ],
+      "comparable": true,
+      "width": 1366,
+      "height": 768,
+      "changedPixels": 0,
+      "totalPixels": 1049088,
+      "changedPercent": 0,
+      "threshold": 0.1,
+      "antialiasExcluded": true,
+      "diff": "C:\\Users\\sin_s\\OneDrive\\Documents\\apps\\FISCALOPS CFDI READER\\tests\\spec011\\qt-visual\\diff_viewer_1366.png"
+    },
+    {
+      "scene": "excel",
+      "viewport": [
+        1366,
+        768
+      ],
+      "comparable": true,
+      "width": 1366,
+      "height": 768,
+      "changedPixels": 0,
+      "totalPixels": 1049088,
+      "changedPercent": 0,
+      "threshold": 0.1,
+      "antialiasExcluded": true,
+      "diff": "C:\\Users\\sin_s\\OneDrive\\Documents\\apps\\FISCALOPS CFDI READER\\tests\\spec011\\qt-visual\\diff_excel_1366.png"
+    },
+    {
+      "scene": "initial",
+      "viewport": [
+        1600,
+        900
+      ],
+      "comparable": true,
+      "width": 1600,
+      "height": 900,
+      "changedPixels": 3,
+      "totalPixels": 1440000,
+      "changedPercent": 0.00020833333333333335,
+      "threshold": 0.1,
+      "antialiasExcluded": true,
+      "diff": "C:\\Users\\sin_s\\OneDrive\\Documents\\apps\\FISCALOPS CFDI READER\\tests\\spec011\\qt-visual\\diff_initial_1600.png"
+    },
+    {
+      "scene": "upload",
+      "viewport": [
+        1600,
+        900
+      ],
+      "comparable": true,
+      "width": 1600,
+      "height": 900,
+      "changedPixels": 3769,
+      "totalPixels": 1440000,
+      "changedPercent": 0.2617361111111111,
+      "threshold": 0.1,
+      "antialiasExcluded": true,
+      "diff": "C:\\Users\\sin_s\\OneDrive\\Documents\\apps\\FISCALOPS CFDI READER\\tests\\spec011\\qt-visual\\diff_upload_1600.png"
+    },
+    {
+      "scene": "reports",
+      "viewport": [
+        1600,
+        900
+      ],
+      "comparable": true,
+      "width": 1600,
+      "height": 900,
+      "changedPixels": 0,
+      "totalPixels": 1440000,
+      "changedPercent": 0,
+      "threshold": 0.1,
+      "antialiasExcluded": true,
+      "diff": "C:\\Users\\sin_s\\OneDrive\\Documents\\apps\\FISCALOPS CFDI READER\\tests\\spec011\\qt-visual\\diff_reports_1600.png"
+    },
+    {
+      "scene": "editor",
+      "viewport": [
+        1600,
+        900
+      ],
+      "comparable": true,
+      "width": 1600,
+      "height": 900,
+      "changedPixels": 0,
+      "totalPixels": 1440000,
+      "changedPercent": 0,
+      "threshold": 0.1,
+      "antialiasExcluded": true,
+      "diff": "C:\\Users\\sin_s\\OneDrive\\Documents\\apps\\FISCALOPS CFDI READER\\tests\\spec011\\qt-visual\\diff_editor_1600.png"
+    },
+    {
+      "scene": "viewer",
+      "viewport": [
+        1600,
+        900
+      ],
+      "comparable": true,
+      "width": 1600,
+      "height": 900,
+      "changedPixels": 0,
+      "totalPixels": 1440000,
+      "changedPercent": 0,
+      "threshold": 0.1,
+      "antialiasExcluded": true,
+      "diff": "C:\\Users\\sin_s\\OneDrive\\Documents\\apps\\FISCALOPS CFDI READER\\tests\\spec011\\qt-visual\\diff_viewer_1600.png"
+    },
+    {
+      "scene": "excel",
+      "viewport": [
+        1600,
+        900
+      ],
+      "comparable": true,
+      "width": 1600,
+      "height": 900,
+      "changedPixels": 0,
+      "totalPixels": 1440000,
+      "changedPercent": 0,
+      "threshold": 0.1,
+      "antialiasExcluded": true,
+      "diff": "C:\\Users\\sin_s\\OneDrive\\Documents\\apps\\FISCALOPS CFDI READER\\tests\\spec011\\qt-visual\\diff_excel_1600.png"
+    },
+    {
+      "scene": "initial",
+      "viewport": [
+        1920,
+        1080
+      ],
+      "comparable": true,
+      "width": 1920,
+      "height": 1080,
+      "changedPixels": 0,
+      "totalPixels": 2073600,
+      "changedPercent": 0,
+      "threshold": 0.1,
+      "antialiasExcluded": true,
+      "diff": "C:\\Users\\sin_s\\OneDrive\\Documents\\apps\\FISCALOPS CFDI READER\\tests\\spec011\\qt-visual\\diff_initial_1920.png"
+    },
+    {
+      "scene": "upload",
+      "viewport": [
+        1920,
+        1080
+      ],
+      "comparable": true,
+      "width": 1920,
+      "height": 1080,
+      "changedPixels": 194,
+      "totalPixels": 2073600,
+      "changedPercent": 0.00935570987654321,
+      "threshold": 0.1,
+      "antialiasExcluded": true,
+      "diff": "C:\\Users\\sin_s\\OneDrive\\Documents\\apps\\FISCALOPS CFDI READER\\tests\\spec011\\qt-visual\\diff_upload_1920.png"
+    },
+    {
+      "scene": "reports",
+      "viewport": [
+        1920,
+        1080
+      ],
+      "comparable": true,
+      "width": 1920,
+      "height": 1080,
+      "changedPixels": 1590,
+      "totalPixels": 2073600,
+      "changedPercent": 0.07667824074074074,
+      "threshold": 0.1,
+      "antialiasExcluded": true,
+      "diff": "C:\\Users\\sin_s\\OneDrive\\Documents\\apps\\FISCALOPS CFDI READER\\tests\\spec011\\qt-visual\\diff_reports_1920.png"
+    },
+    {
+      "scene": "editor",
+      "viewport": [
+        1920,
+        1080
+      ],
+      "comparable": true,
+      "width": 1920,
+      "height": 1080,
+      "changedPixels": 5,
+      "totalPixels": 2073600,
+      "changedPercent": 0.00024112654320987653,
+      "threshold": 0.1,
+      "antialiasExcluded": true,
+      "diff": "C:\\Users\\sin_s\\OneDrive\\Documents\\apps\\FISCALOPS CFDI READER\\tests\\spec011\\qt-visual\\diff_editor_1920.png"
+    },
+    {
+      "scene": "viewer",
+      "viewport": [
+        1920,
+        1080
+      ],
+      "comparable": true,
+      "width": 1920,
+      "height": 1080,
+      "changedPixels": 0,
+      "totalPixels": 2073600,
+      "changedPercent": 0,
+      "threshold": 0.1,
+      "antialiasExcluded": true,
+      "diff": "C:\\Users\\sin_s\\OneDrive\\Documents\\apps\\FISCALOPS CFDI READER\\tests\\spec011\\qt-visual\\diff_viewer_1920.png"
+    },
+    {
+      "scene": "excel",
+      "viewport": [
+        1920,
+        1080
+      ],
+      "comparable": true,
+      "width": 1920,
+      "height": 1080,
+      "changedPixels": 0,
+      "totalPixels": 2073600,
+      "changedPercent": 0,
+      "threshold": 0.1,
+      "antialiasExcluded": true,
+      "diff": "C:\\Users\\sin_s\\OneDrive\\Documents\\apps\\FISCALOPS CFDI READER\\tests\\spec011\\qt-visual\\diff_excel_1920.png"
+    }
+  ],
+  "crossRenderer": [
+    {
+      "scene": "initial",
+      "viewport": [
+        1366,
+        768
+      ],
+      "engines": "Frozen Chromium151 vs real Windows QtWebEngine140",
+      "comparable": true,
+      "width": 1366,
+      "height": 768,
+      "changedPixels": 4,
+      "totalPixels": 1049088,
+      "changedPercent": 0.00038128355295265984,
+      "threshold": 0.1,
+      "antialiasExcluded": true,
+      "diff": "C:\\Users\\sin_s\\OneDrive\\Documents\\apps\\FISCALOPS CFDI READER\\tests\\spec011\\qt-visual\\cross_initial_1366.png"
+    },
+    {
+      "scene": "upload",
+      "viewport": [
+        1366,
+        768
+      ],
+      "engines": "Frozen Chromium151 vs real Windows QtWebEngine140",
+      "comparable": true,
+      "width": 1366,
+      "height": 768,
+      "changedPixels": 2453,
+      "totalPixels": 1049088,
+      "changedPercent": 0.23382213884821865,
+      "threshold": 0.1,
+      "antialiasExcluded": true,
+      "diff": "C:\\Users\\sin_s\\OneDrive\\Documents\\apps\\FISCALOPS CFDI READER\\tests\\spec011\\qt-visual\\cross_upload_1366.png"
+    },
+    {
+      "scene": "reports",
+      "viewport": [
+        1366,
+        768
+      ],
+      "engines": "Frozen Chromium151 vs real Windows QtWebEngine140",
+      "comparable": true,
+      "width": 1366,
+      "height": 768,
+      "changedPixels": 50577,
+      "totalPixels": 1049088,
+      "changedPercent": 4.821044564421669,
+      "threshold": 0.1,
+      "antialiasExcluded": true,
+      "diff": "C:\\Users\\sin_s\\OneDrive\\Documents\\apps\\FISCALOPS CFDI READER\\tests\\spec011\\qt-visual\\cross_reports_1366.png"
+    },
+    {
+      "scene": "editor",
+      "viewport": [
+        1366,
+        768
+      ],
+      "engines": "Frozen Chromium151 vs real Windows QtWebEngine140",
+      "comparable": true,
+      "width": 1366,
+      "height": 768,
+      "changedPixels": 24786,
+      "totalPixels": 1049088,
+      "changedPercent": 2.3626235358711565,
+      "threshold": 0.1,
+      "antialiasExcluded": true,
+      "diff": "C:\\Users\\sin_s\\OneDrive\\Documents\\apps\\FISCALOPS CFDI READER\\tests\\spec011\\qt-visual\\cross_editor_1366.png"
+    },
+    {
+      "scene": "viewer",
+      "viewport": [
+        1366,
+        768
+      ],
+      "engines": "Frozen Chromium151 vs real Windows QtWebEngine140",
+      "comparable": true,
+      "width": 1366,
+      "height": 768,
+      "changedPixels": 1792,
+      "totalPixels": 1049088,
+      "changedPercent": 0.1708150317227916,
+      "threshold": 0.1,
+      "antialiasExcluded": true,
+      "diff": "C:\\Users\\sin_s\\OneDrive\\Documents\\apps\\FISCALOPS CFDI READER\\tests\\spec011\\qt-visual\\cross_viewer_1366.png"
+    },
+    {
+      "scene": "excel",
+      "viewport": [
+        1366,
+        768
+      ],
+      "engines": "Frozen Chromium151 vs real Windows QtWebEngine140",
+      "comparable": true,
+      "width": 1366,
+      "height": 768,
+      "changedPixels": 4,
+      "totalPixels": 1049088,
+      "changedPercent": 0.00038128355295265984,
+      "threshold": 0.1,
+      "antialiasExcluded": true,
+      "diff": "C:\\Users\\sin_s\\OneDrive\\Documents\\apps\\FISCALOPS CFDI READER\\tests\\spec011\\qt-visual\\cross_excel_1366.png"
+    },
+    {
+      "scene": "initial",
+      "viewport": [
+        1600,
+        900
+      ],
+      "engines": "Frozen Chromium151 vs real Windows QtWebEngine140",
+      "comparable": true,
+      "width": 1600,
+      "height": 900,
+      "changedPixels": 4,
+      "totalPixels": 1440000,
+      "changedPercent": 0.0002777777777777778,
+      "threshold": 0.1,
+      "antialiasExcluded": true,
+      "diff": "C:\\Users\\sin_s\\OneDrive\\Documents\\apps\\FISCALOPS CFDI READER\\tests\\spec011\\qt-visual\\cross_initial_1600.png"
+    },
+    {
+      "scene": "upload",
+      "viewport": [
+        1600,
+        900
+      ],
+      "engines": "Frozen Chromium151 vs real Windows QtWebEngine140",
+      "comparable": true,
+      "width": 1600,
+      "height": 900,
+      "changedPixels": 462,
+      "totalPixels": 1440000,
+      "changedPercent": 0.03208333333333333,
+      "threshold": 0.1,
+      "antialiasExcluded": true,
+      "diff": "C:\\Users\\sin_s\\OneDrive\\Documents\\apps\\FISCALOPS CFDI READER\\tests\\spec011\\qt-visual\\cross_upload_1600.png"
+    },
+    {
+      "scene": "reports",
+      "viewport": [
+        1600,
+        900
+      ],
+      "engines": "Frozen Chromium151 vs real Windows QtWebEngine140",
+      "comparable": true,
+      "width": 1600,
+      "height": 900,
+      "changedPixels": 98576,
+      "totalPixels": 1440000,
+      "changedPercent": 6.845555555555555,
+      "threshold": 0.1,
+      "antialiasExcluded": true,
+      "diff": "C:\\Users\\sin_s\\OneDrive\\Documents\\apps\\FISCALOPS CFDI READER\\tests\\spec011\\qt-visual\\cross_reports_1600.png"
+    },
+    {
+      "scene": "editor",
+      "viewport": [
+        1600,
+        900
+      ],
+      "engines": "Frozen Chromium151 vs real Windows QtWebEngine140",
+      "comparable": true,
+      "width": 1600,
+      "height": 900,
+      "changedPixels": 31811,
+      "totalPixels": 1440000,
+      "changedPercent": 2.2090972222222223,
+      "threshold": 0.1,
+      "antialiasExcluded": true,
+      "diff": "C:\\Users\\sin_s\\OneDrive\\Documents\\apps\\FISCALOPS CFDI READER\\tests\\spec011\\qt-visual\\cross_editor_1600.png"
+    },
+    {
+      "scene": "viewer",
+      "viewport": [
+        1600,
+        900
+      ],
+      "engines": "Frozen Chromium151 vs real Windows QtWebEngine140",
+      "comparable": true,
+      "width": 1600,
+      "height": 900,
+      "changedPixels": 2836,
+      "totalPixels": 1440000,
+      "changedPercent": 0.19694444444444445,
+      "threshold": 0.1,
+      "antialiasExcluded": true,
+      "diff": "C:\\Users\\sin_s\\OneDrive\\Documents\\apps\\FISCALOPS CFDI READER\\tests\\spec011\\qt-visual\\cross_viewer_1600.png"
+    },
+    {
+      "scene": "excel",
+      "viewport": [
+        1600,
+        900
+      ],
+      "engines": "Frozen Chromium151 vs real Windows QtWebEngine140",
+      "comparable": true,
+      "width": 1600,
+      "height": 900,
+      "changedPixels": 701,
+      "totalPixels": 1440000,
+      "changedPercent": 0.04868055555555555,
+      "threshold": 0.1,
+      "antialiasExcluded": true,
+      "diff": "C:\\Users\\sin_s\\OneDrive\\Documents\\apps\\FISCALOPS CFDI READER\\tests\\spec011\\qt-visual\\cross_excel_1600.png"
+    },
+    {
+      "scene": "initial",
+      "viewport": [
+        1920,
+        1080
+      ],
+      "engines": "Frozen Chromium151 vs real Windows QtWebEngine140",
+      "comparable": true,
+      "width": 1920,
+      "height": 1080,
+      "changedPixels": 3,
+      "totalPixels": 2073600,
+      "changedPercent": 0.00014467592592592592,
+      "threshold": 0.1,
+      "antialiasExcluded": true,
+      "diff": "C:\\Users\\sin_s\\OneDrive\\Documents\\apps\\FISCALOPS CFDI READER\\tests\\spec011\\qt-visual\\cross_initial_1920.png"
+    },
+    {
+      "scene": "upload",
+      "viewport": [
+        1920,
+        1080
+      ],
+      "engines": "Frozen Chromium151 vs real Windows QtWebEngine140",
+      "comparable": true,
+      "width": 1920,
+      "height": 1080,
+      "changedPixels": 3954,
+      "totalPixels": 2073600,
+      "changedPercent": 0.19068287037037038,
+      "threshold": 0.1,
+      "antialiasExcluded": true,
+      "diff": "C:\\Users\\sin_s\\OneDrive\\Documents\\apps\\FISCALOPS CFDI READER\\tests\\spec011\\qt-visual\\cross_upload_1920.png"
+    },
+    {
+      "scene": "reports",
+      "viewport": [
+        1920,
+        1080
+      ],
+      "engines": "Frozen Chromium151 vs real Windows QtWebEngine140",
+      "comparable": true,
+      "width": 1920,
+      "height": 1080,
+      "changedPixels": 137294,
+      "totalPixels": 2073600,
+      "changedPercent": 6.621045524691358,
+      "threshold": 0.1,
+      "antialiasExcluded": true,
+      "diff": "C:\\Users\\sin_s\\OneDrive\\Documents\\apps\\FISCALOPS CFDI READER\\tests\\spec011\\qt-visual\\cross_reports_1920.png"
+    },
+    {
+      "scene": "editor",
+      "viewport": [
+        1920,
+        1080
+      ],
+      "engines": "Frozen Chromium151 vs real Windows QtWebEngine140",
+      "comparable": true,
+      "width": 1920,
+      "height": 1080,
+      "changedPixels": 42432,
+      "totalPixels": 2073600,
+      "changedPercent": 2.0462962962962963,
+      "threshold": 0.1,
+      "antialiasExcluded": true,
+      "diff": "C:\\Users\\sin_s\\OneDrive\\Documents\\apps\\FISCALOPS CFDI READER\\tests\\spec011\\qt-visual\\cross_editor_1920.png"
+    },
+    {
+      "scene": "viewer",
+      "viewport": [
+        1920,
+        1080
+      ],
+      "engines": "Frozen Chromium151 vs real Windows QtWebEngine140",
+      "comparable": true,
+      "width": 1920,
+      "height": 1080,
+      "changedPixels": 7278,
+      "totalPixels": 2073600,
+      "changedPercent": 0.3509837962962963,
+      "threshold": 0.1,
+      "antialiasExcluded": true,
+      "diff": "C:\\Users\\sin_s\\OneDrive\\Documents\\apps\\FISCALOPS CFDI READER\\tests\\spec011\\qt-visual\\cross_viewer_1920.png"
+    },
+    {
+      "scene": "excel",
+      "viewport": [
+        1920,
+        1080
+      ],
+      "engines": "Frozen Chromium151 vs real Windows QtWebEngine140",
+      "comparable": true,
+      "width": 1920,
+      "height": 1080,
+      "changedPixels": 1380,
+      "totalPixels": 2073600,
+      "changedPercent": 0.06655092592592593,
+      "threshold": 0.1,
+      "antialiasExcluded": true,
+      "diff": "C:\\Users\\sin_s\\OneDrive\\Documents\\apps\\FISCALOPS CFDI READER\\tests\\spec011\\qt-visual\\cross_excel_1920.png"
+    }
+  ]
+}

@@ -1,0 +1,1267 @@
+{
+  "method": "Paired actual screenshots, original vs development. Finite animations finish; infinite animations paused at time0 ONLY in QA on both pages.",
+  "pairs": [
+    {
+      "scene": "initial",
+      "viewport": {
+        "width": 1366,
+        "height": 768
+      },
+      "comparable": true,
+      "width": 1366,
+      "height": 768,
+      "changedPixels": 0,
+      "totalPixels": 1049088,
+      "changedPercent": 0,
+      "threshold": 0.1,
+      "antialiasExcluded": true,
+      "diff": "C:\\Users\\sin_s\\OneDrive\\Documents\\apps\\FISCALOPS CFDI READER\\tests\\spec011\\visual\\diff_initial_1366.png"
+    },
+    {
+      "scene": "upload",
+      "viewport": {
+        "width": 1366,
+        "height": 768
+      },
+      "comparable": true,
+      "width": 1366,
+      "height": 768,
+      "changedPixels": 0,
+      "totalPixels": 1049088,
+      "changedPercent": 0,
+      "threshold": 0.1,
+      "antialiasExcluded": true,
+      "diff": "C:\\Users\\sin_s\\OneDrive\\Documents\\apps\\FISCALOPS CFDI READER\\tests\\spec011\\visual\\diff_upload_1366.png"
+    },
+    {
+      "scene": "reports",
+      "viewport": {
+        "width": 1366,
+        "height": 768
+      },
+      "comparable": true,
+      "width": 1366,
+      "height": 768,
+      "changedPixels": 0,
+      "totalPixels": 1049088,
+      "changedPercent": 0,
+      "threshold": 0.1,
+      "antialiasExcluded": true,
+      "diff": "C:\\Users\\sin_s\\OneDrive\\Documents\\apps\\FISCALOPS CFDI READER\\tests\\spec011\\visual\\diff_reports_1366.png"
+    },
+    {
+      "scene": "editor",
+      "viewport": {
+        "width": 1366,
+        "height": 768
+      },
+      "comparable": true,
+      "width": 1366,
+      "height": 768,
+      "changedPixels": 0,
+      "totalPixels": 1049088,
+      "changedPercent": 0,
+      "threshold": 0.1,
+      "antialiasExcluded": true,
+      "diff": "C:\\Users\\sin_s\\OneDrive\\Documents\\apps\\FISCALOPS CFDI READER\\tests\\spec011\\visual\\diff_editor_1366.png"
+    },
+    {
+      "scene": "viewer",
+      "viewport": {
+        "width": 1366,
+        "height": 768
+      },
+      "comparable": true,
+      "width": 1366,
+      "height": 768,
+      "changedPixels": 0,
+      "totalPixels": 1049088,
+      "changedPercent": 0,
+      "threshold": 0.1,
+      "antialiasExcluded": true,
+      "diff": "C:\\Users\\sin_s\\OneDrive\\Documents\\apps\\FISCALOPS CFDI READER\\tests\\spec011\\visual\\diff_viewer_1366.png"
+    },
+    {
+      "scene": "excel",
+      "viewport": {
+        "width": 1366,
+        "height": 768
+      },
+      "comparable": true,
+      "width": 1366,
+      "height": 768,
+      "changedPixels": 0,
+      "totalPixels": 1049088,
+      "changedPercent": 0,
+      "threshold": 0.1,
+      "antialiasExcluded": true,
+      "diff": "C:\\Users\\sin_s\\OneDrive\\Documents\\apps\\FISCALOPS CFDI READER\\tests\\spec011\\visual\\diff_excel_1366.png"
+    },
+    {
+      "scene": "initial",
+      "viewport": {
+        "width": 1600,
+        "height": 900
+      },
+      "comparable": true,
+      "width": 1600,
+      "height": 900,
+      "changedPixels": 0,
+      "totalPixels": 1440000,
+      "changedPercent": 0,
+      "threshold": 0.1,
+      "antialiasExcluded": true,
+      "diff": "C:\\Users\\sin_s\\OneDrive\\Documents\\apps\\FISCALOPS CFDI READER\\tests\\spec011\\visual\\diff_initial_1600.png"
+    },
+    {
+      "scene": "upload",
+      "viewport": {
+        "width": 1600,
+        "height": 900
+      },
+      "comparable": true,
+      "width": 1600,
+      "height": 900,
+      "changedPixels": 0,
+      "totalPixels": 1440000,
+      "changedPercent": 0,
+      "threshold": 0.1,
+      "antialiasExcluded": true,
+      "diff": "C:\\Users\\sin_s\\OneDrive\\Documents\\apps\\FISCALOPS CFDI READER\\tests\\spec011\\visual\\diff_upload_1600.png"
+    },
+    {
+      "scene": "reports",
+      "viewport": {
+        "width": 1600,
+        "height": 900
+      },
+      "comparable": true,
+      "width": 1600,
+      "height": 900,
+      "changedPixels": 0,
+      "totalPixels": 1440000,
+      "changedPercent": 0,
+      "threshold": 0.1,
+      "antialiasExcluded": true,
+      "diff": "C:\\Users\\sin_s\\OneDrive\\Documents\\apps\\FISCALOPS CFDI READER\\tests\\spec011\\visual\\diff_reports_1600.png"
+    },
+    {
+      "scene": "editor",
+      "viewport": {
+        "width": 1600,
+        "height": 900
+      },
+      "comparable": true,
+      "width": 1600,
+      "height": 900,
+      "changedPixels": 0,
+      "totalPixels": 1440000,
+      "changedPercent": 0,
+      "threshold": 0.1,
+      "antialiasExcluded": true,
+      "diff": "C:\\Users\\sin_s\\OneDrive\\Documents\\apps\\FISCALOPS CFDI READER\\tests\\spec011\\visual\\diff_editor_1600.png"
+    },
+    {
+      "scene": "viewer",
+      "viewport": {
+        "width": 1600,
+        "height": 900
+      },
+      "comparable": true,
+      "width": 1600,
+      "height": 900,
+      "changedPixels": 0,
+      "totalPixels": 1440000,
+      "changedPercent": 0,
+      "threshold": 0.1,
+      "antialiasExcluded": true,
+      "diff": "C:\\Users\\sin_s\\OneDrive\\Documents\\apps\\FISCALOPS CFDI READER\\tests\\spec011\\visual\\diff_viewer_1600.png"
+    },
+    {
+      "scene": "excel",
+      "viewport": {
+        "width": 1600,
+        "height": 900
+      },
+      "comparable": true,
+      "width": 1600,
+      "height": 900,
+      "changedPixels": 0,
+      "totalPixels": 1440000,
+      "changedPercent": 0,
+      "threshold": 0.1,
+      "antialiasExcluded": true,
+      "diff": "C:\\Users\\sin_s\\OneDrive\\Documents\\apps\\FISCALOPS CFDI READER\\tests\\spec011\\visual\\diff_excel_1600.png"
+    },
+    {
+      "scene": "initial",
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "comparable": true,
+      "width": 1920,
+      "height": 1080,
+      "changedPixels": 0,
+      "totalPixels": 2073600,
+      "changedPercent": 0,
+      "threshold": 0.1,
+      "antialiasExcluded": true,
+      "diff": "C:\\Users\\sin_s\\OneDrive\\Documents\\apps\\FISCALOPS CFDI READER\\tests\\spec011\\visual\\diff_initial_1920.png"
+    },
+    {
+      "scene": "upload",
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "comparable": true,
+      "width": 1920,
+      "height": 1080,
+      "changedPixels": 0,
+      "totalPixels": 2073600,
+      "changedPercent": 0,
+      "threshold": 0.1,
+      "antialiasExcluded": true,
+      "diff": "C:\\Users\\sin_s\\OneDrive\\Documents\\apps\\FISCALOPS CFDI READER\\tests\\spec011\\visual\\diff_upload_1920.png"
+    },
+    {
+      "scene": "reports",
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "comparable": true,
+      "width": 1920,
+      "height": 1080,
+      "changedPixels": 0,
+      "totalPixels": 2073600,
+      "changedPercent": 0,
+      "threshold": 0.1,
+      "antialiasExcluded": true,
+      "diff": "C:\\Users\\sin_s\\OneDrive\\Documents\\apps\\FISCALOPS CFDI READER\\tests\\spec011\\visual\\diff_reports_1920.png"
+    },
+    {
+      "scene": "editor",
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "comparable": true,
+      "width": 1920,
+      "height": 1080,
+      "changedPixels": 0,
+      "totalPixels": 2073600,
+      "changedPercent": 0,
+      "threshold": 0.1,
+      "antialiasExcluded": true,
+      "diff": "C:\\Users\\sin_s\\OneDrive\\Documents\\apps\\FISCALOPS CFDI READER\\tests\\spec011\\visual\\diff_editor_1920.png"
+    },
+    {
+      "scene": "viewer",
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "comparable": true,
+      "width": 1920,
+      "height": 1080,
+      "changedPixels": 0,
+      "totalPixels": 2073600,
+      "changedPercent": 0,
+      "threshold": 0.1,
+      "antialiasExcluded": true,
+      "diff": "C:\\Users\\sin_s\\OneDrive\\Documents\\apps\\FISCALOPS CFDI READER\\tests\\spec011\\visual\\diff_viewer_1920.png"
+    },
+    {
+      "scene": "excel",
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "comparable": true,
+      "width": 1920,
+      "height": 1080,
+      "changedPixels": 0,
+      "totalPixels": 2073600,
+      "changedPercent": 0,
+      "threshold": 0.1,
+      "antialiasExcluded": true,
+      "diff": "C:\\Users\\sin_s\\OneDrive\\Documents\\apps\\FISCALOPS CFDI READER\\tests\\spec011\\visual\\diff_excel_1920.png"
+    }
+  ],
+  "baselineComparisons": [
+    {
+      "scene": "01_initial",
+      "viewport": {
+        "width": 1366,
+        "height": 768
+      },
+      "intentionalStateChange": false,
+      "animationsInHistoricalBaseline": "running, exact phase not recorded",
+      "comparable": true,
+      "width": 1366,
+      "height": 768,
+      "changedPixels": 1794,
+      "totalPixels": 1049088,
+      "changedPercent": 0.17100567349926793,
+      "threshold": 0.1,
+      "antialiasExcluded": true,
+      "diff": "C:\\Users\\sin_s\\OneDrive\\Documents\\apps\\FISCALOPS CFDI READER\\tests\\spec011\\visual\\baseline-diffs\\01_initial__1366x768__dsf1.png"
+    },
+    {
+      "scene": "02_upload_empty",
+      "viewport": {
+        "width": 1366,
+        "height": 768
+      },
+      "intentionalStateChange": false,
+      "animationsInHistoricalBaseline": "running, exact phase not recorded",
+      "comparable": true,
+      "width": 1366,
+      "height": 768,
+      "changedPixels": 2859,
+      "totalPixels": 1049088,
+      "changedPercent": 0.2725224194729136,
+      "threshold": 0.1,
+      "antialiasExcluded": true,
+      "diff": "C:\\Users\\sin_s\\OneDrive\\Documents\\apps\\FISCALOPS CFDI READER\\tests\\spec011\\visual\\baseline-diffs\\02_upload_empty__1366x768__dsf1.png"
+    },
+    {
+      "scene": "03_files_selected",
+      "viewport": {
+        "width": 1366,
+        "height": 768
+      },
+      "intentionalStateChange": false,
+      "animationsInHistoricalBaseline": "running, exact phase not recorded",
+      "comparable": true,
+      "width": 1366,
+      "height": 768,
+      "changedPixels": 80,
+      "totalPixels": 1049088,
+      "changedPercent": 0.007625671059053197,
+      "threshold": 0.1,
+      "antialiasExcluded": true,
+      "diff": "C:\\Users\\sin_s\\OneDrive\\Documents\\apps\\FISCALOPS CFDI READER\\tests\\spec011\\visual\\baseline-diffs\\03_files_selected__1366x768__dsf1.png"
+    },
+    {
+      "scene": "04_reports_table",
+      "viewport": {
+        "width": 1366,
+        "height": 768
+      },
+      "intentionalStateChange": false,
+      "animationsInHistoricalBaseline": "running, exact phase not recorded",
+      "comparable": true,
+      "width": 1366,
+      "height": 768,
+      "changedPixels": 0,
+      "totalPixels": 1049088,
+      "changedPercent": 0,
+      "threshold": 0.1,
+      "antialiasExcluded": true,
+      "diff": "C:\\Users\\sin_s\\OneDrive\\Documents\\apps\\FISCALOPS CFDI READER\\tests\\spec011\\visual\\baseline-diffs\\04_reports_table__1366x768__dsf1.png"
+    },
+    {
+      "scene": "05_type_clicked",
+      "viewport": {
+        "width": 1366,
+        "height": 768
+      },
+      "intentionalStateChange": true,
+      "animationsInHistoricalBaseline": "running, exact phase not recorded",
+      "comparable": true,
+      "width": 1366,
+      "height": 768,
+      "changedPixels": 16236,
+      "totalPixels": 1049088,
+      "changedPercent": 1.5476299414348462,
+      "threshold": 0.1,
+      "antialiasExcluded": true,
+      "diff": "C:\\Users\\sin_s\\OneDrive\\Documents\\apps\\FISCALOPS CFDI READER\\tests\\spec011\\visual\\baseline-diffs\\05_type_clicked__1366x768__dsf1.png"
+    },
+    {
+      "scene": "06_empty_filter",
+      "viewport": {
+        "width": 1366,
+        "height": 768
+      },
+      "intentionalStateChange": false,
+      "animationsInHistoricalBaseline": "running, exact phase not recorded",
+      "comparable": true,
+      "width": 1366,
+      "height": 768,
+      "changedPixels": 0,
+      "totalPixels": 1049088,
+      "changedPercent": 0,
+      "threshold": 0.1,
+      "antialiasExcluded": true,
+      "diff": "C:\\Users\\sin_s\\OneDrive\\Documents\\apps\\FISCALOPS CFDI READER\\tests\\spec011\\visual\\baseline-diffs\\06_empty_filter__1366x768__dsf1.png"
+    },
+    {
+      "scene": "07_viewer_summary",
+      "viewport": {
+        "width": 1366,
+        "height": 768
+      },
+      "intentionalStateChange": false,
+      "animationsInHistoricalBaseline": "running, exact phase not recorded",
+      "comparable": true,
+      "width": 1366,
+      "height": 768,
+      "changedPixels": 0,
+      "totalPixels": 1049088,
+      "changedPercent": 0,
+      "threshold": 0.1,
+      "antialiasExcluded": true,
+      "diff": "C:\\Users\\sin_s\\OneDrive\\Documents\\apps\\FISCALOPS CFDI READER\\tests\\spec011\\visual\\baseline-diffs\\07_viewer_summary__1366x768__dsf1.png"
+    },
+    {
+      "scene": "08_viewer_taxes",
+      "viewport": {
+        "width": 1366,
+        "height": 768
+      },
+      "intentionalStateChange": false,
+      "animationsInHistoricalBaseline": "running, exact phase not recorded",
+      "comparable": true,
+      "width": 1366,
+      "height": 768,
+      "changedPixels": 0,
+      "totalPixels": 1049088,
+      "changedPercent": 0,
+      "threshold": 0.1,
+      "antialiasExcluded": true,
+      "diff": "C:\\Users\\sin_s\\OneDrive\\Documents\\apps\\FISCALOPS CFDI READER\\tests\\spec011\\visual\\baseline-diffs\\08_viewer_taxes__1366x768__dsf1.png"
+    },
+    {
+      "scene": "09_viewer_concepts",
+      "viewport": {
+        "width": 1366,
+        "height": 768
+      },
+      "intentionalStateChange": false,
+      "animationsInHistoricalBaseline": "running, exact phase not recorded",
+      "comparable": true,
+      "width": 1366,
+      "height": 768,
+      "changedPixels": 0,
+      "totalPixels": 1049088,
+      "changedPercent": 0,
+      "threshold": 0.1,
+      "antialiasExcluded": true,
+      "diff": "C:\\Users\\sin_s\\OneDrive\\Documents\\apps\\FISCALOPS CFDI READER\\tests\\spec011\\visual\\baseline-diffs\\09_viewer_concepts__1366x768__dsf1.png"
+    },
+    {
+      "scene": "10_viewer_fields",
+      "viewport": {
+        "width": 1366,
+        "height": 768
+      },
+      "intentionalStateChange": false,
+      "animationsInHistoricalBaseline": "running, exact phase not recorded",
+      "comparable": true,
+      "width": 1366,
+      "height": 768,
+      "changedPixels": 0,
+      "totalPixels": 1049088,
+      "changedPercent": 0,
+      "threshold": 0.1,
+      "antialiasExcluded": true,
+      "diff": "C:\\Users\\sin_s\\OneDrive\\Documents\\apps\\FISCALOPS CFDI READER\\tests\\spec011\\visual\\baseline-diffs\\10_viewer_fields__1366x768__dsf1.png"
+    },
+    {
+      "scene": "11_viewer_xml",
+      "viewport": {
+        "width": 1366,
+        "height": 768
+      },
+      "intentionalStateChange": false,
+      "animationsInHistoricalBaseline": "running, exact phase not recorded",
+      "comparable": true,
+      "width": 1366,
+      "height": 768,
+      "changedPixels": 0,
+      "totalPixels": 1049088,
+      "changedPercent": 0,
+      "threshold": 0.1,
+      "antialiasExcluded": true,
+      "diff": "C:\\Users\\sin_s\\OneDrive\\Documents\\apps\\FISCALOPS CFDI READER\\tests\\spec011\\visual\\baseline-diffs\\11_viewer_xml__1366x768__dsf1.png"
+    },
+    {
+      "scene": "12_column_editor",
+      "viewport": {
+        "width": 1366,
+        "height": 768
+      },
+      "intentionalStateChange": false,
+      "animationsInHistoricalBaseline": "running, exact phase not recorded",
+      "comparable": true,
+      "width": 1366,
+      "height": 768,
+      "changedPixels": 0,
+      "totalPixels": 1049088,
+      "changedPercent": 0,
+      "threshold": 0.1,
+      "antialiasExcluded": true,
+      "diff": "C:\\Users\\sin_s\\OneDrive\\Documents\\apps\\FISCALOPS CFDI READER\\tests\\spec011\\visual\\baseline-diffs\\12_column_editor__1366x768__dsf1.png"
+    },
+    {
+      "scene": "13_column_search",
+      "viewport": {
+        "width": 1366,
+        "height": 768
+      },
+      "intentionalStateChange": false,
+      "animationsInHistoricalBaseline": "running, exact phase not recorded",
+      "comparable": true,
+      "width": 1366,
+      "height": 768,
+      "changedPixels": 0,
+      "totalPixels": 1049088,
+      "changedPercent": 0,
+      "threshold": 0.1,
+      "antialiasExcluded": true,
+      "diff": "C:\\Users\\sin_s\\OneDrive\\Documents\\apps\\FISCALOPS CFDI READER\\tests\\spec011\\visual\\baseline-diffs\\13_column_search__1366x768__dsf1.png"
+    },
+    {
+      "scene": "14_column_search_applied",
+      "viewport": {
+        "width": 1366,
+        "height": 768
+      },
+      "intentionalStateChange": true,
+      "animationsInHistoricalBaseline": "running, exact phase not recorded",
+      "comparable": true,
+      "width": 1366,
+      "height": 768,
+      "changedPixels": 8077,
+      "totalPixels": 1049088,
+      "changedPercent": 0.7699068142996583,
+      "threshold": 0.1,
+      "antialiasExcluded": true,
+      "diff": "C:\\Users\\sin_s\\OneDrive\\Documents\\apps\\FISCALOPS CFDI READER\\tests\\spec011\\visual\\baseline-diffs\\14_column_search_applied__1366x768__dsf1.png"
+    },
+    {
+      "scene": "15_excel_constructor",
+      "viewport": {
+        "width": 1366,
+        "height": 768
+      },
+      "intentionalStateChange": false,
+      "animationsInHistoricalBaseline": "running, exact phase not recorded",
+      "comparable": true,
+      "width": 1366,
+      "height": 768,
+      "changedPixels": 0,
+      "totalPixels": 1049088,
+      "changedPercent": 0,
+      "threshold": 0.1,
+      "antialiasExcluded": true,
+      "diff": "C:\\Users\\sin_s\\OneDrive\\Documents\\apps\\FISCALOPS CFDI READER\\tests\\spec011\\visual\\baseline-diffs\\15_excel_constructor__1366x768__dsf1.png"
+    },
+    {
+      "scene": "16_excel_choices",
+      "viewport": {
+        "width": 1366,
+        "height": 768
+      },
+      "intentionalStateChange": false,
+      "animationsInHistoricalBaseline": "running, exact phase not recorded",
+      "comparable": true,
+      "width": 1366,
+      "height": 768,
+      "changedPixels": 0,
+      "totalPixels": 1049088,
+      "changedPercent": 0,
+      "threshold": 0.1,
+      "antialiasExcluded": true,
+      "diff": "C:\\Users\\sin_s\\OneDrive\\Documents\\apps\\FISCALOPS CFDI READER\\tests\\spec011\\visual\\baseline-diffs\\16_excel_choices__1366x768__dsf1.png"
+    },
+    {
+      "scene": "17_read_errors",
+      "viewport": {
+        "width": 1366,
+        "height": 768
+      },
+      "intentionalStateChange": false,
+      "animationsInHistoricalBaseline": "running, exact phase not recorded",
+      "comparable": true,
+      "width": 1366,
+      "height": 768,
+      "changedPixels": 0,
+      "totalPixels": 1049088,
+      "changedPercent": 0,
+      "threshold": 0.1,
+      "antialiasExcluded": true,
+      "diff": "C:\\Users\\sin_s\\OneDrive\\Documents\\apps\\FISCALOPS CFDI READER\\tests\\spec011\\visual\\baseline-diffs\\17_read_errors__1366x768__dsf1.png"
+    },
+    {
+      "scene": "18_cleared",
+      "viewport": {
+        "width": 1366,
+        "height": 768
+      },
+      "intentionalStateChange": false,
+      "animationsInHistoricalBaseline": "running, exact phase not recorded",
+      "comparable": true,
+      "width": 1366,
+      "height": 768,
+      "changedPixels": 0,
+      "totalPixels": 1049088,
+      "changedPercent": 0,
+      "threshold": 0.1,
+      "antialiasExcluded": true,
+      "diff": "C:\\Users\\sin_s\\OneDrive\\Documents\\apps\\FISCALOPS CFDI READER\\tests\\spec011\\visual\\baseline-diffs\\18_cleared__1366x768__dsf1.png"
+    },
+    {
+      "scene": "01_initial",
+      "viewport": {
+        "width": 1600,
+        "height": 900
+      },
+      "intentionalStateChange": false,
+      "animationsInHistoricalBaseline": "running, exact phase not recorded",
+      "comparable": true,
+      "width": 1600,
+      "height": 900,
+      "changedPixels": 0,
+      "totalPixels": 1440000,
+      "changedPercent": 0,
+      "threshold": 0.1,
+      "antialiasExcluded": true,
+      "diff": "C:\\Users\\sin_s\\OneDrive\\Documents\\apps\\FISCALOPS CFDI READER\\tests\\spec011\\visual\\baseline-diffs\\01_initial__1600x900__dsf1.png"
+    },
+    {
+      "scene": "02_upload_empty",
+      "viewport": {
+        "width": 1600,
+        "height": 900
+      },
+      "intentionalStateChange": false,
+      "animationsInHistoricalBaseline": "running, exact phase not recorded",
+      "comparable": true,
+      "width": 1600,
+      "height": 900,
+      "changedPixels": 0,
+      "totalPixels": 1440000,
+      "changedPercent": 0,
+      "threshold": 0.1,
+      "antialiasExcluded": true,
+      "diff": "C:\\Users\\sin_s\\OneDrive\\Documents\\apps\\FISCALOPS CFDI READER\\tests\\spec011\\visual\\baseline-diffs\\02_upload_empty__1600x900__dsf1.png"
+    },
+    {
+      "scene": "03_files_selected",
+      "viewport": {
+        "width": 1600,
+        "height": 900
+      },
+      "intentionalStateChange": false,
+      "animationsInHistoricalBaseline": "running, exact phase not recorded",
+      "comparable": true,
+      "width": 1600,
+      "height": 900,
+      "changedPixels": 779,
+      "totalPixels": 1440000,
+      "changedPercent": 0.05409722222222222,
+      "threshold": 0.1,
+      "antialiasExcluded": true,
+      "diff": "C:\\Users\\sin_s\\OneDrive\\Documents\\apps\\FISCALOPS CFDI READER\\tests\\spec011\\visual\\baseline-diffs\\03_files_selected__1600x900__dsf1.png"
+    },
+    {
+      "scene": "04_reports_table",
+      "viewport": {
+        "width": 1600,
+        "height": 900
+      },
+      "intentionalStateChange": false,
+      "animationsInHistoricalBaseline": "running, exact phase not recorded",
+      "comparable": true,
+      "width": 1600,
+      "height": 900,
+      "changedPixels": 0,
+      "totalPixels": 1440000,
+      "changedPercent": 0,
+      "threshold": 0.1,
+      "antialiasExcluded": true,
+      "diff": "C:\\Users\\sin_s\\OneDrive\\Documents\\apps\\FISCALOPS CFDI READER\\tests\\spec011\\visual\\baseline-diffs\\04_reports_table__1600x900__dsf1.png"
+    },
+    {
+      "scene": "05_type_clicked",
+      "viewport": {
+        "width": 1600,
+        "height": 900
+      },
+      "intentionalStateChange": true,
+      "animationsInHistoricalBaseline": "running, exact phase not recorded",
+      "comparable": true,
+      "width": 1600,
+      "height": 900,
+      "changedPixels": 31461,
+      "totalPixels": 1440000,
+      "changedPercent": 2.1847916666666665,
+      "threshold": 0.1,
+      "antialiasExcluded": true,
+      "diff": "C:\\Users\\sin_s\\OneDrive\\Documents\\apps\\FISCALOPS CFDI READER\\tests\\spec011\\visual\\baseline-diffs\\05_type_clicked__1600x900__dsf1.png"
+    },
+    {
+      "scene": "06_empty_filter",
+      "viewport": {
+        "width": 1600,
+        "height": 900
+      },
+      "intentionalStateChange": false,
+      "animationsInHistoricalBaseline": "running, exact phase not recorded",
+      "comparable": true,
+      "width": 1600,
+      "height": 900,
+      "changedPixels": 11,
+      "totalPixels": 1440000,
+      "changedPercent": 0.0007638888888888889,
+      "threshold": 0.1,
+      "antialiasExcluded": true,
+      "diff": "C:\\Users\\sin_s\\OneDrive\\Documents\\apps\\FISCALOPS CFDI READER\\tests\\spec011\\visual\\baseline-diffs\\06_empty_filter__1600x900__dsf1.png"
+    },
+    {
+      "scene": "07_viewer_summary",
+      "viewport": {
+        "width": 1600,
+        "height": 900
+      },
+      "intentionalStateChange": false,
+      "animationsInHistoricalBaseline": "running, exact phase not recorded",
+      "comparable": true,
+      "width": 1600,
+      "height": 900,
+      "changedPixels": 0,
+      "totalPixels": 1440000,
+      "changedPercent": 0,
+      "threshold": 0.1,
+      "antialiasExcluded": true,
+      "diff": "C:\\Users\\sin_s\\OneDrive\\Documents\\apps\\FISCALOPS CFDI READER\\tests\\spec011\\visual\\baseline-diffs\\07_viewer_summary__1600x900__dsf1.png"
+    },
+    {
+      "scene": "08_viewer_taxes",
+      "viewport": {
+        "width": 1600,
+        "height": 900
+      },
+      "intentionalStateChange": false,
+      "animationsInHistoricalBaseline": "running, exact phase not recorded",
+      "comparable": true,
+      "width": 1600,
+      "height": 900,
+      "changedPixels": 0,
+      "totalPixels": 1440000,
+      "changedPercent": 0,
+      "threshold": 0.1,
+      "antialiasExcluded": true,
+      "diff": "C:\\Users\\sin_s\\OneDrive\\Documents\\apps\\FISCALOPS CFDI READER\\tests\\spec011\\visual\\baseline-diffs\\08_viewer_taxes__1600x900__dsf1.png"
+    },
+    {
+      "scene": "09_viewer_concepts",
+      "viewport": {
+        "width": 1600,
+        "height": 900
+      },
+      "intentionalStateChange": false,
+      "animationsInHistoricalBaseline": "running, exact phase not recorded",
+      "comparable": true,
+      "width": 1600,
+      "height": 900,
+      "changedPixels": 0,
+      "totalPixels": 1440000,
+      "changedPercent": 0,
+      "threshold": 0.1,
+      "antialiasExcluded": true,
+      "diff": "C:\\Users\\sin_s\\OneDrive\\Documents\\apps\\FISCALOPS CFDI READER\\tests\\spec011\\visual\\baseline-diffs\\09_viewer_concepts__1600x900__dsf1.png"
+    },
+    {
+      "scene": "10_viewer_fields",
+      "viewport": {
+        "width": 1600,
+        "height": 900
+      },
+      "intentionalStateChange": false,
+      "animationsInHistoricalBaseline": "running, exact phase not recorded",
+      "comparable": true,
+      "width": 1600,
+      "height": 900,
+      "changedPixels": 0,
+      "totalPixels": 1440000,
+      "changedPercent": 0,
+      "threshold": 0.1,
+      "antialiasExcluded": true,
+      "diff": "C:\\Users\\sin_s\\OneDrive\\Documents\\apps\\FISCALOPS CFDI READER\\tests\\spec011\\visual\\baseline-diffs\\10_viewer_fields__1600x900__dsf1.png"
+    },
+    {
+      "scene": "11_viewer_xml",
+      "viewport": {
+        "width": 1600,
+        "height": 900
+      },
+      "intentionalStateChange": false,
+      "animationsInHistoricalBaseline": "running, exact phase not recorded",
+      "comparable": true,
+      "width": 1600,
+      "height": 900,
+      "changedPixels": 0,
+      "totalPixels": 1440000,
+      "changedPercent": 0,
+      "threshold": 0.1,
+      "antialiasExcluded": true,
+      "diff": "C:\\Users\\sin_s\\OneDrive\\Documents\\apps\\FISCALOPS CFDI READER\\tests\\spec011\\visual\\baseline-diffs\\11_viewer_xml__1600x900__dsf1.png"
+    },
+    {
+      "scene": "12_column_editor",
+      "viewport": {
+        "width": 1600,
+        "height": 900
+      },
+      "intentionalStateChange": false,
+      "animationsInHistoricalBaseline": "running, exact phase not recorded",
+      "comparable": true,
+      "width": 1600,
+      "height": 900,
+      "changedPixels": 0,
+      "totalPixels": 1440000,
+      "changedPercent": 0,
+      "threshold": 0.1,
+      "antialiasExcluded": true,
+      "diff": "C:\\Users\\sin_s\\OneDrive\\Documents\\apps\\FISCALOPS CFDI READER\\tests\\spec011\\visual\\baseline-diffs\\12_column_editor__1600x900__dsf1.png"
+    },
+    {
+      "scene": "13_column_search",
+      "viewport": {
+        "width": 1600,
+        "height": 900
+      },
+      "intentionalStateChange": false,
+      "animationsInHistoricalBaseline": "running, exact phase not recorded",
+      "comparable": true,
+      "width": 1600,
+      "height": 900,
+      "changedPixels": 0,
+      "totalPixels": 1440000,
+      "changedPercent": 0,
+      "threshold": 0.1,
+      "antialiasExcluded": true,
+      "diff": "C:\\Users\\sin_s\\OneDrive\\Documents\\apps\\FISCALOPS CFDI READER\\tests\\spec011\\visual\\baseline-diffs\\13_column_search__1600x900__dsf1.png"
+    },
+    {
+      "scene": "14_column_search_applied",
+      "viewport": {
+        "width": 1600,
+        "height": 900
+      },
+      "intentionalStateChange": true,
+      "animationsInHistoricalBaseline": "running, exact phase not recorded",
+      "comparable": true,
+      "width": 1600,
+      "height": 900,
+      "changedPixels": 14937,
+      "totalPixels": 1440000,
+      "changedPercent": 1.0372916666666667,
+      "threshold": 0.1,
+      "antialiasExcluded": true,
+      "diff": "C:\\Users\\sin_s\\OneDrive\\Documents\\apps\\FISCALOPS CFDI READER\\tests\\spec011\\visual\\baseline-diffs\\14_column_search_applied__1600x900__dsf1.png"
+    },
+    {
+      "scene": "15_excel_constructor",
+      "viewport": {
+        "width": 1600,
+        "height": 900
+      },
+      "intentionalStateChange": false,
+      "animationsInHistoricalBaseline": "running, exact phase not recorded",
+      "comparable": true,
+      "width": 1600,
+      "height": 900,
+      "changedPixels": 0,
+      "totalPixels": 1440000,
+      "changedPercent": 0,
+      "threshold": 0.1,
+      "antialiasExcluded": true,
+      "diff": "C:\\Users\\sin_s\\OneDrive\\Documents\\apps\\FISCALOPS CFDI READER\\tests\\spec011\\visual\\baseline-diffs\\15_excel_constructor__1600x900__dsf1.png"
+    },
+    {
+      "scene": "16_excel_choices",
+      "viewport": {
+        "width": 1600,
+        "height": 900
+      },
+      "intentionalStateChange": false,
+      "animationsInHistoricalBaseline": "running, exact phase not recorded",
+      "comparable": true,
+      "width": 1600,
+      "height": 900,
+      "changedPixels": 0,
+      "totalPixels": 1440000,
+      "changedPercent": 0,
+      "threshold": 0.1,
+      "antialiasExcluded": true,
+      "diff": "C:\\Users\\sin_s\\OneDrive\\Documents\\apps\\FISCALOPS CFDI READER\\tests\\spec011\\visual\\baseline-diffs\\16_excel_choices__1600x900__dsf1.png"
+    },
+    {
+      "scene": "17_read_errors",
+      "viewport": {
+        "width": 1600,
+        "height": 900
+      },
+      "intentionalStateChange": false,
+      "animationsInHistoricalBaseline": "running, exact phase not recorded",
+      "comparable": true,
+      "width": 1600,
+      "height": 900,
+      "changedPixels": 110,
+      "totalPixels": 1440000,
+      "changedPercent": 0.007638888888888889,
+      "threshold": 0.1,
+      "antialiasExcluded": true,
+      "diff": "C:\\Users\\sin_s\\OneDrive\\Documents\\apps\\FISCALOPS CFDI READER\\tests\\spec011\\visual\\baseline-diffs\\17_read_errors__1600x900__dsf1.png"
+    },
+    {
+      "scene": "18_cleared",
+      "viewport": {
+        "width": 1600,
+        "height": 900
+      },
+      "intentionalStateChange": false,
+      "animationsInHistoricalBaseline": "running, exact phase not recorded",
+      "comparable": true,
+      "width": 1600,
+      "height": 900,
+      "changedPixels": 234,
+      "totalPixels": 1440000,
+      "changedPercent": 0.01625,
+      "threshold": 0.1,
+      "antialiasExcluded": true,
+      "diff": "C:\\Users\\sin_s\\OneDrive\\Documents\\apps\\FISCALOPS CFDI READER\\tests\\spec011\\visual\\baseline-diffs\\18_cleared__1600x900__dsf1.png"
+    },
+    {
+      "scene": "01_initial",
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "intentionalStateChange": false,
+      "animationsInHistoricalBaseline": "running, exact phase not recorded",
+      "comparable": true,
+      "width": 1920,
+      "height": 1080,
+      "changedPixels": 0,
+      "totalPixels": 2073600,
+      "changedPercent": 0,
+      "threshold": 0.1,
+      "antialiasExcluded": true,
+      "diff": "C:\\Users\\sin_s\\OneDrive\\Documents\\apps\\FISCALOPS CFDI READER\\tests\\spec011\\visual\\baseline-diffs\\01_initial__1920x1080__dsf1.png"
+    },
+    {
+      "scene": "02_upload_empty",
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "intentionalStateChange": false,
+      "animationsInHistoricalBaseline": "running, exact phase not recorded",
+      "comparable": true,
+      "width": 1920,
+      "height": 1080,
+      "changedPixels": 23,
+      "totalPixels": 2073600,
+      "changedPercent": 0.001109182098765432,
+      "threshold": 0.1,
+      "antialiasExcluded": true,
+      "diff": "C:\\Users\\sin_s\\OneDrive\\Documents\\apps\\FISCALOPS CFDI READER\\tests\\spec011\\visual\\baseline-diffs\\02_upload_empty__1920x1080__dsf1.png"
+    },
+    {
+      "scene": "03_files_selected",
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "intentionalStateChange": false,
+      "animationsInHistoricalBaseline": "running, exact phase not recorded",
+      "comparable": true,
+      "width": 1920,
+      "height": 1080,
+      "changedPixels": 45,
+      "totalPixels": 2073600,
+      "changedPercent": 0.002170138888888889,
+      "threshold": 0.1,
+      "antialiasExcluded": true,
+      "diff": "C:\\Users\\sin_s\\OneDrive\\Documents\\apps\\FISCALOPS CFDI READER\\tests\\spec011\\visual\\baseline-diffs\\03_files_selected__1920x1080__dsf1.png"
+    },
+    {
+      "scene": "04_reports_table",
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "intentionalStateChange": false,
+      "animationsInHistoricalBaseline": "running, exact phase not recorded",
+      "comparable": true,
+      "width": 1920,
+      "height": 1080,
+      "changedPixels": 0,
+      "totalPixels": 2073600,
+      "changedPercent": 0,
+      "threshold": 0.1,
+      "antialiasExcluded": true,
+      "diff": "C:\\Users\\sin_s\\OneDrive\\Documents\\apps\\FISCALOPS CFDI READER\\tests\\spec011\\visual\\baseline-diffs\\04_reports_table__1920x1080__dsf1.png"
+    },
+    {
+      "scene": "05_type_clicked",
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "intentionalStateChange": true,
+      "animationsInHistoricalBaseline": "running, exact phase not recorded",
+      "comparable": true,
+      "width": 1920,
+      "height": 1080,
+      "changedPixels": 56552,
+      "totalPixels": 2073600,
+      "changedPercent": 2.7272376543209877,
+      "threshold": 0.1,
+      "antialiasExcluded": true,
+      "diff": "C:\\Users\\sin_s\\OneDrive\\Documents\\apps\\FISCALOPS CFDI READER\\tests\\spec011\\visual\\baseline-diffs\\05_type_clicked__1920x1080__dsf1.png"
+    },
+    {
+      "scene": "06_empty_filter",
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "intentionalStateChange": false,
+      "animationsInHistoricalBaseline": "running, exact phase not recorded",
+      "comparable": true,
+      "width": 1920,
+      "height": 1080,
+      "changedPixels": 0,
+      "totalPixels": 2073600,
+      "changedPercent": 0,
+      "threshold": 0.1,
+      "antialiasExcluded": true,
+      "diff": "C:\\Users\\sin_s\\OneDrive\\Documents\\apps\\FISCALOPS CFDI READER\\tests\\spec011\\visual\\baseline-diffs\\06_empty_filter__1920x1080__dsf1.png"
+    },
+    {
+      "scene": "07_viewer_summary",
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "intentionalStateChange": false,
+      "animationsInHistoricalBaseline": "running, exact phase not recorded",
+      "comparable": true,
+      "width": 1920,
+      "height": 1080,
+      "changedPixels": 0,
+      "totalPixels": 2073600,
+      "changedPercent": 0,
+      "threshold": 0.1,
+      "antialiasExcluded": true,
+      "diff": "C:\\Users\\sin_s\\OneDrive\\Documents\\apps\\FISCALOPS CFDI READER\\tests\\spec011\\visual\\baseline-diffs\\07_viewer_summary__1920x1080__dsf1.png"
+    },
+    {
+      "scene": "08_viewer_taxes",
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "intentionalStateChange": false,
+      "animationsInHistoricalBaseline": "running, exact phase not recorded",
+      "comparable": true,
+      "width": 1920,
+      "height": 1080,
+      "changedPixels": 0,
+      "totalPixels": 2073600,
+      "changedPercent": 0,
+      "threshold": 0.1,
+      "antialiasExcluded": true,
+      "diff": "C:\\Users\\sin_s\\OneDrive\\Documents\\apps\\FISCALOPS CFDI READER\\tests\\spec011\\visual\\baseline-diffs\\08_viewer_taxes__1920x1080__dsf1.png"
+    },
+    {
+      "scene": "09_viewer_concepts",
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "intentionalStateChange": false,
+      "animationsInHistoricalBaseline": "running, exact phase not recorded",
+      "comparable": true,
+      "width": 1920,
+      "height": 1080,
+      "changedPixels": 0,
+      "totalPixels": 2073600,
+      "changedPercent": 0,
+      "threshold": 0.1,
+      "antialiasExcluded": true,
+      "diff": "C:\\Users\\sin_s\\OneDrive\\Documents\\apps\\FISCALOPS CFDI READER\\tests\\spec011\\visual\\baseline-diffs\\09_viewer_concepts__1920x1080__dsf1.png"
+    },
+    {
+      "scene": "10_viewer_fields",
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "intentionalStateChange": false,
+      "animationsInHistoricalBaseline": "running, exact phase not recorded",
+      "comparable": true,
+      "width": 1920,
+      "height": 1080,
+      "changedPixels": 0,
+      "totalPixels": 2073600,
+      "changedPercent": 0,
+      "threshold": 0.1,
+      "antialiasExcluded": true,
+      "diff": "C:\\Users\\sin_s\\OneDrive\\Documents\\apps\\FISCALOPS CFDI READER\\tests\\spec011\\visual\\baseline-diffs\\10_viewer_fields__1920x1080__dsf1.png"
+    },
+    {
+      "scene": "11_viewer_xml",
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "intentionalStateChange": false,
+      "animationsInHistoricalBaseline": "running, exact phase not recorded",
+      "comparable": true,
+      "width": 1920,
+      "height": 1080,
+      "changedPixels": 0,
+      "totalPixels": 2073600,
+      "changedPercent": 0,
+      "threshold": 0.1,
+      "antialiasExcluded": true,
+      "diff": "C:\\Users\\sin_s\\OneDrive\\Documents\\apps\\FISCALOPS CFDI READER\\tests\\spec011\\visual\\baseline-diffs\\11_viewer_xml__1920x1080__dsf1.png"
+    },
+    {
+      "scene": "12_column_editor",
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "intentionalStateChange": false,
+      "animationsInHistoricalBaseline": "running, exact phase not recorded",
+      "comparable": true,
+      "width": 1920,
+      "height": 1080,
+      "changedPixels": 0,
+      "totalPixels": 2073600,
+      "changedPercent": 0,
+      "threshold": 0.1,
+      "antialiasExcluded": true,
+      "diff": "C:\\Users\\sin_s\\OneDrive\\Documents\\apps\\FISCALOPS CFDI READER\\tests\\spec011\\visual\\baseline-diffs\\12_column_editor__1920x1080__dsf1.png"
+    },
+    {
+      "scene": "13_column_search",
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "intentionalStateChange": false,
+      "animationsInHistoricalBaseline": "running, exact phase not recorded",
+      "comparable": true,
+      "width": 1920,
+      "height": 1080,
+      "changedPixels": 0,
+      "totalPixels": 2073600,
+      "changedPercent": 0,
+      "threshold": 0.1,
+      "antialiasExcluded": true,
+      "diff": "C:\\Users\\sin_s\\OneDrive\\Documents\\apps\\FISCALOPS CFDI READER\\tests\\spec011\\visual\\baseline-diffs\\13_column_search__1920x1080__dsf1.png"
+    },
+    {
+      "scene": "14_column_search_applied",
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "intentionalStateChange": true,
+      "animationsInHistoricalBaseline": "running, exact phase not recorded",
+      "comparable": true,
+      "width": 1920,
+      "height": 1080,
+      "changedPixels": 28716,
+      "totalPixels": 2073600,
+      "changedPercent": 1.384837962962963,
+      "threshold": 0.1,
+      "antialiasExcluded": true,
+      "diff": "C:\\Users\\sin_s\\OneDrive\\Documents\\apps\\FISCALOPS CFDI READER\\tests\\spec011\\visual\\baseline-diffs\\14_column_search_applied__1920x1080__dsf1.png"
+    },
+    {
+      "scene": "15_excel_constructor",
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "intentionalStateChange": false,
+      "animationsInHistoricalBaseline": "running, exact phase not recorded",
+      "comparable": true,
+      "width": 1920,
+      "height": 1080,
+      "changedPixels": 125,
+      "totalPixels": 2073600,
+      "changedPercent": 0.0060281635802469135,
+      "threshold": 0.1,
+      "antialiasExcluded": true,
+      "diff": "C:\\Users\\sin_s\\OneDrive\\Documents\\apps\\FISCALOPS CFDI READER\\tests\\spec011\\visual\\baseline-diffs\\15_excel_constructor__1920x1080__dsf1.png"
+    },
+    {
+      "scene": "16_excel_choices",
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "intentionalStateChange": false,
+      "animationsInHistoricalBaseline": "running, exact phase not recorded",
+      "comparable": true,
+      "width": 1920,
+      "height": 1080,
+      "changedPixels": 125,
+      "totalPixels": 2073600,
+      "changedPercent": 0.0060281635802469135,
+      "threshold": 0.1,
+      "antialiasExcluded": true,
+      "diff": "C:\\Users\\sin_s\\OneDrive\\Documents\\apps\\FISCALOPS CFDI READER\\tests\\spec011\\visual\\baseline-diffs\\16_excel_choices__1920x1080__dsf1.png"
+    },
+    {
+      "scene": "17_read_errors",
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "intentionalStateChange": false,
+      "animationsInHistoricalBaseline": "running, exact phase not recorded",
+      "comparable": true,
+      "width": 1920,
+      "height": 1080,
+      "changedPixels": 50,
+      "totalPixels": 2073600,
+      "changedPercent": 0.0024112654320987653,
+      "threshold": 0.1,
+      "antialiasExcluded": true,
+      "diff": "C:\\Users\\sin_s\\OneDrive\\Documents\\apps\\FISCALOPS CFDI READER\\tests\\spec011\\visual\\baseline-diffs\\17_read_errors__1920x1080__dsf1.png"
+    },
+    {
+      "scene": "18_cleared",
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "intentionalStateChange": false,
+      "animationsInHistoricalBaseline": "running, exact phase not recorded",
+      "comparable": true,
+      "width": 1920,
+      "height": 1080,
+      "changedPixels": 97,
+      "totalPixels": 2073600,
+      "changedPercent": 0.004677854938271605,
+      "threshold": 0.1,
+      "antialiasExcluded": true,
+      "diff": "C:\\Users\\sin_s\\OneDrive\\Documents\\apps\\FISCALOPS CFDI READER\\tests\\spec011\\visual\\baseline-diffs\\18_cleared__1920x1080__dsf1.png"
+    }
+  ]
+}

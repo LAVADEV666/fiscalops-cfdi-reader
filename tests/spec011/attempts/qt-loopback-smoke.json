@@ -1,0 +1,277 @@
+{
+  "pyside6": "6.12.0",
+  "qt": "6.12.0",
+  "chromium": "140.0.7339.225",
+  "checks": [
+    {
+      "id": "real-windows-platform",
+      "expected": "windows",
+      "actual": "windows",
+      "result": "PASS"
+    },
+    {
+      "id": "real-window-exposed",
+      "expected": true,
+      "actual": true,
+      "result": "PASS"
+    },
+    {
+      "id": "channel-handshake",
+      "expected": "fiscalops.desktop/1",
+      "actual": "fiscalops.desktop/1",
+      "result": "PASS"
+    },
+    {
+      "id": "channel-ping",
+      "expected": true,
+      "actual": true,
+      "result": "PASS"
+    },
+    {
+      "id": "resources-loaded",
+      "expected": true,
+      "actual": true,
+      "result": "PASS"
+    },
+    {
+      "id": "viewport-1366",
+      "expected": "1366x768",
+      "actual": "1366x768",
+      "result": "PASS"
+    },
+    {
+      "id": "viewport-1600",
+      "expected": "1600x900",
+      "actual": "1600x900",
+      "result": "PASS"
+    },
+    {
+      "id": "viewport-1920",
+      "expected": "1920x1080",
+      "actual": "1920x1080",
+      "result": "PASS"
+    },
+    {
+      "id": "maximize",
+      "expected": true,
+      "actual": true,
+      "result": "PASS"
+    },
+    {
+      "id": "file-input-via-qt",
+      "expected": true,
+      "actual": true,
+      "result": "PASS"
+    },
+    {
+      "id": "table-rendered",
+      "expected": true,
+      "actual": true,
+      "result": "PASS"
+    },
+    {
+      "id": "single-type-click",
+      "expected": "I",
+      "actual": "I",
+      "result": "PASS"
+    },
+    {
+      "id": "initial-focus-editcols",
+      "expected": "colSearch",
+      "actual": "colSearch",
+      "result": "PASS"
+    },
+    {
+      "id": "shift-tab-editcols",
+      "expected": "applycols",
+      "actual": "applycols",
+      "result": "PASS"
+    },
+    {
+      "id": "escape-restores-editcols",
+      "expected": "editcols",
+      "actual": "editcols",
+      "result": "PASS"
+    },
+    {
+      "id": "initial-focus-editcolsTop",
+      "expected": "colSearch",
+      "actual": "colSearch",
+      "result": "PASS"
+    },
+    {
+      "id": "shift-tab-editcolsTop",
+      "expected": "applycols",
+      "actual": "applycols",
+      "result": "PASS"
+    },
+    {
+      "id": "escape-restores-editcolsTop",
+      "expected": "editcolsTop",
+      "actual": "editcolsTop",
+      "result": "PASS"
+    },
+    {
+      "id": "export-modal",
+      "expected": true,
+      "actual": true,
+      "result": "PASS"
+    },
+    {
+      "id": "viewer-modal",
+      "expected": true,
+      "actual": true,
+      "result": "PASS"
+    },
+    {
+      "id": "viewer-tab-impuestos",
+      "expected": "impuestos",
+      "actual": "impuestos",
+      "result": "PASS"
+    },
+    {
+      "id": "viewer-tab-conceptos",
+      "expected": "conceptos",
+      "actual": "conceptos",
+      "result": "PASS"
+    },
+    {
+      "id": "viewer-tab-datos",
+      "expected": "datos",
+      "actual": "datos",
+      "result": "PASS"
+    },
+    {
+      "id": "viewer-tab-xml",
+      "expected": "xml",
+      "actual": "xml",
+      "result": "PASS"
+    },
+    {
+      "id": "viewer-escape",
+      "expected": false,
+      "actual": false,
+      "result": "PASS"
+    },
+    {
+      "id": "horizontal-scroll-available",
+      "expected": true,
+      "actual": true,
+      "result": "PASS"
+    },
+    {
+      "id": "local-requests-only",
+      "expected": true,
+      "actual": true,
+      "result": "PASS"
+    },
+    {
+      "id": "external-network-blocked",
+      "expected": true,
+      "actual": true,
+      "result": "PASS"
+    },
+    {
+      "id": "qt-batch-completes",
+      "expected": true,
+      "actual": true,
+      "result": "PASS"
+    },
+    {
+      "id": "clean-close-server",
+      "expected": true,
+      "actual": true,
+      "result": "PASS"
+    }
+  ],
+  "captures": [
+    {
+      "scene": "upload",
+      "file": "upload_1366x768.png",
+      "requested_css_viewport": [
+        1366,
+        768
+      ],
+      "actual_css_viewport": "1366x768",
+      "native_dpr": 1.0,
+      "qa_minimum_size_constraint": true
+    },
+    {
+      "scene": "upload",
+      "file": "upload_1600x900.png",
+      "requested_css_viewport": [
+        1600,
+        900
+      ],
+      "actual_css_viewport": "1600x900",
+      "native_dpr": 1.0,
+      "qa_minimum_size_constraint": true
+    },
+    {
+      "scene": "upload",
+      "file": "upload_1920x1080.png",
+      "requested_css_viewport": [
+        1920,
+        1080
+      ],
+      "actual_css_viewport": "1920x1080",
+      "native_dpr": 1.0,
+      "qa_minimum_size_constraint": true
+    }
+  ],
+  "platform": "windows",
+  "native_win_id": 1905402,
+  "screen": {
+    "name": "P24FBA-RAGL",
+    "logical_dpi": 96.0,
+    "physical_dpi": 92.60728755320785,
+    "device_pixel_ratio": 1.0,
+    "geometry": [
+      1920,
+      1080
+    ]
+  },
+  "progress_capture": {
+    "state": "PENDING_STABLE_CAPTURE",
+    "reason": "wait() got an unexpected keyword argument 'seconds'"
+  },
+  "requests": [
+    {
+      "scheme": "http",
+      "path": "/",
+      "allowed": true
+    },
+    {
+      "scheme": "http",
+      "path": "/legacy-runtime.js",
+      "allowed": true
+    },
+    {
+      "scheme": "http",
+      "path": "/v20-runtime.js",
+      "allowed": true
+    },
+    {
+      "scheme": "http",
+      "path": "/desktop-bridge.js",
+      "allowed": true
+    },
+    {
+      "scheme": "http",
+      "path": "/favicon.ico",
+      "allowed": true
+    },
+    {
+      "scheme": "https",
+      "path": "/spec011-offline",
+      "allowed": false
+    }
+  ],
+  "console": [
+    {
+      "level": "JavaScriptConsoleMessageLevel.WarningMessageLevel",
+      "message": "parseCFDI V19 Error: XML mal formado.",
+      "line": 486
+    }
+  ]
+}

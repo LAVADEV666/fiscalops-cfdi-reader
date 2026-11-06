@@ -9,6 +9,7 @@ fs.mkdirSync(evidence,{recursive:true});
 const url=opt('--url',JSON.parse(fs.readFileSync(path.join(root,'tests/visual/evidence/server.json'),'utf8')).url);
 if(new URL(url).hostname!=='127.0.0.1')throw Error('Loopback only');
 const report={viewport:{width:1366,height:768},checks:[],dialogs:[],notes:['Synthetic data; navigation checks do not certify fiscal values.']};
+report.documentUrl=url;
 function save(){fs.writeFileSync(path.join(evidence,'controls.json'),JSON.stringify(report,null,2))}
 async function check(id,controls,expected,run){try{const actual=await run();report.checks.push({id,controls,expected,actual,result:JSON.stringify(actual)===JSON.stringify(expected)?'PASS':'FAIL'})}catch(error){report.checks.push({id,controls,expected,result:'ERROR',error:String(error)})}save()}
 (async()=>{
@@ -54,4 +55,5 @@ async function check(id,controls,expected,run){try{const actual=await run();repo
   }catch(error){report.fatal=String(error);save();throw error}
   finally{await context.close();await browser.close();save()}
   console.log(JSON.stringify({checks:report.checks.length,failures:report.checks.filter(x=>x.result!=='PASS')},null,2));
+  if(args.includes('--strict') && report.checks.some(x=>x.result!=='PASS'))process.exitCode=1;
 })().catch(error=>{console.error(error);process.exitCode=1});

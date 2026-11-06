@@ -1,0 +1,221 @@
+{
+  "viewport": {
+    "width": 1366,
+    "height": 768
+  },
+  "checks": [
+    {
+      "id": "filechooser",
+      "controls": [
+        "select"
+      ],
+      "expected": true,
+      "actual": true,
+      "result": "PASS"
+    },
+    {
+      "id": "next-page",
+      "controls": [
+        "next"
+      ],
+      "expected": "Página 2 / 2",
+      "actual": "Página 2 / 2",
+      "result": "PASS"
+    },
+    {
+      "id": "previous-page",
+      "controls": [
+        "prev"
+      ],
+      "expected": "Página 1 / 2",
+      "actual": "Página 1 / 2",
+      "result": "PASS"
+    },
+    {
+      "id": "density",
+      "controls": [
+        "densityBtn"
+      ],
+      "expected": true,
+      "actual": true,
+      "result": "PASS"
+    },
+    {
+      "id": "received-origin",
+      "controls": [
+        "origin:RECIBIDOS"
+      ],
+      "expected": true,
+      "actual": true,
+      "result": "PASS"
+    },
+    {
+      "id": "cancelled-status",
+      "controls": [
+        "status:CANCELADO"
+      ],
+      "expected": true,
+      "actual": true,
+      "result": "PASS"
+    },
+    {
+      "id": "vigente-status",
+      "controls": [
+        "status:VIGENTE"
+      ],
+      "expected": false,
+      "actual": false,
+      "result": "PASS"
+    },
+    {
+      "id": "method-PUE",
+      "controls": [
+        "method:PUE"
+      ],
+      "expected": "PUE",
+      "actual": "PUE",
+      "result": "PASS"
+    },
+    {
+      "id": "method-PPD",
+      "controls": [
+        "method:PPD"
+      ],
+      "expected": "PPD",
+      "actual": "PPD",
+      "result": "PASS"
+    },
+    {
+      "id": "page-size",
+      "controls": [
+        "ps"
+      ],
+      "expected": 40,
+      "actual": 40,
+      "result": "PASS"
+    },
+    {
+      "id": "year-month",
+      "controls": [
+        "year",
+        "month"
+      ],
+      "expected": true,
+      "actual": true,
+      "result": "PASS"
+    },
+    {
+      "id": "sort-header",
+      "controls": [
+        "thead:Fecha"
+      ],
+      "expected": "asc",
+      "actual": "asc",
+      "result": "PASS"
+    },
+    {
+      "id": "row-enter",
+      "controls": [
+        "tbody:Enter"
+      ],
+      "expected": true,
+      "actual": true,
+      "result": "PASS"
+    },
+    {
+      "id": "preview-close",
+      "controls": [
+        "previewClose"
+      ],
+      "expected": false,
+      "actual": false,
+      "result": "PASS"
+    },
+    {
+      "id": "column-initial-focus",
+      "controls": [
+        "editcolsTop"
+      ],
+      "expected": "colSearch",
+      "actual": "colSearch",
+      "result": "PASS"
+    },
+    {
+      "id": "modal-keyboard-containment",
+      "controls": [
+        "modal:ShiftTab"
+      ],
+      "expected": true,
+      "actual": false,
+      "result": "FAIL"
+    },
+    {
+      "id": "preset-recommended",
+      "controls": [
+        "corecols"
+      ],
+      "expected": true,
+      "actual": false,
+      "result": "FAIL"
+    },
+    {
+      "id": "preset-fiscal",
+      "controls": [
+        "invoicecols"
+      ],
+      "expected": true,
+      "actual": false,
+      "result": "FAIL"
+    },
+    {
+      "id": "preset-audit",
+      "controls": [
+        "auditcols"
+      ],
+      "expected": true,
+      "actual": false,
+      "result": "FAIL"
+    },
+    {
+      "id": "preset-taxes",
+      "controls": [
+        "taxcols"
+      ],
+      "expected": true,
+      "actual": false,
+      "result": "FAIL"
+    },
+    {
+      "id": "preset-all",
+      "controls": [
+        "allcols"
+      ],
+      "expected": true,
+      "actual": false,
+      "result": "FAIL"
+    },
+    {
+      "id": "preset-none",
+      "controls": [
+        "nocols"
+      ],
+      "expected": 0,
+      "actual": 0,
+      "result": "PASS"
+    },
+    {
+      "id": "empty-columns-alert",
+      "controls": [
+        "applycols"
+      ],
+      "expected": true,
+      "actual": false,
+      "result": "FAIL"
+    }
+  ],
+  "dialogs": [],
+  "notes": [
+    "Synthetic data; navigation checks do not certify fiscal values."
+  ],
+  "fatal": "TimeoutError: locator.click: Timeout 8000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('#corecols')\u001b[22m\n\u001b[2m    - locator resolved to <button id=\"corecols\" type=\"button\" class=\"secondary\">Recomendadas</button>\u001b[22m\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is not visible\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m    - waiting 20ms\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is not visible\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 100ms\u001b[22m\n\u001b[2m    15 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m       - element is not visible\u001b[22m\n\u001b[2m     - retrying click action\u001b[22m\n\u001b[2m       - waiting 500ms\u001b[22m\n"
+}

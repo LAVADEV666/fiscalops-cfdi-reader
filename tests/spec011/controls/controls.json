@@ -1,0 +1,290 @@
+{
+  "viewport": {
+    "width": 1366,
+    "height": 768
+  },
+  "checks": [
+    {
+      "id": "filechooser",
+      "controls": [
+        "select"
+      ],
+      "expected": true,
+      "actual": true,
+      "result": "PASS"
+    },
+    {
+      "id": "next-page",
+      "controls": [
+        "next"
+      ],
+      "expected": "Página 2 / 2",
+      "actual": "Página 2 / 2",
+      "result": "PASS"
+    },
+    {
+      "id": "previous-page",
+      "controls": [
+        "prev"
+      ],
+      "expected": "Página 1 / 2",
+      "actual": "Página 1 / 2",
+      "result": "PASS"
+    },
+    {
+      "id": "density",
+      "controls": [
+        "densityBtn"
+      ],
+      "expected": true,
+      "actual": true,
+      "result": "PASS"
+    },
+    {
+      "id": "received-origin",
+      "controls": [
+        "origin:RECIBIDOS"
+      ],
+      "expected": true,
+      "actual": true,
+      "result": "PASS"
+    },
+    {
+      "id": "cancelled-status",
+      "controls": [
+        "status:CANCELADO"
+      ],
+      "expected": true,
+      "actual": true,
+      "result": "PASS"
+    },
+    {
+      "id": "vigente-status",
+      "controls": [
+        "status:VIGENTE"
+      ],
+      "expected": false,
+      "actual": false,
+      "result": "PASS"
+    },
+    {
+      "id": "method-PUE",
+      "controls": [
+        "method:PUE"
+      ],
+      "expected": "PUE",
+      "actual": "PUE",
+      "result": "PASS"
+    },
+    {
+      "id": "method-PPD",
+      "controls": [
+        "method:PPD"
+      ],
+      "expected": "PPD",
+      "actual": "PPD",
+      "result": "PASS"
+    },
+    {
+      "id": "page-size",
+      "controls": [
+        "ps"
+      ],
+      "expected": 40,
+      "actual": 40,
+      "result": "PASS"
+    },
+    {
+      "id": "year-month",
+      "controls": [
+        "year",
+        "month"
+      ],
+      "expected": true,
+      "actual": true,
+      "result": "PASS"
+    },
+    {
+      "id": "sort-header",
+      "controls": [
+        "thead:Fecha"
+      ],
+      "expected": "asc",
+      "actual": "asc",
+      "result": "PASS"
+    },
+    {
+      "id": "row-enter",
+      "controls": [
+        "tbody:Enter"
+      ],
+      "expected": true,
+      "actual": true,
+      "result": "PASS"
+    },
+    {
+      "id": "preview-close",
+      "controls": [
+        "previewClose"
+      ],
+      "expected": false,
+      "actual": false,
+      "result": "PASS"
+    },
+    {
+      "id": "column-initial-focus",
+      "controls": [
+        "editcolsTop"
+      ],
+      "expected": "colSearch",
+      "actual": "colSearch",
+      "result": "PASS"
+    },
+    {
+      "id": "modal-keyboard-containment",
+      "controls": [
+        "modal:ShiftTab"
+      ],
+      "expected": true,
+      "actual": true,
+      "result": "PASS"
+    },
+    {
+      "id": "preset-recommended",
+      "controls": [
+        "corecols"
+      ],
+      "expected": true,
+      "actual": true,
+      "result": "PASS"
+    },
+    {
+      "id": "preset-fiscal",
+      "controls": [
+        "invoicecols"
+      ],
+      "expected": true,
+      "actual": true,
+      "result": "PASS"
+    },
+    {
+      "id": "preset-audit",
+      "controls": [
+        "auditcols"
+      ],
+      "expected": true,
+      "actual": true,
+      "result": "PASS"
+    },
+    {
+      "id": "preset-taxes",
+      "controls": [
+        "taxcols"
+      ],
+      "expected": true,
+      "actual": true,
+      "result": "PASS"
+    },
+    {
+      "id": "preset-all",
+      "controls": [
+        "allcols"
+      ],
+      "expected": true,
+      "actual": true,
+      "result": "PASS"
+    },
+    {
+      "id": "preset-none",
+      "controls": [
+        "nocols"
+      ],
+      "expected": 0,
+      "actual": 0,
+      "result": "PASS"
+    },
+    {
+      "id": "empty-columns-alert",
+      "controls": [
+        "applycols"
+      ],
+      "expected": true,
+      "actual": true,
+      "result": "PASS"
+    },
+    {
+      "id": "columns-close",
+      "controls": [
+        "closecols"
+      ],
+      "expected": false,
+      "actual": false,
+      "result": "PASS"
+    },
+    {
+      "id": "columns-focus-restored",
+      "controls": [
+        "closecols"
+      ],
+      "expected": "editcolsTop",
+      "actual": "editcolsTop",
+      "result": "PASS"
+    },
+    {
+      "id": "export-close",
+      "controls": [
+        "exportClose"
+      ],
+      "expected": false,
+      "actual": false,
+      "result": "PASS"
+    },
+    {
+      "id": "export-cancel",
+      "controls": [
+        "exportCancel"
+      ],
+      "expected": false,
+      "actual": false,
+      "result": "PASS"
+    },
+    {
+      "id": "export-escape",
+      "controls": [
+        "Escape:export"
+      ],
+      "expected": false,
+      "actual": false,
+      "result": "PASS"
+    },
+    {
+      "id": "download-csv",
+      "controls": [
+        "csv"
+      ],
+      "expected": true,
+      "actual": true,
+      "result": "PASS"
+    },
+    {
+      "id": "download-txt",
+      "controls": [
+        "txt"
+      ],
+      "expected": true,
+      "actual": true,
+      "result": "PASS"
+    }
+  ],
+  "dialogs": [
+    {
+      "type": "alert",
+      "message": "Selecciona al menos una columna para construir el reporte.",
+      "trigger": "apply empty columns"
+    }
+  ],
+  "notes": [
+    "Synthetic data; navigation checks do not certify fiscal values."
+  ],
+  "documentUrl": "http://127.0.0.1:62019"
+}

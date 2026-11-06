@@ -1,0 +1,475 @@
+{
+  "platform": "windows",
+  "captures": [
+    {
+      "scene": "initial",
+      "variant": "reference",
+      "file": "initial_reference_1366.png",
+      "viewport": [
+        1366,
+        768
+      ],
+      "dpr": 1,
+      "screen": "s1",
+      "modal": []
+    },
+    {
+      "scene": "upload",
+      "variant": "reference",
+      "file": "upload_reference_1366.png",
+      "viewport": [
+        1366,
+        768
+      ],
+      "dpr": 1,
+      "screen": "s2",
+      "modal": []
+    },
+    {
+      "scene": "reports",
+      "variant": "reference",
+      "file": "reports_reference_1366.png",
+      "viewport": [
+        1366,
+        768
+      ],
+      "dpr": 1,
+      "screen": "s3",
+      "modal": []
+    },
+    {
+      "scene": "editor",
+      "variant": "reference",
+      "file": "editor_reference_1366.png",
+      "viewport": [
+        1366,
+        768
+      ],
+      "dpr": 1,
+      "screen": "s3",
+      "modal": [
+        "modal"
+      ]
+    },
+    {
+      "scene": "viewer",
+      "variant": "reference",
+      "file": "viewer_reference_1366.png",
+      "viewport": [
+        1366,
+        768
+      ],
+      "dpr": 1,
+      "screen": "s3",
+      "modal": [
+        "previewModal"
+      ]
+    },
+    {
+      "scene": "excel",
+      "variant": "reference",
+      "file": "excel_reference_1366.png",
+      "viewport": [
+        1366,
+        768
+      ],
+      "dpr": 1,
+      "screen": "s3",
+      "modal": [
+        "exportModal"
+      ]
+    },
+    {
+      "scene": "initial",
+      "variant": "development",
+      "file": "initial_development_1366.png",
+      "viewport": [
+        1366,
+        768
+      ],
+      "dpr": 1,
+      "screen": "s1",
+      "modal": []
+    },
+    {
+      "scene": "upload",
+      "variant": "development",
+      "file": "upload_development_1366.png",
+      "viewport": [
+        1366,
+        768
+      ],
+      "dpr": 1,
+      "screen": "s2",
+      "modal": []
+    },
+    {
+      "scene": "reports",
+      "variant": "development",
+      "file": "reports_development_1366.png",
+      "viewport": [
+        1366,
+        768
+      ],
+      "dpr": 1,
+      "screen": "s3",
+      "modal": []
+    },
+    {
+      "scene": "editor",
+      "variant": "development",
+      "file": "editor_development_1366.png",
+      "viewport": [
+        1366,
+        768
+      ],
+      "dpr": 1,
+      "screen": "s3",
+      "modal": [
+        "modal"
+      ]
+    },
+    {
+      "scene": "viewer",
+      "variant": "development",
+      "file": "viewer_development_1366.png",
+      "viewport": [
+        1366,
+        768
+      ],
+      "dpr": 1,
+      "screen": "s3",
+      "modal": [
+        "previewModal"
+      ]
+    },
+    {
+      "scene": "excel",
+      "variant": "development",
+      "file": "excel_development_1366.png",
+      "viewport": [
+        1366,
+        768
+      ],
+      "dpr": 1,
+      "screen": "s3",
+      "modal": [
+        "exportModal"
+      ]
+    },
+    {
+      "scene": "initial",
+      "variant": "reference",
+      "file": "initial_reference_1600.png",
+      "viewport": [
+        1600,
+        900
+      ],
+      "dpr": 1,
+      "screen": "s1",
+      "modal": []
+    },
+    {
+      "scene": "upload",
+      "variant": "reference",
+      "file": "upload_reference_1600.png",
+      "viewport": [
+        1600,
+        900
+      ],
+      "dpr": 1,
+      "screen": "s2",
+      "modal": []
+    },
+    {
+      "scene": "reports",
+      "variant": "reference",
+      "file": "reports_reference_1600.png",
+      "viewport": [
+        1600,
+        900
+      ],
+      "dpr": 1,
+      "screen": "s3",
+      "modal": []
+    },
+    {
+      "scene": "editor",
+      "variant": "reference",
+      "file": "editor_reference_1600.png",
+      "viewport": [
+        1600,
+        900
+      ],
+      "dpr": 1,
+      "screen": "s3",
+      "modal": [
+        "modal"
+      ]
+    },
+    {
+      "scene": "viewer",
+      "variant": "reference",
+      "file": "viewer_reference_1600.png",
+      "viewport": [
+        1600,
+        900
+      ],
+      "dpr": 1,
+      "screen": "s3",
+      "modal": [
+        "previewModal"
+      ]
+    },
+    {
+      "scene": "excel",
+      "variant": "reference",
+      "file": "excel_reference_1600.png",
+      "viewport": [
+        1600,
+        900
+      ],
+      "dpr": 1,
+      "screen": "s3",
+      "modal": [
+        "exportModal"
+      ]
+    },
+    {
+      "scene": "initial",
+      "variant": "development",
+      "file": "initial_development_1600.png",
+      "viewport": [
+        1600,
+        900
+      ],
+      "dpr": 1,
+      "screen": "s1",
+      "modal": []
+    },
+    {
+      "scene": "upload",
+      "variant": "development",
+      "file": "upload_development_1600.png",
+      "viewport": [
+        1600,
+        900
+      ],
+      "dpr": 1,
+      "screen": "s2",
+      "modal": []
+    },
+    {
+      "scene": "reports",
+      "variant": "development",
+      "file": "reports_development_1600.png",
+      "viewport": [
+        1600,
+        900
+      ],
+      "dpr": 1,
+      "screen": "s3",
+      "modal": []
+    },
+    {
+      "scene": "editor",
+      "variant": "development",
+      "file": "editor_development_1600.png",
+      "viewport": [
+        1600,
+        900
+      ],
+      "dpr": 1,
+      "screen": "s3",
+      "modal": [
+        "modal"
+      ]
+    },
+    {
+      "scene": "viewer",
+      "variant": "development",
+      "file": "viewer_development_1600.png",
+      "viewport": [
+        1600,
+        900
+      ],
+      "dpr": 1,
+      "screen": "s3",
+      "modal": [
+        "previewModal"
+      ]
+    },
+    {
+      "scene": "excel",
+      "variant": "development",
+      "file": "excel_development_1600.png",
+      "viewport": [
+        1600,
+        900
+      ],
+      "dpr": 1,
+      "screen": "s3",
+      "modal": [
+        "exportModal"
+      ]
+    },
+    {
+      "scene": "initial",
+      "variant": "reference",
+      "file": "initial_reference_1920.png",
+      "viewport": [
+        1920,
+        1080
+      ],
+      "dpr": 1,
+      "screen": "s1",
+      "modal": []
+    },
+    {
+      "scene": "upload",
+      "variant": "reference",
+      "file": "upload_reference_1920.png",
+      "viewport": [
+        1920,
+        1080
+      ],
+      "dpr": 1,
+      "screen": "s2",
+      "modal": []
+    },
+    {
+      "scene": "reports",
+      "variant": "reference",
+      "file": "reports_reference_1920.png",
+      "viewport": [
+        1920,
+        1080
+      ],
+      "dpr": 1,
+      "screen": "s3",
+      "modal": []
+    },
+    {
+      "scene": "editor",
+      "variant": "reference",
+      "file": "editor_reference_1920.png",
+      "viewport": [
+        1920,
+        1080
+      ],
+      "dpr": 1,
+      "screen": "s3",
+      "modal": [
+        "modal"
+      ]
+    },
+    {
+      "scene": "viewer",
+      "variant": "reference",
+      "file": "viewer_reference_1920.png",
+      "viewport": [
+        1920,
+        1080
+      ],
+      "dpr": 1,
+      "screen": "s3",
+      "modal": [
+        "previewModal"
+      ]
+    },
+    {
+      "scene": "excel",
+      "variant": "reference",
+      "file": "excel_reference_1920.png",
+      "viewport": [
+        1920,
+        1080
+      ],
+      "dpr": 1,
+      "screen": "s3",
+      "modal": [
+        "exportModal"
+      ]
+    },
+    {
+      "scene": "initial",
+      "variant": "development",
+      "file": "initial_development_1920.png",
+      "viewport": [
+        1920,
+        1080
+      ],
+      "dpr": 1,
+      "screen": "s1",
+      "modal": []
+    },
+    {
+      "scene": "upload",
+      "variant": "development",
+      "file": "upload_development_1920.png",
+      "viewport": [
+        1920,
+        1080
+      ],
+      "dpr": 1,
+      "screen": "s2",
+      "modal": []
+    },
+    {
+      "scene": "reports",
+      "variant": "development",
+      "file": "reports_development_1920.png",
+      "viewport": [
+        1920,
+        1080
+      ],
+      "dpr": 1,
+      "screen": "s3",
+      "modal": []
+    },
+    {
+      "scene": "editor",
+      "variant": "development",
+      "file": "editor_development_1920.png",
+      "viewport": [
+        1920,
+        1080
+      ],
+      "dpr": 1,
+      "screen": "s3",
+      "modal": [
+        "modal"
+      ]
+    },
+    {
+      "scene": "viewer",
+      "variant": "development",
+      "file": "viewer_development_1920.png",
+      "viewport": [
+        1920,
+        1080
+      ],
+      "dpr": 1,
+      "screen": "s3",
+      "modal": [
+        "previewModal"
+      ]
+    },
+    {
+      "scene": "excel",
+      "variant": "development",
+      "file": "excel_development_1920.png",
+      "viewport": [
+        1920,
+        1080
+      ],
+      "dpr": 1,
+      "screen": "s3",
+      "modal": [
+        "exportModal"
+      ]
+    }
+  ],
+  "qa_only": "Infinite animations paused at currentTime0 on both original/development. Minimum client size used for screen-workarea limit.",
+  "clean_close": true
+}

@@ -1,0 +1,42 @@
+{
+  "phase_1_1": "DONE",
+  "phase_1_2": "DONE (native Windows smoke scope)",
+  "original_and_legacy_sha256": "33eeed2334a683b5360c2fc4f9cabc26885be66fef8714e4278f97235b8c373b",
+  "baseline_images_unchanged": 60,
+  "baseline_metadata_unchanged": true,
+  "fiscal_regions_unchanged": true,
+  "suites": {
+    "navigation": {
+      "pass": 48,
+      "fail": 0
+    },
+    "controls": {
+      "pass": 30,
+      "fail": 0
+    },
+    "targeted": {
+      "pass": 62,
+      "fail": 0
+    },
+    "qt": {
+      "pass": 30,
+      "fail": 0
+    }
+  },
+  "original_defects_reproduced": 5,
+  "chromium_paired_comparisons": 18,
+  "chromium_paired_max_percent": 0,
+  "qt_paired_max_percent": 0.2298611111111111,
+  "qt_cross_renderer_max_percent": 6.845555555555555,
+  "export_headers_match_applied": true,
+  "global_python_pyside6_present": false,
+  "native_progress_stable": false,
+  "not_certified": [
+    "native folder grants/reconnect",
+    "portable profile persistence",
+    "stable progress capture",
+    "DPI125/150",
+    "SAT/fiscal correctness",
+    "portable EXE"
+  ]
+}

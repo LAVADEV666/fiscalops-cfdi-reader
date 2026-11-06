@@ -1,0 +1,689 @@
+{
+  "before": [
+    {
+      "id": "initial-race-precondition",
+      "expected": true,
+      "actual": true,
+      "result": "PASS"
+    },
+    {
+      "id": "P1-E-no-late-navigation",
+      "expected": "s3",
+      "actual": "s2",
+      "result": "FAIL"
+    },
+    {
+      "id": "automatic-splash-preserved",
+      "expected": "s2",
+      "actual": "s2",
+      "result": "PASS"
+    },
+    {
+      "id": "P0-A-single-transition",
+      "expected": "I",
+      "actual": null,
+      "result": "FAIL"
+    },
+    {
+      "id": "other-filter-preserved",
+      "expected": "PUE",
+      "actual": "PUE",
+      "result": "PASS"
+    },
+    {
+      "id": "P0-B-search-apply-keeps-selection",
+      "expected": true,
+      "actual": false,
+      "result": "FAIL"
+    },
+    {
+      "id": "P0-C-focus-contained",
+      "expected": true,
+      "actual": false,
+      "result": "FAIL"
+    },
+    {
+      "id": "P0-D-invoker-restored",
+      "expected": "editcolsTop",
+      "actual": "colSearch",
+      "result": "FAIL"
+    }
+  ],
+  "after": [
+    {
+      "id": "initial-race-precondition",
+      "expected": true,
+      "actual": true,
+      "result": "PASS"
+    },
+    {
+      "id": "P1-E-no-late-navigation",
+      "expected": "s3",
+      "actual": "s3",
+      "result": "PASS"
+    },
+    {
+      "id": "automatic-splash-preserved",
+      "expected": "s2",
+      "actual": "s2",
+      "result": "PASS"
+    },
+    {
+      "id": "P0-A-single-transition",
+      "expected": "I",
+      "actual": "I",
+      "result": "PASS"
+    },
+    {
+      "id": "other-filter-preserved",
+      "expected": "PUE",
+      "actual": "PUE",
+      "result": "PASS"
+    },
+    {
+      "id": "P0-B-search-apply-keeps-selection",
+      "expected": true,
+      "actual": true,
+      "result": "PASS"
+    },
+    {
+      "id": "P0-C-focus-contained",
+      "expected": true,
+      "actual": true,
+      "result": "PASS"
+    },
+    {
+      "id": "P0-D-invoker-restored",
+      "expected": "editcolsTop",
+      "actual": "editcolsTop",
+      "result": "PASS"
+    },
+    {
+      "id": "apply-without-reordering",
+      "expected": [
+        "UUID",
+        "EstatusSAT",
+        "Fecha",
+        "TipoDeComprobante",
+        "Serie",
+        "Folio",
+        "RFCEmisor",
+        "NombreEmisor",
+        "RFCReceptor",
+        "NombreReceptor",
+        "Moneda",
+        "Subtotal",
+        "IVA",
+        "Retenciones",
+        "Total",
+        "ResultadoValidacion"
+      ],
+      "actual": [
+        "UUID",
+        "EstatusSAT",
+        "Fecha",
+        "TipoDeComprobante",
+        "Serie",
+        "Folio",
+        "RFCEmisor",
+        "NombreEmisor",
+        "RFCReceptor",
+        "NombreReceptor",
+        "Moneda",
+        "Subtotal",
+        "IVA",
+        "Retenciones",
+        "Total",
+        "ResultadoValidacion"
+      ],
+      "result": "PASS"
+    },
+    {
+      "id": "draft-does-not-change-applied",
+      "expected": [
+        "UUID",
+        "EstatusSAT",
+        "Fecha",
+        "TipoDeComprobante",
+        "Serie",
+        "Folio",
+        "RFCEmisor",
+        "NombreEmisor",
+        "RFCReceptor",
+        "NombreReceptor",
+        "Moneda",
+        "Subtotal",
+        "IVA",
+        "Retenciones",
+        "Total",
+        "ResultadoValidacion"
+      ],
+      "actual": [
+        "UUID",
+        "EstatusSAT",
+        "Fecha",
+        "TipoDeComprobante",
+        "Serie",
+        "Folio",
+        "RFCEmisor",
+        "NombreEmisor",
+        "RFCReceptor",
+        "NombreReceptor",
+        "Moneda",
+        "Subtotal",
+        "IVA",
+        "Retenciones",
+        "Total",
+        "ResultadoValidacion"
+      ],
+      "result": "PASS"
+    },
+    {
+      "id": "draft-does-not-save-preferences",
+      "expected": "[[\"FiscalOps:19.0.0:columns:AAA010101AAA:ALL:summary:recommended\",\"{\\\"schema\\\":\\\"19.0.0\\\",\\\"report\\\":\\\"summary\\\",\\\"type\\\":\\\"\\\",\\\"profile\\\":\\\"recommended\\\",\\\"columns\\\":[\\\"UUID\\\",\\\"EstatusSAT\\\",\\\"Fecha\\\",\\\"TipoDeComprobante\\\",\\\"Serie\\\",\\\"Folio\\\",\\\"RFCEmisor\\\",\\\"NombreEmisor\\\",\\\"RFCReceptor\\\",\\\"NombreReceptor\\\",\\\"Moneda\\\",\\\"Subtotal\\\",\\\"IVA\\\",\\\"Retenciones\\\",\\\"Total\\\",\\\"ResultadoValidacion\\\"],\\\"widths\\\":{},\\\"pinned\\\":{}}\"]]",
+      "actual": "[[\"FiscalOps:19.0.0:columns:AAA010101AAA:ALL:summary:recommended\",\"{\\\"schema\\\":\\\"19.0.0\\\",\\\"report\\\":\\\"summary\\\",\\\"type\\\":\\\"\\\",\\\"profile\\\":\\\"recommended\\\",\\\"columns\\\":[\\\"UUID\\\",\\\"EstatusSAT\\\",\\\"Fecha\\\",\\\"TipoDeComprobante\\\",\\\"Serie\\\",\\\"Folio\\\",\\\"RFCEmisor\\\",\\\"NombreEmisor\\\",\\\"RFCReceptor\\\",\\\"NombreReceptor\\\",\\\"Moneda\\\",\\\"Subtotal\\\",\\\"IVA\\\",\\\"Retenciones\\\",\\\"Total\\\",\\\"ResultadoValidacion\\\"],\\\"widths\\\":{},\\\"pinned\\\":{}}\"]]",
+      "result": "PASS"
+    },
+    {
+      "id": "draft-does-not-change-profile",
+      "expected": "recommended",
+      "actual": "recommended",
+      "result": "PASS"
+    },
+    {
+      "id": "successive-search-UUID",
+      "expected": "17",
+      "actual": "17",
+      "result": "PASS"
+    },
+    {
+      "id": "successive-search-RFC",
+      "expected": "17",
+      "actual": "17",
+      "result": "PASS"
+    },
+    {
+      "id": "successive-search-NOT-A-COLUMN",
+      "expected": "17",
+      "actual": "17",
+      "result": "PASS"
+    },
+    {
+      "id": "successive-search-empty",
+      "expected": "17",
+      "actual": "17",
+      "result": "PASS"
+    },
+    {
+      "id": "clearing-search-restores-selected-option",
+      "expected": true,
+      "actual": true,
+      "result": "PASS"
+    },
+    {
+      "id": "cancel-keeps-applied",
+      "expected": [
+        "UUID",
+        "EstatusSAT",
+        "Fecha",
+        "TipoDeComprobante",
+        "Serie",
+        "Folio",
+        "RFCEmisor",
+        "NombreEmisor",
+        "RFCReceptor",
+        "NombreReceptor",
+        "Moneda",
+        "Subtotal",
+        "IVA",
+        "Retenciones",
+        "Total",
+        "ResultadoValidacion"
+      ],
+      "actual": [
+        "UUID",
+        "EstatusSAT",
+        "Fecha",
+        "TipoDeComprobante",
+        "Serie",
+        "Folio",
+        "RFCEmisor",
+        "NombreEmisor",
+        "RFCReceptor",
+        "NombreReceptor",
+        "Moneda",
+        "Subtotal",
+        "IVA",
+        "Retenciones",
+        "Total",
+        "ResultadoValidacion"
+      ],
+      "result": "PASS"
+    },
+    {
+      "id": "cancel-keeps-preferences",
+      "expected": "[[\"FiscalOps:19.0.0:columns:AAA010101AAA:ALL:summary:recommended\",\"{\\\"schema\\\":\\\"19.0.0\\\",\\\"report\\\":\\\"summary\\\",\\\"type\\\":\\\"\\\",\\\"profile\\\":\\\"recommended\\\",\\\"columns\\\":[\\\"UUID\\\",\\\"EstatusSAT\\\",\\\"Fecha\\\",\\\"TipoDeComprobante\\\",\\\"Serie\\\",\\\"Folio\\\",\\\"RFCEmisor\\\",\\\"NombreEmisor\\\",\\\"RFCReceptor\\\",\\\"NombreReceptor\\\",\\\"Moneda\\\",\\\"Subtotal\\\",\\\"IVA\\\",\\\"Retenciones\\\",\\\"Total\\\",\\\"ResultadoValidacion\\\"],\\\"widths\\\":{},\\\"pinned\\\":{}}\"]]",
+      "actual": "[[\"FiscalOps:19.0.0:columns:AAA010101AAA:ALL:summary:recommended\",\"{\\\"schema\\\":\\\"19.0.0\\\",\\\"report\\\":\\\"summary\\\",\\\"type\\\":\\\"\\\",\\\"profile\\\":\\\"recommended\\\",\\\"columns\\\":[\\\"UUID\\\",\\\"EstatusSAT\\\",\\\"Fecha\\\",\\\"TipoDeComprobante\\\",\\\"Serie\\\",\\\"Folio\\\",\\\"RFCEmisor\\\",\\\"NombreEmisor\\\",\\\"RFCReceptor\\\",\\\"NombreReceptor\\\",\\\"Moneda\\\",\\\"Subtotal\\\",\\\"IVA\\\",\\\"Retenciones\\\",\\\"Total\\\",\\\"ResultadoValidacion\\\"],\\\"widths\\\":{},\\\"pinned\\\":{}}\"]]",
+      "result": "PASS"
+    },
+    {
+      "id": "cancel-discards-uncommitted-option",
+      "expected": false,
+      "actual": false,
+      "result": "PASS"
+    },
+    {
+      "id": "apply-keeps-hidden-new-option",
+      "expected": true,
+      "actual": true,
+      "result": "PASS"
+    },
+    {
+      "id": "manual-selection-is-custom",
+      "expected": "custom",
+      "actual": "custom",
+      "result": "PASS"
+    },
+    {
+      "id": "saved-profile-survives-reload",
+      "expected": [
+        "UUID",
+        "EstatusSAT",
+        "Fecha",
+        "TipoDeComprobante",
+        "Serie",
+        "Folio",
+        "RFCEmisor",
+        "NombreEmisor",
+        "RFCReceptor",
+        "NombreReceptor",
+        "Moneda",
+        "Subtotal",
+        "IVA",
+        "Retenciones",
+        "Total",
+        "ResultadoValidacion",
+        "CondicionesDePago"
+      ],
+      "actual": [
+        "UUID",
+        "EstatusSAT",
+        "Fecha",
+        "TipoDeComprobante",
+        "Serie",
+        "Folio",
+        "RFCEmisor",
+        "NombreEmisor",
+        "RFCReceptor",
+        "NombreReceptor",
+        "Moneda",
+        "Subtotal",
+        "IVA",
+        "Retenciones",
+        "Total",
+        "ResultadoValidacion",
+        "CondicionesDePago"
+      ],
+      "result": "PASS"
+    },
+    {
+      "id": "profile-replaces-not-merges",
+      "expected": [
+        "EstatusSAT",
+        "Fecha",
+        "Folio",
+        "IVA",
+        "Moneda",
+        "NombreEmisor",
+        "NombreReceptor",
+        "RFCEmisor",
+        "RFCReceptor",
+        "ResultadoValidacion",
+        "Retenciones",
+        "Serie",
+        "Subtotal",
+        "TipoDeComprobante",
+        "Total",
+        "UUID"
+      ],
+      "actual": [
+        "EstatusSAT",
+        "Fecha",
+        "Folio",
+        "IVA",
+        "Moneda",
+        "NombreEmisor",
+        "NombreReceptor",
+        "RFCEmisor",
+        "RFCReceptor",
+        "ResultadoValidacion",
+        "Retenciones",
+        "Serie",
+        "Subtotal",
+        "TipoDeComprobante",
+        "Total",
+        "UUID"
+      ],
+      "result": "PASS"
+    },
+    {
+      "id": "profile-draft-is-not-applied",
+      "expected": "custom",
+      "actual": "custom",
+      "result": "PASS"
+    },
+    {
+      "id": "profile-applied-explicitly",
+      "expected": "fiscal",
+      "actual": "fiscal",
+      "result": "PASS"
+    },
+    {
+      "id": "profile-preferences-isolated",
+      "expected": [
+        "UUID",
+        "EstatusSAT",
+        "Fecha",
+        "TipoDeComprobante",
+        "Serie",
+        "Folio",
+        "RFCEmisor",
+        "NombreEmisor",
+        "RFCReceptor",
+        "NombreReceptor",
+        "Moneda",
+        "Subtotal",
+        "IVA",
+        "Retenciones",
+        "Total",
+        "ResultadoValidacion"
+      ],
+      "actual": [
+        "UUID",
+        "EstatusSAT",
+        "Fecha",
+        "TipoDeComprobante",
+        "Serie",
+        "Folio",
+        "RFCEmisor",
+        "NombreEmisor",
+        "RFCReceptor",
+        "NombreReceptor",
+        "Moneda",
+        "Subtotal",
+        "IVA",
+        "Retenciones",
+        "Total",
+        "ResultadoValidacion"
+      ],
+      "result": "PASS"
+    },
+    {
+      "id": "empty-search-does-not-select-all",
+      "expected": 0,
+      "actual": 0,
+      "result": "PASS"
+    },
+    {
+      "id": "empty-apply-does-not-commit",
+      "expected": [
+        "UUID",
+        "EstatusSAT",
+        "Fecha",
+        "TipoDeComprobante",
+        "Serie",
+        "Folio",
+        "RFCEmisor",
+        "NombreEmisor",
+        "RFCReceptor",
+        "NombreReceptor",
+        "Moneda",
+        "Subtotal",
+        "IVA",
+        "Retenciones",
+        "Total",
+        "ResultadoValidacion"
+      ],
+      "actual": [
+        "UUID",
+        "EstatusSAT",
+        "Fecha",
+        "TipoDeComprobante",
+        "Serie",
+        "Folio",
+        "RFCEmisor",
+        "NombreEmisor",
+        "RFCReceptor",
+        "NombreReceptor",
+        "Moneda",
+        "Subtotal",
+        "IVA",
+        "Retenciones",
+        "Total",
+        "ResultadoValidacion"
+      ],
+      "result": "PASS"
+    },
+    {
+      "id": "initial-focus-editcols-0",
+      "expected": "colSearch",
+      "actual": "colSearch",
+      "result": "PASS"
+    },
+    {
+      "id": "tab-wrap-editcols-0",
+      "expected": "closecols",
+      "actual": "closecols",
+      "result": "PASS"
+    },
+    {
+      "id": "shift-tab-wrap-editcols-0",
+      "expected": "applycols",
+      "actual": "applycols",
+      "result": "PASS"
+    },
+    {
+      "id": "background-inert-editcols-0",
+      "expected": true,
+      "actual": true,
+      "result": "PASS"
+    },
+    {
+      "id": "restore-editcols-0",
+      "expected": "editcols",
+      "actual": "editcols",
+      "result": "PASS"
+    },
+    {
+      "id": "initial-focus-editcols-1",
+      "expected": "colSearch",
+      "actual": "colSearch",
+      "result": "PASS"
+    },
+    {
+      "id": "tab-wrap-editcols-1",
+      "expected": "closecols",
+      "actual": "closecols",
+      "result": "PASS"
+    },
+    {
+      "id": "shift-tab-wrap-editcols-1",
+      "expected": "applycols",
+      "actual": "applycols",
+      "result": "PASS"
+    },
+    {
+      "id": "background-inert-editcols-1",
+      "expected": true,
+      "actual": true,
+      "result": "PASS"
+    },
+    {
+      "id": "restore-editcols-1",
+      "expected": "editcols",
+      "actual": "editcols",
+      "result": "PASS"
+    },
+    {
+      "id": "initial-focus-editcols-2",
+      "expected": "colSearch",
+      "actual": "colSearch",
+      "result": "PASS"
+    },
+    {
+      "id": "tab-wrap-editcols-2",
+      "expected": "closecols",
+      "actual": "closecols",
+      "result": "PASS"
+    },
+    {
+      "id": "shift-tab-wrap-editcols-2",
+      "expected": "applycols",
+      "actual": "applycols",
+      "result": "PASS"
+    },
+    {
+      "id": "background-inert-editcols-2",
+      "expected": true,
+      "actual": true,
+      "result": "PASS"
+    },
+    {
+      "id": "restore-editcols-2",
+      "expected": "editcols",
+      "actual": "editcols",
+      "result": "PASS"
+    },
+    {
+      "id": "initial-focus-editcolsTop-0",
+      "expected": "colSearch",
+      "actual": "colSearch",
+      "result": "PASS"
+    },
+    {
+      "id": "tab-wrap-editcolsTop-0",
+      "expected": "closecols",
+      "actual": "closecols",
+      "result": "PASS"
+    },
+    {
+      "id": "shift-tab-wrap-editcolsTop-0",
+      "expected": "applycols",
+      "actual": "applycols",
+      "result": "PASS"
+    },
+    {
+      "id": "background-inert-editcolsTop-0",
+      "expected": true,
+      "actual": true,
+      "result": "PASS"
+    },
+    {
+      "id": "restore-editcolsTop-0",
+      "expected": "editcolsTop",
+      "actual": "editcolsTop",
+      "result": "PASS"
+    },
+    {
+      "id": "initial-focus-editcolsTop-1",
+      "expected": "colSearch",
+      "actual": "colSearch",
+      "result": "PASS"
+    },
+    {
+      "id": "tab-wrap-editcolsTop-1",
+      "expected": "closecols",
+      "actual": "closecols",
+      "result": "PASS"
+    },
+    {
+      "id": "shift-tab-wrap-editcolsTop-1",
+      "expected": "applycols",
+      "actual": "applycols",
+      "result": "PASS"
+    },
+    {
+      "id": "background-inert-editcolsTop-1",
+      "expected": true,
+      "actual": true,
+      "result": "PASS"
+    },
+    {
+      "id": "restore-editcolsTop-1",
+      "expected": "editcolsTop",
+      "actual": "editcolsTop",
+      "result": "PASS"
+    },
+    {
+      "id": "initial-focus-editcolsTop-2",
+      "expected": "colSearch",
+      "actual": "colSearch",
+      "result": "PASS"
+    },
+    {
+      "id": "tab-wrap-editcolsTop-2",
+      "expected": "closecols",
+      "actual": "closecols",
+      "result": "PASS"
+    },
+    {
+      "id": "shift-tab-wrap-editcolsTop-2",
+      "expected": "applycols",
+      "actual": "applycols",
+      "result": "PASS"
+    },
+    {
+      "id": "background-inert-editcolsTop-2",
+      "expected": true,
+      "actual": true,
+      "result": "PASS"
+    },
+    {
+      "id": "restore-editcolsTop-2",
+      "expected": "editcolsTop",
+      "actual": "editcolsTop",
+      "result": "PASS"
+    },
+    {
+      "id": "resize-editor-1366",
+      "expected": true,
+      "actual": true,
+      "result": "PASS"
+    },
+    {
+      "id": "resize-editor-1600",
+      "expected": true,
+      "actual": true,
+      "result": "PASS"
+    },
+    {
+      "id": "resize-editor-1920",
+      "expected": true,
+      "actual": true,
+      "result": "PASS"
+    }
+  ],
+  "console": [],
+  "export": {
+    "file": "applied-columns.xlsx",
+    "expectedHeaders": [
+      "UUID",
+      "Estado SAT",
+      "Fecha de emisión",
+      "Tipo",
+      "Serie",
+      "Folio",
+      "RFC emisor",
+      "Nombre emisor",
+      "RFC receptor",
+      "Nombre receptor",
+      "Moneda",
+      "Subtotal",
+      "IVA trasladado",
+      "Retenciones",
+      "Total",
+      "Resultado de revisión",
+      "Condiciones de pago"
+    ]
+  }
+}

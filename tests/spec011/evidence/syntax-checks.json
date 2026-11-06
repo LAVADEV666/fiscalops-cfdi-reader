@@ -1,0 +1,25 @@
+{
+  "python": [
+    "app\\desktop\\main.py",
+    "app\\resources.py",
+    "app\\desktop_smoke.py",
+    "scripts\\spec011\\build_ui.py",
+    "scripts\\spec011\\check_environment.py",
+    "scripts\\spec011\\create_checkpoint.py",
+    "scripts\\spec011\\render_matrix.py",
+    "scripts\\spec011\\serve.py",
+    "scripts\\spec011\\verify.py",
+    "tests\\spec011\\qt_smoke.py",
+    "tests\\spec011\\qt_visual.py"
+  ],
+  "javascript": [
+    "tests\\spec011\\paired_visual.cjs",
+    "tests\\spec011\\ui_regression.cjs",
+    "scripts\\spec011\\compare_qt.cjs",
+    "scripts\\spec011\\visual_tools.cjs",
+    "app\\ui\\legacy-runtime.js",
+    "app\\ui\\v20-runtime.js",
+    "app\\ui\\column-editor.js",
+    "app\\ui\\desktop-bridge.js"
+  ]
+}

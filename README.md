@@ -1,6 +1,24 @@
-# FiscalOps CFDI Reader — auditoría V21.1
+# FiscalOps CFDI Reader — V21.1 / SPEC 011
 
-Esta entrega corresponde exclusivamente a **FASE 0** del megaprompt. El prototipo original está intacto y tiene copia verificable en `legacy/`. No se ha reconstruido la aplicación ni generado EXE.
+**Estado actual: FASE 1.1 DONE / FASE 1.2 DONE en el alcance de SPEC011.** Copia UI estabilizada y contenedor Qt ejecutado realmente en Windows. Original, legacy y60 referencias intactos. El motor fiscal sigue siendo el legado con P0 abiertos; no hay EXE final.
+
+Para abrir el contenedor:
+
+```powershell
+python -m venv .venv
+./.venv/Scripts/python.exe -m pip install --require-hashes -r requirements/desktop-spec011.txt
+./.venv/Scripts/python.exe -m app.desktop.main
+```
+
+También se pueden usar [Setup-Desktop.ps1](scripts/spec011/Setup-Desktop.ps1) y [Start-Desktop.ps1](scripts/spec011/Start-Desktop.ps1). La UI de desarrollo está en `app/ui/index.html`; el HTML raíz continúa como referencia inmutable.
+
+Resultados:48/48 navegación,30/30 controles,62/62 específicos y30/30 Qt. Comparaciones reales y diferencias de renderizador documentadas. Selector nativo de carpeta, memoria portable, progreso estable y DPI125/150% siguen sin certificación.
+
+Leer [estabilización](docs/11_UI_STABILIZATION_REPORT.md), [desktop real](docs/12_DESKTOP_SMOKE_REPORT.md), [matriz de regresión](docs/13_UI_REGRESSION_MATRIX.md), [handoff fiscal](docs/14_HANDOFF_MOTOR_FISCAL.md) y [procedimiento reproducible](scripts/spec011/README.md). Checkpoint previo `spec011-start-20261106`; checkpoint final/bundle local en `build/checkpoints/SPEC011_RESTORE_POINT.json`. No hay remotos ni subidas.
+
+## Historial — FASE 0
+
+La primera entrega fue exclusivamente auditoría. Sus documentos y resultados se conservan como evidencia histórica.
 
 Leer [reporte de fase](docs/FASE_0_REPORTE.md), [auditoría](docs/00_AUDITORIA_LEGACY.md), [inventario](docs/01_INVENTARIO_FUNCIONAL.md), [riesgos](docs/02_MATRIZ_DE_RIESGOS.md), [plan/arquitectura](docs/03_PLAN_DE_MIGRACION.md), [contratos visuales](docs/04_CONTRATOS_UI.md) y [backlog](docs/05_BACKLOG_PRIORIZADO.md).
 
