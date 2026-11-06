@@ -1,0 +1,15 @@
+{
+  "preservation": "PASS",
+  "resource_hashes": "PASS",
+  "required_documents": 6,
+  "diagnostic_observations": 26,
+  "xlsx_crc": "PASS",
+  "xlsx_xml_parts": 9,
+  "numeric_cell": "116.25",
+  "uuid_text": "PASS",
+  "empty_sheet": "PASS",
+  "invalid_xml_control_reproduced": true,
+  "visual_baseline": "BLOCKED_VISUAL_BASELINE",
+  "excel_application_open": "NOT_TESTED",
+  "fiscal_compliance": "NOT_CERTIFIED"
+}

@@ -1,0 +1,2097 @@
+{
+  "prototype": "FiscalOps_CFDI_READER_SSGT_V21_1_PRO.html",
+  "bytes": 905818,
+  "lines": 1181,
+  "sha256": "33eeed2334a683b5360c2fc4f9cabc26885be66fef8714e4278f97235b8c373b",
+  "legacy_sha256": "33eeed2334a683b5360c2fc4f9cabc26885be66fef8714e4278f97235b8c373b",
+  "styles": [
+    {
+      "path": "assets\\legacy\\style-01.css",
+      "line": 2,
+      "sha256": "65b8245de76ac9de0b63aab7079eb5397eec8d58e9102a3b7610ae6959861794"
+    },
+    {
+      "path": "assets\\legacy\\style-02.css",
+      "line": 80,
+      "sha256": "84d7d0cb21146a2aa9693b5901d5585b18c7cd2498f57581bda67b17ead483a0"
+    },
+    {
+      "path": "assets\\legacy\\style-03.css",
+      "line": 101,
+      "sha256": "d3ab13f968562a9bc91821210ab49cb76e1dab8b798d31470b328555d2d762c3"
+    },
+    {
+      "path": "assets\\legacy\\style-04.css",
+      "line": 111,
+      "sha256": "431b06f43668deac9a81773ac2e93140c3aa52c3bc8d3149d5209317a74779a7"
+    },
+    {
+      "path": "assets\\legacy\\style-05.css",
+      "line": 214,
+      "sha256": "83a81eaed5e659af5af89c22283ba53fe413997e8feac7f1b392d1dfb9328161"
+    }
+  ],
+  "images": [
+    {
+      "path": "assets\\legacy\\embedded-01.png",
+      "mime": "image/png",
+      "sha256": "2f000b1465a2f82be8816b23f44dae2500820e7f43a927446748b487ae5ef76d",
+      "bytes": 17108,
+      "occurrences": [
+        512,
+        513,
+        514,
+        514
+      ]
+    }
+  ],
+  "scripts": [
+    {
+      "path": "tests\\audit\\evidence\\script-01.js",
+      "line": 534
+    },
+    {
+      "path": "tests\\audit\\evidence\\script-02.js",
+      "line": 1171
+    }
+  ],
+  "functions": [
+    {
+      "name": "el",
+      "line": 539,
+      "async": false
+    },
+    {
+      "name": "pg",
+      "line": 539,
+      "async": false
+    },
+    {
+      "name": "num",
+      "line": 539,
+      "async": false
+    },
+    {
+      "name": "money",
+      "line": 539,
+      "async": false
+    },
+    {
+      "name": "int",
+      "line": 539,
+      "async": false
+    },
+    {
+      "name": "setStatus",
+      "line": 539,
+      "async": false
+    },
+    {
+      "name": "setupFilters",
+      "line": 542,
+      "async": false
+    },
+    {
+      "name": "emisionParts",
+      "line": 563,
+      "async": false
+    },
+    {
+      "name": "empresaRFC",
+      "line": 564,
+      "async": false
+    },
+    {
+      "name": "docSide",
+      "line": 565,
+      "async": false
+    },
+    {
+      "name": "sideLabel",
+      "line": 566,
+      "async": false
+    },
+    {
+      "name": "detectRFCFromFolder",
+      "line": 569,
+      "async": false
+    },
+    {
+      "name": "memName",
+      "line": 570,
+      "async": false
+    },
+    {
+      "name": "fileKey",
+      "line": 571,
+      "async": false
+    },
+    {
+      "name": "fileSig",
+      "line": 572,
+      "async": false
+    },
+    {
+      "name": "sameSig",
+      "line": 573,
+      "async": false
+    },
+    {
+      "name": "updateFolderPanel",
+      "line": 574,
+      "async": false
+    },
+    {
+      "name": "updateMemoryPanel",
+      "line": 575,
+      "async": false
+    },
+    {
+      "name": "idbOpen",
+      "line": 576,
+      "async": false
+    },
+    {
+      "name": "kvGet",
+      "line": 577,
+      "async": true
+    },
+    {
+      "name": "kvPut",
+      "line": 578,
+      "async": true
+    },
+    {
+      "name": "kvDel",
+      "line": 579,
+      "async": true
+    },
+    {
+      "name": "saveFolderHandle",
+      "line": 580,
+      "async": true
+    },
+    {
+      "name": "getSavedFolderHandle",
+      "line": 581,
+      "async": true
+    },
+    {
+      "name": "saveMemory",
+      "line": 582,
+      "async": true
+    },
+    {
+      "name": "loadMemoryForRFC",
+      "line": 583,
+      "async": true
+    },
+    {
+      "name": "ensureFolderPermission",
+      "line": 584,
+      "async": true
+    },
+    {
+      "name": "connectFolder",
+      "line": 585,
+      "async": true
+    },
+    {
+      "name": "reconnectFolder",
+      "line": 586,
+      "async": true
+    },
+    {
+      "name": "refreshConnectedFolder",
+      "line": 587,
+      "async": true
+    },
+    {
+      "name": "scanFolderHandle",
+      "line": 588,
+      "async": true
+    },
+    {
+      "name": "walkFolder",
+      "line": 589,
+      "async": true
+    },
+    {
+      "name": "applyMemoryDiff",
+      "line": 590,
+      "async": false
+    },
+    {
+      "name": "cachedArrays",
+      "line": 591,
+      "async": false
+    },
+    {
+      "name": "forgetMemoryDbl",
+      "line": 592,
+      "async": true
+    },
+    {
+      "name": "fmtDate",
+      "line": 594,
+      "async": false
+    },
+    {
+      "name": "pad",
+      "line": 594,
+      "async": false
+    },
+    {
+      "name": "ymd",
+      "line": 594,
+      "async": false
+    },
+    {
+      "name": "addFiles",
+      "line": 595,
+      "async": false
+    },
+    {
+      "name": "renderFileList",
+      "line": 595,
+      "async": false
+    },
+    {
+      "name": "process",
+      "line": 596,
+      "async": true
+    },
+    {
+      "name": "unzipFile",
+      "line": 615,
+      "async": true
+    },
+    {
+      "name": "inflateRaw",
+      "line": 615,
+      "async": true
+    },
+    {
+      "name": "detect",
+      "line": 616,
+      "async": false
+    },
+    {
+      "name": "parseMeta",
+      "line": 616,
+      "async": false
+    },
+    {
+      "name": "impName",
+      "line": 618,
+      "async": false
+    },
+    {
+      "name": "firstTaxAttr",
+      "line": 619,
+      "async": false
+    },
+    {
+      "name": "taxItemFromNode",
+      "line": 620,
+      "async": false
+    },
+    {
+      "name": "ratePct",
+      "line": 621,
+      "async": false
+    },
+    {
+      "name": "taxItemsFromNodes",
+      "line": 622,
+      "async": false
+    },
+    {
+      "name": "taxSum",
+      "line": 623,
+      "async": false
+    },
+    {
+      "name": "addTaxAnalysis",
+      "line": 624,
+      "async": false
+    },
+    {
+      "name": "parseDetailItem",
+      "line": 625,
+      "async": false
+    },
+    {
+      "name": "taxRowsFromRows",
+      "line": 626,
+      "async": false
+    },
+    {
+      "name": "excelTable",
+      "line": 627,
+      "async": false
+    },
+    {
+      "name": "allowedColsForContext",
+      "line": 628,
+      "async": false
+    },
+    {
+      "name": "smartExportCols",
+      "line": 629,
+      "async": false
+    },
+    {
+      "name": "applyOriginFilter",
+      "line": 630,
+      "async": false
+    },
+    {
+      "name": "ensureSmartOrigin",
+      "line": 631,
+      "async": false
+    },
+    {
+      "name": "nextScreen",
+      "line": 632,
+      "async": false
+    },
+    {
+      "name": "parseCFDI",
+      "line": 634,
+      "async": false
+    },
+    {
+      "name": "joinVals",
+      "line": 637,
+      "async": false
+    },
+    {
+      "name": "attrsStr",
+      "line": 637,
+      "async": false
+    },
+    {
+      "name": "hasNode",
+      "line": 637,
+      "async": false
+    },
+    {
+      "name": "sumNodes",
+      "line": 650,
+      "async": false
+    },
+    {
+      "name": "metaMap",
+      "line": 667,
+      "async": false
+    },
+    {
+      "name": "statusEmoji",
+      "line": 667,
+      "async": false
+    },
+    {
+      "name": "allRows",
+      "line": 667,
+      "async": false
+    },
+    {
+      "name": "reportRowsBase",
+      "line": 668,
+      "async": false
+    },
+    {
+      "name": "applyReportFilters",
+      "line": 669,
+      "async": false
+    },
+    {
+      "name": "filtered",
+      "line": 670,
+      "async": false
+    },
+    {
+      "name": "typeLabel",
+      "line": 671,
+      "async": false
+    },
+    {
+      "name": "presetForType",
+      "line": 672,
+      "async": false
+    },
+    {
+      "name": "setActiveType",
+      "line": 673,
+      "async": false
+    },
+    {
+      "name": "renderTabs",
+      "line": 674,
+      "async": false
+    },
+    {
+      "name": "renderTotals",
+      "line": 675,
+      "async": false
+    },
+    {
+      "name": "render",
+      "line": 676,
+      "async": false
+    },
+    {
+      "name": "stat",
+      "line": 676,
+      "async": false
+    },
+    {
+      "name": "renderTable",
+      "line": 677,
+      "async": false
+    },
+    {
+      "name": "header",
+      "line": 678,
+      "async": false
+    },
+    {
+      "name": "buildLines",
+      "line": 678,
+      "async": false
+    },
+    {
+      "name": "saveTxt",
+      "line": 678,
+      "async": false
+    },
+    {
+      "name": "dl",
+      "line": 678,
+      "async": false
+    },
+    {
+      "name": "dlExcel",
+      "line": 678,
+      "async": false
+    },
+    {
+      "name": "renderChecks",
+      "line": 682,
+      "async": false
+    },
+    {
+      "name": "tag",
+      "line": 683,
+      "async": false
+    },
+    {
+      "name": "tags",
+      "line": 683,
+      "async": false
+    },
+    {
+      "name": "at",
+      "line": 683,
+      "async": false
+    },
+    {
+      "name": "find",
+      "line": 683,
+      "async": false
+    },
+    {
+      "name": "getiva",
+      "line": 683,
+      "async": false
+    },
+    {
+      "name": "getret",
+      "line": 683,
+      "async": false
+    },
+    {
+      "name": "normalize",
+      "line": 683,
+      "async": false
+    },
+    {
+      "name": "trimq",
+      "line": 683,
+      "async": false
+    },
+    {
+      "name": "clean",
+      "line": 683,
+      "async": false
+    },
+    {
+      "name": "out",
+      "line": 683,
+      "async": false
+    },
+    {
+      "name": "safe",
+      "line": 683,
+      "async": false
+    },
+    {
+      "name": "dec",
+      "line": 683,
+      "async": false
+    },
+    {
+      "name": "esc",
+      "line": 683,
+      "async": false
+    },
+    {
+      "name": "norm",
+      "line": 683,
+      "async": false
+    },
+    {
+      "name": "tipoDesc",
+      "line": 683,
+      "async": false
+    },
+    {
+      "name": "clas",
+      "line": 683,
+      "async": false
+    },
+    {
+      "name": "sum",
+      "line": 683,
+      "async": false
+    },
+    {
+      "name": "pause",
+      "line": 683,
+      "async": false
+    },
+    {
+      "name": "aItem",
+      "line": 691,
+      "async": false
+    },
+    {
+      "name": "renderAssistant",
+      "line": 692,
+      "async": false
+    },
+    {
+      "name": "previewRow",
+      "line": 693,
+      "async": false
+    },
+    {
+      "name": "cat",
+      "line": 695,
+      "async": false
+    },
+    {
+      "name": "catalogKindForField",
+      "line": 696,
+      "async": false
+    },
+    {
+      "name": "catalogHintFor",
+      "line": 697,
+      "async": false
+    },
+    {
+      "name": "findingsFor",
+      "line": 698,
+      "async": false
+    },
+    {
+      "name": "block",
+      "line": 699,
+      "async": false
+    },
+    {
+      "name": "pairs",
+      "line": 700,
+      "async": false
+    },
+    {
+      "name": "taxMetric",
+      "line": 701,
+      "async": false
+    },
+    {
+      "name": "localTaxRows",
+      "line": 702,
+      "async": false
+    },
+    {
+      "name": "detailTaxRows",
+      "line": 703,
+      "async": false
+    },
+    {
+      "name": "conceptRows",
+      "line": 704,
+      "async": false
+    },
+    {
+      "name": "xmlTree",
+      "line": 705,
+      "async": false
+    },
+    {
+      "name": "node",
+      "line": 705,
+      "async": false
+    },
+    {
+      "name": "allFieldRows",
+      "line": 706,
+      "async": false
+    },
+    {
+      "name": "tabBtn",
+      "line": 707,
+      "async": false
+    },
+    {
+      "name": "pane",
+      "line": 708,
+      "async": false
+    },
+    {
+      "name": "openPreview",
+      "line": 709,
+      "async": false
+    },
+    {
+      "name": "cd",
+      "line": 752,
+      "async": false
+    },
+    {
+      "name": "reg",
+      "line": 753,
+      "async": false
+    },
+    {
+      "name": "profileColumns",
+      "line": 959,
+      "async": false
+    },
+    {
+      "name": "catalogEntry",
+      "line": 961,
+      "async": false
+    },
+    {
+      "name": "cat",
+      "line": 962,
+      "async": false
+    },
+    {
+      "name": "catalogKindForField",
+      "line": 963,
+      "async": false
+    },
+    {
+      "name": "catalogHintFor",
+      "line": 964,
+      "async": false
+    },
+    {
+      "name": "currencyDecimals",
+      "line": 965,
+      "async": false
+    },
+    {
+      "name": "localTolerance",
+      "line": 966,
+      "async": false
+    },
+    {
+      "name": "qname",
+      "line": 967,
+      "async": false
+    },
+    {
+      "name": "attrN",
+      "line": 968,
+      "async": false
+    },
+    {
+      "name": "directChildren",
+      "line": 969,
+      "async": false
+    },
+    {
+      "name": "firstChild",
+      "line": 970,
+      "async": false
+    },
+    {
+      "name": "descendants",
+      "line": 971,
+      "async": false
+    },
+    {
+      "name": "firstDesc",
+      "line": 972,
+      "async": false
+    },
+    {
+      "name": "parseXmlDocument",
+      "line": 973,
+      "async": false
+    },
+    {
+      "name": "nval",
+      "line": 974,
+      "async": false
+    },
+    {
+      "name": "approx",
+      "line": 975,
+      "async": false
+    },
+    {
+      "name": "baseDetail",
+      "line": 976,
+      "async": false
+    },
+    {
+      "name": "finding",
+      "line": 977,
+      "async": false
+    },
+    {
+      "name": "copyAttrs",
+      "line": 978,
+      "async": false
+    },
+    {
+      "name": "taxCodeFromNode",
+      "line": 979,
+      "async": false
+    },
+    {
+      "name": "taxBaseFromNode",
+      "line": 980,
+      "async": false
+    },
+    {
+      "name": "taxFactorFromNode",
+      "line": 981,
+      "async": false
+    },
+    {
+      "name": "taxRateFromNode",
+      "line": 982,
+      "async": false
+    },
+    {
+      "name": "taxAmountFromNode",
+      "line": 983,
+      "async": false
+    },
+    {
+      "name": "taxNature",
+      "line": 984,
+      "async": false
+    },
+    {
+      "name": "parseTaxNode",
+      "line": 985,
+      "async": false
+    },
+    {
+      "name": "parseCFDI",
+      "line": 986,
+      "async": false
+    },
+    {
+      "name": "process",
+      "line": 1021,
+      "async": true
+    },
+    {
+      "name": "unzipFile",
+      "line": 1041,
+      "async": true
+    },
+    {
+      "name": "detect",
+      "line": 1042,
+      "async": false
+    },
+    {
+      "name": "statusEmoji",
+      "line": 1043,
+      "async": false
+    },
+    {
+      "name": "allRows",
+      "line": 1044,
+      "async": false
+    },
+    {
+      "name": "applyReportFilters",
+      "line": 1045,
+      "async": false
+    },
+    {
+      "name": "filtered",
+      "line": 1046,
+      "async": false
+    },
+    {
+      "name": "currentReportRows",
+      "line": 1047,
+      "async": false
+    },
+    {
+      "name": "applicableColumns",
+      "line": 1048,
+      "async": false
+    },
+    {
+      "name": "prefKey",
+      "line": 1049,
+      "async": false
+    },
+    {
+      "name": "saveColumns",
+      "line": 1050,
+      "async": false
+    },
+    {
+      "name": "loadColumns",
+      "line": 1051,
+      "async": false
+    },
+    {
+      "name": "allowedColsForContext",
+      "line": 1052,
+      "async": false
+    },
+    {
+      "name": "smartExportCols",
+      "line": 1053,
+      "async": false
+    },
+    {
+      "name": "typeLabel",
+      "line": 1054,
+      "async": false
+    },
+    {
+      "name": "setActiveType",
+      "line": 1055,
+      "async": false
+    },
+    {
+      "name": "reportOptionsForType",
+      "line": 1056,
+      "async": false
+    },
+    {
+      "name": "refreshReportSelectors",
+      "line": 1057,
+      "async": false
+    },
+    {
+      "name": "renderTabs",
+      "line": 1058,
+      "async": false
+    },
+    {
+      "name": "statusClass",
+      "line": 1059,
+      "async": false
+    },
+    {
+      "name": "formatCell",
+      "line": 1060,
+      "async": false
+    },
+    {
+      "name": "compareValues",
+      "line": 1061,
+      "async": false
+    },
+    {
+      "name": "sortedRows",
+      "line": 1062,
+      "async": false
+    },
+    {
+      "name": "renderTable",
+      "line": 1063,
+      "async": false
+    },
+    {
+      "name": "currencyGroups",
+      "line": 1064,
+      "async": false
+    },
+    {
+      "name": "renderTotals",
+      "line": 1065,
+      "async": false
+    },
+    {
+      "name": "summaryCards",
+      "line": 1066,
+      "async": false
+    },
+    {
+      "name": "render",
+      "line": 1067,
+      "async": false
+    },
+    {
+      "name": "findingLabel",
+      "line": 1068,
+      "async": false
+    },
+    {
+      "name": "renderAssistant",
+      "line": 1069,
+      "async": false
+    },
+    {
+      "name": "updateColumnSelectionCount",
+      "line": 1070,
+      "async": false
+    },
+    {
+      "name": "renderChecks",
+      "line": 1071,
+      "async": false
+    },
+    {
+      "name": "bindColumnRows",
+      "line": 1072,
+      "async": false
+    },
+    {
+      "name": "moveColumn",
+      "line": 1073,
+      "async": false
+    },
+    {
+      "name": "nudgeColumn",
+      "line": 1074,
+      "async": false
+    },
+    {
+      "name": "applyColumnEditor",
+      "line": 1075,
+      "async": false
+    },
+    {
+      "name": "spreadsheetSafe",
+      "line": 1076,
+      "async": false
+    },
+    {
+      "name": "exportColumns",
+      "line": 1077,
+      "async": false
+    },
+    {
+      "name": "excelTable",
+      "line": 1078,
+      "async": false
+    },
+    {
+      "name": "dlExcel",
+      "line": 1079,
+      "async": false
+    },
+    {
+      "name": "csvValue",
+      "line": 1080,
+      "async": false
+    },
+    {
+      "name": "dlCSV",
+      "line": 1081,
+      "async": false
+    },
+    {
+      "name": "buildLines",
+      "line": 1082,
+      "async": false
+    },
+    {
+      "name": "exportPackage",
+      "line": 1083,
+      "async": false
+    },
+    {
+      "name": "next",
+      "line": 1083,
+      "async": false
+    },
+    {
+      "name": "currentReportRowsFor",
+      "line": 1084,
+      "async": false
+    },
+    {
+      "name": "setupFilters",
+      "line": 1085,
+      "async": false
+    },
+    {
+      "name": "findingsFor",
+      "line": 1086,
+      "async": false
+    },
+    {
+      "name": "allFieldRows",
+      "line": 1087,
+      "async": false
+    },
+    {
+      "name": "initV19",
+      "line": 1088,
+      "async": false
+    },
+    {
+      "name": "openCols",
+      "line": 1099,
+      "async": false
+    },
+    {
+      "name": "v21Scale",
+      "line": 1120,
+      "async": false
+    },
+    {
+      "name": "v21Area",
+      "line": 1123,
+      "async": false
+    },
+    {
+      "name": "v21RowsForEditor",
+      "line": 1124,
+      "async": false
+    },
+    {
+      "name": "v21ColumnInfo",
+      "line": 1125,
+      "async": false
+    },
+    {
+      "name": "v21Short",
+      "line": 1126,
+      "async": false
+    },
+    {
+      "name": "updateColumnSelectionCount",
+      "line": 1127,
+      "async": false
+    },
+    {
+      "name": "v21Preset",
+      "line": 1130,
+      "async": false
+    },
+    {
+      "name": "v21FieldArea",
+      "line": 1133,
+      "async": false
+    },
+    {
+      "name": "v21GroupedFields",
+      "line": 1134,
+      "async": false
+    },
+    {
+      "name": "v21XmlEscape",
+      "line": 1138,
+      "async": false
+    },
+    {
+      "name": "v21ColName",
+      "line": 1139,
+      "async": false
+    },
+    {
+      "name": "v21SheetName",
+      "line": 1140,
+      "async": false
+    },
+    {
+      "name": "v21CellXml",
+      "line": 1141,
+      "async": false
+    },
+    {
+      "name": "v21SheetXml",
+      "line": 1142,
+      "async": false
+    },
+    {
+      "name": "v21U16",
+      "line": 1143,
+      "async": false
+    },
+    {
+      "name": "v21U32",
+      "line": 1143,
+      "async": false
+    },
+    {
+      "name": "v21Concat",
+      "line": 1143,
+      "async": false
+    },
+    {
+      "name": "v21Crc",
+      "line": 1144,
+      "async": false
+    },
+    {
+      "name": "v21Dos",
+      "line": 1145,
+      "async": false
+    },
+    {
+      "name": "v21Zip",
+      "line": 1146,
+      "async": false
+    },
+    {
+      "name": "v21BuildXlsx",
+      "line": 1147,
+      "async": false
+    },
+    {
+      "name": "v21Cols",
+      "line": 1148,
+      "async": false
+    },
+    {
+      "name": "v21CustomCols",
+      "line": 1149,
+      "async": false
+    },
+    {
+      "name": "v21Agg",
+      "line": 1150,
+      "async": false
+    },
+    {
+      "name": "v21Resumen",
+      "line": 1151,
+      "async": false
+    },
+    {
+      "name": "v21Monedas",
+      "line": 1152,
+      "async": false
+    },
+    {
+      "name": "v21MonthKey",
+      "line": 1153,
+      "async": false
+    },
+    {
+      "name": "v21Mensual",
+      "line": 1154,
+      "async": false
+    },
+    {
+      "name": "v21Contrapartes",
+      "line": 1155,
+      "async": false
+    },
+    {
+      "name": "v21Pagos",
+      "line": 1156,
+      "async": false
+    },
+    {
+      "name": "v21Impuestos",
+      "line": 1157,
+      "async": false
+    },
+    {
+      "name": "v21Conceptos",
+      "line": 1158,
+      "async": false
+    },
+    {
+      "name": "v21AnalysisSheet",
+      "line": 1159,
+      "async": false
+    },
+    {
+      "name": "v21SelectedAnalyses",
+      "line": 1160,
+      "async": false
+    },
+    {
+      "name": "v21UpdateExportSummary",
+      "line": 1161,
+      "async": false
+    },
+    {
+      "name": "v21RenderExport",
+      "line": 1162,
+      "async": false
+    },
+    {
+      "name": "v21OpenExport",
+      "line": 1163,
+      "async": false
+    },
+    {
+      "name": "v21CloseExport",
+      "line": 1164,
+      "async": false
+    },
+    {
+      "name": "v21DownloadWorkbook",
+      "line": 1165,
+      "async": false
+    },
+    {
+      "name": "applyV20Scale",
+      "line": 1173,
+      "async": false
+    }
+  ],
+  "function_assignments": [
+    {
+      "name": "onchange",
+      "line": 551
+    },
+    {
+      "name": "oninput",
+      "line": 552
+    },
+    {
+      "name": "onclick",
+      "line": 553
+    },
+    {
+      "name": "onclick",
+      "line": 554
+    },
+    {
+      "name": "onclick",
+      "line": 555
+    },
+    {
+      "name": "onclick",
+      "line": 556
+    },
+    {
+      "name": "onupgradeneeded",
+      "line": 576
+    },
+    {
+      "name": "onsuccess",
+      "line": 576
+    },
+    {
+      "name": "onerror",
+      "line": 576
+    },
+    {
+      "name": "onsuccess",
+      "line": 577
+    },
+    {
+      "name": "onerror",
+      "line": 577
+    },
+    {
+      "name": "cnt",
+      "line": 676
+    },
+    {
+      "name": "q",
+      "line": 704
+    },
+    {
+      "name": "onclick",
+      "line": 717
+    },
+    {
+      "name": "onclick",
+      "line": 719
+    },
+    {
+      "name": "onclick",
+      "line": 720
+    },
+    {
+      "name": "count",
+      "line": 1066
+    },
+    {
+      "name": "ondragstart",
+      "line": 1072
+    },
+    {
+      "name": "ondragend",
+      "line": 1072
+    },
+    {
+      "name": "ondragover",
+      "line": 1072
+    },
+    {
+      "name": "ondragleave",
+      "line": 1072
+    },
+    {
+      "name": "ondrop",
+      "line": 1072
+    },
+    {
+      "name": "onclick",
+      "line": 1072
+    },
+    {
+      "name": "onchange",
+      "line": 1072
+    },
+    {
+      "name": "onclick",
+      "line": 1072
+    },
+    {
+      "name": "onclick",
+      "line": 1072
+    },
+    {
+      "name": "onchange",
+      "line": 1072
+    },
+    {
+      "name": "onchange",
+      "line": 1085
+    },
+    {
+      "name": "oninput",
+      "line": 1085
+    },
+    {
+      "name": "onclick",
+      "line": 1085
+    },
+    {
+      "name": "onclick",
+      "line": 1085
+    },
+    {
+      "name": "onclick",
+      "line": 1085
+    },
+    {
+      "name": "onclick",
+      "line": 1085
+    },
+    {
+      "name": "onchange",
+      "line": 1091
+    },
+    {
+      "name": "onchange",
+      "line": 1092
+    },
+    {
+      "name": "onclick",
+      "line": 1093
+    },
+    {
+      "name": "onclick",
+      "line": 1094
+    },
+    {
+      "name": "onclick",
+      "line": 1096
+    },
+    {
+      "name": "onclick",
+      "line": 1097
+    },
+    {
+      "name": "onclick",
+      "line": 1098
+    },
+    {
+      "name": "onclick",
+      "line": 1099
+    },
+    {
+      "name": "onclick",
+      "line": 1099
+    },
+    {
+      "name": "onclick",
+      "line": 1099
+    },
+    {
+      "name": "onclick",
+      "line": 1099
+    },
+    {
+      "name": "onclick",
+      "line": 1099
+    },
+    {
+      "name": "onclick",
+      "line": 1099
+    },
+    {
+      "name": "onclick",
+      "line": 1099
+    },
+    {
+      "name": "oninput",
+      "line": 1099
+    },
+    {
+      "name": "onclick",
+      "line": 1100
+    },
+    {
+      "name": "onclick",
+      "line": 1101
+    },
+    {
+      "name": "onkeydown",
+      "line": 1101
+    },
+    {
+      "name": "onscroll",
+      "line": 1102
+    },
+    {
+      "name": "onclick",
+      "line": 1104
+    },
+    {
+      "name": "renderChecks",
+      "line": 1128
+    },
+    {
+      "name": "onchange",
+      "line": 1128
+    },
+    {
+      "name": "applyColumnEditor",
+      "line": 1129
+    },
+    {
+      "name": "onclick",
+      "line": 1131
+    },
+    {
+      "name": "onclick",
+      "line": 1131
+    },
+    {
+      "name": "onclick",
+      "line": 1131
+    },
+    {
+      "name": "onclick",
+      "line": 1131
+    },
+    {
+      "name": "onclick",
+      "line": 1131
+    },
+    {
+      "name": "onclick",
+      "line": 1131
+    },
+    {
+      "name": "allFieldRows",
+      "line": 1135
+    },
+    {
+      "name": "openPreview",
+      "line": 1136
+    },
+    {
+      "name": "onclick",
+      "line": 1136
+    },
+    {
+      "name": "val",
+      "line": 1151
+    },
+    {
+      "name": "onchange",
+      "line": 1162
+    },
+    {
+      "name": "onclick",
+      "line": 1166
+    }
+  ],
+  "elements": [
+    {
+      "tag": "style",
+      "line": 101,
+      "id": "fiscalops-v20-ui"
+    },
+    {
+      "tag": "style",
+      "line": 111,
+      "id": "fiscalops-v21-style"
+    },
+    {
+      "tag": "style",
+      "line": 214,
+      "id": "fiscalops-v211-reader-legibility"
+    },
+    {
+      "tag": "section",
+      "line": 513,
+      "class": "screen on",
+      "id": "s1"
+    },
+    {
+      "tag": "button",
+      "line": 513,
+      "class": "orange",
+      "id": "start"
+    },
+    {
+      "tag": "section",
+      "line": 514,
+      "class": "screen upload-screen",
+      "id": "s2"
+    },
+    {
+      "tag": "input",
+      "line": 514,
+      "id": "rfc",
+      "placeholder": "Para clasificar INGRESO / EGRESO"
+    },
+    {
+      "tag": "div",
+      "line": 514,
+      "class": "drop",
+      "id": "drop"
+    },
+    {
+      "tag": "input",
+      "line": 514,
+      "accept": ".zip,.ZIP,.xml,.XML,.txt,.TXT,.html,.HTML,.htm,.HTM",
+      "id": "file",
+      "multiple": "",
+      "type": "file"
+    },
+    {
+      "tag": "button",
+      "line": 514,
+      "id": "select"
+    },
+    {
+      "tag": "button",
+      "line": 514,
+      "class": "secondary",
+      "id": "folder"
+    },
+    {
+      "tag": "button",
+      "line": 514,
+      "class": "secondary",
+      "id": "changeFolder"
+    },
+    {
+      "tag": "button",
+      "line": 514,
+      "class": "secondary",
+      "disabled": "",
+      "id": "refreshFolder"
+    },
+    {
+      "tag": "button",
+      "line": 514,
+      "class": "orange",
+      "disabled": "",
+      "id": "process"
+    },
+    {
+      "tag": "button",
+      "line": 514,
+      "class": "secondary",
+      "disabled": "",
+      "id": "reprocessAll"
+    },
+    {
+      "tag": "button",
+      "line": 514,
+      "class": "ghost",
+      "disabled": "",
+      "id": "forgetMemory",
+      "title": "Doble click para borrar memoria"
+    },
+    {
+      "tag": "button",
+      "line": 514,
+      "class": "ghost",
+      "id": "clear"
+    },
+    {
+      "tag": "div",
+      "line": 514,
+      "class": "folder-panel",
+      "id": "folderPanel"
+    },
+    {
+      "tag": "div",
+      "line": 514,
+      "class": "memory-panel",
+      "id": "memoryPanel"
+    },
+    {
+      "tag": "div",
+      "line": 514,
+      "class": "filelist",
+      "id": "filelist"
+    },
+    {
+      "tag": "progress",
+      "line": 514,
+      "id": "prog",
+      "max": "100",
+      "style": "width:100%;margin-top:12px",
+      "value": "0"
+    },
+    {
+      "tag": "div",
+      "line": 514,
+      "aria-live": "polite",
+      "class": "status",
+      "id": "status",
+      "role": "status"
+    },
+    {
+      "tag": "section",
+      "line": 515,
+      "class": "screen report-screen",
+      "id": "s3"
+    },
+    {
+      "tag": "p",
+      "line": 515,
+      "class": "sub",
+      "id": "sub"
+    },
+    {
+      "tag": "button",
+      "line": 515,
+      "class": "orange",
+      "id": "excel"
+    },
+    {
+      "tag": "button",
+      "line": 515,
+      "aria-hidden": "true",
+      "class": "secondary",
+      "hidden": "",
+      "id": "excelf"
+    },
+    {
+      "tag": "button",
+      "line": 515,
+      "class": "secondary",
+      "id": "txt"
+    },
+    {
+      "tag": "button",
+      "line": 515,
+      "class": "secondary",
+      "id": "csv"
+    },
+    {
+      "tag": "button",
+      "line": 515,
+      "aria-hidden": "true",
+      "class": "secondary",
+      "hidden": "",
+      "id": "exportPack",
+      "type": "button"
+    },
+    {
+      "tag": "button",
+      "line": 515,
+      "class": "secondary",
+      "id": "editcols"
+    },
+    {
+      "tag": "button",
+      "line": 515,
+      "class": "secondary",
+      "id": "more"
+    },
+    {
+      "tag": "select",
+      "line": 515,
+      "id": "year"
+    },
+    {
+      "tag": "input",
+      "line": 515,
+      "id": "q",
+      "placeholder": "UUID, RFC o receptor"
+    },
+    {
+      "tag": "select",
+      "line": 515,
+      "class": "hidden-select",
+      "id": "tipo"
+    },
+    {
+      "tag": "select",
+      "line": 515,
+      "class": "hidden-select",
+      "id": "estatus"
+    },
+    {
+      "tag": "select",
+      "line": 515,
+      "class": "hidden-select",
+      "id": "month"
+    },
+    {
+      "tag": "select",
+      "line": 515,
+      "aria-label": "Tipo de reporte",
+      "id": "reportKind"
+    },
+    {
+      "tag": "select",
+      "line": 515,
+      "aria-label": "Perfil de columnas",
+      "id": "profileSel"
+    },
+    {
+      "tag": "button",
+      "line": 515,
+      "class": "secondary",
+      "id": "densityBtn",
+      "type": "button"
+    },
+    {
+      "tag": "button",
+      "line": 515,
+      "class": "secondary",
+      "id": "csvQuick",
+      "style": "display:none",
+      "type": "button"
+    },
+    {
+      "tag": "div",
+      "line": 515,
+      "class": "pro-source-note",
+      "id": "reportDescription"
+    },
+    {
+      "tag": "div",
+      "line": 515,
+      "class": "type-tabs",
+      "id": "typeTabs"
+    },
+    {
+      "tag": "div",
+      "line": 515,
+      "class": "cards report-cards",
+      "id": "cards"
+    },
+    {
+      "tag": "div",
+      "line": 515,
+      "class": "assistant-box",
+      "id": "assistantBox"
+    },
+    {
+      "tag": "select",
+      "line": 515,
+      "id": "ps"
+    },
+    {
+      "tag": "button",
+      "line": 515,
+      "class": "secondary",
+      "id": "prev"
+    },
+    {
+      "tag": "span",
+      "line": 515,
+      "id": "page"
+    },
+    {
+      "tag": "button",
+      "line": 515,
+      "class": "secondary",
+      "id": "next"
+    },
+    {
+      "tag": "thead",
+      "line": 515,
+      "id": "thead"
+    },
+    {
+      "tag": "tbody",
+      "line": 515,
+      "id": "tbody"
+    },
+    {
+      "tag": "p",
+      "line": 515,
+      "class": "sub",
+      "id": "foot"
+    },
+    {
+      "tag": "button",
+      "line": 515,
+      "class": "secondary mini-btn",
+      "id": "editcolsTop"
+    },
+    {
+      "tag": "div",
+      "line": 515,
+      "class": "totals-box",
+      "id": "totalsBox"
+    },
+    {
+      "tag": "button",
+      "line": 515,
+      "id": "cancel"
+    },
+    {
+      "tag": "button",
+      "line": 515,
+      "id": "sinmeta"
+    },
+    {
+      "tag": "div",
+      "line": 515,
+      "aria-labelledby": "columnEditorTitle",
+      "aria-modal": "true",
+      "class": "modal",
+      "id": "modal",
+      "role": "dialog"
+    },
+    {
+      "tag": "h2",
+      "line": 515,
+      "id": "columnEditorTitle"
+    },
+    {
+      "tag": "button",
+      "line": 515,
+      "class": "ghost",
+      "id": "closecols",
+      "type": "button"
+    },
+    {
+      "tag": "input",
+      "line": 515,
+      "aria-label": "Buscar columnas",
+      "id": "colSearch",
+      "placeholder": "Buscar columna, grupo o identificador",
+      "type": "search"
+    },
+    {
+      "tag": "button",
+      "line": 515,
+      "class": "secondary",
+      "id": "corecols",
+      "type": "button"
+    },
+    {
+      "tag": "button",
+      "line": 515,
+      "class": "secondary",
+      "id": "invoicecols",
+      "type": "button"
+    },
+    {
+      "tag": "button",
+      "line": 515,
+      "class": "secondary",
+      "id": "allcols",
+      "type": "button"
+    },
+    {
+      "tag": "button",
+      "line": 515,
+      "class": "secondary",
+      "id": "nocols",
+      "type": "button"
+    },
+    {
+      "tag": "button",
+      "line": 515,
+      "class": "secondary",
+      "id": "paycols",
+      "style": "display:none",
+      "type": "button"
+    },
+    {
+      "tag": "button",
+      "line": 515,
+      "class": "secondary",
+      "id": "nomcols",
+      "style": "display:none",
+      "type": "button"
+    },
+    {
+      "tag": "button",
+      "line": 515,
+      "class": "secondary",
+      "id": "auditcols",
+      "type": "button"
+    },
+    {
+      "tag": "button",
+      "line": 515,
+      "class": "secondary",
+      "id": "taxcols",
+      "type": "button"
+    },
+    {
+      "tag": "div",
+      "line": 515,
+      "aria-live": "polite",
+      "class": "column-selection-count",
+      "id": "columnSelectionCount"
+    },
+    {
+      "tag": "div",
+      "line": 515,
+      "aria-live": "polite",
+      "class": "column-editor-list",
+      "id": "checks"
+    },
+    {
+      "tag": "button",
+      "line": 515,
+      "class": "orange",
+      "id": "applycols",
+      "type": "button"
+    },
+    {
+      "tag": "div",
+      "line": 515,
+      "aria-labelledby": "previewKicker",
+      "aria-modal": "true",
+      "class": "modal",
+      "id": "previewModal",
+      "role": "dialog"
+    },
+    {
+      "tag": "div",
+      "line": 515,
+      "class": "section-kicker",
+      "id": "previewKicker"
+    },
+    {
+      "tag": "button",
+      "line": 515,
+      "class": "ghost mini-btn",
+      "id": "previewClose"
+    },
+    {
+      "tag": "div",
+      "line": 515,
+      "id": "previewBody"
+    },
+    {
+      "tag": "div",
+      "line": 516,
+      "aria-labelledby": "exportTitle",
+      "aria-modal": "true",
+      "class": "modal",
+      "id": "exportModal",
+      "role": "dialog"
+    },
+    {
+      "tag": "h2",
+      "line": 521,
+      "id": "exportTitle"
+    },
+    {
+      "tag": "button",
+      "line": 524,
+      "class": "ghost",
+      "id": "exportClose",
+      "type": "button"
+    },
+    {
+      "tag": "div",
+      "line": 526,
+      "class": "v21-main-sheet",
+      "id": "exportMainInfo"
+    },
+    {
+      "tag": "div",
+      "line": 527,
+      "class": "v21-analysis-grid",
+      "id": "analysisChoices"
+    },
+    {
+      "tag": "div",
+      "line": 528,
+      "class": "v21-export-summary",
+      "id": "exportSheetSummary"
+    },
+    {
+      "tag": "button",
+      "line": 530,
+      "class": "secondary",
+      "id": "exportCancel",
+      "type": "button"
+    },
+    {
+      "tag": "button",
+      "line": 531,
+      "class": "orange",
+      "id": "exportGenerate",
+      "type": "button"
+    },
+    {
+      "tag": "script",
+      "line": 1171,
+      "id": "fiscalops-v20-runtime"
+    }
+  ],
+  "external_resources": [],
+  "catalog_families": {
+    "FormaPago": 22,
+    "Moneda": 183,
+    "TipoDeComprobante": 5,
+    "Exportacion": 4,
+    "MetodoPago": 2,
+    "Periodicidad": 5,
+    "Meses": 18,
+    "TipoRelacion": 7,
+    "RegimenFiscal": 19,
+    "Pais": 250,
+    "UsoCFDI": 24,
+    "ClaveUnidad": 2418,
+    "ObjetoImp": 8,
+    "Impuesto": 3,
+    "TipoFactor": 3,
+    "TasaOCuota": 19,
+    "Aduana": 50,
+    "Estado": 95
+  }
+}

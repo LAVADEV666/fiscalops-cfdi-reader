@@ -1,0 +1,194 @@
+{
+  "method": "Node VM; UI stubbed; XML DOM adapted from Python ElementTree. No browser/visual validation.",
+  "node": "v24.21.0",
+  "prototype_sha256": "33eeed2334a683b5360c2fc4f9cabc26885be66fef8714e4278f97235b8c373b",
+  "versions": {
+    "parser": "SSGT_V20_DOM_REPORTS_20260729",
+    "schema": "19.0.0",
+    "reports": [
+      "summary",
+      "concepts",
+      "conceptTaxes",
+      "globalTaxes",
+      "relations",
+      "payments",
+      "paymentDocs",
+      "paymentTaxes",
+      "payrollPerceptions",
+      "payrollDeductions",
+      "payrollOtherPayments",
+      "payrollIncapacities",
+      "payrollOvertime",
+      "locations",
+      "goods",
+      "transportFigures",
+      "complements",
+      "missingMetadata",
+      "canceled",
+      "duplicates",
+      "readErrors"
+    ],
+    "columns": 182,
+    "domParser": true,
+    "xlsxHandler": "v21OpenExport"
+  },
+  "results": [
+    {
+      "id": "N01-runtime",
+      "status": "REPRODUCED",
+      "value": true
+    },
+    {
+      "id": "N02-iva-ieps",
+      "status": "REPRODUCED",
+      "value": {
+        "IVA": "24",
+        "ivaDetail": "16.00",
+        "IEPS": "8.00"
+      }
+    },
+    {
+      "id": "N03-retention-label",
+      "status": "REPRODUCED",
+      "value": {
+        "reported": "10",
+        "ISR": "0.00",
+        "nature": "Retención"
+      }
+    },
+    {
+      "id": "N04-local-double",
+      "status": "REPRODUCED",
+      "value": -3
+    },
+    {
+      "id": "N05-namespace",
+      "status": "REPRODUCED",
+      "value": true
+    },
+    {
+      "id": "N06-exempt-zero",
+      "status": "REPRODUCED",
+      "value": {
+        "zero": "100.00",
+        "exempt": "100.00"
+      }
+    },
+    {
+      "id": "N07-fallback-double",
+      "status": "REPRODUCED",
+      "value": "32"
+    },
+    {
+      "id": "N08-decimals",
+      "status": "REPRODUCED",
+      "value": {
+        "sum": 0.30000000000000004,
+        "missing": 0,
+        "invalid": 0,
+        "rounded": "1.00"
+      }
+    },
+    {
+      "id": "N09-signature",
+      "status": "REPRODUCED",
+      "value": true
+    },
+    {
+      "id": "N10-metadata-invalid",
+      "status": "REPRODUCED",
+      "value": "INVALID"
+    },
+    {
+      "id": "N11-multiple-payments",
+      "status": "REPRODUCED",
+      "value": {
+        "payments": 2,
+        "docs": 2,
+        "total": 100,
+        "cfdi": "0"
+      }
+    },
+    {
+      "id": "N12-dtd",
+      "status": "REPRODUCED",
+      "value": false
+    },
+    {
+      "id": "N13-date-sort",
+      "status": "REPRODUCED",
+      "value": 1
+    },
+    {
+      "id": "N14-xlsx-date-text",
+      "status": "REPRODUCED",
+      "value": true
+    },
+    {
+      "id": "N15-xlsx-control",
+      "status": "REPRODUCED",
+      "value": true
+    },
+    {
+      "id": "N16-xlsx-limit",
+      "status": "REPRODUCED",
+      "value": {
+        "start": 0,
+        "end": 1048575
+      }
+    },
+    {
+      "id": "N17-formula-protection",
+      "status": "REPRODUCED",
+      "value": "'=1+1"
+    },
+    {
+      "id": "N18-txt-zero",
+      "status": "REPRODUCED",
+      "value": ""
+    },
+    {
+      "id": "N19-findings-report",
+      "status": "REPRODUCED",
+      "value": false
+    },
+    {
+      "id": "N20-report-type-scope",
+      "status": "REPRODUCED",
+      "value": true
+    },
+    {
+      "id": "N21-metadata-conflict",
+      "status": "REPRODUCED",
+      "value": "CANCELADO"
+    },
+    {
+      "id": "N22-time-loss",
+      "status": "REPRODUCED",
+      "value": "06/11/2026"
+    },
+    {
+      "id": "N25-normalize-removes-dtd",
+      "status": "REPRODUCED",
+      "value": false
+    },
+    {
+      "id": "N26-legacy-tax-helpers-unused",
+      "status": "REPRODUCED",
+      "value": false
+    },
+    {
+      "id": "N23-zip-corrupt-crc",
+      "status": "REPRODUCED",
+      "value": true
+    },
+    {
+      "id": "N24-zip-unsupported-silent",
+      "status": "REPRODUCED",
+      "value": 0
+    }
+  ],
+  "warnings": [
+    "parseCFDI V19 Error: XML rechazado por contener DTD o entidades externas."
+  ]
+}
