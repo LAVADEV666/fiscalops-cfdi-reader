@@ -7,8 +7,8 @@
     "column-editor.js": "15365226020818978dd4eb2511214f503dd1ecafb4bad3d812b7d0c2ad4a9b80",
     "desktop-bridge.js": "1c5bfd18391b634cdaff06d06af71925b540011b130a5bbab857e44789b1a427",
     "index.html": "3f9a8812f84201ec3c130c1bc3a87151a0b8e69d7391b0e1513ff5f1ef12dadb",
-    "legacy-runtime.js": "2d7287008eae28ff55f64e0c454fb91ce8093d000c60a2c9e8f7a5b7b4091cd4",
-    "native-integration.js": "2cb335978e3ab9ec442bac64ab966365b839a4c1cb2913e959d9f87fba9f99b5",
+    "legacy-runtime.js": "54d64ec1b0a24c1e050eb477d0539112db867cc9fbce304a7a0cda0204b7ffd0",
+    "native-integration.js": "d40d8ba18a5135bf79ea901b559afcef552646bc19a6e7d697e5a4d007325b10",
     "v20-runtime.js": "2ff2813c438434b3b65059a64fe119276b31c777c6948fce456020de11ae2b84"
   },
   "native_mode": "fiscal Python worker; JavaScript fiscal entry points fail closed",

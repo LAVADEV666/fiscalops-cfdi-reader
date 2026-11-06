@@ -4,8 +4,17 @@ __pycache__/
 tests/visual/.work/
 tests/fiscal/.work/
 tests/persistence/.work/
+tests/history/.work/
 tests/visual/evidence/server.json
 tests/visual/evidence/*-profile/
 FiscalOpsData/
+*.sqlite3
+*.sqlite3-journal
+*.sqlite3-wal
+*.sqlite3-shm
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
 dist/
 build/checkpoints/

@@ -1,5 +1,7 @@
 # Persistencia SQLite de documentos, resultados y sesiones
 
+Hito histórico. El selector visual y los respaldos/restauración ya se implementan en la fase posterior: [contrato actual](21_HISTORIAL_RESPALDOS_SQLITE.md) y [entrega](22_HISTORIAL_RESPALDOS_REPORT.md).
+
 La aplicación Qt guarda las cargas confirmadas en `FiscalOpsData/fiscalops.sqlite3`, junto al proyecto. Se crea al primer acceso del worker. El lanzador y el comando `.\.venv\Scripts\python.exe -m app.desktop.main` siguen siendo los mismos. No se añaden dependencias: se utiliza `sqlite3` de CPython3.11.
 
 ## Comportamiento visible

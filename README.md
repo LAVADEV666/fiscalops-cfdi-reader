@@ -1,6 +1,6 @@
 # FiscalOps CFDI Reader — V21.1 / motor XML + Decimal
 
-**Hito actual: persistencia SQLite integrada con los workers Qt.** Documentos originales, resultados fiscales y sesiones se guardan en `FiscalOpsData/fiscalops.sqlite3`. Al abrir se recuperan la última sesión activa, sus filtros y columnas; se conservan interfaz,22 reportes, visor y exportaciones Decimal. [Entrega](docs/20_PERSISTENCIA_SQLITE_REPORT.md) · [Contrato](docs/19_PERSISTENCIA_SQLITE.md) · [Pruebas](scripts/persistence/README.md).
+**Hito actual: historial visual y respaldos/restauración SQLite desde Qt.** El botón **Sesiones y respaldos** permite buscar/abrir sesiones, crear un respaldo verificado y restaurar tras revisar su contenido, con copia preventiva y transacción. Se conservan22 reportes, visor, filtros/columnas y exportaciones Decimal. [Entrega](docs/22_HISTORIAL_RESPALDOS_REPORT.md) · [Contrato](docs/21_HISTORIAL_RESPALDOS_SQLITE.md) · [Pruebas](scripts/history/README.md).
 
 ```powershell
 .\.venv\Scripts\python.exe -m pip install --require-hashes -r requirements/desktop.txt
@@ -10,6 +10,8 @@
 Original, legacy y60 referencias preservados. Limpiar cierra la sesión conservando historial; doble clic en Borrar memoria elimina los datos persistidos sin tocar originales seleccionados. La conexión SQLite pertenece al worker; importación/cálculos/exportación continúan fuera del GUI. Grants de carpeta, caché incremental, validaciones integrales de complementos y EXE final siguen pendientes. Sin Qt no se permite volver al motor legado.
 
 El hito anterior de integración Qt se conserva en [17](docs/17_INTEGRACION_QT_WORKERS_REPORT.md) y [18](docs/18_CONTRATO_QT_WORKERS.md); su almacenamiento en memoria fue sustituido por la fase SQLite.
+
+La persistencia SQLite del hito anterior se conserva en [19](docs/19_PERSISTENCIA_SQLITE.md) y [20](docs/20_PERSISTENCIA_SQLITE_REPORT.md). La base activa está en `FiscalOpsData/fiscalops.sqlite3`; las copias preventivas se conservan en `FiscalOpsData/backups`. No se incluyen bases ni respaldos del usuario en Git.
 
 ## Hito anterior — motor independiente
 

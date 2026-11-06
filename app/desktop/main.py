@@ -7,7 +7,7 @@ import sys
 import threading
 
 from PySide6.QtCore import QFile, QIODevice, QObject, QUrl, Slot, Qt, QTimer
-from PySide6.QtWidgets import QApplication, QMainWindow
+from PySide6.QtWidgets import QApplication, QMainWindow, QPushButton
 from PySide6.QtWebEngineCore import QWebEnginePage, QWebEngineProfile, QWebEngineScript, QWebEngineUrlRequestInterceptor, QWebEngineDownloadRequest
 from PySide6.QtWebEngineWidgets import QWebEngineView
 from PySide6.QtWebChannel import QWebChannel
@@ -28,7 +28,7 @@ class Diagnostics(QObject):
     """Diagnostics only; the separate fiscal object accepts selected bytes, never paths."""
     @Slot(result=str)
     def describe(self):
-        return json.dumps({'protocol':'fiscalops.desktop/3', 'capabilities':['diagnostics.describe','diagnostics.ping','fiscal.worker','fiscal.import','fiscal.export','fiscal.cancel','fiscal.sqlite','fiscal.sessions'],
+        return json.dumps({'protocol':'fiscalops.desktop/4', 'capabilities':['diagnostics.describe','diagnostics.ping','fiscal.worker','fiscal.import','fiscal.export','fiscal.cancel','fiscal.sqlite','fiscal.sessions','native.history','native.backup','native.restore'],
                            'fiscal_engine':'python-decimal-worker', 'filesystem':'selected bytes; native save dialog; worker-owned SQLite'})
 
     @Slot(str, result=str)
@@ -109,10 +109,53 @@ class DesktopWindow(QMainWindow):
         self._capture_started = False
         self.save_picker = None  # Python-only test hook; no path is accepted from JavaScript.
         self.active_downloads = set()
+        self.data_dialog = None
+        self.data_button = QPushButton('Sesiones y respaldos', self.view)
+        self.data_button.setObjectName('dataManager')
+        self.data_button.setStyleSheet('QPushButton { color:#4f2d7f;background:#fff;border:1px solid #ded4ed;border-radius:8px;padding:6px 12px;font-weight:bold; } QPushButton:disabled {color:#888;}')
+        self.data_button.setFixedSize(188, 34)
+        self.data_button.setToolTip('Abrir historial, crear un respaldo o restaurar SQLite')
+        self.data_button.clicked.connect(self.open_data_manager)
+        self.data_button.setVisible(not reference)
+        self._position_data_button()
         self.profile.downloadRequested.connect(self._download_requested)
         self.view.load(self.reference_url if reference else self.frontend_url)
 
+    def _position_data_button(self):
+        if hasattr(self, 'data_button'):
+            self.data_button.move(max(4, self.view.width()-204), 10)
+            self.data_button.raise_()
+
+    def resizeEvent(self, event):
+        super().resizeEvent(event)
+        self._position_data_button()
+        QTimer.singleShot(0, self._position_data_button)
+
+    def open_data_manager(self):
+        if self.data_dialog or self._closing or self.active_downloads:
+            return
+        self.data_button.setEnabled(False)
+        def captured(value):
+            if self._closing:
+                return
+            try:
+                packet = json.loads(value) if isinstance(value, str) else None
+            except ValueError:
+                packet = None
+            if packet is None:
+                self.data_button.setEnabled(True)
+                self.web_page.runJavaScript('document.getElementById("status").textContent="Finaliza o cancela la operación actual antes de abrir el historial."')
+                return
+            from .sessions_dialog import SessionsDialog
+            self.fiscal.maintenance_active = True
+            self.view.setEnabled(False)
+            self.data_dialog = SessionsDialog(self, packet['snapshot'])
+            self.data_dialog.show()
+        self.web_page.runJavaScript('JSON.stringify(window.FiscalOpsRuntime&&window.FiscalOpsRuntime.beginMaintenance?window.FiscalOpsRuntime.beginMaintenance():null)', captured)
+
     def closeEvent(self, event):
+        if self.data_dialog and self.data_dialog.request_id:
+            self.data_dialog.cancel_operation()
         if self.active_downloads:
             event.ignore()
             self._closing = True

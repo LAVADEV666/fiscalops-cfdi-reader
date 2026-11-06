@@ -124,7 +124,9 @@ class Repository:
                 yield db
                 db.execute('COMMIT')
             except BaseException:
-                db.execute('ROLLBACK')
+                db.set_progress_handler(None, 0)
+                if db.in_transaction:
+                    db.execute('ROLLBACK')
                 raise
 
     def _activate(self, db, identity):
@@ -217,6 +219,8 @@ class Repository:
             if active != (identity, self.revision):
                 raise ValueError('SESSION_CONFLICT_REOPEN')
             db.execute('UPDATE sessions SET view_json=? WHERE id=?', (dumps(value), identity))
+            db.execute('UPDATE workspace SET revision=revision+1 WHERE singleton=1')
+        self.revision += 1
 
     def clear(self, purge=False):
         with self.transaction() as db:

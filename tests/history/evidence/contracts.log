@@ -1,0 +1,25 @@
+test_backup_is_verified_complete_and_independent (test_maintenance.MaintenanceTests.test_backup_is_verified_complete_and_independent) ... ok
+test_cancel_backup_keeps_existing_destination (test_maintenance.MaintenanceTests.test_cancel_backup_keeps_existing_destination) ... ok
+test_cancel_inside_restore_rolls_back_every_table (test_maintenance.MaintenanceTests.test_cancel_inside_restore_rolls_back_every_table) ... ok
+test_changed_staging_is_rejected_without_replacement (test_maintenance.MaintenanceTests.test_changed_staging_is_rejected_without_replacement) ... ok
+test_concurrent_change_invalidates_reviewed_plan (test_maintenance.MaintenanceTests.test_concurrent_change_invalidates_reviewed_plan) ... ok
+test_crash_during_restore_recovers_previous_database (test_maintenance.MaintenanceTests.test_crash_during_restore_recovers_previous_database) ... ok
+test_empty_backup_restores_without_inventing_active_session (test_maintenance.MaintenanceTests.test_empty_backup_restores_without_inventing_active_session) ... ok
+test_failed_insert_restore_rolls_back_prior_deletes (test_maintenance.MaintenanceTests.test_failed_insert_restore_rolls_back_prior_deletes) ... ok
+test_failed_publish_preserves_existing_backup_and_live_database (test_maintenance.MaintenanceTests.test_failed_publish_preserves_existing_backup_and_live_database) ... ok
+test_foreign_corrupt_and_future_backups_leave_live_database_intact (test_maintenance.MaintenanceTests.test_foreign_corrupt_and_future_backups_leave_live_database_intact) ... ok
+test_history_paginates_searches_and_marks_compatibility (test_maintenance.MaintenanceTests.test_history_paginates_searches_and_marks_compatibility) ... ok
+test_invalid_incident_shape_rejected_without_mutating_database (test_maintenance.MaintenanceTests.test_invalid_incident_shape_rejected_without_mutating_database) ... ok
+test_invalid_result_shapes_rejected_even_when_json_hash_is_recomputed (test_maintenance.MaintenanceTests.test_invalid_result_shapes_rejected_even_when_json_hash_is_recomputed) ... ok
+test_other_window_view_save_invalidates_plan (test_maintenance.MaintenanceTests.test_other_window_view_save_invalidates_plan) ... ok
+test_private_path_operations_are_not_webchannel_operations_or_slots (test_maintenance.MaintenanceTests.test_private_path_operations_are_not_webchannel_operations_or_slots) ... ok
+test_restore_preserves_exact_rows_views_and_makes_preventive_backup (test_maintenance.MaintenanceTests.test_restore_preserves_exact_rows_views_and_makes_preventive_backup) ... ok
+test_restore_preview_and_discard_never_mutate_live_database (test_maintenance.MaintenanceTests.test_restore_preview_and_discard_never_mutate_live_database) ... ok
+test_same_active_path_sidecars_and_hardlink_are_rejected (test_maintenance.MaintenanceTests.test_same_active_path_sidecars_and_hardlink_are_rejected) ... ok
+test_selected_source_may_change_but_reviewed_staging_is_used (test_maintenance.MaintenanceTests.test_selected_source_may_change_but_reviewed_staging_is_used) ... ok
+test_untrusted_trigger_and_hash_tampering_are_rejected (test_maintenance.MaintenanceTests.test_untrusted_trigger_and_hash_tampering_are_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 20 tests in 13.872s
+
+OK

@@ -16,6 +16,7 @@ from .imports import MAX_FILE, Cancelled, checkpoint, entries, metadata
 from .reports import aggregate, analysis_sheets, report_rows, selected_documents, columns, money_formats
 from .exports import build_delimited, build_workbook
 from .persistence import Repository, DEFAULT_DATABASE
+from .maintenance import Maintenance
 
 
 class FiscalStore:
@@ -268,6 +269,7 @@ class FiscalWorker(QObject):
     def __init__(self, database_path=DEFAULT_DATABASE):
         super().__init__()
         self.store = FiscalStore(database_path)
+        self.maintenance = Maintenance(self.store)
         self.thread_ids = set()
 
     @Slot(object)
@@ -284,7 +286,16 @@ class FiscalWorker(QObject):
                 if now-last_progress[0] >= .1 or value['processed'] != last_progress[1]:
                     last_progress[:] = [now, value['processed']]
                     self.progress.emit(job_id, json.dumps(value))
-            result = self.store.handle(operation, payload, job_id, cancel, progress)
+            if operation.startswith('native.'):
+                last_native = [0.0]
+                def native_progress(value):
+                    now = time.monotonic()
+                    if now-last_native[0] >= .1:
+                        last_native[0] = now
+                        self.progress.emit(job_id, json.dumps(value))
+                result = self.maintenance.handle(operation, payload, cancel, native_progress)
+            else:
+                result = self.store.handle(operation, payload, job_id, cancel, progress)
             response = {'request_id': request_id, 'ok': True, 'result': to_data(result)}
         except Cancelled:
             self.store.staging.pop(job_id, None)
@@ -294,12 +305,17 @@ class FiscalWorker(QObject):
             response = {'request_id': request_id, 'ok': False, 'code': code}
         except Exception:
             response = {'request_id': request_id, 'ok': False, 'code': 'FISCAL_WORKER_FAILED'}
+        if operation == 'native.restore.commit' and not response['ok'] and self.maintenance.last_recovery:
+            response['recovery_path'] = self.maintenance.last_recovery
         self.result.emit(request_id, operation, json.dumps(response, ensure_ascii=False))
 
     @Slot()
     def stop(self):
         try:
-            self.store.repository.close()
+            try:
+                self.maintenance.close()
+            finally:
+                self.store.repository.close()
         finally:
             QThread.currentThread().quit()
 
@@ -312,10 +328,15 @@ class _DeliveryQueue(QObject):
     def __init__(self, receiver, parent):
         super().__init__(parent)
         self.receiver = receiver
+        self.progress_receiver = parent._progress_received
 
     @Slot(str, str, str)
     def receive(self, request_id, operation, response):
         self.receiver(request_id, operation, response)
+
+    @Slot(str, str)
+    def receive_progress(self, identity, value):
+        self.progress_receiver(identity, value)
 
 
 class FiscalBridge(QObject):
@@ -335,16 +356,18 @@ class FiscalBridge(QObject):
         self._delivery.send.connect(self.worker.handle, Qt.ConnectionType.QueuedConnection)
         self._delivery.stop.connect(self.worker.stop, Qt.ConnectionType.QueuedConnection)
         self.worker.result.connect(self._delivery.receive, Qt.ConnectionType.QueuedConnection)
-        self.worker.progress.connect(self.progress, Qt.ConnectionType.QueuedConnection)
+        self.worker.progress.connect(self._delivery.receive_progress, Qt.ConnectionType.QueuedConnection)
         self.thread.finished.connect(self.worker.deleteLater)
         self.jobs, self.pending = {}, {}
+        self.native_pending = {}
+        self.maintenance_active = False
         self.closing = False
         self.gui_thread_id = threading.get_ident()
         self.thread.start()
 
     @Slot(str, result=str)
     def openJob(self, kind):
-        if self.closing or kind not in ('import', 'export') or len(self.jobs) >= 16:
+        if self.closing or self.maintenance_active or kind not in ('import', 'export') or len(self.jobs) >= 16:
             return json.dumps({'ok': False, 'code': 'JOB_REJECTED'})
         identity = uuid.uuid4().hex
         self.jobs[identity] = {'event': threading.Event(), 'kind': kind, 'state': 'open'}
@@ -352,7 +375,7 @@ class FiscalBridge(QObject):
 
     @Slot(str, str, str, str, result=str)
     def request(self, request_id, job_id, operation, payload):
-        if (self.closing or operation not in self.OPERATIONS or len(request_id) > 96 or not request_id or
+        if (self.closing or self.maintenance_active or operation not in self.OPERATIONS or len(request_id) > 96 or not request_id or
                 request_id in self.pending or len(self.pending) >= 16 or len(payload) > 46*1024*1024):
             return json.dumps({'ok': False, 'code': 'REQUEST_REJECTED'})
         job = self.jobs.get(job_id) if job_id else None
@@ -375,6 +398,11 @@ class FiscalBridge(QObject):
         return json.dumps({'ok': True, 'cancelled': True})
 
     def _received(self, request_id, operation, response):
+        native = self.native_pending.pop(request_id, None)
+        if native:
+            if not self.closing:
+                native['callback'](json.loads(response))
+            return  # Native paths and results never reach WebChannel signals.
         if request_id == 'close-session-view':
             self.close_save_result = json.loads(response)
         packet = self.pending.pop(request_id, None)
@@ -384,12 +412,36 @@ class FiscalBridge(QObject):
                 self.jobs.pop(job_id, None)
         self.response.emit(response)
 
+    def _progress_received(self, identity, value):
+        if identity in self.native_pending:
+            callback = self.native_pending[identity]['progress']
+            if callback and not self.closing:
+                callback(json.loads(value))
+        else:
+            self.progress.emit(identity, value)
+
+    def native_request(self, operation, payload, callback, progress=None):
+        """Python-only method, deliberately not a Qt slot or public WebChannel operation."""
+        if self.closing or not self.maintenance_active or not operation.startswith('native.') or self.native_pending:
+            raise ValueError('MAINTENANCE_NOT_READY')
+        identity = 'native-'+uuid.uuid4().hex
+        cancel = threading.Event()
+        self.native_pending[identity] = {'event': cancel, 'callback': callback, 'progress': progress}
+        self._delivery.send.emit((identity, identity, operation, json.dumps(payload), cancel))
+        return identity
+
+    def native_cancel(self, identity):
+        if identity in self.native_pending:
+            self.native_pending[identity]['event'].set()
+
     def shutdown(self, snapshot=None):
         self.closing = True
         for job in self.jobs.values():
             job['event'].set()
         for _, _, event in self.pending.values():
             event.set()
+        for item in self.native_pending.values():
+            item['event'].set()
         self.thread.requestInterruption()
         if snapshot is not None:
             # Queued after cancellation of in-flight jobs and before connection closure.

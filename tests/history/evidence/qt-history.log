@@ -1,0 +1,22 @@
+{
+  "success": true,
+  "checks": 37,
+  "processes": 2,
+  "restored_summary": {
+    "sessions": 2,
+    "documents": 4,
+    "originals": 4,
+    "active_session": "d4f41fb475fb4b9b981faa28c3eb0181",
+    "revision": 14
+  },
+  "preventive_summary": {
+    "sessions": 2,
+    "documents": 4,
+    "originals": 4,
+    "active_session": "7571b404e6e7414da7fc10479f13ab7e",
+    "revision": 10
+  },
+  "backup_sha256": "8725e531979e3d8dbee38b1b90b582a4fd0a4cfb9839f54821e41450fa79912f",
+  "selected_csv_total": "119",
+  "xlsx_sheets": 8
+}

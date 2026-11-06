@@ -1,5 +1,7 @@
 # Persistencia SQLite — entrega y evidencia
 
+Hito histórico. La fase siguiente implementa selector de historial y respaldo/restauración desde Qt: [entrega actual](22_HISTORIAL_RESPALDOS_REPORT.md).
+
 Implementada en Qt: originales y metadata, resultados fiscales, proyecciones de los22 reportes y sesiones se guardan en `FiscalOpsData/fiscalops.sqlite3`. La última sesión activa se recupera sin releer los archivos ni volver al parser JavaScript. Los filtros, perfil, columnas y XML del visor sobreviven al cierre.
 
 La conexión es exclusiva del worker; se abre y se cierra en ese hilo. Una transacción confirma toda la carga y la sesión activa antes de publicar el reporte. Cancelación, bloqueo, escritura fallida o caída a mitad de transacción conservan la sesión confirmada anterior. Los importes usan cadenas decimales y nulos, sin REAL/float ni cálculos SQL.

@@ -1,0 +1,615 @@
+{
+  "scope": "synthetic normative/security tests; not SAT certification",
+  "source_sha256": {
+    "app/fiscal/__init__.py": "efb950d7ff882e5c9fa25a6645ef6b5405b270b104215534062d7d75d120817c",
+    "app/fiscal/__main__.py": "f5396658524f8da3457faccd7ddced0794738367754f6749737b66c9cb590595",
+    "app/fiscal/calculations.py": "3392a51d078f914d8c25202605c7d98115497101e09562e1d1bc941e5f6f1e3f",
+    "app/fiscal/models.py": "c88d6a6576e674348484a88be3653e6c96d994375e486529f96120f3ec713a0b",
+    "app/fiscal/numbers.py": "f072b41664b8224fca75c3f34a3aee92bd4b75bb0877c0f402c20db8d702d4c1",
+    "app/fiscal/reader.py": "e5f226ecd5ce01ebf678e48308b755c284e1b6f2f6fa7712b0230323cb335ec2",
+    "app/fiscal/rules.py": "b071eae4837af1b55b1e5262842b31580eba27d1af56735ea46e2d019d18c832",
+    "app/fiscal/security.py": "6255fd3343362eb787d6be16d8666081d82038b0fee1419ce4527df802c5eefd",
+    "app/fiscal/service.py": "d649280e9a0297f81cf95c3f1f3f3e11709c0985f1bd2fc8b39a73854fc7018b",
+    "app/fiscal/sources.py": "05592216721e10ffb476c0ed93e8b26f446fa209a5bb5576969d7cf2d61a9f81",
+    "app/fiscal/ui_adapter.py": "f7ce006b32fe8eaa702ef6764191660527e86b1636a18cb87347d5310db851df",
+    "tests/fiscal/fixtures.py": "db310aaf856ec83b48d833d9e7d5b6af170a8b8f099ccaf6009c9bd0a304ff60",
+    "tests/fiscal/test_engine.py": "87246f62121b87c3398e6ea91b2d130fae7e7c856ae51db7f61b5b45eea20f36"
+  },
+  "python": "3.11.9",
+  "platform": "Windows-10-10.0.26200-SP0",
+  "lxml": [
+    6,
+    1,
+    3,
+    0
+  ],
+  "libxml2": [
+    2,
+    11,
+    9
+  ],
+  "expat": "expat_2.6.0",
+  "tests_run": 59,
+  "failures": 0,
+  "errors": 0,
+  "success": true,
+  "elapsed_seconds": 6.32374589999381,
+  "cases": [
+    {
+      "id": "test_engine.EngineTests.test_F01_F02_multiple_concepts_multiple_codes (version='3.3')",
+      "status": "pass"
+    },
+    {
+      "id": "test_engine.EngineTests.test_F01_F02_multiple_concepts_multiple_codes (version='4.0')",
+      "status": "pass"
+    },
+    {
+      "id": "test_engine.EngineTests.test_F01_F02_multiple_concepts_multiple_codes",
+      "status": "pass"
+    },
+    {
+      "id": "test_engine.EngineTests.test_F01_iva_ieps_not_aggregate",
+      "status": "pass"
+    },
+    {
+      "id": "test_engine.EngineTests.test_F02_retention_isr_typed",
+      "status": "pass"
+    },
+    {
+      "id": "test_engine.EngineTests.test_F03_local_counted_once",
+      "status": "pass"
+    },
+    {
+      "id": "test_engine.EngineTests.test_F03_local_mismatch_not_silently_fixed",
+      "status": "pass"
+    },
+    {
+      "id": "test_engine.EngineTests.test_F03_local_retention_subtracted_once",
+      "status": "pass"
+    },
+    {
+      "id": "test_engine.EngineTests.test_F04_exempt_and_zero_bases_disjoint",
+      "status": "pass"
+    },
+    {
+      "id": "test_engine.EngineTests.test_F04_exempt_only_aggregate_absent_is_not_zero_rate",
+      "status": "pass"
+    },
+    {
+      "id": "test_engine.EngineTests.test_F04_exempt_retention_not_valid",
+      "status": "pass"
+    },
+    {
+      "id": "test_engine.EngineTests.test_F04_exempt_with_amount_or_rate_rejected (field='rate')",
+      "status": "pass"
+    },
+    {
+      "id": "test_engine.EngineTests.test_F04_exempt_with_amount_or_rate_rejected (field='amount')",
+      "status": "pass"
+    },
+    {
+      "id": "test_engine.EngineTests.test_F04_exempt_with_amount_or_rate_rejected",
+      "status": "pass"
+    },
+    {
+      "id": "test_engine.EngineTests.test_F05_incorrect_aggregate_is_preserved",
+      "status": "pass"
+    },
+    {
+      "id": "test_engine.EngineTests.test_F05_invalid_global_amount_not_fallback_to_concepts",
+      "status": "pass"
+    },
+    {
+      "id": "test_engine.EngineTests.test_F05_missing_aggregate_does_not_double",
+      "status": "pass"
+    },
+    {
+      "id": "test_engine.EngineTests.test_F05_missing_global_uses_traced_concept_fallback",
+      "status": "pass"
+    },
+    {
+      "id": "test_engine.EngineTests.test_F06_ambient_decimal_context_cannot_change_results",
+      "status": "pass"
+    },
+    {
+      "id": "test_engine.EngineTests.test_F06_concept_product_bad_amount",
+      "status": "pass"
+    },
+    {
+      "id": "test_engine.EngineTests.test_F06_currency_precision_zero_two_three (currency='JPY')",
+      "status": "pass"
+    },
+    {
+      "id": "test_engine.EngineTests.test_F06_currency_precision_zero_two_three (currency='USD')",
+      "status": "pass"
+    },
+    {
+      "id": "test_engine.EngineTests.test_F06_currency_precision_zero_two_three (currency='KWD')",
+      "status": "pass"
+    },
+    {
+      "id": "test_engine.EngineTests.test_F06_currency_precision_zero_two_three",
+      "status": "pass"
+    },
+    {
+      "id": "test_engine.EngineTests.test_F06_discount_calculated_and_absence_enforced",
+      "status": "pass"
+    },
+    {
+      "id": "test_engine.EngineTests.test_F06_exact_decimal_and_serialization",
+      "status": "pass"
+    },
+    {
+      "id": "test_engine.EngineTests.test_F06_foreign_exchange_not_optional_or_invented",
+      "status": "pass"
+    },
+    {
+      "id": "test_engine.EngineTests.test_F06_header_currency_scale_error",
+      "status": "pass"
+    },
+    {
+      "id": "test_engine.EngineTests.test_F06_large_exact_amount",
+      "status": "pass"
+    },
+    {
+      "id": "test_engine.EngineTests.test_F06_missing_invalid_and_zero_distinct",
+      "status": "pass"
+    },
+    {
+      "id": "test_engine.EngineTests.test_F06_nondecimal_lexicals_never_coerced (raw='NaN')",
+      "status": "pass"
+    },
+    {
+      "id": "test_engine.EngineTests.test_F06_nondecimal_lexicals_never_coerced (raw='Infinity')",
+      "status": "pass"
+    },
+    {
+      "id": "test_engine.EngineTests.test_F06_nondecimal_lexicals_never_coerced (raw='-1')",
+      "status": "pass"
+    },
+    {
+      "id": "test_engine.EngineTests.test_F06_nondecimal_lexicals_never_coerced (raw='1e2')",
+      "status": "pass"
+    },
+    {
+      "id": "test_engine.EngineTests.test_F06_nondecimal_lexicals_never_coerced (raw='1,000.00')",
+      "status": "pass"
+    },
+    {
+      "id": "test_engine.EngineTests.test_F06_nondecimal_lexicals_never_coerced (raw='1,25')",
+      "status": "pass"
+    },
+    {
+      "id": "test_engine.EngineTests.test_F06_nondecimal_lexicals_never_coerced (raw='0x10')",
+      "status": "pass"
+    },
+    {
+      "id": "test_engine.EngineTests.test_F06_nondecimal_lexicals_never_coerced (raw='\uff11')",
+      "status": "pass"
+    },
+    {
+      "id": "test_engine.EngineTests.test_F06_nondecimal_lexicals_never_coerced (raw='11111111111111111111111111111111111111111111111111111111111111111')",
+      "status": "pass"
+    },
+    {
+      "id": "test_engine.EngineTests.test_F06_nondecimal_lexicals_never_coerced",
+      "status": "pass"
+    },
+    {
+      "id": "test_engine.EngineTests.test_F06_product_bounds_use_reported_precision (amount='15.999999')",
+      "status": "pass"
+    },
+    {
+      "id": "test_engine.EngineTests.test_F06_product_bounds_use_reported_precision (amount='16.000001')",
+      "status": "pass"
+    },
+    {
+      "id": "test_engine.EngineTests.test_F06_product_bounds_use_reported_precision (amount='15.999998')",
+      "status": "pass"
+    },
+    {
+      "id": "test_engine.EngineTests.test_F06_product_bounds_use_reported_precision (amount='16.000002')",
+      "status": "pass"
+    },
+    {
+      "id": "test_engine.EngineTests.test_F06_product_bounds_use_reported_precision",
+      "status": "pass"
+    },
+    {
+      "id": "test_engine.EngineTests.test_F06_rate_six_digits_per_official_faq40",
+      "status": "pass"
+    },
+    {
+      "id": "test_engine.EngineTests.test_F06_round_after_grouping_not_each_concept",
+      "status": "pass"
+    },
+    {
+      "id": "test_engine.EngineTests.test_F06_unknown_currency_never_assumes_two_decimals",
+      "status": "pass"
+    },
+    {
+      "id": "test_engine.EngineTests.test_IEPS_cuota_and_historical_catalog_gap",
+      "status": "pass"
+    },
+    {
+      "id": "test_engine.EngineTests.test_all_supporting_sat_codes_exist_in_downloaded_matrix (version='3.3', rule='F01')",
+      "status": "pass"
+    },
+    {
+      "id": "test_engine.EngineTests.test_all_supporting_sat_codes_exist_in_downloaded_matrix (version='3.3', rule='F02')",
+      "status": "pass"
+    },
+    {
+      "id": "test_engine.EngineTests.test_all_supporting_sat_codes_exist_in_downloaded_matrix (version='3.3', rule='F03')",
+      "status": "pass"
+    },
+    {
+      "id": "test_engine.EngineTests.test_all_supporting_sat_codes_exist_in_downloaded_matrix (version='3.3', rule='F04')",
+      "status": "pass"
+    },
+    {
+      "id": "test_engine.EngineTests.test_all_supporting_sat_codes_exist_in_downloaded_matrix (version='3.3', rule='F05')",
+      "status": "pass"
+    },
+    {
+      "id": "test_engine.EngineTests.test_all_supporting_sat_codes_exist_in_downloaded_matrix (version='3.3', rule='F06')",
+      "status": "pass"
+    },
+    {
+      "id": "test_engine.EngineTests.test_all_supporting_sat_codes_exist_in_downloaded_matrix (version='3.3', rule='CAT')",
+      "status": "pass"
+    },
+    {
+      "id": "test_engine.EngineTests.test_all_supporting_sat_codes_exist_in_downloaded_matrix (version='3.3', rule='SCOPE')",
+      "status": "pass"
+    },
+    {
+      "id": "test_engine.EngineTests.test_all_supporting_sat_codes_exist_in_downloaded_matrix (version='4.0', rule='F01')",
+      "status": "pass"
+    },
+    {
+      "id": "test_engine.EngineTests.test_all_supporting_sat_codes_exist_in_downloaded_matrix (version='4.0', rule='F02')",
+      "status": "pass"
+    },
+    {
+      "id": "test_engine.EngineTests.test_all_supporting_sat_codes_exist_in_downloaded_matrix (version='4.0', rule='F03')",
+      "status": "pass"
+    },
+    {
+      "id": "test_engine.EngineTests.test_all_supporting_sat_codes_exist_in_downloaded_matrix (version='4.0', rule='F04')",
+      "status": "pass"
+    },
+    {
+      "id": "test_engine.EngineTests.test_all_supporting_sat_codes_exist_in_downloaded_matrix (version='4.0', rule='F05')",
+      "status": "pass"
+    },
+    {
+      "id": "test_engine.EngineTests.test_all_supporting_sat_codes_exist_in_downloaded_matrix (version='4.0', rule='F06')",
+      "status": "pass"
+    },
+    {
+      "id": "test_engine.EngineTests.test_all_supporting_sat_codes_exist_in_downloaded_matrix (version='4.0', rule='CAT')",
+      "status": "pass"
+    },
+    {
+      "id": "test_engine.EngineTests.test_all_supporting_sat_codes_exist_in_downloaded_matrix (version='4.0', rule='SCOPE')",
+      "status": "pass"
+    },
+    {
+      "id": "test_engine.EngineTests.test_all_supporting_sat_codes_exist_in_downloaded_matrix",
+      "status": "pass"
+    },
+    {
+      "id": "test_engine.EngineTests.test_catalog_historical_dates_are_not_guessed",
+      "status": "pass"
+    },
+    {
+      "id": "test_engine.EngineTests.test_catalog_mapping_retains_credit_label",
+      "status": "pass"
+    },
+    {
+      "id": "test_engine.EngineTests.test_catalog_rate_fixed_range_and_mismatch (tax={'code': '002', 'base': '100', 'rate': '0.160000', 'amount': '16', 'factor': 'Tasa', 'nature': 'transfer'})",
+      "status": "pass"
+    },
+    {
+      "id": "test_engine.EngineTests.test_catalog_rate_fixed_range_and_mismatch (tax={'code': '002', 'base': '100', 'rate': '0.080000', 'amount': '8', 'factor': 'Tasa', 'nature': 'transfer'})",
+      "status": "pass"
+    },
+    {
+      "id": "test_engine.EngineTests.test_catalog_rate_fixed_range_and_mismatch (tax={'code': '002', 'base': '100', 'rate': '0.150000', 'amount': '15', 'factor': 'Tasa', 'nature': 'transfer'})",
+      "status": "pass"
+    },
+    {
+      "id": "test_engine.EngineTests.test_catalog_rate_fixed_range_and_mismatch (tax={'code': '001', 'base': '100', 'rate': '0.100000', 'amount': '10', 'factor': 'Tasa', 'nature': 'retention'})",
+      "status": "pass"
+    },
+    {
+      "id": "test_engine.EngineTests.test_catalog_rate_fixed_range_and_mismatch",
+      "status": "pass"
+    },
+    {
+      "id": "test_engine.EngineTests.test_cli_exit_status_and_original_protection (file='p0_iva_ieps_40.xml')",
+      "status": "pass"
+    },
+    {
+      "id": "test_engine.EngineTests.test_cli_exit_status_and_original_protection (file='p0_missing_aggregate_40.xml')",
+      "status": "pass"
+    },
+    {
+      "id": "test_engine.EngineTests.test_cli_exit_status_and_original_protection (file='unknown_complement_40.xml')",
+      "status": "pass"
+    },
+    {
+      "id": "test_engine.EngineTests.test_cli_exit_status_and_original_protection",
+      "status": "pass"
+    },
+    {
+      "id": "test_engine.EngineTests.test_duplicate_global_groups_diagnosed",
+      "status": "pass"
+    },
+    {
+      "id": "test_engine.EngineTests.test_duplicate_singleton_blocks_formula",
+      "status": "pass"
+    },
+    {
+      "id": "test_engine.EngineTests.test_encodings_preserve_names_and_original_bytes (encoding='UTF-8')",
+      "status": "pass"
+    },
+    {
+      "id": "test_engine.EngineTests.test_encodings_preserve_names_and_original_bytes (encoding='UTF-16')",
+      "status": "pass"
+    },
+    {
+      "id": "test_engine.EngineTests.test_encodings_preserve_names_and_original_bytes (encoding='UTF-16LE')",
+      "status": "pass"
+    },
+    {
+      "id": "test_engine.EngineTests.test_encodings_preserve_names_and_original_bytes (encoding='UTF-16BE')",
+      "status": "pass"
+    },
+    {
+      "id": "test_engine.EngineTests.test_encodings_preserve_names_and_original_bytes (encoding='ISO-8859-1')",
+      "status": "pass"
+    },
+    {
+      "id": "test_engine.EngineTests.test_encodings_preserve_names_and_original_bytes",
+      "status": "pass"
+    },
+    {
+      "id": "test_engine.EngineTests.test_foreign_tax_namespace_is_not_read_as_cfdi",
+      "status": "pass"
+    },
+    {
+      "id": "test_engine.EngineTests.test_historical_33_exempt_only",
+      "status": "pass"
+    },
+    {
+      "id": "test_engine.EngineTests.test_multiple_complement_containers_33_preserved",
+      "status": "pass"
+    },
+    {
+      "id": "test_engine.EngineTests.test_namespace_prefix_variants_same_values (prefix='cfdi')",
+      "status": "pass"
+    },
+    {
+      "id": "test_engine.EngineTests.test_namespace_prefix_variants_same_values (prefix='otra')",
+      "status": "pass"
+    },
+    {
+      "id": "test_engine.EngineTests.test_namespace_prefix_variants_same_values (prefix=None)",
+      "status": "pass"
+    },
+    {
+      "id": "test_engine.EngineTests.test_namespace_prefix_variants_same_values",
+      "status": "pass"
+    },
+    {
+      "id": "test_engine.EngineTests.test_offline_schema_location_and_xinclude_never_fetch",
+      "status": "pass"
+    },
+    {
+      "id": "test_engine.EngineTests.test_original_hash_distinguishes_same_size_content",
+      "status": "pass"
+    },
+    {
+      "id": "test_engine.EngineTests.test_resource_tamper_and_missing_fail_closed",
+      "status": "pass"
+    },
+    {
+      "id": "test_engine.EngineTests.test_reviewed_fixtures_xsd_and_arithmetic (file='p0_iva_ieps_40.xml')",
+      "status": "pass"
+    },
+    {
+      "id": "test_engine.EngineTests.test_reviewed_fixtures_xsd_and_arithmetic (file='p0_isr_retention_40.xml')",
+      "status": "pass"
+    },
+    {
+      "id": "test_engine.EngineTests.test_reviewed_fixtures_xsd_and_arithmetic (file='p0_local_once_40.xml')",
+      "status": "pass"
+    },
+    {
+      "id": "test_engine.EngineTests.test_reviewed_fixtures_xsd_and_arithmetic (file='local_retention_40.xml')",
+      "status": "pass"
+    },
+    {
+      "id": "test_engine.EngineTests.test_reviewed_fixtures_xsd_and_arithmetic (file='p0_exempt_zero_40.xml')",
+      "status": "pass"
+    },
+    {
+      "id": "test_engine.EngineTests.test_reviewed_fixtures_xsd_and_arithmetic (file='p0_missing_aggregate_40.xml')",
+      "status": "pass"
+    },
+    {
+      "id": "test_engine.EngineTests.test_reviewed_fixtures_xsd_and_arithmetic (file='p0_missing_subtotal_40.xml')",
+      "status": "pass"
+    },
+    {
+      "id": "test_engine.EngineTests.test_reviewed_fixtures_xsd_and_arithmetic (file='round_groups_40.xml')",
+      "status": "pass"
+    },
+    {
+      "id": "test_engine.EngineTests.test_reviewed_fixtures_xsd_and_arithmetic (file='historical_iva_ieps_33.xml')",
+      "status": "pass"
+    },
+    {
+      "id": "test_engine.EngineTests.test_reviewed_fixtures_xsd_and_arithmetic (file='latin1_40.xml')",
+      "status": "pass"
+    },
+    {
+      "id": "test_engine.EngineTests.test_reviewed_fixtures_xsd_and_arithmetic (file='utf16_40.xml')",
+      "status": "pass"
+    },
+    {
+      "id": "test_engine.EngineTests.test_reviewed_fixtures_xsd_and_arithmetic (file='alternate_prefix_40.xml')",
+      "status": "pass"
+    },
+    {
+      "id": "test_engine.EngineTests.test_reviewed_fixtures_xsd_and_arithmetic (file='unknown_complement_40.xml')",
+      "status": "pass"
+    },
+    {
+      "id": "test_engine.EngineTests.test_reviewed_fixtures_xsd_and_arithmetic",
+      "status": "pass"
+    },
+    {
+      "id": "test_engine.EngineTests.test_tfd_identity_is_not_signature_validation",
+      "status": "pass"
+    },
+    {
+      "id": "test_engine.EngineTests.test_unknown_complement_preserved_and_not_taxed",
+      "status": "pass"
+    },
+    {
+      "id": "test_engine.EngineTests.test_unsupported_local_version_not_silently_zero",
+      "status": "pass"
+    },
+    {
+      "id": "test_engine.EngineTests.test_unsupported_types_keep_xml_without_claiming_arithmetic (kind='N')",
+      "status": "pass"
+    },
+    {
+      "id": "test_engine.EngineTests.test_unsupported_types_keep_xml_without_claiming_arithmetic (kind='P')",
+      "status": "pass"
+    },
+    {
+      "id": "test_engine.EngineTests.test_unsupported_types_keep_xml_without_claiming_arithmetic (kind='T')",
+      "status": "pass"
+    },
+    {
+      "id": "test_engine.EngineTests.test_unsupported_types_keep_xml_without_claiming_arithmetic",
+      "status": "pass"
+    },
+    {
+      "id": "test_engine.EngineTests.test_wrong_namespace_and_version_rejected (code='CFDI_ROOT_NAMESPACE_UNSUPPORTED')",
+      "status": "pass"
+    },
+    {
+      "id": "test_engine.EngineTests.test_wrong_namespace_and_version_rejected (code='CFDI_NAMESPACE_VERSION_MISMATCH')",
+      "status": "pass"
+    },
+    {
+      "id": "test_engine.EngineTests.test_wrong_namespace_and_version_rejected (code='CFDI_VERSION_UNSUPPORTED')",
+      "status": "pass"
+    },
+    {
+      "id": "test_engine.EngineTests.test_wrong_namespace_and_version_rejected",
+      "status": "pass"
+    },
+    {
+      "id": "test_engine.EngineTests.test_xsd_errors_exclude_taxpayer_content",
+      "status": "pass"
+    },
+    {
+      "id": "test_engine.SecurityTests.test_byte_limit_before_reading_whole_stream",
+      "status": "pass"
+    },
+    {
+      "id": "test_engine.SecurityTests.test_cooperative_time_budget",
+      "status": "pass"
+    },
+    {
+      "id": "test_engine.SecurityTests.test_depth_nodes_text_attributes_and_namespaces_limits (code='XML_DEPTH_LIMIT', limits={'max_depth': 2})",
+      "status": "pass"
+    },
+    {
+      "id": "test_engine.SecurityTests.test_depth_nodes_text_attributes_and_namespaces_limits (code='XML_NODE_LIMIT', limits={'max_nodes': 2})",
+      "status": "pass"
+    },
+    {
+      "id": "test_engine.SecurityTests.test_depth_nodes_text_attributes_and_namespaces_limits (code='XML_TEXT_LIMIT', limits={'max_text_chars': 5})",
+      "status": "pass"
+    },
+    {
+      "id": "test_engine.SecurityTests.test_depth_nodes_text_attributes_and_namespaces_limits (code='XML_ATTRIBUTE_LIMIT', limits={'max_attributes_per_node': 1})",
+      "status": "pass"
+    },
+    {
+      "id": "test_engine.SecurityTests.test_depth_nodes_text_attributes_and_namespaces_limits (code='XML_ATTRIBUTE_LIMIT', limits={'max_attributes_per_node': 1})",
+      "status": "pass"
+    },
+    {
+      "id": "test_engine.SecurityTests.test_depth_nodes_text_attributes_and_namespaces_limits (code='XML_ATTRIBUTE_SIZE_LIMIT', limits={'max_attribute_chars': 4})",
+      "status": "pass"
+    },
+    {
+      "id": "test_engine.SecurityTests.test_depth_nodes_text_attributes_and_namespaces_limits",
+      "status": "pass"
+    },
+    {
+      "id": "test_engine.SecurityTests.test_dtd_internal_external_entities_rejected_before_expansion (data=b'<!DOCTYPE a><a/>')",
+      "status": "pass"
+    },
+    {
+      "id": "test_engine.SecurityTests.test_dtd_internal_external_entities_rejected_before_expansion (data=b'<!DOCTYPE a [<!ENTITY x \"secret\">]><a>&x;</a>')",
+      "status": "pass"
+    },
+    {
+      "id": "test_engine.SecurityTests.test_dtd_internal_external_entities_rejected_before_expansion (data=b'<!DOCTYPE a SYSTEM \"https://example.invalid/a.dtd\"><a/>')",
+      "status": "pass"
+    },
+    {
+      "id": "test_engine.SecurityTests.test_dtd_internal_external_entities_rejected_before_expansion (data=b'<!DOCTYPE a [<!ENTITY x SYSTEM \"file:///C:/DO_NOT_READ\">]><a>&x;</a>')",
+      "status": "pass"
+    },
+    {
+      "id": "test_engine.SecurityTests.test_dtd_internal_external_entities_rejected_before_expansion (data=b'<!DOCTYPE a [<!ENTITY % x SYSTEM \"https://example.invalid/a.dtd\">%x;]><a/>')",
+      "status": "pass"
+    },
+    {
+      "id": "test_engine.SecurityTests.test_dtd_internal_external_entities_rejected_before_expansion",
+      "status": "pass"
+    },
+    {
+      "id": "test_engine.SecurityTests.test_escaped_or_commented_doctype_is_harmless_text",
+      "status": "pass"
+    },
+    {
+      "id": "test_engine.SecurityTests.test_text_input_rejected_without_lossy_reencoding",
+      "status": "pass"
+    },
+    {
+      "id": "test_engine.SecurityTests.test_utf16_dtd_not_hidden_by_zero_bytes",
+      "status": "pass"
+    },
+    {
+      "id": "test_engine.SecurityTests.test_xml_malformed_encoding_and_duplicate_attributes (data=b'<a>')",
+      "status": "pass"
+    },
+    {
+      "id": "test_engine.SecurityTests.test_xml_malformed_encoding_and_duplicate_attributes (data=b'<a x=\"1\" x=\"2\"/>')",
+      "status": "pass"
+    },
+    {
+      "id": "test_engine.SecurityTests.test_xml_malformed_encoding_and_duplicate_attributes (data=b'<a>\\xff</a>')",
+      "status": "pass"
+    },
+    {
+      "id": "test_engine.SecurityTests.test_xml_malformed_encoding_and_duplicate_attributes (data=b'<a>&undefined;</a>')",
+      "status": "pass"
+    },
+    {
+      "id": "test_engine.SecurityTests.test_xml_malformed_encoding_and_duplicate_attributes",
+      "status": "pass"
+    }
+  ]
+}
