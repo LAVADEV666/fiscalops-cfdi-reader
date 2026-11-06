@@ -1,0 +1,3422 @@
+{
+  "status": "PARTIAL_AUTHENTIC_BASELINE",
+  "prototype_sha256": "33eeed2334a683b5360c2fc4f9cabc26885be66fef8714e4278f97235b8c373b",
+  "preserved_original": "FiscalOps_CFDI_READER_SSGT_V21_1_PRO.html",
+  "captures": [
+    {
+      "scene": "01_initial",
+      "file": "01_initial__1366x768__dsf1.png",
+      "sha256": "f33696c4784c9df7d561f710c47474fdf88773cdec11f1ee5e41d3dea45ace2e",
+      "before": {
+        "viewport": {
+          "width": 1366,
+          "height": 768
+        },
+        "deviceScaleFactor": 1,
+        "browserDefaultZoom": "100% in fresh automated context",
+        "cssZoom": "1",
+        "activeScreen": "s1",
+        "modal": [],
+        "status": "Esperando archivos...",
+        "progress": 0,
+        "font": "\"Segoe UI\", Arial, sans-serif",
+        "v20Scale": "1.000",
+        "v21Scale": "1.000"
+      },
+      "after": {
+        "viewport": {
+          "width": 1366,
+          "height": 768
+        },
+        "deviceScaleFactor": 1,
+        "browserDefaultZoom": "100% in fresh automated context",
+        "cssZoom": "1",
+        "activeScreen": "s1",
+        "modal": [],
+        "status": "Esperando archivos...",
+        "progress": 0,
+        "font": "\"Segoe UI\", Arial, sans-serif",
+        "v20Scale": "1.000",
+        "v21Scale": "1.000"
+      },
+      "capturedAt": "2026-11-06T14:00:22.717Z",
+      "animations": "original, running",
+      "windowsDesktopDPI": "NOT_MEASURED; DSF emulation does not prove Windows DPI",
+      "accepted_baseline": true,
+      "path": "tests/visual/baseline/01_initial__1366x768__dsf1.png",
+      "pixel_dimensions": [
+        1366,
+        768
+      ],
+      "browser": {
+        "version": "151.0.7922.34",
+        "executable": "C:\\Users\\sin_s\\AppData\\Local\\ms-playwright\\chromium-1234\\chrome-win64\\chrome.exe",
+        "playwright": "1.62.1",
+        "headless": true,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.0.0 Safari/537.36"
+      },
+      "system": {
+        "platform": "win32",
+        "release": "10.0.26200",
+        "arch": "x64"
+      }
+    },
+    {
+      "scene": "02_upload_empty",
+      "file": "02_upload_empty__1366x768__dsf1.png",
+      "sha256": "1639b65c604b45130623da2887cefe39b6942af8a21773b6f3a6fd2fb9c2d98e",
+      "before": {
+        "viewport": {
+          "width": 1366,
+          "height": 768
+        },
+        "deviceScaleFactor": 1,
+        "browserDefaultZoom": "100% in fresh automated context",
+        "cssZoom": "1",
+        "activeScreen": "s2",
+        "modal": [],
+        "status": "Esperando archivos...",
+        "progress": 0,
+        "font": "\"Segoe UI\", Arial, sans-serif",
+        "v20Scale": "1.000",
+        "v21Scale": "1.000"
+      },
+      "after": {
+        "viewport": {
+          "width": 1366,
+          "height": 768
+        },
+        "deviceScaleFactor": 1,
+        "browserDefaultZoom": "100% in fresh automated context",
+        "cssZoom": "1",
+        "activeScreen": "s2",
+        "modal": [],
+        "status": "Esperando archivos...",
+        "progress": 0,
+        "font": "\"Segoe UI\", Arial, sans-serif",
+        "v20Scale": "1.000",
+        "v21Scale": "1.000"
+      },
+      "capturedAt": "2026-11-06T14:00:23.385Z",
+      "animations": "original, running",
+      "windowsDesktopDPI": "NOT_MEASURED; DSF emulation does not prove Windows DPI",
+      "accepted_baseline": true,
+      "path": "tests/visual/baseline/02_upload_empty__1366x768__dsf1.png",
+      "pixel_dimensions": [
+        1366,
+        768
+      ],
+      "browser": {
+        "version": "151.0.7922.34",
+        "executable": "C:\\Users\\sin_s\\AppData\\Local\\ms-playwright\\chromium-1234\\chrome-win64\\chrome.exe",
+        "playwright": "1.62.1",
+        "headless": true,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.0.0 Safari/537.36"
+      },
+      "system": {
+        "platform": "win32",
+        "release": "10.0.26200",
+        "arch": "x64"
+      }
+    },
+    {
+      "scene": "03_files_selected",
+      "file": "03_files_selected__1366x768__dsf1.png",
+      "sha256": "5aa8e7abb6e91d6718f456529536154209c8a6f242ee5a8ce80d142208511942",
+      "before": {
+        "viewport": {
+          "width": 1366,
+          "height": 768
+        },
+        "deviceScaleFactor": 1,
+        "browserDefaultZoom": "100% in fresh automated context",
+        "cssZoom": "1",
+        "activeScreen": "s2",
+        "modal": [],
+        "status": "📁 Archivos precargados: 50\nPresiona Procesar archivos para continuar.",
+        "progress": 0,
+        "font": "\"Segoe UI\", Arial, sans-serif",
+        "v20Scale": "1.000",
+        "v21Scale": "1.000"
+      },
+      "after": {
+        "viewport": {
+          "width": 1366,
+          "height": 768
+        },
+        "deviceScaleFactor": 1,
+        "browserDefaultZoom": "100% in fresh automated context",
+        "cssZoom": "1",
+        "activeScreen": "s2",
+        "modal": [],
+        "status": "📁 Archivos precargados: 50\nPresiona Procesar archivos para continuar.",
+        "progress": 0,
+        "font": "\"Segoe UI\", Arial, sans-serif",
+        "v20Scale": "1.000",
+        "v21Scale": "1.000"
+      },
+      "capturedAt": "2026-11-06T14:00:24.092Z",
+      "animations": "original, running",
+      "windowsDesktopDPI": "NOT_MEASURED; DSF emulation does not prove Windows DPI",
+      "accepted_baseline": true,
+      "path": "tests/visual/baseline/03_files_selected__1366x768__dsf1.png",
+      "pixel_dimensions": [
+        1366,
+        768
+      ],
+      "browser": {
+        "version": "151.0.7922.34",
+        "executable": "C:\\Users\\sin_s\\AppData\\Local\\ms-playwright\\chromium-1234\\chrome-win64\\chrome.exe",
+        "playwright": "1.62.1",
+        "headless": true,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.0.0 Safari/537.36"
+      },
+      "system": {
+        "platform": "win32",
+        "release": "10.0.26200",
+        "arch": "x64"
+      }
+    },
+    {
+      "scene": "04_reports_table",
+      "file": "04_reports_table__1366x768__dsf1.png",
+      "sha256": "456c4c4f4c3a7e83660caa896faca7dd03d98b6178520ccc3c5b00576b84ca17",
+      "before": {
+        "viewport": {
+          "width": 1366,
+          "height": 768
+        },
+        "deviceScaleFactor": 1,
+        "browserDefaultZoom": "100% in fresh automated context",
+        "cssZoom": "1",
+        "activeScreen": "s3",
+        "modal": [],
+        "status": "✅ Proceso terminado. Reporte listo · 1 incidente(s) de lectura.",
+        "progress": 100,
+        "font": "\"Segoe UI\", Arial, sans-serif",
+        "v20Scale": "1.000",
+        "v21Scale": "1.000"
+      },
+      "after": {
+        "viewport": {
+          "width": 1366,
+          "height": 768
+        },
+        "deviceScaleFactor": 1,
+        "browserDefaultZoom": "100% in fresh automated context",
+        "cssZoom": "1",
+        "activeScreen": "s3",
+        "modal": [],
+        "status": "✅ Proceso terminado. Reporte listo · 1 incidente(s) de lectura.",
+        "progress": 100,
+        "font": "\"Segoe UI\", Arial, sans-serif",
+        "v20Scale": "1.000",
+        "v21Scale": "1.000"
+      },
+      "capturedAt": "2026-11-06T14:00:24.912Z",
+      "animations": "original, running",
+      "windowsDesktopDPI": "NOT_MEASURED; DSF emulation does not prove Windows DPI",
+      "accepted_baseline": true,
+      "path": "tests/visual/baseline/04_reports_table__1366x768__dsf1.png",
+      "pixel_dimensions": [
+        1366,
+        768
+      ],
+      "browser": {
+        "version": "151.0.7922.34",
+        "executable": "C:\\Users\\sin_s\\AppData\\Local\\ms-playwright\\chromium-1234\\chrome-win64\\chrome.exe",
+        "playwright": "1.62.1",
+        "headless": true,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.0.0 Safari/537.36"
+      },
+      "system": {
+        "platform": "win32",
+        "release": "10.0.26200",
+        "arch": "x64"
+      }
+    },
+    {
+      "scene": "05_type_clicked",
+      "file": "05_type_clicked__1366x768__dsf1.png",
+      "sha256": "267101bdedf2b84f94f62d21073c831900adca8e8fae7faf035bacb23e4f47e2",
+      "before": {
+        "viewport": {
+          "width": 1366,
+          "height": 768
+        },
+        "deviceScaleFactor": 1,
+        "browserDefaultZoom": "100% in fresh automated context",
+        "cssZoom": "1",
+        "activeScreen": "s3",
+        "modal": [],
+        "status": "✅ Proceso terminado. Reporte listo · 1 incidente(s) de lectura.",
+        "progress": 100,
+        "font": "\"Segoe UI\", Arial, sans-serif",
+        "v20Scale": "1.000",
+        "v21Scale": "1.000"
+      },
+      "after": {
+        "viewport": {
+          "width": 1366,
+          "height": 768
+        },
+        "deviceScaleFactor": 1,
+        "browserDefaultZoom": "100% in fresh automated context",
+        "cssZoom": "1",
+        "activeScreen": "s3",
+        "modal": [],
+        "status": "✅ Proceso terminado. Reporte listo · 1 incidente(s) de lectura.",
+        "progress": 100,
+        "font": "\"Segoe UI\", Arial, sans-serif",
+        "v20Scale": "1.000",
+        "v21Scale": "1.000"
+      },
+      "capturedAt": "2026-11-06T14:00:25.626Z",
+      "animations": "original, running",
+      "windowsDesktopDPI": "NOT_MEASURED; DSF emulation does not prove Windows DPI",
+      "accepted_baseline": true,
+      "path": "tests/visual/baseline/05_type_clicked__1366x768__dsf1.png",
+      "pixel_dimensions": [
+        1366,
+        768
+      ],
+      "browser": {
+        "version": "151.0.7922.34",
+        "executable": "C:\\Users\\sin_s\\AppData\\Local\\ms-playwright\\chromium-1234\\chrome-win64\\chrome.exe",
+        "playwright": "1.62.1",
+        "headless": true,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.0.0 Safari/537.36"
+      },
+      "system": {
+        "platform": "win32",
+        "release": "10.0.26200",
+        "arch": "x64"
+      }
+    },
+    {
+      "scene": "06_empty_filter",
+      "file": "06_empty_filter__1366x768__dsf1.png",
+      "sha256": "a502900101ccce88e442becd690ae26c2510906e4a2d1cee59e7721c059a4a51",
+      "before": {
+        "viewport": {
+          "width": 1366,
+          "height": 768
+        },
+        "deviceScaleFactor": 1,
+        "browserDefaultZoom": "100% in fresh automated context",
+        "cssZoom": "1",
+        "activeScreen": "s3",
+        "modal": [],
+        "status": "✅ Proceso terminado. Reporte listo · 1 incidente(s) de lectura.",
+        "progress": 100,
+        "font": "\"Segoe UI\", Arial, sans-serif",
+        "v20Scale": "1.000",
+        "v21Scale": "1.000"
+      },
+      "after": {
+        "viewport": {
+          "width": 1366,
+          "height": 768
+        },
+        "deviceScaleFactor": 1,
+        "browserDefaultZoom": "100% in fresh automated context",
+        "cssZoom": "1",
+        "activeScreen": "s3",
+        "modal": [],
+        "status": "✅ Proceso terminado. Reporte listo · 1 incidente(s) de lectura.",
+        "progress": 100,
+        "font": "\"Segoe UI\", Arial, sans-serif",
+        "v20Scale": "1.000",
+        "v21Scale": "1.000"
+      },
+      "capturedAt": "2026-11-06T14:00:26.076Z",
+      "animations": "original, running",
+      "windowsDesktopDPI": "NOT_MEASURED; DSF emulation does not prove Windows DPI",
+      "accepted_baseline": true,
+      "path": "tests/visual/baseline/06_empty_filter__1366x768__dsf1.png",
+      "pixel_dimensions": [
+        1366,
+        768
+      ],
+      "browser": {
+        "version": "151.0.7922.34",
+        "executable": "C:\\Users\\sin_s\\AppData\\Local\\ms-playwright\\chromium-1234\\chrome-win64\\chrome.exe",
+        "playwright": "1.62.1",
+        "headless": true,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.0.0 Safari/537.36"
+      },
+      "system": {
+        "platform": "win32",
+        "release": "10.0.26200",
+        "arch": "x64"
+      }
+    },
+    {
+      "scene": "07_viewer_summary",
+      "file": "07_viewer_summary__1366x768__dsf1.png",
+      "sha256": "93dbf430d024a33a7a9e5a2855c6b609f01a0d750924f047011619f341143a1c",
+      "before": {
+        "viewport": {
+          "width": 1366,
+          "height": 768
+        },
+        "deviceScaleFactor": 1,
+        "browserDefaultZoom": "100% in fresh automated context",
+        "cssZoom": "1",
+        "activeScreen": "s3",
+        "modal": [
+          "previewModal"
+        ],
+        "status": "✅ Proceso terminado. Reporte listo · 1 incidente(s) de lectura.",
+        "progress": 100,
+        "font": "\"Segoe UI\", Arial, sans-serif",
+        "v20Scale": "1.000",
+        "v21Scale": "1.000"
+      },
+      "after": {
+        "viewport": {
+          "width": 1366,
+          "height": 768
+        },
+        "deviceScaleFactor": 1,
+        "browserDefaultZoom": "100% in fresh automated context",
+        "cssZoom": "1",
+        "activeScreen": "s3",
+        "modal": [
+          "previewModal"
+        ],
+        "status": "✅ Proceso terminado. Reporte listo · 1 incidente(s) de lectura.",
+        "progress": 100,
+        "font": "\"Segoe UI\", Arial, sans-serif",
+        "v20Scale": "1.000",
+        "v21Scale": "1.000"
+      },
+      "capturedAt": "2026-11-06T14:00:26.958Z",
+      "animations": "original, running",
+      "windowsDesktopDPI": "NOT_MEASURED; DSF emulation does not prove Windows DPI",
+      "accepted_baseline": true,
+      "path": "tests/visual/baseline/07_viewer_summary__1366x768__dsf1.png",
+      "pixel_dimensions": [
+        1366,
+        768
+      ],
+      "browser": {
+        "version": "151.0.7922.34",
+        "executable": "C:\\Users\\sin_s\\AppData\\Local\\ms-playwright\\chromium-1234\\chrome-win64\\chrome.exe",
+        "playwright": "1.62.1",
+        "headless": true,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.0.0 Safari/537.36"
+      },
+      "system": {
+        "platform": "win32",
+        "release": "10.0.26200",
+        "arch": "x64"
+      }
+    },
+    {
+      "scene": "08_viewer_taxes",
+      "file": "08_viewer_taxes__1366x768__dsf1.png",
+      "sha256": "83916c8fa8ff56033afd6112b0d18bff6e8b421e53126fddb9dd929ac0084d71",
+      "before": {
+        "viewport": {
+          "width": 1366,
+          "height": 768
+        },
+        "deviceScaleFactor": 1,
+        "browserDefaultZoom": "100% in fresh automated context",
+        "cssZoom": "1",
+        "activeScreen": "s3",
+        "modal": [
+          "previewModal"
+        ],
+        "status": "✅ Proceso terminado. Reporte listo · 1 incidente(s) de lectura.",
+        "progress": 100,
+        "font": "\"Segoe UI\", Arial, sans-serif",
+        "v20Scale": "1.000",
+        "v21Scale": "1.000"
+      },
+      "after": {
+        "viewport": {
+          "width": 1366,
+          "height": 768
+        },
+        "deviceScaleFactor": 1,
+        "browserDefaultZoom": "100% in fresh automated context",
+        "cssZoom": "1",
+        "activeScreen": "s3",
+        "modal": [
+          "previewModal"
+        ],
+        "status": "✅ Proceso terminado. Reporte listo · 1 incidente(s) de lectura.",
+        "progress": 100,
+        "font": "\"Segoe UI\", Arial, sans-serif",
+        "v20Scale": "1.000",
+        "v21Scale": "1.000"
+      },
+      "capturedAt": "2026-11-06T14:00:27.726Z",
+      "animations": "original, running",
+      "windowsDesktopDPI": "NOT_MEASURED; DSF emulation does not prove Windows DPI",
+      "accepted_baseline": true,
+      "path": "tests/visual/baseline/08_viewer_taxes__1366x768__dsf1.png",
+      "pixel_dimensions": [
+        1366,
+        768
+      ],
+      "browser": {
+        "version": "151.0.7922.34",
+        "executable": "C:\\Users\\sin_s\\AppData\\Local\\ms-playwright\\chromium-1234\\chrome-win64\\chrome.exe",
+        "playwright": "1.62.1",
+        "headless": true,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.0.0 Safari/537.36"
+      },
+      "system": {
+        "platform": "win32",
+        "release": "10.0.26200",
+        "arch": "x64"
+      }
+    },
+    {
+      "scene": "09_viewer_concepts",
+      "file": "09_viewer_concepts__1366x768__dsf1.png",
+      "sha256": "bab9b1aac00b3f410a0f47e85903c5cfd36335f5fab8f56ea4aff7ecd8a80926",
+      "before": {
+        "viewport": {
+          "width": 1366,
+          "height": 768
+        },
+        "deviceScaleFactor": 1,
+        "browserDefaultZoom": "100% in fresh automated context",
+        "cssZoom": "1",
+        "activeScreen": "s3",
+        "modal": [
+          "previewModal"
+        ],
+        "status": "✅ Proceso terminado. Reporte listo · 1 incidente(s) de lectura.",
+        "progress": 100,
+        "font": "\"Segoe UI\", Arial, sans-serif",
+        "v20Scale": "1.000",
+        "v21Scale": "1.000"
+      },
+      "after": {
+        "viewport": {
+          "width": 1366,
+          "height": 768
+        },
+        "deviceScaleFactor": 1,
+        "browserDefaultZoom": "100% in fresh automated context",
+        "cssZoom": "1",
+        "activeScreen": "s3",
+        "modal": [
+          "previewModal"
+        ],
+        "status": "✅ Proceso terminado. Reporte listo · 1 incidente(s) de lectura.",
+        "progress": 100,
+        "font": "\"Segoe UI\", Arial, sans-serif",
+        "v20Scale": "1.000",
+        "v21Scale": "1.000"
+      },
+      "capturedAt": "2026-11-06T14:00:28.393Z",
+      "animations": "original, running",
+      "windowsDesktopDPI": "NOT_MEASURED; DSF emulation does not prove Windows DPI",
+      "accepted_baseline": true,
+      "path": "tests/visual/baseline/09_viewer_concepts__1366x768__dsf1.png",
+      "pixel_dimensions": [
+        1366,
+        768
+      ],
+      "browser": {
+        "version": "151.0.7922.34",
+        "executable": "C:\\Users\\sin_s\\AppData\\Local\\ms-playwright\\chromium-1234\\chrome-win64\\chrome.exe",
+        "playwright": "1.62.1",
+        "headless": true,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.0.0 Safari/537.36"
+      },
+      "system": {
+        "platform": "win32",
+        "release": "10.0.26200",
+        "arch": "x64"
+      }
+    },
+    {
+      "scene": "10_viewer_fields",
+      "file": "10_viewer_fields__1366x768__dsf1.png",
+      "sha256": "7dac1f9f2e78c3c73d3ae0881cd220c756e8fccd271c0b8d51c2ee0c7edc594d",
+      "before": {
+        "viewport": {
+          "width": 1366,
+          "height": 768
+        },
+        "deviceScaleFactor": 1,
+        "browserDefaultZoom": "100% in fresh automated context",
+        "cssZoom": "1",
+        "activeScreen": "s3",
+        "modal": [
+          "previewModal"
+        ],
+        "status": "✅ Proceso terminado. Reporte listo · 1 incidente(s) de lectura.",
+        "progress": 100,
+        "font": "\"Segoe UI\", Arial, sans-serif",
+        "v20Scale": "1.000",
+        "v21Scale": "1.000"
+      },
+      "after": {
+        "viewport": {
+          "width": 1366,
+          "height": 768
+        },
+        "deviceScaleFactor": 1,
+        "browserDefaultZoom": "100% in fresh automated context",
+        "cssZoom": "1",
+        "activeScreen": "s3",
+        "modal": [
+          "previewModal"
+        ],
+        "status": "✅ Proceso terminado. Reporte listo · 1 incidente(s) de lectura.",
+        "progress": 100,
+        "font": "\"Segoe UI\", Arial, sans-serif",
+        "v20Scale": "1.000",
+        "v21Scale": "1.000"
+      },
+      "capturedAt": "2026-11-06T14:00:29.061Z",
+      "animations": "original, running",
+      "windowsDesktopDPI": "NOT_MEASURED; DSF emulation does not prove Windows DPI",
+      "accepted_baseline": true,
+      "path": "tests/visual/baseline/10_viewer_fields__1366x768__dsf1.png",
+      "pixel_dimensions": [
+        1366,
+        768
+      ],
+      "browser": {
+        "version": "151.0.7922.34",
+        "executable": "C:\\Users\\sin_s\\AppData\\Local\\ms-playwright\\chromium-1234\\chrome-win64\\chrome.exe",
+        "playwright": "1.62.1",
+        "headless": true,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.0.0 Safari/537.36"
+      },
+      "system": {
+        "platform": "win32",
+        "release": "10.0.26200",
+        "arch": "x64"
+      }
+    },
+    {
+      "scene": "11_viewer_xml",
+      "file": "11_viewer_xml__1366x768__dsf1.png",
+      "sha256": "74b01595c836d38d2e7fe6a148233f9459d06d35cf73f339ab74f1a85365d6bd",
+      "before": {
+        "viewport": {
+          "width": 1366,
+          "height": 768
+        },
+        "deviceScaleFactor": 1,
+        "browserDefaultZoom": "100% in fresh automated context",
+        "cssZoom": "1",
+        "activeScreen": "s3",
+        "modal": [
+          "previewModal"
+        ],
+        "status": "✅ Proceso terminado. Reporte listo · 1 incidente(s) de lectura.",
+        "progress": 100,
+        "font": "\"Segoe UI\", Arial, sans-serif",
+        "v20Scale": "1.000",
+        "v21Scale": "1.000"
+      },
+      "after": {
+        "viewport": {
+          "width": 1366,
+          "height": 768
+        },
+        "deviceScaleFactor": 1,
+        "browserDefaultZoom": "100% in fresh automated context",
+        "cssZoom": "1",
+        "activeScreen": "s3",
+        "modal": [
+          "previewModal"
+        ],
+        "status": "✅ Proceso terminado. Reporte listo · 1 incidente(s) de lectura.",
+        "progress": 100,
+        "font": "\"Segoe UI\", Arial, sans-serif",
+        "v20Scale": "1.000",
+        "v21Scale": "1.000"
+      },
+      "capturedAt": "2026-11-06T14:00:29.743Z",
+      "animations": "original, running",
+      "windowsDesktopDPI": "NOT_MEASURED; DSF emulation does not prove Windows DPI",
+      "accepted_baseline": true,
+      "path": "tests/visual/baseline/11_viewer_xml__1366x768__dsf1.png",
+      "pixel_dimensions": [
+        1366,
+        768
+      ],
+      "browser": {
+        "version": "151.0.7922.34",
+        "executable": "C:\\Users\\sin_s\\AppData\\Local\\ms-playwright\\chromium-1234\\chrome-win64\\chrome.exe",
+        "playwright": "1.62.1",
+        "headless": true,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.0.0 Safari/537.36"
+      },
+      "system": {
+        "platform": "win32",
+        "release": "10.0.26200",
+        "arch": "x64"
+      }
+    },
+    {
+      "scene": "12_column_editor",
+      "file": "12_column_editor__1366x768__dsf1.png",
+      "sha256": "6cfa9c55b9d1a45a539fa8d57bc35e0bc616eeb2393d8d01e4edbf186dd7a55f",
+      "before": {
+        "viewport": {
+          "width": 1366,
+          "height": 768
+        },
+        "deviceScaleFactor": 1,
+        "browserDefaultZoom": "100% in fresh automated context",
+        "cssZoom": "1",
+        "activeScreen": "s3",
+        "modal": [
+          "modal"
+        ],
+        "status": "✅ Proceso terminado. Reporte listo · 1 incidente(s) de lectura.",
+        "progress": 100,
+        "font": "\"Segoe UI\", Arial, sans-serif",
+        "v20Scale": "1.000",
+        "v21Scale": "1.000"
+      },
+      "after": {
+        "viewport": {
+          "width": 1366,
+          "height": 768
+        },
+        "deviceScaleFactor": 1,
+        "browserDefaultZoom": "100% in fresh automated context",
+        "cssZoom": "1",
+        "activeScreen": "s3",
+        "modal": [
+          "modal"
+        ],
+        "status": "✅ Proceso terminado. Reporte listo · 1 incidente(s) de lectura.",
+        "progress": 100,
+        "font": "\"Segoe UI\", Arial, sans-serif",
+        "v20Scale": "1.000",
+        "v21Scale": "1.000"
+      },
+      "capturedAt": "2026-11-06T14:00:29.933Z",
+      "animations": "original, running",
+      "windowsDesktopDPI": "NOT_MEASURED; DSF emulation does not prove Windows DPI",
+      "accepted_baseline": true,
+      "path": "tests/visual/baseline/12_column_editor__1366x768__dsf1.png",
+      "pixel_dimensions": [
+        1366,
+        768
+      ],
+      "browser": {
+        "version": "151.0.7922.34",
+        "executable": "C:\\Users\\sin_s\\AppData\\Local\\ms-playwright\\chromium-1234\\chrome-win64\\chrome.exe",
+        "playwright": "1.62.1",
+        "headless": true,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.0.0 Safari/537.36"
+      },
+      "system": {
+        "platform": "win32",
+        "release": "10.0.26200",
+        "arch": "x64"
+      }
+    },
+    {
+      "scene": "13_column_search",
+      "file": "13_column_search__1366x768__dsf1.png",
+      "sha256": "9ba5e48c7529a0e26cf992313b55721dbc95d308e4fd5d3f83fa1e54465b4eb5",
+      "before": {
+        "viewport": {
+          "width": 1366,
+          "height": 768
+        },
+        "deviceScaleFactor": 1,
+        "browserDefaultZoom": "100% in fresh automated context",
+        "cssZoom": "1",
+        "activeScreen": "s3",
+        "modal": [
+          "modal"
+        ],
+        "status": "✅ Proceso terminado. Reporte listo · 1 incidente(s) de lectura.",
+        "progress": 100,
+        "font": "\"Segoe UI\", Arial, sans-serif",
+        "v20Scale": "1.000",
+        "v21Scale": "1.000"
+      },
+      "after": {
+        "viewport": {
+          "width": 1366,
+          "height": 768
+        },
+        "deviceScaleFactor": 1,
+        "browserDefaultZoom": "100% in fresh automated context",
+        "cssZoom": "1",
+        "activeScreen": "s3",
+        "modal": [
+          "modal"
+        ],
+        "status": "✅ Proceso terminado. Reporte listo · 1 incidente(s) de lectura.",
+        "progress": 100,
+        "font": "\"Segoe UI\", Arial, sans-serif",
+        "v20Scale": "1.000",
+        "v21Scale": "1.000"
+      },
+      "capturedAt": "2026-11-06T14:00:30.029Z",
+      "animations": "original, running",
+      "windowsDesktopDPI": "NOT_MEASURED; DSF emulation does not prove Windows DPI",
+      "accepted_baseline": true,
+      "path": "tests/visual/baseline/13_column_search__1366x768__dsf1.png",
+      "pixel_dimensions": [
+        1366,
+        768
+      ],
+      "browser": {
+        "version": "151.0.7922.34",
+        "executable": "C:\\Users\\sin_s\\AppData\\Local\\ms-playwright\\chromium-1234\\chrome-win64\\chrome.exe",
+        "playwright": "1.62.1",
+        "headless": true,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.0.0 Safari/537.36"
+      },
+      "system": {
+        "platform": "win32",
+        "release": "10.0.26200",
+        "arch": "x64"
+      }
+    },
+    {
+      "scene": "14_column_search_applied",
+      "file": "14_column_search_applied__1366x768__dsf1.png",
+      "sha256": "8b8e6780368ffcd0b25b19b3333e03bc27bea9552a2c7a5390fa2dd71135be19",
+      "before": {
+        "viewport": {
+          "width": 1366,
+          "height": 768
+        },
+        "deviceScaleFactor": 1,
+        "browserDefaultZoom": "100% in fresh automated context",
+        "cssZoom": "1",
+        "activeScreen": "s3",
+        "modal": [],
+        "status": "✅ Proceso terminado. Reporte listo · 1 incidente(s) de lectura.",
+        "progress": 100,
+        "font": "\"Segoe UI\", Arial, sans-serif",
+        "v20Scale": "1.000",
+        "v21Scale": "1.000"
+      },
+      "after": {
+        "viewport": {
+          "width": 1366,
+          "height": 768
+        },
+        "deviceScaleFactor": 1,
+        "browserDefaultZoom": "100% in fresh automated context",
+        "cssZoom": "1",
+        "activeScreen": "s3",
+        "modal": [],
+        "status": "✅ Proceso terminado. Reporte listo · 1 incidente(s) de lectura.",
+        "progress": 100,
+        "font": "\"Segoe UI\", Arial, sans-serif",
+        "v20Scale": "1.000",
+        "v21Scale": "1.000"
+      },
+      "capturedAt": "2026-11-06T14:00:30.358Z",
+      "animations": "original, running",
+      "windowsDesktopDPI": "NOT_MEASURED; DSF emulation does not prove Windows DPI",
+      "accepted_baseline": true,
+      "path": "tests/visual/baseline/14_column_search_applied__1366x768__dsf1.png",
+      "pixel_dimensions": [
+        1366,
+        768
+      ],
+      "browser": {
+        "version": "151.0.7922.34",
+        "executable": "C:\\Users\\sin_s\\AppData\\Local\\ms-playwright\\chromium-1234\\chrome-win64\\chrome.exe",
+        "playwright": "1.62.1",
+        "headless": true,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.0.0 Safari/537.36"
+      },
+      "system": {
+        "platform": "win32",
+        "release": "10.0.26200",
+        "arch": "x64"
+      }
+    },
+    {
+      "scene": "15_excel_constructor",
+      "file": "15_excel_constructor__1366x768__dsf1.png",
+      "sha256": "99fcb932fe50ad60f05a7322a22ee9d3b989e44b7b9d26ff0e72b5324f6079f9",
+      "before": {
+        "viewport": {
+          "width": 1366,
+          "height": 768
+        },
+        "deviceScaleFactor": 1,
+        "browserDefaultZoom": "100% in fresh automated context",
+        "cssZoom": "1",
+        "activeScreen": "s3",
+        "modal": [
+          "exportModal"
+        ],
+        "status": "✅ Proceso terminado. Reporte listo · 1 incidente(s) de lectura.",
+        "progress": 100,
+        "font": "\"Segoe UI\", Arial, sans-serif",
+        "v20Scale": "1.000",
+        "v21Scale": "1.000"
+      },
+      "after": {
+        "viewport": {
+          "width": 1366,
+          "height": 768
+        },
+        "deviceScaleFactor": 1,
+        "browserDefaultZoom": "100% in fresh automated context",
+        "cssZoom": "1",
+        "activeScreen": "s3",
+        "modal": [
+          "exportModal"
+        ],
+        "status": "✅ Proceso terminado. Reporte listo · 1 incidente(s) de lectura.",
+        "progress": 100,
+        "font": "\"Segoe UI\", Arial, sans-serif",
+        "v20Scale": "1.000",
+        "v21Scale": "1.000"
+      },
+      "capturedAt": "2026-11-06T14:00:30.654Z",
+      "animations": "original, running",
+      "windowsDesktopDPI": "NOT_MEASURED; DSF emulation does not prove Windows DPI",
+      "accepted_baseline": true,
+      "path": "tests/visual/baseline/15_excel_constructor__1366x768__dsf1.png",
+      "pixel_dimensions": [
+        1366,
+        768
+      ],
+      "browser": {
+        "version": "151.0.7922.34",
+        "executable": "C:\\Users\\sin_s\\AppData\\Local\\ms-playwright\\chromium-1234\\chrome-win64\\chrome.exe",
+        "playwright": "1.62.1",
+        "headless": true,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.0.0 Safari/537.36"
+      },
+      "system": {
+        "platform": "win32",
+        "release": "10.0.26200",
+        "arch": "x64"
+      }
+    },
+    {
+      "scene": "16_excel_choices",
+      "file": "16_excel_choices__1366x768__dsf1.png",
+      "sha256": "4cecbfef77da5fd5e40b6c5deec7445e0c57ec7f30ea0fc1caf0db26e181e109",
+      "before": {
+        "viewport": {
+          "width": 1366,
+          "height": 768
+        },
+        "deviceScaleFactor": 1,
+        "browserDefaultZoom": "100% in fresh automated context",
+        "cssZoom": "1",
+        "activeScreen": "s3",
+        "modal": [
+          "exportModal"
+        ],
+        "status": "✅ Proceso terminado. Reporte listo · 1 incidente(s) de lectura.",
+        "progress": 100,
+        "font": "\"Segoe UI\", Arial, sans-serif",
+        "v20Scale": "1.000",
+        "v21Scale": "1.000"
+      },
+      "after": {
+        "viewport": {
+          "width": 1366,
+          "height": 768
+        },
+        "deviceScaleFactor": 1,
+        "browserDefaultZoom": "100% in fresh automated context",
+        "cssZoom": "1",
+        "activeScreen": "s3",
+        "modal": [
+          "exportModal"
+        ],
+        "status": "✅ Proceso terminado. Reporte listo · 1 incidente(s) de lectura.",
+        "progress": 100,
+        "font": "\"Segoe UI\", Arial, sans-serif",
+        "v20Scale": "1.000",
+        "v21Scale": "1.000"
+      },
+      "capturedAt": "2026-11-06T14:00:31.002Z",
+      "animations": "original, running",
+      "windowsDesktopDPI": "NOT_MEASURED; DSF emulation does not prove Windows DPI",
+      "accepted_baseline": true,
+      "path": "tests/visual/baseline/16_excel_choices__1366x768__dsf1.png",
+      "pixel_dimensions": [
+        1366,
+        768
+      ],
+      "browser": {
+        "version": "151.0.7922.34",
+        "executable": "C:\\Users\\sin_s\\AppData\\Local\\ms-playwright\\chromium-1234\\chrome-win64\\chrome.exe",
+        "playwright": "1.62.1",
+        "headless": true,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.0.0 Safari/537.36"
+      },
+      "system": {
+        "platform": "win32",
+        "release": "10.0.26200",
+        "arch": "x64"
+      }
+    },
+    {
+      "scene": "17_read_errors",
+      "file": "17_read_errors__1366x768__dsf1.png",
+      "sha256": "4d2a4b8fe3b735194b62ebe0bb40c84203ed6d4091592ecfdaa9d503bf18682c",
+      "before": {
+        "viewport": {
+          "width": 1366,
+          "height": 768
+        },
+        "deviceScaleFactor": 1,
+        "browserDefaultZoom": "100% in fresh automated context",
+        "cssZoom": "1",
+        "activeScreen": "s3",
+        "modal": [],
+        "status": "✅ Proceso terminado. Reporte listo · 1 incidente(s) de lectura.",
+        "progress": 100,
+        "font": "\"Segoe UI\", Arial, sans-serif",
+        "v20Scale": "1.000",
+        "v21Scale": "1.000"
+      },
+      "after": {
+        "viewport": {
+          "width": 1366,
+          "height": 768
+        },
+        "deviceScaleFactor": 1,
+        "browserDefaultZoom": "100% in fresh automated context",
+        "cssZoom": "1",
+        "activeScreen": "s3",
+        "modal": [],
+        "status": "✅ Proceso terminado. Reporte listo · 1 incidente(s) de lectura.",
+        "progress": 100,
+        "font": "\"Segoe UI\", Arial, sans-serif",
+        "v20Scale": "1.000",
+        "v21Scale": "1.000"
+      },
+      "capturedAt": "2026-11-06T14:00:31.473Z",
+      "animations": "original, running",
+      "windowsDesktopDPI": "NOT_MEASURED; DSF emulation does not prove Windows DPI",
+      "accepted_baseline": true,
+      "path": "tests/visual/baseline/17_read_errors__1366x768__dsf1.png",
+      "pixel_dimensions": [
+        1366,
+        768
+      ],
+      "browser": {
+        "version": "151.0.7922.34",
+        "executable": "C:\\Users\\sin_s\\AppData\\Local\\ms-playwright\\chromium-1234\\chrome-win64\\chrome.exe",
+        "playwright": "1.62.1",
+        "headless": true,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.0.0 Safari/537.36"
+      },
+      "system": {
+        "platform": "win32",
+        "release": "10.0.26200",
+        "arch": "x64"
+      }
+    },
+    {
+      "scene": "18_cleared",
+      "file": "18_cleared__1366x768__dsf1.png",
+      "sha256": "f42e3ce8353e4c87e0a6d4799a2e7a7759cd9254c33d6c77795a6efd67cc65c3",
+      "before": {
+        "viewport": {
+          "width": 1366,
+          "height": 768
+        },
+        "deviceScaleFactor": 1,
+        "browserDefaultZoom": "100% in fresh automated context",
+        "cssZoom": "1",
+        "activeScreen": "s2",
+        "modal": [],
+        "status": "⏳ Esperando archivos...",
+        "progress": 0,
+        "font": "\"Segoe UI\", Arial, sans-serif",
+        "v20Scale": "1.000",
+        "v21Scale": "1.000"
+      },
+      "after": {
+        "viewport": {
+          "width": 1366,
+          "height": 768
+        },
+        "deviceScaleFactor": 1,
+        "browserDefaultZoom": "100% in fresh automated context",
+        "cssZoom": "1",
+        "activeScreen": "s2",
+        "modal": [],
+        "status": "⏳ Esperando archivos...",
+        "progress": 0,
+        "font": "\"Segoe UI\", Arial, sans-serif",
+        "v20Scale": "1.000",
+        "v21Scale": "1.000"
+      },
+      "capturedAt": "2026-11-06T14:00:31.881Z",
+      "animations": "original, running",
+      "windowsDesktopDPI": "NOT_MEASURED; DSF emulation does not prove Windows DPI",
+      "accepted_baseline": true,
+      "path": "tests/visual/baseline/18_cleared__1366x768__dsf1.png",
+      "pixel_dimensions": [
+        1366,
+        768
+      ],
+      "browser": {
+        "version": "151.0.7922.34",
+        "executable": "C:\\Users\\sin_s\\AppData\\Local\\ms-playwright\\chromium-1234\\chrome-win64\\chrome.exe",
+        "playwright": "1.62.1",
+        "headless": true,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.0.0 Safari/537.36"
+      },
+      "system": {
+        "platform": "win32",
+        "release": "10.0.26200",
+        "arch": "x64"
+      }
+    },
+    {
+      "scene": "01_initial",
+      "file": "01_initial__1600x900__dsf1.png",
+      "sha256": "01eaf7bf0ac3d660fc4eab220290812b72cd6baee2cdc68edb3c296499b319ce",
+      "before": {
+        "viewport": {
+          "width": 1600,
+          "height": 900
+        },
+        "deviceScaleFactor": 1,
+        "browserDefaultZoom": "100% in fresh automated context",
+        "cssZoom": "1",
+        "activeScreen": "s1",
+        "modal": [],
+        "status": "Esperando archivos...",
+        "progress": 0,
+        "font": "\"Segoe UI\", Arial, sans-serif",
+        "v20Scale": "1.160",
+        "v21Scale": "1.140"
+      },
+      "after": {
+        "viewport": {
+          "width": 1600,
+          "height": 900
+        },
+        "deviceScaleFactor": 1,
+        "browserDefaultZoom": "100% in fresh automated context",
+        "cssZoom": "1",
+        "activeScreen": "s1",
+        "modal": [],
+        "status": "Esperando archivos...",
+        "progress": 0,
+        "font": "\"Segoe UI\", Arial, sans-serif",
+        "v20Scale": "1.160",
+        "v21Scale": "1.140"
+      },
+      "capturedAt": "2026-11-06T14:00:32.832Z",
+      "animations": "original, running",
+      "windowsDesktopDPI": "NOT_MEASURED; DSF emulation does not prove Windows DPI",
+      "accepted_baseline": true,
+      "path": "tests/visual/baseline/01_initial__1600x900__dsf1.png",
+      "pixel_dimensions": [
+        1600,
+        900
+      ],
+      "browser": {
+        "version": "151.0.7922.34",
+        "executable": "C:\\Users\\sin_s\\AppData\\Local\\ms-playwright\\chromium-1234\\chrome-win64\\chrome.exe",
+        "playwright": "1.62.1",
+        "headless": true,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.0.0 Safari/537.36"
+      },
+      "system": {
+        "platform": "win32",
+        "release": "10.0.26200",
+        "arch": "x64"
+      }
+    },
+    {
+      "scene": "02_upload_empty",
+      "file": "02_upload_empty__1600x900__dsf1.png",
+      "sha256": "d92726cc62aa4f09a504e8a984f027bea539d688114da5ca4e4750875ff78a5e",
+      "before": {
+        "viewport": {
+          "width": 1600,
+          "height": 900
+        },
+        "deviceScaleFactor": 1,
+        "browserDefaultZoom": "100% in fresh automated context",
+        "cssZoom": "1",
+        "activeScreen": "s2",
+        "modal": [],
+        "status": "Esperando archivos...",
+        "progress": 0,
+        "font": "\"Segoe UI\", Arial, sans-serif",
+        "v20Scale": "1.160",
+        "v21Scale": "1.140"
+      },
+      "after": {
+        "viewport": {
+          "width": 1600,
+          "height": 900
+        },
+        "deviceScaleFactor": 1,
+        "browserDefaultZoom": "100% in fresh automated context",
+        "cssZoom": "1",
+        "activeScreen": "s2",
+        "modal": [],
+        "status": "Esperando archivos...",
+        "progress": 0,
+        "font": "\"Segoe UI\", Arial, sans-serif",
+        "v20Scale": "1.160",
+        "v21Scale": "1.140"
+      },
+      "capturedAt": "2026-11-06T14:00:33.208Z",
+      "animations": "original, running",
+      "windowsDesktopDPI": "NOT_MEASURED; DSF emulation does not prove Windows DPI",
+      "accepted_baseline": true,
+      "path": "tests/visual/baseline/02_upload_empty__1600x900__dsf1.png",
+      "pixel_dimensions": [
+        1600,
+        900
+      ],
+      "browser": {
+        "version": "151.0.7922.34",
+        "executable": "C:\\Users\\sin_s\\AppData\\Local\\ms-playwright\\chromium-1234\\chrome-win64\\chrome.exe",
+        "playwright": "1.62.1",
+        "headless": true,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.0.0 Safari/537.36"
+      },
+      "system": {
+        "platform": "win32",
+        "release": "10.0.26200",
+        "arch": "x64"
+      }
+    },
+    {
+      "scene": "03_files_selected",
+      "file": "03_files_selected__1600x900__dsf1.png",
+      "sha256": "a54aee74da712a00f897c50db9871fa1fdadf7462131b66a52c2501299f3e410",
+      "before": {
+        "viewport": {
+          "width": 1600,
+          "height": 900
+        },
+        "deviceScaleFactor": 1,
+        "browserDefaultZoom": "100% in fresh automated context",
+        "cssZoom": "1",
+        "activeScreen": "s2",
+        "modal": [],
+        "status": "📁 Archivos precargados: 50\nPresiona Procesar archivos para continuar.",
+        "progress": 0,
+        "font": "\"Segoe UI\", Arial, sans-serif",
+        "v20Scale": "1.160",
+        "v21Scale": "1.140"
+      },
+      "after": {
+        "viewport": {
+          "width": 1600,
+          "height": 900
+        },
+        "deviceScaleFactor": 1,
+        "browserDefaultZoom": "100% in fresh automated context",
+        "cssZoom": "1",
+        "activeScreen": "s2",
+        "modal": [],
+        "status": "📁 Archivos precargados: 50\nPresiona Procesar archivos para continuar.",
+        "progress": 0,
+        "font": "\"Segoe UI\", Arial, sans-serif",
+        "v20Scale": "1.160",
+        "v21Scale": "1.140"
+      },
+      "capturedAt": "2026-11-06T14:00:34.642Z",
+      "animations": "original, running",
+      "windowsDesktopDPI": "NOT_MEASURED; DSF emulation does not prove Windows DPI",
+      "accepted_baseline": true,
+      "path": "tests/visual/baseline/03_files_selected__1600x900__dsf1.png",
+      "pixel_dimensions": [
+        1600,
+        900
+      ],
+      "browser": {
+        "version": "151.0.7922.34",
+        "executable": "C:\\Users\\sin_s\\AppData\\Local\\ms-playwright\\chromium-1234\\chrome-win64\\chrome.exe",
+        "playwright": "1.62.1",
+        "headless": true,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.0.0 Safari/537.36"
+      },
+      "system": {
+        "platform": "win32",
+        "release": "10.0.26200",
+        "arch": "x64"
+      }
+    },
+    {
+      "scene": "04_reports_table",
+      "file": "04_reports_table__1600x900__dsf1.png",
+      "sha256": "972de322b82614e58608b072fa0ebcb3253958698fcaaea048f453690a66bffd",
+      "before": {
+        "viewport": {
+          "width": 1600,
+          "height": 900
+        },
+        "deviceScaleFactor": 1,
+        "browserDefaultZoom": "100% in fresh automated context",
+        "cssZoom": "1",
+        "activeScreen": "s3",
+        "modal": [],
+        "status": "✅ Proceso terminado. Reporte listo · 1 incidente(s) de lectura.",
+        "progress": 100,
+        "font": "\"Segoe UI\", Arial, sans-serif",
+        "v20Scale": "1.160",
+        "v21Scale": "1.140"
+      },
+      "after": {
+        "viewport": {
+          "width": 1600,
+          "height": 900
+        },
+        "deviceScaleFactor": 1,
+        "browserDefaultZoom": "100% in fresh automated context",
+        "cssZoom": "1",
+        "activeScreen": "s3",
+        "modal": [],
+        "status": "✅ Proceso terminado. Reporte listo · 1 incidente(s) de lectura.",
+        "progress": 100,
+        "font": "\"Segoe UI\", Arial, sans-serif",
+        "v20Scale": "1.160",
+        "v21Scale": "1.140"
+      },
+      "capturedAt": "2026-11-06T14:00:35.461Z",
+      "animations": "original, running",
+      "windowsDesktopDPI": "NOT_MEASURED; DSF emulation does not prove Windows DPI",
+      "accepted_baseline": true,
+      "path": "tests/visual/baseline/04_reports_table__1600x900__dsf1.png",
+      "pixel_dimensions": [
+        1600,
+        900
+      ],
+      "browser": {
+        "version": "151.0.7922.34",
+        "executable": "C:\\Users\\sin_s\\AppData\\Local\\ms-playwright\\chromium-1234\\chrome-win64\\chrome.exe",
+        "playwright": "1.62.1",
+        "headless": true,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.0.0 Safari/537.36"
+      },
+      "system": {
+        "platform": "win32",
+        "release": "10.0.26200",
+        "arch": "x64"
+      }
+    },
+    {
+      "scene": "05_type_clicked",
+      "file": "05_type_clicked__1600x900__dsf1.png",
+      "sha256": "6c2cff738b6d33d4867ecd1f7901da93e26bed30bea7bcbd53d4a4e1fa144c6a",
+      "before": {
+        "viewport": {
+          "width": 1600,
+          "height": 900
+        },
+        "deviceScaleFactor": 1,
+        "browserDefaultZoom": "100% in fresh automated context",
+        "cssZoom": "1",
+        "activeScreen": "s3",
+        "modal": [],
+        "status": "✅ Proceso terminado. Reporte listo · 1 incidente(s) de lectura.",
+        "progress": 100,
+        "font": "\"Segoe UI\", Arial, sans-serif",
+        "v20Scale": "1.160",
+        "v21Scale": "1.140"
+      },
+      "after": {
+        "viewport": {
+          "width": 1600,
+          "height": 900
+        },
+        "deviceScaleFactor": 1,
+        "browserDefaultZoom": "100% in fresh automated context",
+        "cssZoom": "1",
+        "activeScreen": "s3",
+        "modal": [],
+        "status": "✅ Proceso terminado. Reporte listo · 1 incidente(s) de lectura.",
+        "progress": 100,
+        "font": "\"Segoe UI\", Arial, sans-serif",
+        "v20Scale": "1.160",
+        "v21Scale": "1.140"
+      },
+      "capturedAt": "2026-11-06T14:00:36.205Z",
+      "animations": "original, running",
+      "windowsDesktopDPI": "NOT_MEASURED; DSF emulation does not prove Windows DPI",
+      "accepted_baseline": true,
+      "path": "tests/visual/baseline/05_type_clicked__1600x900__dsf1.png",
+      "pixel_dimensions": [
+        1600,
+        900
+      ],
+      "browser": {
+        "version": "151.0.7922.34",
+        "executable": "C:\\Users\\sin_s\\AppData\\Local\\ms-playwright\\chromium-1234\\chrome-win64\\chrome.exe",
+        "playwright": "1.62.1",
+        "headless": true,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.0.0 Safari/537.36"
+      },
+      "system": {
+        "platform": "win32",
+        "release": "10.0.26200",
+        "arch": "x64"
+      }
+    },
+    {
+      "scene": "06_empty_filter",
+      "file": "06_empty_filter__1600x900__dsf1.png",
+      "sha256": "d6c9ab13043262977079ae69ab1aaf20169b47225ef8fc6a691787066b718ec0",
+      "before": {
+        "viewport": {
+          "width": 1600,
+          "height": 900
+        },
+        "deviceScaleFactor": 1,
+        "browserDefaultZoom": "100% in fresh automated context",
+        "cssZoom": "1",
+        "activeScreen": "s3",
+        "modal": [],
+        "status": "✅ Proceso terminado. Reporte listo · 1 incidente(s) de lectura.",
+        "progress": 100,
+        "font": "\"Segoe UI\", Arial, sans-serif",
+        "v20Scale": "1.160",
+        "v21Scale": "1.140"
+      },
+      "after": {
+        "viewport": {
+          "width": 1600,
+          "height": 900
+        },
+        "deviceScaleFactor": 1,
+        "browserDefaultZoom": "100% in fresh automated context",
+        "cssZoom": "1",
+        "activeScreen": "s3",
+        "modal": [],
+        "status": "✅ Proceso terminado. Reporte listo · 1 incidente(s) de lectura.",
+        "progress": 100,
+        "font": "\"Segoe UI\", Arial, sans-serif",
+        "v20Scale": "1.160",
+        "v21Scale": "1.140"
+      },
+      "capturedAt": "2026-11-06T14:00:36.679Z",
+      "animations": "original, running",
+      "windowsDesktopDPI": "NOT_MEASURED; DSF emulation does not prove Windows DPI",
+      "accepted_baseline": true,
+      "path": "tests/visual/baseline/06_empty_filter__1600x900__dsf1.png",
+      "pixel_dimensions": [
+        1600,
+        900
+      ],
+      "browser": {
+        "version": "151.0.7922.34",
+        "executable": "C:\\Users\\sin_s\\AppData\\Local\\ms-playwright\\chromium-1234\\chrome-win64\\chrome.exe",
+        "playwright": "1.62.1",
+        "headless": true,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.0.0 Safari/537.36"
+      },
+      "system": {
+        "platform": "win32",
+        "release": "10.0.26200",
+        "arch": "x64"
+      }
+    },
+    {
+      "scene": "07_viewer_summary",
+      "file": "07_viewer_summary__1600x900__dsf1.png",
+      "sha256": "5e8e080343487590e872713c0d1a163b3b912faf27a2173405e86268899f314e",
+      "before": {
+        "viewport": {
+          "width": 1600,
+          "height": 900
+        },
+        "deviceScaleFactor": 1,
+        "browserDefaultZoom": "100% in fresh automated context",
+        "cssZoom": "1",
+        "activeScreen": "s3",
+        "modal": [
+          "previewModal"
+        ],
+        "status": "✅ Proceso terminado. Reporte listo · 1 incidente(s) de lectura.",
+        "progress": 100,
+        "font": "\"Segoe UI\", Arial, sans-serif",
+        "v20Scale": "1.160",
+        "v21Scale": "1.140"
+      },
+      "after": {
+        "viewport": {
+          "width": 1600,
+          "height": 900
+        },
+        "deviceScaleFactor": 1,
+        "browserDefaultZoom": "100% in fresh automated context",
+        "cssZoom": "1",
+        "activeScreen": "s3",
+        "modal": [
+          "previewModal"
+        ],
+        "status": "✅ Proceso terminado. Reporte listo · 1 incidente(s) de lectura.",
+        "progress": 100,
+        "font": "\"Segoe UI\", Arial, sans-serif",
+        "v20Scale": "1.160",
+        "v21Scale": "1.140"
+      },
+      "capturedAt": "2026-11-06T14:00:37.528Z",
+      "animations": "original, running",
+      "windowsDesktopDPI": "NOT_MEASURED; DSF emulation does not prove Windows DPI",
+      "accepted_baseline": true,
+      "path": "tests/visual/baseline/07_viewer_summary__1600x900__dsf1.png",
+      "pixel_dimensions": [
+        1600,
+        900
+      ],
+      "browser": {
+        "version": "151.0.7922.34",
+        "executable": "C:\\Users\\sin_s\\AppData\\Local\\ms-playwright\\chromium-1234\\chrome-win64\\chrome.exe",
+        "playwright": "1.62.1",
+        "headless": true,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.0.0 Safari/537.36"
+      },
+      "system": {
+        "platform": "win32",
+        "release": "10.0.26200",
+        "arch": "x64"
+      }
+    },
+    {
+      "scene": "08_viewer_taxes",
+      "file": "08_viewer_taxes__1600x900__dsf1.png",
+      "sha256": "0307d0a4c65c1b65ea88389e4f8899af4d49f615385e07daca28db29cc0727ca",
+      "before": {
+        "viewport": {
+          "width": 1600,
+          "height": 900
+        },
+        "deviceScaleFactor": 1,
+        "browserDefaultZoom": "100% in fresh automated context",
+        "cssZoom": "1",
+        "activeScreen": "s3",
+        "modal": [
+          "previewModal"
+        ],
+        "status": "✅ Proceso terminado. Reporte listo · 1 incidente(s) de lectura.",
+        "progress": 100,
+        "font": "\"Segoe UI\", Arial, sans-serif",
+        "v20Scale": "1.160",
+        "v21Scale": "1.140"
+      },
+      "after": {
+        "viewport": {
+          "width": 1600,
+          "height": 900
+        },
+        "deviceScaleFactor": 1,
+        "browserDefaultZoom": "100% in fresh automated context",
+        "cssZoom": "1",
+        "activeScreen": "s3",
+        "modal": [
+          "previewModal"
+        ],
+        "status": "✅ Proceso terminado. Reporte listo · 1 incidente(s) de lectura.",
+        "progress": 100,
+        "font": "\"Segoe UI\", Arial, sans-serif",
+        "v20Scale": "1.160",
+        "v21Scale": "1.140"
+      },
+      "capturedAt": "2026-11-06T14:00:38.316Z",
+      "animations": "original, running",
+      "windowsDesktopDPI": "NOT_MEASURED; DSF emulation does not prove Windows DPI",
+      "accepted_baseline": true,
+      "path": "tests/visual/baseline/08_viewer_taxes__1600x900__dsf1.png",
+      "pixel_dimensions": [
+        1600,
+        900
+      ],
+      "browser": {
+        "version": "151.0.7922.34",
+        "executable": "C:\\Users\\sin_s\\AppData\\Local\\ms-playwright\\chromium-1234\\chrome-win64\\chrome.exe",
+        "playwright": "1.62.1",
+        "headless": true,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.0.0 Safari/537.36"
+      },
+      "system": {
+        "platform": "win32",
+        "release": "10.0.26200",
+        "arch": "x64"
+      }
+    },
+    {
+      "scene": "09_viewer_concepts",
+      "file": "09_viewer_concepts__1600x900__dsf1.png",
+      "sha256": "3c329ea921bf14a966d6cc911b087ae08a941c8d513e23c7fb3bb8245734b8e9",
+      "before": {
+        "viewport": {
+          "width": 1600,
+          "height": 900
+        },
+        "deviceScaleFactor": 1,
+        "browserDefaultZoom": "100% in fresh automated context",
+        "cssZoom": "1",
+        "activeScreen": "s3",
+        "modal": [
+          "previewModal"
+        ],
+        "status": "✅ Proceso terminado. Reporte listo · 1 incidente(s) de lectura.",
+        "progress": 100,
+        "font": "\"Segoe UI\", Arial, sans-serif",
+        "v20Scale": "1.160",
+        "v21Scale": "1.140"
+      },
+      "after": {
+        "viewport": {
+          "width": 1600,
+          "height": 900
+        },
+        "deviceScaleFactor": 1,
+        "browserDefaultZoom": "100% in fresh automated context",
+        "cssZoom": "1",
+        "activeScreen": "s3",
+        "modal": [
+          "previewModal"
+        ],
+        "status": "✅ Proceso terminado. Reporte listo · 1 incidente(s) de lectura.",
+        "progress": 100,
+        "font": "\"Segoe UI\", Arial, sans-serif",
+        "v20Scale": "1.160",
+        "v21Scale": "1.140"
+      },
+      "capturedAt": "2026-11-06T14:00:38.996Z",
+      "animations": "original, running",
+      "windowsDesktopDPI": "NOT_MEASURED; DSF emulation does not prove Windows DPI",
+      "accepted_baseline": true,
+      "path": "tests/visual/baseline/09_viewer_concepts__1600x900__dsf1.png",
+      "pixel_dimensions": [
+        1600,
+        900
+      ],
+      "browser": {
+        "version": "151.0.7922.34",
+        "executable": "C:\\Users\\sin_s\\AppData\\Local\\ms-playwright\\chromium-1234\\chrome-win64\\chrome.exe",
+        "playwright": "1.62.1",
+        "headless": true,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.0.0 Safari/537.36"
+      },
+      "system": {
+        "platform": "win32",
+        "release": "10.0.26200",
+        "arch": "x64"
+      }
+    },
+    {
+      "scene": "10_viewer_fields",
+      "file": "10_viewer_fields__1600x900__dsf1.png",
+      "sha256": "af8d51fcfeef85606f6349877bd229b638be2e1bc6c810057ee7f4b745331cd5",
+      "before": {
+        "viewport": {
+          "width": 1600,
+          "height": 900
+        },
+        "deviceScaleFactor": 1,
+        "browserDefaultZoom": "100% in fresh automated context",
+        "cssZoom": "1",
+        "activeScreen": "s3",
+        "modal": [
+          "previewModal"
+        ],
+        "status": "✅ Proceso terminado. Reporte listo · 1 incidente(s) de lectura.",
+        "progress": 100,
+        "font": "\"Segoe UI\", Arial, sans-serif",
+        "v20Scale": "1.160",
+        "v21Scale": "1.140"
+      },
+      "after": {
+        "viewport": {
+          "width": 1600,
+          "height": 900
+        },
+        "deviceScaleFactor": 1,
+        "browserDefaultZoom": "100% in fresh automated context",
+        "cssZoom": "1",
+        "activeScreen": "s3",
+        "modal": [
+          "previewModal"
+        ],
+        "status": "✅ Proceso terminado. Reporte listo · 1 incidente(s) de lectura.",
+        "progress": 100,
+        "font": "\"Segoe UI\", Arial, sans-serif",
+        "v20Scale": "1.160",
+        "v21Scale": "1.140"
+      },
+      "capturedAt": "2026-11-06T14:00:39.702Z",
+      "animations": "original, running",
+      "windowsDesktopDPI": "NOT_MEASURED; DSF emulation does not prove Windows DPI",
+      "accepted_baseline": true,
+      "path": "tests/visual/baseline/10_viewer_fields__1600x900__dsf1.png",
+      "pixel_dimensions": [
+        1600,
+        900
+      ],
+      "browser": {
+        "version": "151.0.7922.34",
+        "executable": "C:\\Users\\sin_s\\AppData\\Local\\ms-playwright\\chromium-1234\\chrome-win64\\chrome.exe",
+        "playwright": "1.62.1",
+        "headless": true,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.0.0 Safari/537.36"
+      },
+      "system": {
+        "platform": "win32",
+        "release": "10.0.26200",
+        "arch": "x64"
+      }
+    },
+    {
+      "scene": "11_viewer_xml",
+      "file": "11_viewer_xml__1600x900__dsf1.png",
+      "sha256": "1f8c0b3c3167ebc93320244ce9ec50f4c7e298b35d70ed4a6c44033935b35dea",
+      "before": {
+        "viewport": {
+          "width": 1600,
+          "height": 900
+        },
+        "deviceScaleFactor": 1,
+        "browserDefaultZoom": "100% in fresh automated context",
+        "cssZoom": "1",
+        "activeScreen": "s3",
+        "modal": [
+          "previewModal"
+        ],
+        "status": "✅ Proceso terminado. Reporte listo · 1 incidente(s) de lectura.",
+        "progress": 100,
+        "font": "\"Segoe UI\", Arial, sans-serif",
+        "v20Scale": "1.160",
+        "v21Scale": "1.140"
+      },
+      "after": {
+        "viewport": {
+          "width": 1600,
+          "height": 900
+        },
+        "deviceScaleFactor": 1,
+        "browserDefaultZoom": "100% in fresh automated context",
+        "cssZoom": "1",
+        "activeScreen": "s3",
+        "modal": [
+          "previewModal"
+        ],
+        "status": "✅ Proceso terminado. Reporte listo · 1 incidente(s) de lectura.",
+        "progress": 100,
+        "font": "\"Segoe UI\", Arial, sans-serif",
+        "v20Scale": "1.160",
+        "v21Scale": "1.140"
+      },
+      "capturedAt": "2026-11-06T14:00:40.396Z",
+      "animations": "original, running",
+      "windowsDesktopDPI": "NOT_MEASURED; DSF emulation does not prove Windows DPI",
+      "accepted_baseline": true,
+      "path": "tests/visual/baseline/11_viewer_xml__1600x900__dsf1.png",
+      "pixel_dimensions": [
+        1600,
+        900
+      ],
+      "browser": {
+        "version": "151.0.7922.34",
+        "executable": "C:\\Users\\sin_s\\AppData\\Local\\ms-playwright\\chromium-1234\\chrome-win64\\chrome.exe",
+        "playwright": "1.62.1",
+        "headless": true,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.0.0 Safari/537.36"
+      },
+      "system": {
+        "platform": "win32",
+        "release": "10.0.26200",
+        "arch": "x64"
+      }
+    },
+    {
+      "scene": "12_column_editor",
+      "file": "12_column_editor__1600x900__dsf1.png",
+      "sha256": "e7edd951e32fd77e38b14b6b4c605a031e8169ae826d17a9d3aef6a0d83c94b1",
+      "before": {
+        "viewport": {
+          "width": 1600,
+          "height": 900
+        },
+        "deviceScaleFactor": 1,
+        "browserDefaultZoom": "100% in fresh automated context",
+        "cssZoom": "1",
+        "activeScreen": "s3",
+        "modal": [
+          "modal"
+        ],
+        "status": "✅ Proceso terminado. Reporte listo · 1 incidente(s) de lectura.",
+        "progress": 100,
+        "font": "\"Segoe UI\", Arial, sans-serif",
+        "v20Scale": "1.160",
+        "v21Scale": "1.140"
+      },
+      "after": {
+        "viewport": {
+          "width": 1600,
+          "height": 900
+        },
+        "deviceScaleFactor": 1,
+        "browserDefaultZoom": "100% in fresh automated context",
+        "cssZoom": "1",
+        "activeScreen": "s3",
+        "modal": [
+          "modal"
+        ],
+        "status": "✅ Proceso terminado. Reporte listo · 1 incidente(s) de lectura.",
+        "progress": 100,
+        "font": "\"Segoe UI\", Arial, sans-serif",
+        "v20Scale": "1.160",
+        "v21Scale": "1.140"
+      },
+      "capturedAt": "2026-11-06T14:00:40.594Z",
+      "animations": "original, running",
+      "windowsDesktopDPI": "NOT_MEASURED; DSF emulation does not prove Windows DPI",
+      "accepted_baseline": true,
+      "path": "tests/visual/baseline/12_column_editor__1600x900__dsf1.png",
+      "pixel_dimensions": [
+        1600,
+        900
+      ],
+      "browser": {
+        "version": "151.0.7922.34",
+        "executable": "C:\\Users\\sin_s\\AppData\\Local\\ms-playwright\\chromium-1234\\chrome-win64\\chrome.exe",
+        "playwright": "1.62.1",
+        "headless": true,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.0.0 Safari/537.36"
+      },
+      "system": {
+        "platform": "win32",
+        "release": "10.0.26200",
+        "arch": "x64"
+      }
+    },
+    {
+      "scene": "13_column_search",
+      "file": "13_column_search__1600x900__dsf1.png",
+      "sha256": "bd2b87a64a17e6014a1580d0ddc885fe0d9aab6fd737dbc0f19c98b656cddafe",
+      "before": {
+        "viewport": {
+          "width": 1600,
+          "height": 900
+        },
+        "deviceScaleFactor": 1,
+        "browserDefaultZoom": "100% in fresh automated context",
+        "cssZoom": "1",
+        "activeScreen": "s3",
+        "modal": [
+          "modal"
+        ],
+        "status": "✅ Proceso terminado. Reporte listo · 1 incidente(s) de lectura.",
+        "progress": 100,
+        "font": "\"Segoe UI\", Arial, sans-serif",
+        "v20Scale": "1.160",
+        "v21Scale": "1.140"
+      },
+      "after": {
+        "viewport": {
+          "width": 1600,
+          "height": 900
+        },
+        "deviceScaleFactor": 1,
+        "browserDefaultZoom": "100% in fresh automated context",
+        "cssZoom": "1",
+        "activeScreen": "s3",
+        "modal": [
+          "modal"
+        ],
+        "status": "✅ Proceso terminado. Reporte listo · 1 incidente(s) de lectura.",
+        "progress": 100,
+        "font": "\"Segoe UI\", Arial, sans-serif",
+        "v20Scale": "1.160",
+        "v21Scale": "1.140"
+      },
+      "capturedAt": "2026-11-06T14:00:40.728Z",
+      "animations": "original, running",
+      "windowsDesktopDPI": "NOT_MEASURED; DSF emulation does not prove Windows DPI",
+      "accepted_baseline": true,
+      "path": "tests/visual/baseline/13_column_search__1600x900__dsf1.png",
+      "pixel_dimensions": [
+        1600,
+        900
+      ],
+      "browser": {
+        "version": "151.0.7922.34",
+        "executable": "C:\\Users\\sin_s\\AppData\\Local\\ms-playwright\\chromium-1234\\chrome-win64\\chrome.exe",
+        "playwright": "1.62.1",
+        "headless": true,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.0.0 Safari/537.36"
+      },
+      "system": {
+        "platform": "win32",
+        "release": "10.0.26200",
+        "arch": "x64"
+      }
+    },
+    {
+      "scene": "14_column_search_applied",
+      "file": "14_column_search_applied__1600x900__dsf1.png",
+      "sha256": "b2b5842aa2799c22447c458670dfa0b24c6618f7b3c2335906624c15a8e1a0d6",
+      "before": {
+        "viewport": {
+          "width": 1600,
+          "height": 900
+        },
+        "deviceScaleFactor": 1,
+        "browserDefaultZoom": "100% in fresh automated context",
+        "cssZoom": "1",
+        "activeScreen": "s3",
+        "modal": [],
+        "status": "✅ Proceso terminado. Reporte listo · 1 incidente(s) de lectura.",
+        "progress": 100,
+        "font": "\"Segoe UI\", Arial, sans-serif",
+        "v20Scale": "1.160",
+        "v21Scale": "1.140"
+      },
+      "after": {
+        "viewport": {
+          "width": 1600,
+          "height": 900
+        },
+        "deviceScaleFactor": 1,
+        "browserDefaultZoom": "100% in fresh automated context",
+        "cssZoom": "1",
+        "activeScreen": "s3",
+        "modal": [],
+        "status": "✅ Proceso terminado. Reporte listo · 1 incidente(s) de lectura.",
+        "progress": 100,
+        "font": "\"Segoe UI\", Arial, sans-serif",
+        "v20Scale": "1.160",
+        "v21Scale": "1.140"
+      },
+      "capturedAt": "2026-11-06T14:00:41.037Z",
+      "animations": "original, running",
+      "windowsDesktopDPI": "NOT_MEASURED; DSF emulation does not prove Windows DPI",
+      "accepted_baseline": true,
+      "path": "tests/visual/baseline/14_column_search_applied__1600x900__dsf1.png",
+      "pixel_dimensions": [
+        1600,
+        900
+      ],
+      "browser": {
+        "version": "151.0.7922.34",
+        "executable": "C:\\Users\\sin_s\\AppData\\Local\\ms-playwright\\chromium-1234\\chrome-win64\\chrome.exe",
+        "playwright": "1.62.1",
+        "headless": true,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.0.0 Safari/537.36"
+      },
+      "system": {
+        "platform": "win32",
+        "release": "10.0.26200",
+        "arch": "x64"
+      }
+    },
+    {
+      "scene": "15_excel_constructor",
+      "file": "15_excel_constructor__1600x900__dsf1.png",
+      "sha256": "f8dcb7e2ea6648052c43f07cf7ee626fbba5e585bfe2618c44f7304c80ab8a1a",
+      "before": {
+        "viewport": {
+          "width": 1600,
+          "height": 900
+        },
+        "deviceScaleFactor": 1,
+        "browserDefaultZoom": "100% in fresh automated context",
+        "cssZoom": "1",
+        "activeScreen": "s3",
+        "modal": [
+          "exportModal"
+        ],
+        "status": "✅ Proceso terminado. Reporte listo · 1 incidente(s) de lectura.",
+        "progress": 100,
+        "font": "\"Segoe UI\", Arial, sans-serif",
+        "v20Scale": "1.160",
+        "v21Scale": "1.140"
+      },
+      "after": {
+        "viewport": {
+          "width": 1600,
+          "height": 900
+        },
+        "deviceScaleFactor": 1,
+        "browserDefaultZoom": "100% in fresh automated context",
+        "cssZoom": "1",
+        "activeScreen": "s3",
+        "modal": [
+          "exportModal"
+        ],
+        "status": "✅ Proceso terminado. Reporte listo · 1 incidente(s) de lectura.",
+        "progress": 100,
+        "font": "\"Segoe UI\", Arial, sans-serif",
+        "v20Scale": "1.160",
+        "v21Scale": "1.140"
+      },
+      "capturedAt": "2026-11-06T14:00:41.381Z",
+      "animations": "original, running",
+      "windowsDesktopDPI": "NOT_MEASURED; DSF emulation does not prove Windows DPI",
+      "accepted_baseline": true,
+      "path": "tests/visual/baseline/15_excel_constructor__1600x900__dsf1.png",
+      "pixel_dimensions": [
+        1600,
+        900
+      ],
+      "browser": {
+        "version": "151.0.7922.34",
+        "executable": "C:\\Users\\sin_s\\AppData\\Local\\ms-playwright\\chromium-1234\\chrome-win64\\chrome.exe",
+        "playwright": "1.62.1",
+        "headless": true,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.0.0 Safari/537.36"
+      },
+      "system": {
+        "platform": "win32",
+        "release": "10.0.26200",
+        "arch": "x64"
+      }
+    },
+    {
+      "scene": "16_excel_choices",
+      "file": "16_excel_choices__1600x900__dsf1.png",
+      "sha256": "2539d295f7d6cd8b8146af9df9e5b5dcc2fcbf66bf2fd59e426904b7decef55f",
+      "before": {
+        "viewport": {
+          "width": 1600,
+          "height": 900
+        },
+        "deviceScaleFactor": 1,
+        "browserDefaultZoom": "100% in fresh automated context",
+        "cssZoom": "1",
+        "activeScreen": "s3",
+        "modal": [
+          "exportModal"
+        ],
+        "status": "✅ Proceso terminado. Reporte listo · 1 incidente(s) de lectura.",
+        "progress": 100,
+        "font": "\"Segoe UI\", Arial, sans-serif",
+        "v20Scale": "1.160",
+        "v21Scale": "1.140"
+      },
+      "after": {
+        "viewport": {
+          "width": 1600,
+          "height": 900
+        },
+        "deviceScaleFactor": 1,
+        "browserDefaultZoom": "100% in fresh automated context",
+        "cssZoom": "1",
+        "activeScreen": "s3",
+        "modal": [
+          "exportModal"
+        ],
+        "status": "✅ Proceso terminado. Reporte listo · 1 incidente(s) de lectura.",
+        "progress": 100,
+        "font": "\"Segoe UI\", Arial, sans-serif",
+        "v20Scale": "1.160",
+        "v21Scale": "1.140"
+      },
+      "capturedAt": "2026-11-06T14:00:41.801Z",
+      "animations": "original, running",
+      "windowsDesktopDPI": "NOT_MEASURED; DSF emulation does not prove Windows DPI",
+      "accepted_baseline": true,
+      "path": "tests/visual/baseline/16_excel_choices__1600x900__dsf1.png",
+      "pixel_dimensions": [
+        1600,
+        900
+      ],
+      "browser": {
+        "version": "151.0.7922.34",
+        "executable": "C:\\Users\\sin_s\\AppData\\Local\\ms-playwright\\chromium-1234\\chrome-win64\\chrome.exe",
+        "playwright": "1.62.1",
+        "headless": true,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.0.0 Safari/537.36"
+      },
+      "system": {
+        "platform": "win32",
+        "release": "10.0.26200",
+        "arch": "x64"
+      }
+    },
+    {
+      "scene": "17_read_errors",
+      "file": "17_read_errors__1600x900__dsf1.png",
+      "sha256": "9015504eebf5bfa7e5a79f256545593b5b22cb1d69d66fa4e525e3ed5709b073",
+      "before": {
+        "viewport": {
+          "width": 1600,
+          "height": 900
+        },
+        "deviceScaleFactor": 1,
+        "browserDefaultZoom": "100% in fresh automated context",
+        "cssZoom": "1",
+        "activeScreen": "s3",
+        "modal": [],
+        "status": "✅ Proceso terminado. Reporte listo · 1 incidente(s) de lectura.",
+        "progress": 100,
+        "font": "\"Segoe UI\", Arial, sans-serif",
+        "v20Scale": "1.160",
+        "v21Scale": "1.140"
+      },
+      "after": {
+        "viewport": {
+          "width": 1600,
+          "height": 900
+        },
+        "deviceScaleFactor": 1,
+        "browserDefaultZoom": "100% in fresh automated context",
+        "cssZoom": "1",
+        "activeScreen": "s3",
+        "modal": [],
+        "status": "✅ Proceso terminado. Reporte listo · 1 incidente(s) de lectura.",
+        "progress": 100,
+        "font": "\"Segoe UI\", Arial, sans-serif",
+        "v20Scale": "1.160",
+        "v21Scale": "1.140"
+      },
+      "capturedAt": "2026-11-06T14:00:42.264Z",
+      "animations": "original, running",
+      "windowsDesktopDPI": "NOT_MEASURED; DSF emulation does not prove Windows DPI",
+      "accepted_baseline": true,
+      "path": "tests/visual/baseline/17_read_errors__1600x900__dsf1.png",
+      "pixel_dimensions": [
+        1600,
+        900
+      ],
+      "browser": {
+        "version": "151.0.7922.34",
+        "executable": "C:\\Users\\sin_s\\AppData\\Local\\ms-playwright\\chromium-1234\\chrome-win64\\chrome.exe",
+        "playwright": "1.62.1",
+        "headless": true,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.0.0 Safari/537.36"
+      },
+      "system": {
+        "platform": "win32",
+        "release": "10.0.26200",
+        "arch": "x64"
+      }
+    },
+    {
+      "scene": "18_cleared",
+      "file": "18_cleared__1600x900__dsf1.png",
+      "sha256": "de1c59a722e2769a91fbc7b06c22df4e516443e7117003f50e8aed7c4f57ac23",
+      "before": {
+        "viewport": {
+          "width": 1600,
+          "height": 900
+        },
+        "deviceScaleFactor": 1,
+        "browserDefaultZoom": "100% in fresh automated context",
+        "cssZoom": "1",
+        "activeScreen": "s2",
+        "modal": [],
+        "status": "⏳ Esperando archivos...",
+        "progress": 0,
+        "font": "\"Segoe UI\", Arial, sans-serif",
+        "v20Scale": "1.160",
+        "v21Scale": "1.140"
+      },
+      "after": {
+        "viewport": {
+          "width": 1600,
+          "height": 900
+        },
+        "deviceScaleFactor": 1,
+        "browserDefaultZoom": "100% in fresh automated context",
+        "cssZoom": "1",
+        "activeScreen": "s2",
+        "modal": [],
+        "status": "⏳ Esperando archivos...",
+        "progress": 0,
+        "font": "\"Segoe UI\", Arial, sans-serif",
+        "v20Scale": "1.160",
+        "v21Scale": "1.140"
+      },
+      "capturedAt": "2026-11-06T14:00:42.711Z",
+      "animations": "original, running",
+      "windowsDesktopDPI": "NOT_MEASURED; DSF emulation does not prove Windows DPI",
+      "accepted_baseline": true,
+      "path": "tests/visual/baseline/18_cleared__1600x900__dsf1.png",
+      "pixel_dimensions": [
+        1600,
+        900
+      ],
+      "browser": {
+        "version": "151.0.7922.34",
+        "executable": "C:\\Users\\sin_s\\AppData\\Local\\ms-playwright\\chromium-1234\\chrome-win64\\chrome.exe",
+        "playwright": "1.62.1",
+        "headless": true,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.0.0 Safari/537.36"
+      },
+      "system": {
+        "platform": "win32",
+        "release": "10.0.26200",
+        "arch": "x64"
+      }
+    },
+    {
+      "scene": "01_initial",
+      "file": "01_initial__1920x1080__dsf1.png",
+      "sha256": "d201c712eddf55d3f570dc8c0394c402398a65c892204539e32f46ed008d47a6",
+      "before": {
+        "viewport": {
+          "width": 1920,
+          "height": 1080
+        },
+        "deviceScaleFactor": 1,
+        "browserDefaultZoom": "100% in fresh automated context",
+        "cssZoom": "1",
+        "activeScreen": "s1",
+        "modal": [],
+        "status": "Esperando archivos...",
+        "progress": 0,
+        "font": "\"Segoe UI\", Arial, sans-serif",
+        "v20Scale": "1.160",
+        "v21Scale": "1.140"
+      },
+      "after": {
+        "viewport": {
+          "width": 1920,
+          "height": 1080
+        },
+        "deviceScaleFactor": 1,
+        "browserDefaultZoom": "100% in fresh automated context",
+        "cssZoom": "1",
+        "activeScreen": "s1",
+        "modal": [],
+        "status": "Esperando archivos...",
+        "progress": 0,
+        "font": "\"Segoe UI\", Arial, sans-serif",
+        "v20Scale": "1.160",
+        "v21Scale": "1.140"
+      },
+      "capturedAt": "2026-11-06T14:00:43.730Z",
+      "animations": "original, running",
+      "windowsDesktopDPI": "NOT_MEASURED; DSF emulation does not prove Windows DPI",
+      "accepted_baseline": true,
+      "path": "tests/visual/baseline/01_initial__1920x1080__dsf1.png",
+      "pixel_dimensions": [
+        1920,
+        1080
+      ],
+      "browser": {
+        "version": "151.0.7922.34",
+        "executable": "C:\\Users\\sin_s\\AppData\\Local\\ms-playwright\\chromium-1234\\chrome-win64\\chrome.exe",
+        "playwright": "1.62.1",
+        "headless": true,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.0.0 Safari/537.36"
+      },
+      "system": {
+        "platform": "win32",
+        "release": "10.0.26200",
+        "arch": "x64"
+      }
+    },
+    {
+      "scene": "02_upload_empty",
+      "file": "02_upload_empty__1920x1080__dsf1.png",
+      "sha256": "e038c792c830bbb456a52db04a21646db21570c039e2e20fb8fdfc2a688bb5ea",
+      "before": {
+        "viewport": {
+          "width": 1920,
+          "height": 1080
+        },
+        "deviceScaleFactor": 1,
+        "browserDefaultZoom": "100% in fresh automated context",
+        "cssZoom": "1",
+        "activeScreen": "s2",
+        "modal": [],
+        "status": "Esperando archivos...",
+        "progress": 0,
+        "font": "\"Segoe UI\", Arial, sans-serif",
+        "v20Scale": "1.160",
+        "v21Scale": "1.140"
+      },
+      "after": {
+        "viewport": {
+          "width": 1920,
+          "height": 1080
+        },
+        "deviceScaleFactor": 1,
+        "browserDefaultZoom": "100% in fresh automated context",
+        "cssZoom": "1",
+        "activeScreen": "s2",
+        "modal": [],
+        "status": "Esperando archivos...",
+        "progress": 0,
+        "font": "\"Segoe UI\", Arial, sans-serif",
+        "v20Scale": "1.160",
+        "v21Scale": "1.140"
+      },
+      "capturedAt": "2026-11-06T14:00:44.171Z",
+      "animations": "original, running",
+      "windowsDesktopDPI": "NOT_MEASURED; DSF emulation does not prove Windows DPI",
+      "accepted_baseline": true,
+      "path": "tests/visual/baseline/02_upload_empty__1920x1080__dsf1.png",
+      "pixel_dimensions": [
+        1920,
+        1080
+      ],
+      "browser": {
+        "version": "151.0.7922.34",
+        "executable": "C:\\Users\\sin_s\\AppData\\Local\\ms-playwright\\chromium-1234\\chrome-win64\\chrome.exe",
+        "playwright": "1.62.1",
+        "headless": true,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.0.0 Safari/537.36"
+      },
+      "system": {
+        "platform": "win32",
+        "release": "10.0.26200",
+        "arch": "x64"
+      }
+    },
+    {
+      "scene": "03_files_selected",
+      "file": "03_files_selected__1920x1080__dsf1.png",
+      "sha256": "b8cc104c972316af0d440afa0885e0907e411765f2c36d07e65244444c946180",
+      "before": {
+        "viewport": {
+          "width": 1920,
+          "height": 1080
+        },
+        "deviceScaleFactor": 1,
+        "browserDefaultZoom": "100% in fresh automated context",
+        "cssZoom": "1",
+        "activeScreen": "s2",
+        "modal": [],
+        "status": "📁 Archivos precargados: 50\nPresiona Procesar archivos para continuar.",
+        "progress": 0,
+        "font": "\"Segoe UI\", Arial, sans-serif",
+        "v20Scale": "1.160",
+        "v21Scale": "1.140"
+      },
+      "after": {
+        "viewport": {
+          "width": 1920,
+          "height": 1080
+        },
+        "deviceScaleFactor": 1,
+        "browserDefaultZoom": "100% in fresh automated context",
+        "cssZoom": "1",
+        "activeScreen": "s2",
+        "modal": [],
+        "status": "📁 Archivos precargados: 50\nPresiona Procesar archivos para continuar.",
+        "progress": 0,
+        "font": "\"Segoe UI\", Arial, sans-serif",
+        "v20Scale": "1.160",
+        "v21Scale": "1.140"
+      },
+      "capturedAt": "2026-11-06T14:00:45.603Z",
+      "animations": "original, running",
+      "windowsDesktopDPI": "NOT_MEASURED; DSF emulation does not prove Windows DPI",
+      "accepted_baseline": true,
+      "path": "tests/visual/baseline/03_files_selected__1920x1080__dsf1.png",
+      "pixel_dimensions": [
+        1920,
+        1080
+      ],
+      "browser": {
+        "version": "151.0.7922.34",
+        "executable": "C:\\Users\\sin_s\\AppData\\Local\\ms-playwright\\chromium-1234\\chrome-win64\\chrome.exe",
+        "playwright": "1.62.1",
+        "headless": true,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.0.0 Safari/537.36"
+      },
+      "system": {
+        "platform": "win32",
+        "release": "10.0.26200",
+        "arch": "x64"
+      }
+    },
+    {
+      "scene": "04_reports_table",
+      "file": "04_reports_table__1920x1080__dsf1.png",
+      "sha256": "b710fbbd01b0f2a47ff6d81a7ca8c776b61e3db70b002787845e3e8765ad4b1b",
+      "before": {
+        "viewport": {
+          "width": 1920,
+          "height": 1080
+        },
+        "deviceScaleFactor": 1,
+        "browserDefaultZoom": "100% in fresh automated context",
+        "cssZoom": "1",
+        "activeScreen": "s3",
+        "modal": [],
+        "status": "✅ Proceso terminado. Reporte listo · 1 incidente(s) de lectura.",
+        "progress": 100,
+        "font": "\"Segoe UI\", Arial, sans-serif",
+        "v20Scale": "1.160",
+        "v21Scale": "1.140"
+      },
+      "after": {
+        "viewport": {
+          "width": 1920,
+          "height": 1080
+        },
+        "deviceScaleFactor": 1,
+        "browserDefaultZoom": "100% in fresh automated context",
+        "cssZoom": "1",
+        "activeScreen": "s3",
+        "modal": [],
+        "status": "✅ Proceso terminado. Reporte listo · 1 incidente(s) de lectura.",
+        "progress": 100,
+        "font": "\"Segoe UI\", Arial, sans-serif",
+        "v20Scale": "1.160",
+        "v21Scale": "1.140"
+      },
+      "capturedAt": "2026-11-06T14:00:46.458Z",
+      "animations": "original, running",
+      "windowsDesktopDPI": "NOT_MEASURED; DSF emulation does not prove Windows DPI",
+      "accepted_baseline": true,
+      "path": "tests/visual/baseline/04_reports_table__1920x1080__dsf1.png",
+      "pixel_dimensions": [
+        1920,
+        1080
+      ],
+      "browser": {
+        "version": "151.0.7922.34",
+        "executable": "C:\\Users\\sin_s\\AppData\\Local\\ms-playwright\\chromium-1234\\chrome-win64\\chrome.exe",
+        "playwright": "1.62.1",
+        "headless": true,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.0.0 Safari/537.36"
+      },
+      "system": {
+        "platform": "win32",
+        "release": "10.0.26200",
+        "arch": "x64"
+      }
+    },
+    {
+      "scene": "05_type_clicked",
+      "file": "05_type_clicked__1920x1080__dsf1.png",
+      "sha256": "303d27532f67c64dac6fb67f503f77f7a4f9b3d7f154023409f050a11e334717",
+      "before": {
+        "viewport": {
+          "width": 1920,
+          "height": 1080
+        },
+        "deviceScaleFactor": 1,
+        "browserDefaultZoom": "100% in fresh automated context",
+        "cssZoom": "1",
+        "activeScreen": "s3",
+        "modal": [],
+        "status": "✅ Proceso terminado. Reporte listo · 1 incidente(s) de lectura.",
+        "progress": 100,
+        "font": "\"Segoe UI\", Arial, sans-serif",
+        "v20Scale": "1.160",
+        "v21Scale": "1.140"
+      },
+      "after": {
+        "viewport": {
+          "width": 1920,
+          "height": 1080
+        },
+        "deviceScaleFactor": 1,
+        "browserDefaultZoom": "100% in fresh automated context",
+        "cssZoom": "1",
+        "activeScreen": "s3",
+        "modal": [],
+        "status": "✅ Proceso terminado. Reporte listo · 1 incidente(s) de lectura.",
+        "progress": 100,
+        "font": "\"Segoe UI\", Arial, sans-serif",
+        "v20Scale": "1.160",
+        "v21Scale": "1.140"
+      },
+      "capturedAt": "2026-11-06T14:00:47.207Z",
+      "animations": "original, running",
+      "windowsDesktopDPI": "NOT_MEASURED; DSF emulation does not prove Windows DPI",
+      "accepted_baseline": true,
+      "path": "tests/visual/baseline/05_type_clicked__1920x1080__dsf1.png",
+      "pixel_dimensions": [
+        1920,
+        1080
+      ],
+      "browser": {
+        "version": "151.0.7922.34",
+        "executable": "C:\\Users\\sin_s\\AppData\\Local\\ms-playwright\\chromium-1234\\chrome-win64\\chrome.exe",
+        "playwright": "1.62.1",
+        "headless": true,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.0.0 Safari/537.36"
+      },
+      "system": {
+        "platform": "win32",
+        "release": "10.0.26200",
+        "arch": "x64"
+      }
+    },
+    {
+      "scene": "06_empty_filter",
+      "file": "06_empty_filter__1920x1080__dsf1.png",
+      "sha256": "5db3f570eca6eefce40511fcf5b633a9fb3832bfa031248809b8db208dbe59a4",
+      "before": {
+        "viewport": {
+          "width": 1920,
+          "height": 1080
+        },
+        "deviceScaleFactor": 1,
+        "browserDefaultZoom": "100% in fresh automated context",
+        "cssZoom": "1",
+        "activeScreen": "s3",
+        "modal": [],
+        "status": "✅ Proceso terminado. Reporte listo · 1 incidente(s) de lectura.",
+        "progress": 100,
+        "font": "\"Segoe UI\", Arial, sans-serif",
+        "v20Scale": "1.160",
+        "v21Scale": "1.140"
+      },
+      "after": {
+        "viewport": {
+          "width": 1920,
+          "height": 1080
+        },
+        "deviceScaleFactor": 1,
+        "browserDefaultZoom": "100% in fresh automated context",
+        "cssZoom": "1",
+        "activeScreen": "s3",
+        "modal": [],
+        "status": "✅ Proceso terminado. Reporte listo · 1 incidente(s) de lectura.",
+        "progress": 100,
+        "font": "\"Segoe UI\", Arial, sans-serif",
+        "v20Scale": "1.160",
+        "v21Scale": "1.140"
+      },
+      "capturedAt": "2026-11-06T14:00:47.677Z",
+      "animations": "original, running",
+      "windowsDesktopDPI": "NOT_MEASURED; DSF emulation does not prove Windows DPI",
+      "accepted_baseline": true,
+      "path": "tests/visual/baseline/06_empty_filter__1920x1080__dsf1.png",
+      "pixel_dimensions": [
+        1920,
+        1080
+      ],
+      "browser": {
+        "version": "151.0.7922.34",
+        "executable": "C:\\Users\\sin_s\\AppData\\Local\\ms-playwright\\chromium-1234\\chrome-win64\\chrome.exe",
+        "playwright": "1.62.1",
+        "headless": true,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.0.0 Safari/537.36"
+      },
+      "system": {
+        "platform": "win32",
+        "release": "10.0.26200",
+        "arch": "x64"
+      }
+    },
+    {
+      "scene": "07_viewer_summary",
+      "file": "07_viewer_summary__1920x1080__dsf1.png",
+      "sha256": "97127193a072fb545d9107d8bb0300447764579a0f5b5c463a46783a24f8f4b6",
+      "before": {
+        "viewport": {
+          "width": 1920,
+          "height": 1080
+        },
+        "deviceScaleFactor": 1,
+        "browserDefaultZoom": "100% in fresh automated context",
+        "cssZoom": "1",
+        "activeScreen": "s3",
+        "modal": [
+          "previewModal"
+        ],
+        "status": "✅ Proceso terminado. Reporte listo · 1 incidente(s) de lectura.",
+        "progress": 100,
+        "font": "\"Segoe UI\", Arial, sans-serif",
+        "v20Scale": "1.160",
+        "v21Scale": "1.140"
+      },
+      "after": {
+        "viewport": {
+          "width": 1920,
+          "height": 1080
+        },
+        "deviceScaleFactor": 1,
+        "browserDefaultZoom": "100% in fresh automated context",
+        "cssZoom": "1",
+        "activeScreen": "s3",
+        "modal": [
+          "previewModal"
+        ],
+        "status": "✅ Proceso terminado. Reporte listo · 1 incidente(s) de lectura.",
+        "progress": 100,
+        "font": "\"Segoe UI\", Arial, sans-serif",
+        "v20Scale": "1.160",
+        "v21Scale": "1.140"
+      },
+      "capturedAt": "2026-11-06T14:00:48.594Z",
+      "animations": "original, running",
+      "windowsDesktopDPI": "NOT_MEASURED; DSF emulation does not prove Windows DPI",
+      "accepted_baseline": true,
+      "path": "tests/visual/baseline/07_viewer_summary__1920x1080__dsf1.png",
+      "pixel_dimensions": [
+        1920,
+        1080
+      ],
+      "browser": {
+        "version": "151.0.7922.34",
+        "executable": "C:\\Users\\sin_s\\AppData\\Local\\ms-playwright\\chromium-1234\\chrome-win64\\chrome.exe",
+        "playwright": "1.62.1",
+        "headless": true,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.0.0 Safari/537.36"
+      },
+      "system": {
+        "platform": "win32",
+        "release": "10.0.26200",
+        "arch": "x64"
+      }
+    },
+    {
+      "scene": "08_viewer_taxes",
+      "file": "08_viewer_taxes__1920x1080__dsf1.png",
+      "sha256": "e951d878916d1faec8d8a0692032a5957445cd7c39cec7bd8d62e27771ea0999",
+      "before": {
+        "viewport": {
+          "width": 1920,
+          "height": 1080
+        },
+        "deviceScaleFactor": 1,
+        "browserDefaultZoom": "100% in fresh automated context",
+        "cssZoom": "1",
+        "activeScreen": "s3",
+        "modal": [
+          "previewModal"
+        ],
+        "status": "✅ Proceso terminado. Reporte listo · 1 incidente(s) de lectura.",
+        "progress": 100,
+        "font": "\"Segoe UI\", Arial, sans-serif",
+        "v20Scale": "1.160",
+        "v21Scale": "1.140"
+      },
+      "after": {
+        "viewport": {
+          "width": 1920,
+          "height": 1080
+        },
+        "deviceScaleFactor": 1,
+        "browserDefaultZoom": "100% in fresh automated context",
+        "cssZoom": "1",
+        "activeScreen": "s3",
+        "modal": [
+          "previewModal"
+        ],
+        "status": "✅ Proceso terminado. Reporte listo · 1 incidente(s) de lectura.",
+        "progress": 100,
+        "font": "\"Segoe UI\", Arial, sans-serif",
+        "v20Scale": "1.160",
+        "v21Scale": "1.140"
+      },
+      "capturedAt": "2026-11-06T14:00:49.421Z",
+      "animations": "original, running",
+      "windowsDesktopDPI": "NOT_MEASURED; DSF emulation does not prove Windows DPI",
+      "accepted_baseline": true,
+      "path": "tests/visual/baseline/08_viewer_taxes__1920x1080__dsf1.png",
+      "pixel_dimensions": [
+        1920,
+        1080
+      ],
+      "browser": {
+        "version": "151.0.7922.34",
+        "executable": "C:\\Users\\sin_s\\AppData\\Local\\ms-playwright\\chromium-1234\\chrome-win64\\chrome.exe",
+        "playwright": "1.62.1",
+        "headless": true,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.0.0 Safari/537.36"
+      },
+      "system": {
+        "platform": "win32",
+        "release": "10.0.26200",
+        "arch": "x64"
+      }
+    },
+    {
+      "scene": "09_viewer_concepts",
+      "file": "09_viewer_concepts__1920x1080__dsf1.png",
+      "sha256": "c28f34961531e52bc855b8729a3e06a3a15c51a2ecc1007e9189823e38673dab",
+      "before": {
+        "viewport": {
+          "width": 1920,
+          "height": 1080
+        },
+        "deviceScaleFactor": 1,
+        "browserDefaultZoom": "100% in fresh automated context",
+        "cssZoom": "1",
+        "activeScreen": "s3",
+        "modal": [
+          "previewModal"
+        ],
+        "status": "✅ Proceso terminado. Reporte listo · 1 incidente(s) de lectura.",
+        "progress": 100,
+        "font": "\"Segoe UI\", Arial, sans-serif",
+        "v20Scale": "1.160",
+        "v21Scale": "1.140"
+      },
+      "after": {
+        "viewport": {
+          "width": 1920,
+          "height": 1080
+        },
+        "deviceScaleFactor": 1,
+        "browserDefaultZoom": "100% in fresh automated context",
+        "cssZoom": "1",
+        "activeScreen": "s3",
+        "modal": [
+          "previewModal"
+        ],
+        "status": "✅ Proceso terminado. Reporte listo · 1 incidente(s) de lectura.",
+        "progress": 100,
+        "font": "\"Segoe UI\", Arial, sans-serif",
+        "v20Scale": "1.160",
+        "v21Scale": "1.140"
+      },
+      "capturedAt": "2026-11-06T14:00:50.129Z",
+      "animations": "original, running",
+      "windowsDesktopDPI": "NOT_MEASURED; DSF emulation does not prove Windows DPI",
+      "accepted_baseline": true,
+      "path": "tests/visual/baseline/09_viewer_concepts__1920x1080__dsf1.png",
+      "pixel_dimensions": [
+        1920,
+        1080
+      ],
+      "browser": {
+        "version": "151.0.7922.34",
+        "executable": "C:\\Users\\sin_s\\AppData\\Local\\ms-playwright\\chromium-1234\\chrome-win64\\chrome.exe",
+        "playwright": "1.62.1",
+        "headless": true,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.0.0 Safari/537.36"
+      },
+      "system": {
+        "platform": "win32",
+        "release": "10.0.26200",
+        "arch": "x64"
+      }
+    },
+    {
+      "scene": "10_viewer_fields",
+      "file": "10_viewer_fields__1920x1080__dsf1.png",
+      "sha256": "9004a5e7983c3ed68ca096e21e76408a2ecf24bc49ddc400653428ef78cd2c10",
+      "before": {
+        "viewport": {
+          "width": 1920,
+          "height": 1080
+        },
+        "deviceScaleFactor": 1,
+        "browserDefaultZoom": "100% in fresh automated context",
+        "cssZoom": "1",
+        "activeScreen": "s3",
+        "modal": [
+          "previewModal"
+        ],
+        "status": "✅ Proceso terminado. Reporte listo · 1 incidente(s) de lectura.",
+        "progress": 100,
+        "font": "\"Segoe UI\", Arial, sans-serif",
+        "v20Scale": "1.160",
+        "v21Scale": "1.140"
+      },
+      "after": {
+        "viewport": {
+          "width": 1920,
+          "height": 1080
+        },
+        "deviceScaleFactor": 1,
+        "browserDefaultZoom": "100% in fresh automated context",
+        "cssZoom": "1",
+        "activeScreen": "s3",
+        "modal": [
+          "previewModal"
+        ],
+        "status": "✅ Proceso terminado. Reporte listo · 1 incidente(s) de lectura.",
+        "progress": 100,
+        "font": "\"Segoe UI\", Arial, sans-serif",
+        "v20Scale": "1.160",
+        "v21Scale": "1.140"
+      },
+      "capturedAt": "2026-11-06T14:00:50.854Z",
+      "animations": "original, running",
+      "windowsDesktopDPI": "NOT_MEASURED; DSF emulation does not prove Windows DPI",
+      "accepted_baseline": true,
+      "path": "tests/visual/baseline/10_viewer_fields__1920x1080__dsf1.png",
+      "pixel_dimensions": [
+        1920,
+        1080
+      ],
+      "browser": {
+        "version": "151.0.7922.34",
+        "executable": "C:\\Users\\sin_s\\AppData\\Local\\ms-playwright\\chromium-1234\\chrome-win64\\chrome.exe",
+        "playwright": "1.62.1",
+        "headless": true,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.0.0 Safari/537.36"
+      },
+      "system": {
+        "platform": "win32",
+        "release": "10.0.26200",
+        "arch": "x64"
+      }
+    },
+    {
+      "scene": "11_viewer_xml",
+      "file": "11_viewer_xml__1920x1080__dsf1.png",
+      "sha256": "8ddd4e76950c18aacdfa6b7bcc392c36fd9ce077c0d8c5a6ec4c1aeefe2ad0ed",
+      "before": {
+        "viewport": {
+          "width": 1920,
+          "height": 1080
+        },
+        "deviceScaleFactor": 1,
+        "browserDefaultZoom": "100% in fresh automated context",
+        "cssZoom": "1",
+        "activeScreen": "s3",
+        "modal": [
+          "previewModal"
+        ],
+        "status": "✅ Proceso terminado. Reporte listo · 1 incidente(s) de lectura.",
+        "progress": 100,
+        "font": "\"Segoe UI\", Arial, sans-serif",
+        "v20Scale": "1.160",
+        "v21Scale": "1.140"
+      },
+      "after": {
+        "viewport": {
+          "width": 1920,
+          "height": 1080
+        },
+        "deviceScaleFactor": 1,
+        "browserDefaultZoom": "100% in fresh automated context",
+        "cssZoom": "1",
+        "activeScreen": "s3",
+        "modal": [
+          "previewModal"
+        ],
+        "status": "✅ Proceso terminado. Reporte listo · 1 incidente(s) de lectura.",
+        "progress": 100,
+        "font": "\"Segoe UI\", Arial, sans-serif",
+        "v20Scale": "1.160",
+        "v21Scale": "1.140"
+      },
+      "capturedAt": "2026-11-06T14:00:51.575Z",
+      "animations": "original, running",
+      "windowsDesktopDPI": "NOT_MEASURED; DSF emulation does not prove Windows DPI",
+      "accepted_baseline": true,
+      "path": "tests/visual/baseline/11_viewer_xml__1920x1080__dsf1.png",
+      "pixel_dimensions": [
+        1920,
+        1080
+      ],
+      "browser": {
+        "version": "151.0.7922.34",
+        "executable": "C:\\Users\\sin_s\\AppData\\Local\\ms-playwright\\chromium-1234\\chrome-win64\\chrome.exe",
+        "playwright": "1.62.1",
+        "headless": true,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.0.0 Safari/537.36"
+      },
+      "system": {
+        "platform": "win32",
+        "release": "10.0.26200",
+        "arch": "x64"
+      }
+    },
+    {
+      "scene": "12_column_editor",
+      "file": "12_column_editor__1920x1080__dsf1.png",
+      "sha256": "da33bbeb5facb49eede67de0a924e393058d1a98f88ef165591fc3934ae8ef65",
+      "before": {
+        "viewport": {
+          "width": 1920,
+          "height": 1080
+        },
+        "deviceScaleFactor": 1,
+        "browserDefaultZoom": "100% in fresh automated context",
+        "cssZoom": "1",
+        "activeScreen": "s3",
+        "modal": [
+          "modal"
+        ],
+        "status": "✅ Proceso terminado. Reporte listo · 1 incidente(s) de lectura.",
+        "progress": 100,
+        "font": "\"Segoe UI\", Arial, sans-serif",
+        "v20Scale": "1.160",
+        "v21Scale": "1.140"
+      },
+      "after": {
+        "viewport": {
+          "width": 1920,
+          "height": 1080
+        },
+        "deviceScaleFactor": 1,
+        "browserDefaultZoom": "100% in fresh automated context",
+        "cssZoom": "1",
+        "activeScreen": "s3",
+        "modal": [
+          "modal"
+        ],
+        "status": "✅ Proceso terminado. Reporte listo · 1 incidente(s) de lectura.",
+        "progress": 100,
+        "font": "\"Segoe UI\", Arial, sans-serif",
+        "v20Scale": "1.160",
+        "v21Scale": "1.140"
+      },
+      "capturedAt": "2026-11-06T14:00:51.881Z",
+      "animations": "original, running",
+      "windowsDesktopDPI": "NOT_MEASURED; DSF emulation does not prove Windows DPI",
+      "accepted_baseline": true,
+      "path": "tests/visual/baseline/12_column_editor__1920x1080__dsf1.png",
+      "pixel_dimensions": [
+        1920,
+        1080
+      ],
+      "browser": {
+        "version": "151.0.7922.34",
+        "executable": "C:\\Users\\sin_s\\AppData\\Local\\ms-playwright\\chromium-1234\\chrome-win64\\chrome.exe",
+        "playwright": "1.62.1",
+        "headless": true,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.0.0 Safari/537.36"
+      },
+      "system": {
+        "platform": "win32",
+        "release": "10.0.26200",
+        "arch": "x64"
+      }
+    },
+    {
+      "scene": "13_column_search",
+      "file": "13_column_search__1920x1080__dsf1.png",
+      "sha256": "732fcbec012f9c88fcd6622bdf5965a0bd6bb3f853a3517c6d005e553cd3702a",
+      "before": {
+        "viewport": {
+          "width": 1920,
+          "height": 1080
+        },
+        "deviceScaleFactor": 1,
+        "browserDefaultZoom": "100% in fresh automated context",
+        "cssZoom": "1",
+        "activeScreen": "s3",
+        "modal": [
+          "modal"
+        ],
+        "status": "✅ Proceso terminado. Reporte listo · 1 incidente(s) de lectura.",
+        "progress": 100,
+        "font": "\"Segoe UI\", Arial, sans-serif",
+        "v20Scale": "1.160",
+        "v21Scale": "1.140"
+      },
+      "after": {
+        "viewport": {
+          "width": 1920,
+          "height": 1080
+        },
+        "deviceScaleFactor": 1,
+        "browserDefaultZoom": "100% in fresh automated context",
+        "cssZoom": "1",
+        "activeScreen": "s3",
+        "modal": [
+          "modal"
+        ],
+        "status": "✅ Proceso terminado. Reporte listo · 1 incidente(s) de lectura.",
+        "progress": 100,
+        "font": "\"Segoe UI\", Arial, sans-serif",
+        "v20Scale": "1.160",
+        "v21Scale": "1.140"
+      },
+      "capturedAt": "2026-11-06T14:00:52.061Z",
+      "animations": "original, running",
+      "windowsDesktopDPI": "NOT_MEASURED; DSF emulation does not prove Windows DPI",
+      "accepted_baseline": true,
+      "path": "tests/visual/baseline/13_column_search__1920x1080__dsf1.png",
+      "pixel_dimensions": [
+        1920,
+        1080
+      ],
+      "browser": {
+        "version": "151.0.7922.34",
+        "executable": "C:\\Users\\sin_s\\AppData\\Local\\ms-playwright\\chromium-1234\\chrome-win64\\chrome.exe",
+        "playwright": "1.62.1",
+        "headless": true,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.0.0 Safari/537.36"
+      },
+      "system": {
+        "platform": "win32",
+        "release": "10.0.26200",
+        "arch": "x64"
+      }
+    },
+    {
+      "scene": "14_column_search_applied",
+      "file": "14_column_search_applied__1920x1080__dsf1.png",
+      "sha256": "b0f2f43a351142fe0e14fe9fc2b1a3c20dbe90a8b3aa636aaea78f8e75e8b682",
+      "before": {
+        "viewport": {
+          "width": 1920,
+          "height": 1080
+        },
+        "deviceScaleFactor": 1,
+        "browserDefaultZoom": "100% in fresh automated context",
+        "cssZoom": "1",
+        "activeScreen": "s3",
+        "modal": [],
+        "status": "✅ Proceso terminado. Reporte listo · 1 incidente(s) de lectura.",
+        "progress": 100,
+        "font": "\"Segoe UI\", Arial, sans-serif",
+        "v20Scale": "1.160",
+        "v21Scale": "1.140"
+      },
+      "after": {
+        "viewport": {
+          "width": 1920,
+          "height": 1080
+        },
+        "deviceScaleFactor": 1,
+        "browserDefaultZoom": "100% in fresh automated context",
+        "cssZoom": "1",
+        "activeScreen": "s3",
+        "modal": [],
+        "status": "✅ Proceso terminado. Reporte listo · 1 incidente(s) de lectura.",
+        "progress": 100,
+        "font": "\"Segoe UI\", Arial, sans-serif",
+        "v20Scale": "1.160",
+        "v21Scale": "1.140"
+      },
+      "capturedAt": "2026-11-06T14:00:52.380Z",
+      "animations": "original, running",
+      "windowsDesktopDPI": "NOT_MEASURED; DSF emulation does not prove Windows DPI",
+      "accepted_baseline": true,
+      "path": "tests/visual/baseline/14_column_search_applied__1920x1080__dsf1.png",
+      "pixel_dimensions": [
+        1920,
+        1080
+      ],
+      "browser": {
+        "version": "151.0.7922.34",
+        "executable": "C:\\Users\\sin_s\\AppData\\Local\\ms-playwright\\chromium-1234\\chrome-win64\\chrome.exe",
+        "playwright": "1.62.1",
+        "headless": true,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.0.0 Safari/537.36"
+      },
+      "system": {
+        "platform": "win32",
+        "release": "10.0.26200",
+        "arch": "x64"
+      }
+    },
+    {
+      "scene": "15_excel_constructor",
+      "file": "15_excel_constructor__1920x1080__dsf1.png",
+      "sha256": "7f03aef3f3f00ac8b9b547ca9f6889d12bf043769f6ed58fd6e42002c96bd6b8",
+      "before": {
+        "viewport": {
+          "width": 1920,
+          "height": 1080
+        },
+        "deviceScaleFactor": 1,
+        "browserDefaultZoom": "100% in fresh automated context",
+        "cssZoom": "1",
+        "activeScreen": "s3",
+        "modal": [
+          "exportModal"
+        ],
+        "status": "✅ Proceso terminado. Reporte listo · 1 incidente(s) de lectura.",
+        "progress": 100,
+        "font": "\"Segoe UI\", Arial, sans-serif",
+        "v20Scale": "1.160",
+        "v21Scale": "1.140"
+      },
+      "after": {
+        "viewport": {
+          "width": 1920,
+          "height": 1080
+        },
+        "deviceScaleFactor": 1,
+        "browserDefaultZoom": "100% in fresh automated context",
+        "cssZoom": "1",
+        "activeScreen": "s3",
+        "modal": [
+          "exportModal"
+        ],
+        "status": "✅ Proceso terminado. Reporte listo · 1 incidente(s) de lectura.",
+        "progress": 100,
+        "font": "\"Segoe UI\", Arial, sans-serif",
+        "v20Scale": "1.160",
+        "v21Scale": "1.140"
+      },
+      "capturedAt": "2026-11-06T14:00:52.759Z",
+      "animations": "original, running",
+      "windowsDesktopDPI": "NOT_MEASURED; DSF emulation does not prove Windows DPI",
+      "accepted_baseline": true,
+      "path": "tests/visual/baseline/15_excel_constructor__1920x1080__dsf1.png",
+      "pixel_dimensions": [
+        1920,
+        1080
+      ],
+      "browser": {
+        "version": "151.0.7922.34",
+        "executable": "C:\\Users\\sin_s\\AppData\\Local\\ms-playwright\\chromium-1234\\chrome-win64\\chrome.exe",
+        "playwright": "1.62.1",
+        "headless": true,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.0.0 Safari/537.36"
+      },
+      "system": {
+        "platform": "win32",
+        "release": "10.0.26200",
+        "arch": "x64"
+      }
+    },
+    {
+      "scene": "16_excel_choices",
+      "file": "16_excel_choices__1920x1080__dsf1.png",
+      "sha256": "3a713a41dbf49d9eaab6ce3ab5ea07d5f478e99edb767ef1cca8af23fd170f7c",
+      "before": {
+        "viewport": {
+          "width": 1920,
+          "height": 1080
+        },
+        "deviceScaleFactor": 1,
+        "browserDefaultZoom": "100% in fresh automated context",
+        "cssZoom": "1",
+        "activeScreen": "s3",
+        "modal": [
+          "exportModal"
+        ],
+        "status": "✅ Proceso terminado. Reporte listo · 1 incidente(s) de lectura.",
+        "progress": 100,
+        "font": "\"Segoe UI\", Arial, sans-serif",
+        "v20Scale": "1.160",
+        "v21Scale": "1.140"
+      },
+      "after": {
+        "viewport": {
+          "width": 1920,
+          "height": 1080
+        },
+        "deviceScaleFactor": 1,
+        "browserDefaultZoom": "100% in fresh automated context",
+        "cssZoom": "1",
+        "activeScreen": "s3",
+        "modal": [
+          "exportModal"
+        ],
+        "status": "✅ Proceso terminado. Reporte listo · 1 incidente(s) de lectura.",
+        "progress": 100,
+        "font": "\"Segoe UI\", Arial, sans-serif",
+        "v20Scale": "1.160",
+        "v21Scale": "1.140"
+      },
+      "capturedAt": "2026-11-06T14:00:53.197Z",
+      "animations": "original, running",
+      "windowsDesktopDPI": "NOT_MEASURED; DSF emulation does not prove Windows DPI",
+      "accepted_baseline": true,
+      "path": "tests/visual/baseline/16_excel_choices__1920x1080__dsf1.png",
+      "pixel_dimensions": [
+        1920,
+        1080
+      ],
+      "browser": {
+        "version": "151.0.7922.34",
+        "executable": "C:\\Users\\sin_s\\AppData\\Local\\ms-playwright\\chromium-1234\\chrome-win64\\chrome.exe",
+        "playwright": "1.62.1",
+        "headless": true,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.0.0 Safari/537.36"
+      },
+      "system": {
+        "platform": "win32",
+        "release": "10.0.26200",
+        "arch": "x64"
+      }
+    },
+    {
+      "scene": "17_read_errors",
+      "file": "17_read_errors__1920x1080__dsf1.png",
+      "sha256": "baa516e78a3952d49e12b225ac7488a5388ed3f201a7b789a9870cd200e93f4e",
+      "before": {
+        "viewport": {
+          "width": 1920,
+          "height": 1080
+        },
+        "deviceScaleFactor": 1,
+        "browserDefaultZoom": "100% in fresh automated context",
+        "cssZoom": "1",
+        "activeScreen": "s3",
+        "modal": [],
+        "status": "✅ Proceso terminado. Reporte listo · 1 incidente(s) de lectura.",
+        "progress": 100,
+        "font": "\"Segoe UI\", Arial, sans-serif",
+        "v20Scale": "1.160",
+        "v21Scale": "1.140"
+      },
+      "after": {
+        "viewport": {
+          "width": 1920,
+          "height": 1080
+        },
+        "deviceScaleFactor": 1,
+        "browserDefaultZoom": "100% in fresh automated context",
+        "cssZoom": "1",
+        "activeScreen": "s3",
+        "modal": [],
+        "status": "✅ Proceso terminado. Reporte listo · 1 incidente(s) de lectura.",
+        "progress": 100,
+        "font": "\"Segoe UI\", Arial, sans-serif",
+        "v20Scale": "1.160",
+        "v21Scale": "1.140"
+      },
+      "capturedAt": "2026-11-06T14:00:53.677Z",
+      "animations": "original, running",
+      "windowsDesktopDPI": "NOT_MEASURED; DSF emulation does not prove Windows DPI",
+      "accepted_baseline": true,
+      "path": "tests/visual/baseline/17_read_errors__1920x1080__dsf1.png",
+      "pixel_dimensions": [
+        1920,
+        1080
+      ],
+      "browser": {
+        "version": "151.0.7922.34",
+        "executable": "C:\\Users\\sin_s\\AppData\\Local\\ms-playwright\\chromium-1234\\chrome-win64\\chrome.exe",
+        "playwright": "1.62.1",
+        "headless": true,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.0.0 Safari/537.36"
+      },
+      "system": {
+        "platform": "win32",
+        "release": "10.0.26200",
+        "arch": "x64"
+      }
+    },
+    {
+      "scene": "18_cleared",
+      "file": "18_cleared__1920x1080__dsf1.png",
+      "sha256": "0a3169fa81e0f62945a001efd32fab761db042db4be0871141cc5404df927fc5",
+      "before": {
+        "viewport": {
+          "width": 1920,
+          "height": 1080
+        },
+        "deviceScaleFactor": 1,
+        "browserDefaultZoom": "100% in fresh automated context",
+        "cssZoom": "1",
+        "activeScreen": "s2",
+        "modal": [],
+        "status": "⏳ Esperando archivos...",
+        "progress": 0,
+        "font": "\"Segoe UI\", Arial, sans-serif",
+        "v20Scale": "1.160",
+        "v21Scale": "1.140"
+      },
+      "after": {
+        "viewport": {
+          "width": 1920,
+          "height": 1080
+        },
+        "deviceScaleFactor": 1,
+        "browserDefaultZoom": "100% in fresh automated context",
+        "cssZoom": "1",
+        "activeScreen": "s2",
+        "modal": [],
+        "status": "⏳ Esperando archivos...",
+        "progress": 0,
+        "font": "\"Segoe UI\", Arial, sans-serif",
+        "v20Scale": "1.160",
+        "v21Scale": "1.140"
+      },
+      "capturedAt": "2026-11-06T14:00:54.143Z",
+      "animations": "original, running",
+      "windowsDesktopDPI": "NOT_MEASURED; DSF emulation does not prove Windows DPI",
+      "accepted_baseline": true,
+      "path": "tests/visual/baseline/18_cleared__1920x1080__dsf1.png",
+      "pixel_dimensions": [
+        1920,
+        1080
+      ],
+      "browser": {
+        "version": "151.0.7922.34",
+        "executable": "C:\\Users\\sin_s\\AppData\\Local\\ms-playwright\\chromium-1234\\chrome-win64\\chrome.exe",
+        "playwright": "1.62.1",
+        "headless": true,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.0.0 Safari/537.36"
+      },
+      "system": {
+        "platform": "win32",
+        "release": "10.0.26200",
+        "arch": "x64"
+      }
+    },
+    {
+      "scene": "iab_initial_1366x768",
+      "path": "tests/visual/baseline/iab_initial_1366x768.jpg",
+      "sha256": "16e6baebebf0a0fab2682d5fa24673ce2c7c735dda4472796b7405ace4f718b8",
+      "pixel_dimensions": [
+        1366,
+        768
+      ],
+      "mime": "image/jpeg",
+      "browser": "ChatGPT in-app browser; exact version not available in this capture",
+      "viewport": "Explicit viewport override matching filename, reset after capture",
+      "dpi": "Not independently measured",
+      "provenance": "CUA screenshot; supplemental initial/upload reference"
+    },
+    {
+      "scene": "iab_initial_1600x900",
+      "path": "tests/visual/baseline/iab_initial_1600x900.jpg",
+      "sha256": "cbc1d4e7d2a01880fa91064cdf8c1e68c6a0da887a1144e7e7bdb3a554701a9d",
+      "pixel_dimensions": [
+        1600,
+        900
+      ],
+      "mime": "image/jpeg",
+      "browser": "ChatGPT in-app browser; exact version not available in this capture",
+      "viewport": "Explicit viewport override matching filename, reset after capture",
+      "dpi": "Not independently measured",
+      "provenance": "CUA screenshot; supplemental initial/upload reference"
+    },
+    {
+      "scene": "iab_initial_1920x1080",
+      "path": "tests/visual/baseline/iab_initial_1920x1080.jpg",
+      "sha256": "69f118bb0ba73bbc5bdd195e149e981532e3fa6cfc188faf30487132231327f9",
+      "pixel_dimensions": [
+        1920,
+        1080
+      ],
+      "mime": "image/jpeg",
+      "browser": "ChatGPT in-app browser; exact version not available in this capture",
+      "viewport": "Explicit viewport override matching filename, reset after capture",
+      "dpi": "Not independently measured",
+      "provenance": "CUA screenshot; supplemental initial/upload reference"
+    },
+    {
+      "scene": "iab_upload_1280x720",
+      "path": "tests/visual/baseline/iab_upload_1280x720.jpg",
+      "sha256": "555446cf8c826e0c56af32d2da842e6cfd58c14b6620a89e65a85d80dcac4387",
+      "pixel_dimensions": [
+        1280,
+        720
+      ],
+      "mime": "image/jpeg",
+      "browser": "ChatGPT in-app browser; exact version not available in this capture",
+      "viewport": "Actual image 1280x720; first override had not settled at screenshot. Supplement only, not evidence for mandatory 1366x768.",
+      "dpi": "Not independently measured",
+      "provenance": "CUA screenshot; supplemental initial/upload reference",
+      "requested_viewport": [
+        1366,
+        768
+      ]
+    },
+    {
+      "scene": "iab_upload_1600x900",
+      "path": "tests/visual/baseline/iab_upload_1600x900.jpg",
+      "sha256": "0f4c3dab4b8b14548a6c026e85add7ccbe3c1786d547f22d67111a0b5e38db16",
+      "pixel_dimensions": [
+        1600,
+        900
+      ],
+      "mime": "image/jpeg",
+      "browser": "ChatGPT in-app browser; exact version not available in this capture",
+      "viewport": "Explicit viewport override matching filename, reset after capture",
+      "dpi": "Not independently measured",
+      "provenance": "CUA screenshot; supplemental initial/upload reference"
+    },
+    {
+      "scene": "iab_upload_1600x900_take2",
+      "path": "tests/visual/baseline/iab_upload_1600x900_take2.jpg",
+      "sha256": "f1904dfaccab1e914a4f17d0a16110a43cf2a43a92ffe13bd430bedfff60b75b",
+      "pixel_dimensions": [
+        1600,
+        900
+      ],
+      "mime": "image/jpeg",
+      "browser": "ChatGPT in-app browser; exact version not available in this capture",
+      "viewport": "Actual image 1600x900; viewport override had not settled. Supplement only, not evidence for mandatory1920x1080.",
+      "dpi": "Not independently measured",
+      "provenance": "CUA screenshot; supplemental initial/upload reference",
+      "requested_viewport": [
+        1920,
+        1080
+      ]
+    }
+  ],
+  "accepted_automated_captures": 54,
+  "supplemental_iab_captures": 6,
+  "pending": [
+    {
+      "scene": "stable_progress",
+      "size": {
+        "width": 1366,
+        "height": 768
+      },
+      "reason": "Transient state changed during screenshot; before/after saved, not certified stable"
+    },
+    {
+      "scene": "folder_connected_and_memory",
+      "size": {
+        "width": 1366,
+        "height": 768
+      },
+      "reason": "Real showDirectoryPicker/native permission dialog cannot be automatically accepted in this headless baseline; no mocked folder state used. Manual Windows procedure provided."
+    },
+    {
+      "scene": "native_error_dialog",
+      "size": {
+        "width": 1366,
+        "height": 768
+      },
+      "reason": "Native picker permission/error dialogs not manufactured; actual corrupt XML is captured in readErrors."
+    },
+    {
+      "scene": "stable_progress",
+      "size": {
+        "width": 1600,
+        "height": 900
+      },
+      "reason": "Transient state changed during screenshot; before/after saved, not certified stable"
+    },
+    {
+      "scene": "folder_connected_and_memory",
+      "size": {
+        "width": 1600,
+        "height": 900
+      },
+      "reason": "Real showDirectoryPicker/native permission dialog cannot be automatically accepted in this headless baseline; no mocked folder state used. Manual Windows procedure provided."
+    },
+    {
+      "scene": "native_error_dialog",
+      "size": {
+        "width": 1600,
+        "height": 900
+      },
+      "reason": "Native picker permission/error dialogs not manufactured; actual corrupt XML is captured in readErrors."
+    },
+    {
+      "scene": "stable_progress",
+      "size": {
+        "width": 1920,
+        "height": 1080
+      },
+      "reason": "Transient state changed during screenshot; before/after saved, not certified stable"
+    },
+    {
+      "scene": "folder_connected_and_memory",
+      "size": {
+        "width": 1920,
+        "height": 1080
+      },
+      "reason": "Real showDirectoryPicker/native permission dialog cannot be automatically accepted in this headless baseline; no mocked folder state used. Manual Windows procedure provided."
+    },
+    {
+      "scene": "native_error_dialog",
+      "size": {
+        "width": 1920,
+        "height": 1080
+      },
+      "reason": "Native picker permission/error dialogs not manufactured; actual corrupt XML is captured in readErrors."
+    }
+  ],
+  "fiscal_reference": false,
+  "freeze_rule": "Do not overwrite PNGs or manifest. New automation runs go to candidate directories; manual additions require review.",
+  "metadata_corrections": [
+    "IAB native screenshots are JPEG; extensions corrected without changing bytes.",
+    "First IAB upload shot is 1280x720; filename and provenance corrected from requested1366x768. Primary Playwright captures independently verify all required sizes.",
+    "Second IAB upload mismatch: requested1920x1080 yielded1600x900; retained as take2 with actual dimensions."
+  ]
+}

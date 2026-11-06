@@ -1,0 +1,50 @@
+{
+  "prototype_and_legacy_hash": "33eeed2334a683b5360c2fc4f9cabc26885be66fef8714e4278f97235b8c373b",
+  "git_blob_hash": "MATCH",
+  "baseline_images_verified": 60,
+  "accepted_automated_png": 54,
+  "supplemental_native_jpeg": 6,
+  "viewport_sizes": [
+    [
+      1366,
+      768
+    ],
+    [
+      1600,
+      900
+    ],
+    [
+      1920,
+      1080
+    ]
+  ],
+  "navigation_checks": 78,
+  "pass": 70,
+  "preexisting_fail": 8,
+  "server_tests_pass": 6,
+  "buttons_original": 50,
+  "viewer_tabs_dynamic": 5,
+  "xlsx_actual_downloads": [
+    {
+      "file": "visual-export-1366.xlsx",
+      "parts": 10,
+      "zip_xml": "PASS"
+    },
+    {
+      "file": "visual-export-1600.xlsx",
+      "parts": 10,
+      "zip_xml": "PASS"
+    },
+    {
+      "file": "visual-export-1920.xlsx",
+      "parts": 10,
+      "zip_xml": "PASS"
+    }
+  ],
+  "desktop_status": "BLOCKED_MISSING_PYSIDE6",
+  "overall_stage": "PARTIAL",
+  "windows_dpi": "NOT_MEASURED",
+  "folder_memory": "MANUAL_PENDING",
+  "progress": "TRANSIENT_NOT_ACCEPTED",
+  "fiscal_compliance": "NOT_CERTIFIED"
+}

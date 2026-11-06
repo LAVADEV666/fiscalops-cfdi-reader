@@ -19,4 +19,12 @@ python scripts/verify_audit.py
 
 Las26 observaciones comprueban lógica del legado, incluidos errores esperados. XML usa un adaptador de nodos ElementTree; UI está simulada. No certifican reglas SAT, DOMParser real, navegación ni fidelidad visual. Evidencia en `tests/audit/evidence/`; XLSX de diagnóstico sintético, sin datos de clientes.
 
-**Estado: FASE0 PARTIAL / BLOCKED_VISUAL_BASELINE.** Falta probar el prototipo visualmente mediante una vía local permitida; el navegador integrado bloqueó file://. Siguiente fase: congelamiento visual en tres resoluciones y DPI registrado, con revisión antes de cambiar código de producto.
+## Continuación FASE 0.5 + FASE 1
+
+El acceso visual se recuperó mediante servidor HTTP sólo local en127.0.0.1. **FASE0.5: DONE (recuperación y checkpoint). FASE1: PARTIAL.** Hay60 imágenes auténticas congeladas en `tests/visual/baseline/`, con hashes y metadatos.78 comprobaciones de navegación:70 PASS y8 FAIL que documentan defectos preexistentes. No se corrigió el motor fiscal ni se rediseñó la interfaz.
+
+Leer [baseline y resultados](docs/07_BASELINE_VISUAL.md), [matriz de55 controles](docs/08_MATRIZ_COMPATIBILIDAD_UI.md), [contenedor desktop](docs/09_ARQUITECTURA_DESKTOP.md), [siguiente etapa del motor](docs/10_PLAN_RECONSTRUCCION_MOTOR.md) y [reporte de entrega](docs/FASE_0_5_FASE_1_REPORTE.md).
+
+Procedimiento Windows en [scripts/visual/README.md](scripts/visual/README.md). Quedan pendientes carpeta/memoria reales, progreso estable, DPI real Windows y ejecución Qt. `python -m app.desktop_smoke --check` informa PySide6 ausente: el código de shell entregado no es un contenedor probado ni un EXE.
+
+Git conserva el checkpoint de FASE0 y el de esta etapa, sin remotos. `.gitattributes` protege los bytes contra conversión de finales de línea. El punto final de restauración y su bundle local se describen en `build/checkpoints/RESTORE_POINT.json` (archivos de entrega fuera del versionado para evitar incluir el propio bundle en su historia).

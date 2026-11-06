@@ -1,0 +1,41 @@
+{
+  "system": "Windows-10-10.0.26200-SP0",
+  "primary_python": {
+    "version": "3.11.9 (tags/v3.11.9:de54cf5, Apr  2 2024, 10:12:12) [MSC v.1938 64 bit (AMD64)]",
+    "executable": "C:\\Users\\sin_s\\AppData\\Local\\Programs\\Python\\Python311\\python.exe",
+    "modules": {
+      "playwright": false,
+      "PySide6": false,
+      "PyQt6": false,
+      "selenium": false
+    }
+  },
+  "bundled_python": {
+    "version": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+    "modules": {
+      "playwright": false,
+      "PySide6": false,
+      "PyQt6": false,
+      "selenium": false
+    }
+  },
+  "node_packages": {
+    "playwright": "1.62.1",
+    "playwright-core": "1.62.1",
+    "@playwright/test": null,
+    "pngjs": "7.0.0",
+    "pixelmatch": "7.2.0"
+  },
+  "installed_browser_executables": [
+    {
+      "path": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+      "present": true,
+      "launch_not_implied_by_presence": true
+    },
+    {
+      "path": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+      "present": true,
+      "launch_not_implied_by_presence": true
+    }
+  ]
+}

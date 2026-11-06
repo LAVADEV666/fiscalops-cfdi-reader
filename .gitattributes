@@ -1,0 +1,5 @@
+# Restore checkpoints byte-for-byte, including the original prototype and evidence.
+* -text
+*.png binary
+*.zip binary
+*.xlsx binary

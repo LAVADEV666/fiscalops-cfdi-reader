@@ -1,0 +1,23 @@
+{
+  "python_compiled": [
+    "scripts\\visual\\freeze_manifest.py",
+    "scripts\\visual\\inventory_ui.py",
+    "scripts\\visual\\make_fixtures.py",
+    "scripts\\visual\\probe_environment.py",
+    "scripts\\visual\\record_manual.py",
+    "scripts\\visual\\serve.py",
+    "scripts\\visual\\test_server.py",
+    "scripts\\visual\\verify_visual.py",
+    "app\\desktop_smoke.py"
+  ],
+  "node_checked": [
+    "scripts\\visual\\capture.cjs",
+    "scripts\\visual\\check_controls.cjs"
+  ],
+  "qt_runtime_not_implied": true,
+  "powershell_parsed": [
+    "Capture-VisualBaseline.ps1",
+    "Start-VisualReference.ps1",
+    "Test-DesktopContainer.ps1"
+  ]
+}

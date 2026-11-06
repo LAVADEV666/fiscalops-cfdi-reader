@@ -1,0 +1,8571 @@
+{
+  "original_buttons": 50,
+  "dynamic_viewer_tabs": 5,
+  "buttons": [
+    {
+      "key": "start",
+      "id": "start",
+      "screen": "s1",
+      "line": 513,
+      "attrs": {
+        "class": "orange",
+        "id": "start"
+      },
+      "label": "Iniciar",
+      "observations": [
+        {
+          "scene": "upload",
+          "size": {
+            "width": 1366,
+            "height": 768
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "reports",
+          "size": {
+            "width": 1366,
+            "height": 768
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "viewer",
+          "size": {
+            "width": 1366,
+            "height": 768
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "columns",
+          "size": {
+            "width": 1366,
+            "height": 768
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "export",
+          "size": {
+            "width": 1366,
+            "height": 768
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "upload",
+          "size": {
+            "width": 1600,
+            "height": 900
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "reports",
+          "size": {
+            "width": 1600,
+            "height": 900
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "viewer",
+          "size": {
+            "width": 1600,
+            "height": 900
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "columns",
+          "size": {
+            "width": 1600,
+            "height": 900
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "export",
+          "size": {
+            "width": 1600,
+            "height": 900
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "upload",
+          "size": {
+            "width": 1920,
+            "height": 1080
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "reports",
+          "size": {
+            "width": 1920,
+            "height": 1080
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "viewer",
+          "size": {
+            "width": 1920,
+            "height": 1080
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "columns",
+          "size": {
+            "width": 1920,
+            "height": 1080
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "export",
+          "size": {
+            "width": 1920,
+            "height": 1080
+          },
+          "visible": false,
+          "disabled": false
+        }
+      ],
+      "checks": [
+        {
+          "id": "start-1366",
+          "result": "PASS",
+          "expected": true,
+          "actual": true,
+          "controls": [
+            "start"
+          ]
+        },
+        {
+          "id": "start-1600",
+          "result": "PASS",
+          "expected": true,
+          "actual": true,
+          "controls": [
+            "start"
+          ]
+        },
+        {
+          "id": "start-1920",
+          "result": "PASS",
+          "expected": true,
+          "actual": true,
+          "controls": [
+            "start"
+          ]
+        }
+      ],
+      "visible_observed": false,
+      "result": "PASS limitado a las pruebas citadas"
+    },
+    {
+      "key": "select",
+      "id": "select",
+      "screen": "s2",
+      "line": 514,
+      "attrs": {
+        "id": "select"
+      },
+      "label": "📎 Archivos",
+      "observations": [
+        {
+          "scene": "upload",
+          "size": {
+            "width": 1366,
+            "height": 768
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "scene": "reports",
+          "size": {
+            "width": 1366,
+            "height": 768
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "viewer",
+          "size": {
+            "width": 1366,
+            "height": 768
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "columns",
+          "size": {
+            "width": 1366,
+            "height": 768
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "export",
+          "size": {
+            "width": 1366,
+            "height": 768
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "upload",
+          "size": {
+            "width": 1600,
+            "height": 900
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "scene": "reports",
+          "size": {
+            "width": 1600,
+            "height": 900
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "viewer",
+          "size": {
+            "width": 1600,
+            "height": 900
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "columns",
+          "size": {
+            "width": 1600,
+            "height": 900
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "export",
+          "size": {
+            "width": 1600,
+            "height": 900
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "upload",
+          "size": {
+            "width": 1920,
+            "height": 1080
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "scene": "reports",
+          "size": {
+            "width": 1920,
+            "height": 1080
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "viewer",
+          "size": {
+            "width": 1920,
+            "height": 1080
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "columns",
+          "size": {
+            "width": 1920,
+            "height": 1080
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "export",
+          "size": {
+            "width": 1920,
+            "height": 1080
+          },
+          "visible": false,
+          "disabled": false
+        }
+      ],
+      "checks": [
+        {
+          "id": "filechooser",
+          "controls": [
+            "select"
+          ],
+          "expected": true,
+          "actual": true,
+          "result": "PASS"
+        }
+      ],
+      "visible_observed": true,
+      "result": "PASS limitado a las pruebas citadas"
+    },
+    {
+      "key": "folder",
+      "id": "folder",
+      "screen": "s2",
+      "line": 514,
+      "attrs": {
+        "class": "secondary",
+        "id": "folder"
+      },
+      "label": "🔐 Reconectar",
+      "observations": [
+        {
+          "scene": "upload",
+          "size": {
+            "width": 1366,
+            "height": 768
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "scene": "reports",
+          "size": {
+            "width": 1366,
+            "height": 768
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "viewer",
+          "size": {
+            "width": 1366,
+            "height": 768
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "columns",
+          "size": {
+            "width": 1366,
+            "height": 768
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "export",
+          "size": {
+            "width": 1366,
+            "height": 768
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "upload",
+          "size": {
+            "width": 1600,
+            "height": 900
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "scene": "reports",
+          "size": {
+            "width": 1600,
+            "height": 900
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "viewer",
+          "size": {
+            "width": 1600,
+            "height": 900
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "columns",
+          "size": {
+            "width": 1600,
+            "height": 900
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "export",
+          "size": {
+            "width": 1600,
+            "height": 900
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "upload",
+          "size": {
+            "width": 1920,
+            "height": 1080
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "scene": "reports",
+          "size": {
+            "width": 1920,
+            "height": 1080
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "viewer",
+          "size": {
+            "width": 1920,
+            "height": 1080
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "columns",
+          "size": {
+            "width": 1920,
+            "height": 1080
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "export",
+          "size": {
+            "width": 1920,
+            "height": 1080
+          },
+          "visible": false,
+          "disabled": false
+        }
+      ],
+      "checks": [],
+      "visible_observed": true,
+      "result": "PRESENTE / NO PROBADO"
+    },
+    {
+      "key": "changeFolder",
+      "id": "changeFolder",
+      "screen": "s2",
+      "line": 514,
+      "attrs": {
+        "class": "secondary",
+        "id": "changeFolder"
+      },
+      "label": "🗂️ Cambiar carpeta",
+      "observations": [
+        {
+          "scene": "upload",
+          "size": {
+            "width": 1366,
+            "height": 768
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "scene": "reports",
+          "size": {
+            "width": 1366,
+            "height": 768
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "viewer",
+          "size": {
+            "width": 1366,
+            "height": 768
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "columns",
+          "size": {
+            "width": 1366,
+            "height": 768
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "export",
+          "size": {
+            "width": 1366,
+            "height": 768
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "upload",
+          "size": {
+            "width": 1600,
+            "height": 900
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "scene": "reports",
+          "size": {
+            "width": 1600,
+            "height": 900
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "viewer",
+          "size": {
+            "width": 1600,
+            "height": 900
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "columns",
+          "size": {
+            "width": 1600,
+            "height": 900
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "export",
+          "size": {
+            "width": 1600,
+            "height": 900
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "upload",
+          "size": {
+            "width": 1920,
+            "height": 1080
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "scene": "reports",
+          "size": {
+            "width": 1920,
+            "height": 1080
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "viewer",
+          "size": {
+            "width": 1920,
+            "height": 1080
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "columns",
+          "size": {
+            "width": 1920,
+            "height": 1080
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "export",
+          "size": {
+            "width": 1920,
+            "height": 1080
+          },
+          "visible": false,
+          "disabled": false
+        }
+      ],
+      "checks": [],
+      "visible_observed": true,
+      "result": "PRESENTE / NO PROBADO"
+    },
+    {
+      "key": "refreshFolder",
+      "id": "refreshFolder",
+      "screen": "s2",
+      "line": 514,
+      "attrs": {
+        "class": "secondary",
+        "disabled": "",
+        "id": "refreshFolder"
+      },
+      "label": "🔄 Actualizar",
+      "observations": [
+        {
+          "scene": "upload",
+          "size": {
+            "width": 1366,
+            "height": 768
+          },
+          "visible": true,
+          "disabled": true
+        },
+        {
+          "scene": "reports",
+          "size": {
+            "width": 1366,
+            "height": 768
+          },
+          "visible": false,
+          "disabled": true
+        },
+        {
+          "scene": "viewer",
+          "size": {
+            "width": 1366,
+            "height": 768
+          },
+          "visible": false,
+          "disabled": true
+        },
+        {
+          "scene": "columns",
+          "size": {
+            "width": 1366,
+            "height": 768
+          },
+          "visible": false,
+          "disabled": true
+        },
+        {
+          "scene": "export",
+          "size": {
+            "width": 1366,
+            "height": 768
+          },
+          "visible": false,
+          "disabled": true
+        },
+        {
+          "scene": "upload",
+          "size": {
+            "width": 1600,
+            "height": 900
+          },
+          "visible": true,
+          "disabled": true
+        },
+        {
+          "scene": "reports",
+          "size": {
+            "width": 1600,
+            "height": 900
+          },
+          "visible": false,
+          "disabled": true
+        },
+        {
+          "scene": "viewer",
+          "size": {
+            "width": 1600,
+            "height": 900
+          },
+          "visible": false,
+          "disabled": true
+        },
+        {
+          "scene": "columns",
+          "size": {
+            "width": 1600,
+            "height": 900
+          },
+          "visible": false,
+          "disabled": true
+        },
+        {
+          "scene": "export",
+          "size": {
+            "width": 1600,
+            "height": 900
+          },
+          "visible": false,
+          "disabled": true
+        },
+        {
+          "scene": "upload",
+          "size": {
+            "width": 1920,
+            "height": 1080
+          },
+          "visible": true,
+          "disabled": true
+        },
+        {
+          "scene": "reports",
+          "size": {
+            "width": 1920,
+            "height": 1080
+          },
+          "visible": false,
+          "disabled": true
+        },
+        {
+          "scene": "viewer",
+          "size": {
+            "width": 1920,
+            "height": 1080
+          },
+          "visible": false,
+          "disabled": true
+        },
+        {
+          "scene": "columns",
+          "size": {
+            "width": 1920,
+            "height": 1080
+          },
+          "visible": false,
+          "disabled": true
+        },
+        {
+          "scene": "export",
+          "size": {
+            "width": 1920,
+            "height": 1080
+          },
+          "visible": false,
+          "disabled": true
+        }
+      ],
+      "checks": [],
+      "visible_observed": true,
+      "result": "PRESENTE / NO PROBADO"
+    },
+    {
+      "key": "process",
+      "id": "process",
+      "screen": "s2",
+      "line": 514,
+      "attrs": {
+        "class": "orange",
+        "disabled": "",
+        "id": "process"
+      },
+      "label": "⚙️ Procesar nuevos",
+      "observations": [
+        {
+          "scene": "upload",
+          "size": {
+            "width": 1366,
+            "height": 768
+          },
+          "visible": true,
+          "disabled": true
+        },
+        {
+          "scene": "reports",
+          "size": {
+            "width": 1366,
+            "height": 768
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "viewer",
+          "size": {
+            "width": 1366,
+            "height": 768
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "columns",
+          "size": {
+            "width": 1366,
+            "height": 768
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "export",
+          "size": {
+            "width": 1366,
+            "height": 768
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "upload",
+          "size": {
+            "width": 1600,
+            "height": 900
+          },
+          "visible": true,
+          "disabled": true
+        },
+        {
+          "scene": "reports",
+          "size": {
+            "width": 1600,
+            "height": 900
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "viewer",
+          "size": {
+            "width": 1600,
+            "height": 900
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "columns",
+          "size": {
+            "width": 1600,
+            "height": 900
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "export",
+          "size": {
+            "width": 1600,
+            "height": 900
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "upload",
+          "size": {
+            "width": 1920,
+            "height": 1080
+          },
+          "visible": true,
+          "disabled": true
+        },
+        {
+          "scene": "reports",
+          "size": {
+            "width": 1920,
+            "height": 1080
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "viewer",
+          "size": {
+            "width": 1920,
+            "height": 1080
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "columns",
+          "size": {
+            "width": 1920,
+            "height": 1080
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "export",
+          "size": {
+            "width": 1920,
+            "height": 1080
+          },
+          "visible": false,
+          "disabled": false
+        }
+      ],
+      "checks": [
+        {
+          "id": "table-has-rows-1366",
+          "result": "PASS",
+          "expected": true,
+          "actual": true,
+          "controls": [
+            "process"
+          ]
+        },
+        {
+          "id": "table-has-rows-1600",
+          "result": "PASS",
+          "expected": true,
+          "actual": true,
+          "controls": [
+            "process"
+          ]
+        },
+        {
+          "id": "table-has-rows-1920",
+          "result": "PASS",
+          "expected": true,
+          "actual": true,
+          "controls": [
+            "process"
+          ]
+        }
+      ],
+      "visible_observed": true,
+      "result": "PASS limitado a las pruebas citadas"
+    },
+    {
+      "key": "reprocessAll",
+      "id": "reprocessAll",
+      "screen": "s2",
+      "line": 514,
+      "attrs": {
+        "class": "secondary",
+        "disabled": "",
+        "id": "reprocessAll"
+      },
+      "label": "➡️ Siguiente",
+      "observations": [
+        {
+          "scene": "upload",
+          "size": {
+            "width": 1366,
+            "height": 768
+          },
+          "visible": true,
+          "disabled": true
+        },
+        {
+          "scene": "reports",
+          "size": {
+            "width": 1366,
+            "height": 768
+          },
+          "visible": false,
+          "disabled": true
+        },
+        {
+          "scene": "viewer",
+          "size": {
+            "width": 1366,
+            "height": 768
+          },
+          "visible": false,
+          "disabled": true
+        },
+        {
+          "scene": "columns",
+          "size": {
+            "width": 1366,
+            "height": 768
+          },
+          "visible": false,
+          "disabled": true
+        },
+        {
+          "scene": "export",
+          "size": {
+            "width": 1366,
+            "height": 768
+          },
+          "visible": false,
+          "disabled": true
+        },
+        {
+          "scene": "upload",
+          "size": {
+            "width": 1600,
+            "height": 900
+          },
+          "visible": true,
+          "disabled": true
+        },
+        {
+          "scene": "reports",
+          "size": {
+            "width": 1600,
+            "height": 900
+          },
+          "visible": false,
+          "disabled": true
+        },
+        {
+          "scene": "viewer",
+          "size": {
+            "width": 1600,
+            "height": 900
+          },
+          "visible": false,
+          "disabled": true
+        },
+        {
+          "scene": "columns",
+          "size": {
+            "width": 1600,
+            "height": 900
+          },
+          "visible": false,
+          "disabled": true
+        },
+        {
+          "scene": "export",
+          "size": {
+            "width": 1600,
+            "height": 900
+          },
+          "visible": false,
+          "disabled": true
+        },
+        {
+          "scene": "upload",
+          "size": {
+            "width": 1920,
+            "height": 1080
+          },
+          "visible": true,
+          "disabled": true
+        },
+        {
+          "scene": "reports",
+          "size": {
+            "width": 1920,
+            "height": 1080
+          },
+          "visible": false,
+          "disabled": true
+        },
+        {
+          "scene": "viewer",
+          "size": {
+            "width": 1920,
+            "height": 1080
+          },
+          "visible": false,
+          "disabled": true
+        },
+        {
+          "scene": "columns",
+          "size": {
+            "width": 1920,
+            "height": 1080
+          },
+          "visible": false,
+          "disabled": true
+        },
+        {
+          "scene": "export",
+          "size": {
+            "width": 1920,
+            "height": 1080
+          },
+          "visible": false,
+          "disabled": true
+        }
+      ],
+      "checks": [],
+      "visible_observed": true,
+      "result": "PRESENTE / NO PROBADO"
+    },
+    {
+      "key": "forgetMemory",
+      "id": "forgetMemory",
+      "screen": "s2",
+      "line": 514,
+      "attrs": {
+        "class": "ghost",
+        "disabled": "",
+        "id": "forgetMemory",
+        "title": "Doble click para borrar memoria"
+      },
+      "label": "🗑️ Olvidar memoria",
+      "observations": [
+        {
+          "scene": "upload",
+          "size": {
+            "width": 1366,
+            "height": 768
+          },
+          "visible": true,
+          "disabled": true
+        },
+        {
+          "scene": "reports",
+          "size": {
+            "width": 1366,
+            "height": 768
+          },
+          "visible": false,
+          "disabled": true
+        },
+        {
+          "scene": "viewer",
+          "size": {
+            "width": 1366,
+            "height": 768
+          },
+          "visible": false,
+          "disabled": true
+        },
+        {
+          "scene": "columns",
+          "size": {
+            "width": 1366,
+            "height": 768
+          },
+          "visible": false,
+          "disabled": true
+        },
+        {
+          "scene": "export",
+          "size": {
+            "width": 1366,
+            "height": 768
+          },
+          "visible": false,
+          "disabled": true
+        },
+        {
+          "scene": "upload",
+          "size": {
+            "width": 1600,
+            "height": 900
+          },
+          "visible": true,
+          "disabled": true
+        },
+        {
+          "scene": "reports",
+          "size": {
+            "width": 1600,
+            "height": 900
+          },
+          "visible": false,
+          "disabled": true
+        },
+        {
+          "scene": "viewer",
+          "size": {
+            "width": 1600,
+            "height": 900
+          },
+          "visible": false,
+          "disabled": true
+        },
+        {
+          "scene": "columns",
+          "size": {
+            "width": 1600,
+            "height": 900
+          },
+          "visible": false,
+          "disabled": true
+        },
+        {
+          "scene": "export",
+          "size": {
+            "width": 1600,
+            "height": 900
+          },
+          "visible": false,
+          "disabled": true
+        },
+        {
+          "scene": "upload",
+          "size": {
+            "width": 1920,
+            "height": 1080
+          },
+          "visible": true,
+          "disabled": true
+        },
+        {
+          "scene": "reports",
+          "size": {
+            "width": 1920,
+            "height": 1080
+          },
+          "visible": false,
+          "disabled": true
+        },
+        {
+          "scene": "viewer",
+          "size": {
+            "width": 1920,
+            "height": 1080
+          },
+          "visible": false,
+          "disabled": true
+        },
+        {
+          "scene": "columns",
+          "size": {
+            "width": 1920,
+            "height": 1080
+          },
+          "visible": false,
+          "disabled": true
+        },
+        {
+          "scene": "export",
+          "size": {
+            "width": 1920,
+            "height": 1080
+          },
+          "visible": false,
+          "disabled": true
+        }
+      ],
+      "checks": [],
+      "visible_observed": true,
+      "result": "PRESENTE / NO PROBADO"
+    },
+    {
+      "key": "clear",
+      "id": "clear",
+      "screen": "s2",
+      "line": 514,
+      "attrs": {
+        "class": "ghost",
+        "id": "clear"
+      },
+      "label": "🧹 Limpiar",
+      "observations": [
+        {
+          "scene": "upload",
+          "size": {
+            "width": 1366,
+            "height": 768
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "scene": "reports",
+          "size": {
+            "width": 1366,
+            "height": 768
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "viewer",
+          "size": {
+            "width": 1366,
+            "height": 768
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "columns",
+          "size": {
+            "width": 1366,
+            "height": 768
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "export",
+          "size": {
+            "width": 1366,
+            "height": 768
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "upload",
+          "size": {
+            "width": 1600,
+            "height": 900
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "scene": "reports",
+          "size": {
+            "width": 1600,
+            "height": 900
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "viewer",
+          "size": {
+            "width": 1600,
+            "height": 900
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "columns",
+          "size": {
+            "width": 1600,
+            "height": 900
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "export",
+          "size": {
+            "width": 1600,
+            "height": 900
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "upload",
+          "size": {
+            "width": 1920,
+            "height": 1080
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "scene": "reports",
+          "size": {
+            "width": 1920,
+            "height": 1080
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "viewer",
+          "size": {
+            "width": 1920,
+            "height": 1080
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "columns",
+          "size": {
+            "width": 1920,
+            "height": 1080
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "export",
+          "size": {
+            "width": 1920,
+            "height": 1080
+          },
+          "visible": false,
+          "disabled": false
+        }
+      ],
+      "checks": [
+        {
+          "id": "clear-disables-process-1366",
+          "result": "PASS",
+          "expected": false,
+          "actual": false,
+          "controls": [
+            "clear"
+          ]
+        },
+        {
+          "id": "clear-disables-process-1600",
+          "result": "PASS",
+          "expected": false,
+          "actual": false,
+          "controls": [
+            "clear"
+          ]
+        },
+        {
+          "id": "clear-disables-process-1920",
+          "result": "PASS",
+          "expected": false,
+          "actual": false,
+          "controls": [
+            "clear"
+          ]
+        }
+      ],
+      "visible_observed": true,
+      "result": "PASS limitado a las pruebas citadas"
+    },
+    {
+      "key": "origin:EMITIDOS",
+      "id": null,
+      "screen": "s3",
+      "line": 515,
+      "attrs": {
+        "data-origin": "EMITIDOS"
+      },
+      "label": "⬆️ Emitidos",
+      "observations": [
+        {
+          "scene": "upload",
+          "size": {
+            "width": 1366,
+            "height": 768
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "reports",
+          "size": {
+            "width": 1366,
+            "height": 768
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "scene": "viewer",
+          "size": {
+            "width": 1366,
+            "height": 768
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "scene": "columns",
+          "size": {
+            "width": 1366,
+            "height": 768
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "scene": "export",
+          "size": {
+            "width": 1366,
+            "height": 768
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "scene": "upload",
+          "size": {
+            "width": 1600,
+            "height": 900
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "reports",
+          "size": {
+            "width": 1600,
+            "height": 900
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "scene": "viewer",
+          "size": {
+            "width": 1600,
+            "height": 900
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "scene": "columns",
+          "size": {
+            "width": 1600,
+            "height": 900
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "scene": "export",
+          "size": {
+            "width": 1600,
+            "height": 900
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "scene": "upload",
+          "size": {
+            "width": 1920,
+            "height": 1080
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "reports",
+          "size": {
+            "width": 1920,
+            "height": 1080
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "scene": "viewer",
+          "size": {
+            "width": 1920,
+            "height": 1080
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "scene": "columns",
+          "size": {
+            "width": 1920,
+            "height": 1080
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "scene": "export",
+          "size": {
+            "width": 1920,
+            "height": 1080
+          },
+          "visible": true,
+          "disabled": false
+        }
+      ],
+      "checks": [],
+      "visible_observed": true,
+      "result": "PRESENTE / NO PROBADO"
+    },
+    {
+      "key": "origin:RECIBIDOS",
+      "id": null,
+      "screen": "s3",
+      "line": 515,
+      "attrs": {
+        "data-origin": "RECIBIDOS"
+      },
+      "label": "⬇️ Recibidos",
+      "observations": [
+        {
+          "scene": "upload",
+          "size": {
+            "width": 1366,
+            "height": 768
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "reports",
+          "size": {
+            "width": 1366,
+            "height": 768
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "scene": "viewer",
+          "size": {
+            "width": 1366,
+            "height": 768
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "scene": "columns",
+          "size": {
+            "width": 1366,
+            "height": 768
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "scene": "export",
+          "size": {
+            "width": 1366,
+            "height": 768
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "scene": "upload",
+          "size": {
+            "width": 1600,
+            "height": 900
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "reports",
+          "size": {
+            "width": 1600,
+            "height": 900
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "scene": "viewer",
+          "size": {
+            "width": 1600,
+            "height": 900
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "scene": "columns",
+          "size": {
+            "width": 1600,
+            "height": 900
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "scene": "export",
+          "size": {
+            "width": 1600,
+            "height": 900
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "scene": "upload",
+          "size": {
+            "width": 1920,
+            "height": 1080
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "reports",
+          "size": {
+            "width": 1920,
+            "height": 1080
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "scene": "viewer",
+          "size": {
+            "width": 1920,
+            "height": 1080
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "scene": "columns",
+          "size": {
+            "width": 1920,
+            "height": 1080
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "scene": "export",
+          "size": {
+            "width": 1920,
+            "height": 1080
+          },
+          "visible": true,
+          "disabled": false
+        }
+      ],
+      "checks": [
+        {
+          "id": "received-origin",
+          "controls": [
+            "origin:RECIBIDOS"
+          ],
+          "expected": true,
+          "actual": true,
+          "result": "PASS"
+        }
+      ],
+      "visible_observed": true,
+      "result": "PASS limitado a las pruebas citadas"
+    },
+    {
+      "key": "excel",
+      "id": "excel",
+      "screen": "s3",
+      "line": 515,
+      "attrs": {
+        "class": "orange",
+        "id": "excel"
+      },
+      "label": "📊 Crear Excel",
+      "observations": [
+        {
+          "scene": "upload",
+          "size": {
+            "width": 1366,
+            "height": 768
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "reports",
+          "size": {
+            "width": 1366,
+            "height": 768
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "scene": "viewer",
+          "size": {
+            "width": 1366,
+            "height": 768
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "scene": "columns",
+          "size": {
+            "width": 1366,
+            "height": 768
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "scene": "export",
+          "size": {
+            "width": 1366,
+            "height": 768
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "scene": "upload",
+          "size": {
+            "width": 1600,
+            "height": 900
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "reports",
+          "size": {
+            "width": 1600,
+            "height": 900
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "scene": "viewer",
+          "size": {
+            "width": 1600,
+            "height": 900
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "scene": "columns",
+          "size": {
+            "width": 1600,
+            "height": 900
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "scene": "export",
+          "size": {
+            "width": 1600,
+            "height": 900
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "scene": "upload",
+          "size": {
+            "width": 1920,
+            "height": 1080
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "reports",
+          "size": {
+            "width": 1920,
+            "height": 1080
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "scene": "viewer",
+          "size": {
+            "width": 1920,
+            "height": 1080
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "scene": "columns",
+          "size": {
+            "width": 1920,
+            "height": 1080
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "scene": "export",
+          "size": {
+            "width": 1920,
+            "height": 1080
+          },
+          "visible": true,
+          "disabled": false
+        }
+      ],
+      "checks": [],
+      "visible_observed": true,
+      "result": "PRESENTE / NO PROBADO"
+    },
+    {
+      "key": "excelf",
+      "id": "excelf",
+      "screen": "s3",
+      "line": 515,
+      "attrs": {
+        "aria-hidden": "true",
+        "class": "secondary",
+        "hidden": "",
+        "id": "excelf"
+      },
+      "label": "Excel rápido",
+      "observations": [
+        {
+          "scene": "upload",
+          "size": {
+            "width": 1366,
+            "height": 768
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "reports",
+          "size": {
+            "width": 1366,
+            "height": 768
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "viewer",
+          "size": {
+            "width": 1366,
+            "height": 768
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "columns",
+          "size": {
+            "width": 1366,
+            "height": 768
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "export",
+          "size": {
+            "width": 1366,
+            "height": 768
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "upload",
+          "size": {
+            "width": 1600,
+            "height": 900
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "reports",
+          "size": {
+            "width": 1600,
+            "height": 900
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "viewer",
+          "size": {
+            "width": 1600,
+            "height": 900
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "columns",
+          "size": {
+            "width": 1600,
+            "height": 900
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "export",
+          "size": {
+            "width": 1600,
+            "height": 900
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "upload",
+          "size": {
+            "width": 1920,
+            "height": 1080
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "reports",
+          "size": {
+            "width": 1920,
+            "height": 1080
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "viewer",
+          "size": {
+            "width": 1920,
+            "height": 1080
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "columns",
+          "size": {
+            "width": 1920,
+            "height": 1080
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "export",
+          "size": {
+            "width": 1920,
+            "height": 1080
+          },
+          "visible": false,
+          "disabled": false
+        }
+      ],
+      "checks": [],
+      "visible_observed": false,
+      "result": "OCULTO o NO OBSERVADO / NO PROBADO"
+    },
+    {
+      "key": "txt",
+      "id": "txt",
+      "screen": "s3",
+      "line": 515,
+      "attrs": {
+        "class": "secondary",
+        "id": "txt"
+      },
+      "label": "📄 TXT actual",
+      "observations": [
+        {
+          "scene": "upload",
+          "size": {
+            "width": 1366,
+            "height": 768
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "reports",
+          "size": {
+            "width": 1366,
+            "height": 768
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "scene": "viewer",
+          "size": {
+            "width": 1366,
+            "height": 768
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "scene": "columns",
+          "size": {
+            "width": 1366,
+            "height": 768
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "scene": "export",
+          "size": {
+            "width": 1366,
+            "height": 768
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "scene": "upload",
+          "size": {
+            "width": 1600,
+            "height": 900
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "reports",
+          "size": {
+            "width": 1600,
+            "height": 900
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "scene": "viewer",
+          "size": {
+            "width": 1600,
+            "height": 900
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "scene": "columns",
+          "size": {
+            "width": 1600,
+            "height": 900
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "scene": "export",
+          "size": {
+            "width": 1600,
+            "height": 900
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "scene": "upload",
+          "size": {
+            "width": 1920,
+            "height": 1080
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "reports",
+          "size": {
+            "width": 1920,
+            "height": 1080
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "scene": "viewer",
+          "size": {
+            "width": 1920,
+            "height": 1080
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "scene": "columns",
+          "size": {
+            "width": 1920,
+            "height": 1080
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "scene": "export",
+          "size": {
+            "width": 1920,
+            "height": 1080
+          },
+          "visible": true,
+          "disabled": false
+        }
+      ],
+      "checks": [
+        {
+          "id": "download-txt",
+          "controls": [
+            "txt"
+          ],
+          "expected": true,
+          "actual": true,
+          "result": "PASS"
+        }
+      ],
+      "visible_observed": true,
+      "result": "PASS limitado a las pruebas citadas"
+    },
+    {
+      "key": "csv",
+      "id": "csv",
+      "screen": "s3",
+      "line": 515,
+      "attrs": {
+        "class": "secondary",
+        "id": "csv"
+      },
+      "label": "CSV seguro",
+      "observations": [
+        {
+          "scene": "upload",
+          "size": {
+            "width": 1366,
+            "height": 768
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "reports",
+          "size": {
+            "width": 1366,
+            "height": 768
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "scene": "viewer",
+          "size": {
+            "width": 1366,
+            "height": 768
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "scene": "columns",
+          "size": {
+            "width": 1366,
+            "height": 768
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "scene": "export",
+          "size": {
+            "width": 1366,
+            "height": 768
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "scene": "upload",
+          "size": {
+            "width": 1600,
+            "height": 900
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "reports",
+          "size": {
+            "width": 1600,
+            "height": 900
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "scene": "viewer",
+          "size": {
+            "width": 1600,
+            "height": 900
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "scene": "columns",
+          "size": {
+            "width": 1600,
+            "height": 900
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "scene": "export",
+          "size": {
+            "width": 1600,
+            "height": 900
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "scene": "upload",
+          "size": {
+            "width": 1920,
+            "height": 1080
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "reports",
+          "size": {
+            "width": 1920,
+            "height": 1080
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "scene": "viewer",
+          "size": {
+            "width": 1920,
+            "height": 1080
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "scene": "columns",
+          "size": {
+            "width": 1920,
+            "height": 1080
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "scene": "export",
+          "size": {
+            "width": 1920,
+            "height": 1080
+          },
+          "visible": true,
+          "disabled": false
+        }
+      ],
+      "checks": [
+        {
+          "id": "download-csv",
+          "controls": [
+            "csv"
+          ],
+          "expected": true,
+          "actual": true,
+          "result": "PASS"
+        }
+      ],
+      "visible_observed": true,
+      "result": "PASS limitado a las pruebas citadas"
+    },
+    {
+      "key": "exportPack",
+      "id": "exportPack",
+      "screen": "s3",
+      "line": 515,
+      "attrs": {
+        "aria-hidden": "true",
+        "class": "secondary",
+        "hidden": "",
+        "id": "exportPack",
+        "type": "button"
+      },
+      "label": "Exportación técnica",
+      "observations": [
+        {
+          "scene": "upload",
+          "size": {
+            "width": 1366,
+            "height": 768
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "reports",
+          "size": {
+            "width": 1366,
+            "height": 768
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "viewer",
+          "size": {
+            "width": 1366,
+            "height": 768
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "columns",
+          "size": {
+            "width": 1366,
+            "height": 768
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "export",
+          "size": {
+            "width": 1366,
+            "height": 768
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "upload",
+          "size": {
+            "width": 1600,
+            "height": 900
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "reports",
+          "size": {
+            "width": 1600,
+            "height": 900
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "viewer",
+          "size": {
+            "width": 1600,
+            "height": 900
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "columns",
+          "size": {
+            "width": 1600,
+            "height": 900
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "export",
+          "size": {
+            "width": 1600,
+            "height": 900
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "upload",
+          "size": {
+            "width": 1920,
+            "height": 1080
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "reports",
+          "size": {
+            "width": 1920,
+            "height": 1080
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "viewer",
+          "size": {
+            "width": 1920,
+            "height": 1080
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "columns",
+          "size": {
+            "width": 1920,
+            "height": 1080
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "export",
+          "size": {
+            "width": 1920,
+            "height": 1080
+          },
+          "visible": false,
+          "disabled": false
+        }
+      ],
+      "checks": [],
+      "visible_observed": false,
+      "result": "OCULTO o NO OBSERVADO / NO PROBADO"
+    },
+    {
+      "key": "editcols",
+      "id": "editcols",
+      "screen": "s3",
+      "line": 515,
+      "attrs": {
+        "class": "secondary",
+        "id": "editcols"
+      },
+      "label": "🧩 Editar columnas",
+      "observations": [
+        {
+          "scene": "upload",
+          "size": {
+            "width": 1366,
+            "height": 768
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "reports",
+          "size": {
+            "width": 1366,
+            "height": 768
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "scene": "viewer",
+          "size": {
+            "width": 1366,
+            "height": 768
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "scene": "columns",
+          "size": {
+            "width": 1366,
+            "height": 768
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "scene": "export",
+          "size": {
+            "width": 1366,
+            "height": 768
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "scene": "upload",
+          "size": {
+            "width": 1600,
+            "height": 900
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "reports",
+          "size": {
+            "width": 1600,
+            "height": 900
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "scene": "viewer",
+          "size": {
+            "width": 1600,
+            "height": 900
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "scene": "columns",
+          "size": {
+            "width": 1600,
+            "height": 900
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "scene": "export",
+          "size": {
+            "width": 1600,
+            "height": 900
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "scene": "upload",
+          "size": {
+            "width": 1920,
+            "height": 1080
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "reports",
+          "size": {
+            "width": 1920,
+            "height": 1080
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "scene": "viewer",
+          "size": {
+            "width": 1920,
+            "height": 1080
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "scene": "columns",
+          "size": {
+            "width": 1920,
+            "height": 1080
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "scene": "export",
+          "size": {
+            "width": 1920,
+            "height": 1080
+          },
+          "visible": true,
+          "disabled": false
+        }
+      ],
+      "checks": [],
+      "visible_observed": true,
+      "result": "PRESENTE / NO PROBADO"
+    },
+    {
+      "key": "more",
+      "id": "more",
+      "screen": "s3",
+      "line": 515,
+      "attrs": {
+        "class": "secondary",
+        "id": "more"
+      },
+      "label": "➕ Subir más",
+      "observations": [
+        {
+          "scene": "upload",
+          "size": {
+            "width": 1366,
+            "height": 768
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "reports",
+          "size": {
+            "width": 1366,
+            "height": 768
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "scene": "viewer",
+          "size": {
+            "width": 1366,
+            "height": 768
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "scene": "columns",
+          "size": {
+            "width": 1366,
+            "height": 768
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "scene": "export",
+          "size": {
+            "width": 1366,
+            "height": 768
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "scene": "upload",
+          "size": {
+            "width": 1600,
+            "height": 900
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "reports",
+          "size": {
+            "width": 1600,
+            "height": 900
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "scene": "viewer",
+          "size": {
+            "width": 1600,
+            "height": 900
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "scene": "columns",
+          "size": {
+            "width": 1600,
+            "height": 900
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "scene": "export",
+          "size": {
+            "width": 1600,
+            "height": 900
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "scene": "upload",
+          "size": {
+            "width": 1920,
+            "height": 1080
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "reports",
+          "size": {
+            "width": 1920,
+            "height": 1080
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "scene": "viewer",
+          "size": {
+            "width": 1920,
+            "height": 1080
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "scene": "columns",
+          "size": {
+            "width": 1920,
+            "height": 1080
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "scene": "export",
+          "size": {
+            "width": 1920,
+            "height": 1080
+          },
+          "visible": true,
+          "disabled": false
+        }
+      ],
+      "checks": [],
+      "visible_observed": true,
+      "result": "PRESENTE / NO PROBADO"
+    },
+    {
+      "key": "status:VIGENTE",
+      "id": null,
+      "screen": "s3",
+      "line": 515,
+      "attrs": {
+        "data-status": "VIGENTE"
+      },
+      "label": "Vigentes",
+      "observations": [
+        {
+          "scene": "upload",
+          "size": {
+            "width": 1366,
+            "height": 768
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "reports",
+          "size": {
+            "width": 1366,
+            "height": 768
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "scene": "viewer",
+          "size": {
+            "width": 1366,
+            "height": 768
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "scene": "columns",
+          "size": {
+            "width": 1366,
+            "height": 768
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "scene": "export",
+          "size": {
+            "width": 1366,
+            "height": 768
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "scene": "upload",
+          "size": {
+            "width": 1600,
+            "height": 900
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "reports",
+          "size": {
+            "width": 1600,
+            "height": 900
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "scene": "viewer",
+          "size": {
+            "width": 1600,
+            "height": 900
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "scene": "columns",
+          "size": {
+            "width": 1600,
+            "height": 900
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "scene": "export",
+          "size": {
+            "width": 1600,
+            "height": 900
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "scene": "upload",
+          "size": {
+            "width": 1920,
+            "height": 1080
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "reports",
+          "size": {
+            "width": 1920,
+            "height": 1080
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "scene": "viewer",
+          "size": {
+            "width": 1920,
+            "height": 1080
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "scene": "columns",
+          "size": {
+            "width": 1920,
+            "height": 1080
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "scene": "export",
+          "size": {
+            "width": 1920,
+            "height": 1080
+          },
+          "visible": true,
+          "disabled": false
+        }
+      ],
+      "checks": [
+        {
+          "id": "vigente-status",
+          "controls": [
+            "status:VIGENTE"
+          ],
+          "expected": false,
+          "actual": false,
+          "result": "PASS"
+        }
+      ],
+      "visible_observed": true,
+      "result": "PASS limitado a las pruebas citadas"
+    },
+    {
+      "key": "status:CANCELADO",
+      "id": null,
+      "screen": "s3",
+      "line": 515,
+      "attrs": {
+        "data-status": "CANCELADO"
+      },
+      "label": "Cancelados",
+      "observations": [
+        {
+          "scene": "upload",
+          "size": {
+            "width": 1366,
+            "height": 768
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "reports",
+          "size": {
+            "width": 1366,
+            "height": 768
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "scene": "viewer",
+          "size": {
+            "width": 1366,
+            "height": 768
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "scene": "columns",
+          "size": {
+            "width": 1366,
+            "height": 768
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "scene": "export",
+          "size": {
+            "width": 1366,
+            "height": 768
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "scene": "upload",
+          "size": {
+            "width": 1600,
+            "height": 900
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "reports",
+          "size": {
+            "width": 1600,
+            "height": 900
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "scene": "viewer",
+          "size": {
+            "width": 1600,
+            "height": 900
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "scene": "columns",
+          "size": {
+            "width": 1600,
+            "height": 900
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "scene": "export",
+          "size": {
+            "width": 1600,
+            "height": 900
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "scene": "upload",
+          "size": {
+            "width": 1920,
+            "height": 1080
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "reports",
+          "size": {
+            "width": 1920,
+            "height": 1080
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "scene": "viewer",
+          "size": {
+            "width": 1920,
+            "height": 1080
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "scene": "columns",
+          "size": {
+            "width": 1920,
+            "height": 1080
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "scene": "export",
+          "size": {
+            "width": 1920,
+            "height": 1080
+          },
+          "visible": true,
+          "disabled": false
+        }
+      ],
+      "checks": [
+        {
+          "id": "cancelled-status",
+          "controls": [
+            "status:CANCELADO"
+          ],
+          "expected": true,
+          "actual": true,
+          "result": "PASS"
+        }
+      ],
+      "visible_observed": true,
+      "result": "PASS limitado a las pruebas citadas"
+    },
+    {
+      "key": "status:",
+      "id": null,
+      "screen": "s3",
+      "line": 515,
+      "attrs": {
+        "data-status": ""
+      },
+      "label": "Todos",
+      "observations": [
+        {
+          "scene": "upload",
+          "size": {
+            "width": 1366,
+            "height": 768
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "reports",
+          "size": {
+            "width": 1366,
+            "height": 768
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "scene": "viewer",
+          "size": {
+            "width": 1366,
+            "height": 768
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "scene": "columns",
+          "size": {
+            "width": 1366,
+            "height": 768
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "scene": "export",
+          "size": {
+            "width": 1366,
+            "height": 768
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "scene": "upload",
+          "size": {
+            "width": 1600,
+            "height": 900
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "reports",
+          "size": {
+            "width": 1600,
+            "height": 900
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "scene": "viewer",
+          "size": {
+            "width": 1600,
+            "height": 900
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "scene": "columns",
+          "size": {
+            "width": 1600,
+            "height": 900
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "scene": "export",
+          "size": {
+            "width": 1600,
+            "height": 900
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "scene": "upload",
+          "size": {
+            "width": 1920,
+            "height": 1080
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "reports",
+          "size": {
+            "width": 1920,
+            "height": 1080
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "scene": "viewer",
+          "size": {
+            "width": 1920,
+            "height": 1080
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "scene": "columns",
+          "size": {
+            "width": 1920,
+            "height": 1080
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "scene": "export",
+          "size": {
+            "width": 1920,
+            "height": 1080
+          },
+          "visible": true,
+          "disabled": false
+        }
+      ],
+      "checks": [],
+      "visible_observed": true,
+      "result": "PRESENTE / NO PROBADO"
+    },
+    {
+      "key": "method:PUE",
+      "id": null,
+      "screen": "s3",
+      "line": 515,
+      "attrs": {
+        "data-metodo": "PUE"
+      },
+      "label": "PUE",
+      "observations": [
+        {
+          "scene": "upload",
+          "size": {
+            "width": 1366,
+            "height": 768
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "reports",
+          "size": {
+            "width": 1366,
+            "height": 768
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "scene": "viewer",
+          "size": {
+            "width": 1366,
+            "height": 768
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "scene": "columns",
+          "size": {
+            "width": 1366,
+            "height": 768
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "scene": "export",
+          "size": {
+            "width": 1366,
+            "height": 768
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "scene": "upload",
+          "size": {
+            "width": 1600,
+            "height": 900
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "reports",
+          "size": {
+            "width": 1600,
+            "height": 900
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "scene": "viewer",
+          "size": {
+            "width": 1600,
+            "height": 900
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "scene": "columns",
+          "size": {
+            "width": 1600,
+            "height": 900
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "scene": "export",
+          "size": {
+            "width": 1600,
+            "height": 900
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "scene": "upload",
+          "size": {
+            "width": 1920,
+            "height": 1080
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "reports",
+          "size": {
+            "width": 1920,
+            "height": 1080
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "scene": "viewer",
+          "size": {
+            "width": 1920,
+            "height": 1080
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "scene": "columns",
+          "size": {
+            "width": 1920,
+            "height": 1080
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "scene": "export",
+          "size": {
+            "width": 1920,
+            "height": 1080
+          },
+          "visible": true,
+          "disabled": false
+        }
+      ],
+      "checks": [
+        {
+          "id": "method-PUE",
+          "controls": [
+            "method:PUE"
+          ],
+          "expected": "PUE",
+          "actual": "PUE",
+          "result": "PASS"
+        }
+      ],
+      "visible_observed": true,
+      "result": "PASS limitado a las pruebas citadas"
+    },
+    {
+      "key": "method:PPD",
+      "id": null,
+      "screen": "s3",
+      "line": 515,
+      "attrs": {
+        "data-metodo": "PPD"
+      },
+      "label": "PPD",
+      "observations": [
+        {
+          "scene": "upload",
+          "size": {
+            "width": 1366,
+            "height": 768
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "reports",
+          "size": {
+            "width": 1366,
+            "height": 768
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "scene": "viewer",
+          "size": {
+            "width": 1366,
+            "height": 768
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "scene": "columns",
+          "size": {
+            "width": 1366,
+            "height": 768
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "scene": "export",
+          "size": {
+            "width": 1366,
+            "height": 768
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "scene": "upload",
+          "size": {
+            "width": 1600,
+            "height": 900
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "reports",
+          "size": {
+            "width": 1600,
+            "height": 900
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "scene": "viewer",
+          "size": {
+            "width": 1600,
+            "height": 900
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "scene": "columns",
+          "size": {
+            "width": 1600,
+            "height": 900
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "scene": "export",
+          "size": {
+            "width": 1600,
+            "height": 900
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "scene": "upload",
+          "size": {
+            "width": 1920,
+            "height": 1080
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "reports",
+          "size": {
+            "width": 1920,
+            "height": 1080
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "scene": "viewer",
+          "size": {
+            "width": 1920,
+            "height": 1080
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "scene": "columns",
+          "size": {
+            "width": 1920,
+            "height": 1080
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "scene": "export",
+          "size": {
+            "width": 1920,
+            "height": 1080
+          },
+          "visible": true,
+          "disabled": false
+        }
+      ],
+      "checks": [
+        {
+          "id": "method-PPD",
+          "controls": [
+            "method:PPD"
+          ],
+          "expected": "PPD",
+          "actual": "PPD",
+          "result": "PASS"
+        }
+      ],
+      "visible_observed": true,
+      "result": "PASS limitado a las pruebas citadas"
+    },
+    {
+      "key": "method:",
+      "id": null,
+      "screen": "s3",
+      "line": 515,
+      "attrs": {
+        "data-metodo": ""
+      },
+      "label": "Todos",
+      "observations": [
+        {
+          "scene": "upload",
+          "size": {
+            "width": 1366,
+            "height": 768
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "reports",
+          "size": {
+            "width": 1366,
+            "height": 768
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "scene": "viewer",
+          "size": {
+            "width": 1366,
+            "height": 768
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "scene": "columns",
+          "size": {
+            "width": 1366,
+            "height": 768
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "scene": "export",
+          "size": {
+            "width": 1366,
+            "height": 768
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "scene": "upload",
+          "size": {
+            "width": 1600,
+            "height": 900
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "reports",
+          "size": {
+            "width": 1600,
+            "height": 900
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "scene": "viewer",
+          "size": {
+            "width": 1600,
+            "height": 900
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "scene": "columns",
+          "size": {
+            "width": 1600,
+            "height": 900
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "scene": "export",
+          "size": {
+            "width": 1600,
+            "height": 900
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "scene": "upload",
+          "size": {
+            "width": 1920,
+            "height": 1080
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "reports",
+          "size": {
+            "width": 1920,
+            "height": 1080
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "scene": "viewer",
+          "size": {
+            "width": 1920,
+            "height": 1080
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "scene": "columns",
+          "size": {
+            "width": 1920,
+            "height": 1080
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "scene": "export",
+          "size": {
+            "width": 1920,
+            "height": 1080
+          },
+          "visible": true,
+          "disabled": false
+        }
+      ],
+      "checks": [],
+      "visible_observed": true,
+      "result": "PRESENTE / NO PROBADO"
+    },
+    {
+      "key": "densityBtn",
+      "id": "densityBtn",
+      "screen": "s3",
+      "line": 515,
+      "attrs": {
+        "class": "secondary",
+        "id": "densityBtn",
+        "type": "button"
+      },
+      "label": "Vista compacta",
+      "observations": [
+        {
+          "scene": "upload",
+          "size": {
+            "width": 1366,
+            "height": 768
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "reports",
+          "size": {
+            "width": 1366,
+            "height": 768
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "scene": "viewer",
+          "size": {
+            "width": 1366,
+            "height": 768
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "scene": "columns",
+          "size": {
+            "width": 1366,
+            "height": 768
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "scene": "export",
+          "size": {
+            "width": 1366,
+            "height": 768
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "scene": "upload",
+          "size": {
+            "width": 1600,
+            "height": 900
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "reports",
+          "size": {
+            "width": 1600,
+            "height": 900
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "scene": "viewer",
+          "size": {
+            "width": 1600,
+            "height": 900
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "scene": "columns",
+          "size": {
+            "width": 1600,
+            "height": 900
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "scene": "export",
+          "size": {
+            "width": 1600,
+            "height": 900
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "scene": "upload",
+          "size": {
+            "width": 1920,
+            "height": 1080
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "reports",
+          "size": {
+            "width": 1920,
+            "height": 1080
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "scene": "viewer",
+          "size": {
+            "width": 1920,
+            "height": 1080
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "scene": "columns",
+          "size": {
+            "width": 1920,
+            "height": 1080
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "scene": "export",
+          "size": {
+            "width": 1920,
+            "height": 1080
+          },
+          "visible": true,
+          "disabled": false
+        }
+      ],
+      "checks": [
+        {
+          "id": "density",
+          "controls": [
+            "densityBtn"
+          ],
+          "expected": true,
+          "actual": true,
+          "result": "PASS"
+        }
+      ],
+      "visible_observed": true,
+      "result": "PASS limitado a las pruebas citadas"
+    },
+    {
+      "key": "csvQuick",
+      "id": "csvQuick",
+      "screen": "s3",
+      "line": 515,
+      "attrs": {
+        "class": "secondary",
+        "id": "csvQuick",
+        "style": "display:none",
+        "type": "button"
+      },
+      "label": "CSV",
+      "observations": [
+        {
+          "scene": "upload",
+          "size": {
+            "width": 1366,
+            "height": 768
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "reports",
+          "size": {
+            "width": 1366,
+            "height": 768
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "viewer",
+          "size": {
+            "width": 1366,
+            "height": 768
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "columns",
+          "size": {
+            "width": 1366,
+            "height": 768
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "export",
+          "size": {
+            "width": 1366,
+            "height": 768
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "upload",
+          "size": {
+            "width": 1600,
+            "height": 900
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "reports",
+          "size": {
+            "width": 1600,
+            "height": 900
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "viewer",
+          "size": {
+            "width": 1600,
+            "height": 900
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "columns",
+          "size": {
+            "width": 1600,
+            "height": 900
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "export",
+          "size": {
+            "width": 1600,
+            "height": 900
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "upload",
+          "size": {
+            "width": 1920,
+            "height": 1080
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "reports",
+          "size": {
+            "width": 1920,
+            "height": 1080
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "viewer",
+          "size": {
+            "width": 1920,
+            "height": 1080
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "columns",
+          "size": {
+            "width": 1920,
+            "height": 1080
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "export",
+          "size": {
+            "width": 1920,
+            "height": 1080
+          },
+          "visible": false,
+          "disabled": false
+        }
+      ],
+      "checks": [],
+      "visible_observed": false,
+      "result": "OCULTO o NO OBSERVADO / NO PROBADO"
+    },
+    {
+      "key": "type:I",
+      "id": null,
+      "screen": "s3",
+      "line": 515,
+      "attrs": {
+        "data-type": "I"
+      },
+      "label": "Ingreso 0",
+      "observations": [
+        {
+          "scene": "upload",
+          "size": {
+            "width": 1366,
+            "height": 768
+          },
+          "visible": false,
+          "disabled": true
+        },
+        {
+          "scene": "reports",
+          "size": {
+            "width": 1366,
+            "height": 768
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "scene": "viewer",
+          "size": {
+            "width": 1366,
+            "height": 768
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "scene": "columns",
+          "size": {
+            "width": 1366,
+            "height": 768
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "scene": "export",
+          "size": {
+            "width": 1366,
+            "height": 768
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "scene": "upload",
+          "size": {
+            "width": 1600,
+            "height": 900
+          },
+          "visible": false,
+          "disabled": true
+        },
+        {
+          "scene": "reports",
+          "size": {
+            "width": 1600,
+            "height": 900
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "scene": "viewer",
+          "size": {
+            "width": 1600,
+            "height": 900
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "scene": "columns",
+          "size": {
+            "width": 1600,
+            "height": 900
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "scene": "export",
+          "size": {
+            "width": 1600,
+            "height": 900
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "scene": "upload",
+          "size": {
+            "width": 1920,
+            "height": 1080
+          },
+          "visible": false,
+          "disabled": true
+        },
+        {
+          "scene": "reports",
+          "size": {
+            "width": 1920,
+            "height": 1080
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "scene": "viewer",
+          "size": {
+            "width": 1920,
+            "height": 1080
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "scene": "columns",
+          "size": {
+            "width": 1920,
+            "height": 1080
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "scene": "export",
+          "size": {
+            "width": 1920,
+            "height": 1080
+          },
+          "visible": true,
+          "disabled": false
+        }
+      ],
+      "checks": [
+        {
+          "id": "report-filter-single-click-1366",
+          "result": "FAIL",
+          "expected": "I",
+          "actual": null,
+          "controls": [
+            "type:I"
+          ]
+        },
+        {
+          "id": "report-filter-single-click-1600",
+          "result": "FAIL",
+          "expected": "I",
+          "actual": null,
+          "controls": [
+            "type:I"
+          ]
+        },
+        {
+          "id": "report-filter-single-click-1920",
+          "result": "FAIL",
+          "expected": "I",
+          "actual": null,
+          "controls": [
+            "type:I"
+          ]
+        }
+      ],
+      "visible_observed": true,
+      "result": "FAIL"
+    },
+    {
+      "key": "type:E",
+      "id": null,
+      "screen": "s3",
+      "line": 515,
+      "attrs": {
+        "data-type": "E"
+      },
+      "label": "Egreso 0",
+      "observations": [
+        {
+          "scene": "upload",
+          "size": {
+            "width": 1366,
+            "height": 768
+          },
+          "visible": false,
+          "disabled": true
+        },
+        {
+          "scene": "reports",
+          "size": {
+            "width": 1366,
+            "height": 768
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "scene": "viewer",
+          "size": {
+            "width": 1366,
+            "height": 768
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "scene": "columns",
+          "size": {
+            "width": 1366,
+            "height": 768
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "scene": "export",
+          "size": {
+            "width": 1366,
+            "height": 768
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "scene": "upload",
+          "size": {
+            "width": 1600,
+            "height": 900
+          },
+          "visible": false,
+          "disabled": true
+        },
+        {
+          "scene": "reports",
+          "size": {
+            "width": 1600,
+            "height": 900
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "scene": "viewer",
+          "size": {
+            "width": 1600,
+            "height": 900
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "scene": "columns",
+          "size": {
+            "width": 1600,
+            "height": 900
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "scene": "export",
+          "size": {
+            "width": 1600,
+            "height": 900
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "scene": "upload",
+          "size": {
+            "width": 1920,
+            "height": 1080
+          },
+          "visible": false,
+          "disabled": true
+        },
+        {
+          "scene": "reports",
+          "size": {
+            "width": 1920,
+            "height": 1080
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "scene": "viewer",
+          "size": {
+            "width": 1920,
+            "height": 1080
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "scene": "columns",
+          "size": {
+            "width": 1920,
+            "height": 1080
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "scene": "export",
+          "size": {
+            "width": 1920,
+            "height": 1080
+          },
+          "visible": true,
+          "disabled": false
+        }
+      ],
+      "checks": [],
+      "visible_observed": true,
+      "result": "PRESENTE / NO PROBADO"
+    },
+    {
+      "key": "type:T",
+      "id": null,
+      "screen": "s3",
+      "line": 515,
+      "attrs": {
+        "data-type": "T"
+      },
+      "label": "Traslado 0",
+      "observations": [
+        {
+          "scene": "upload",
+          "size": {
+            "width": 1366,
+            "height": 768
+          },
+          "visible": false,
+          "disabled": true
+        },
+        {
+          "scene": "reports",
+          "size": {
+            "width": 1366,
+            "height": 768
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "scene": "viewer",
+          "size": {
+            "width": 1366,
+            "height": 768
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "scene": "columns",
+          "size": {
+            "width": 1366,
+            "height": 768
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "scene": "export",
+          "size": {
+            "width": 1366,
+            "height": 768
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "scene": "upload",
+          "size": {
+            "width": 1600,
+            "height": 900
+          },
+          "visible": false,
+          "disabled": true
+        },
+        {
+          "scene": "reports",
+          "size": {
+            "width": 1600,
+            "height": 900
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "scene": "viewer",
+          "size": {
+            "width": 1600,
+            "height": 900
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "scene": "columns",
+          "size": {
+            "width": 1600,
+            "height": 900
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "scene": "export",
+          "size": {
+            "width": 1600,
+            "height": 900
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "scene": "upload",
+          "size": {
+            "width": 1920,
+            "height": 1080
+          },
+          "visible": false,
+          "disabled": true
+        },
+        {
+          "scene": "reports",
+          "size": {
+            "width": 1920,
+            "height": 1080
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "scene": "viewer",
+          "size": {
+            "width": 1920,
+            "height": 1080
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "scene": "columns",
+          "size": {
+            "width": 1920,
+            "height": 1080
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "scene": "export",
+          "size": {
+            "width": 1920,
+            "height": 1080
+          },
+          "visible": true,
+          "disabled": false
+        }
+      ],
+      "checks": [],
+      "visible_observed": true,
+      "result": "PRESENTE / NO PROBADO"
+    },
+    {
+      "key": "type:N",
+      "id": null,
+      "screen": "s3",
+      "line": 515,
+      "attrs": {
+        "data-type": "N"
+      },
+      "label": "Nómina 0",
+      "observations": [
+        {
+          "scene": "upload",
+          "size": {
+            "width": 1366,
+            "height": 768
+          },
+          "visible": false,
+          "disabled": true
+        },
+        {
+          "scene": "reports",
+          "size": {
+            "width": 1366,
+            "height": 768
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "scene": "viewer",
+          "size": {
+            "width": 1366,
+            "height": 768
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "scene": "columns",
+          "size": {
+            "width": 1366,
+            "height": 768
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "scene": "export",
+          "size": {
+            "width": 1366,
+            "height": 768
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "scene": "upload",
+          "size": {
+            "width": 1600,
+            "height": 900
+          },
+          "visible": false,
+          "disabled": true
+        },
+        {
+          "scene": "reports",
+          "size": {
+            "width": 1600,
+            "height": 900
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "scene": "viewer",
+          "size": {
+            "width": 1600,
+            "height": 900
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "scene": "columns",
+          "size": {
+            "width": 1600,
+            "height": 900
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "scene": "export",
+          "size": {
+            "width": 1600,
+            "height": 900
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "scene": "upload",
+          "size": {
+            "width": 1920,
+            "height": 1080
+          },
+          "visible": false,
+          "disabled": true
+        },
+        {
+          "scene": "reports",
+          "size": {
+            "width": 1920,
+            "height": 1080
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "scene": "viewer",
+          "size": {
+            "width": 1920,
+            "height": 1080
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "scene": "columns",
+          "size": {
+            "width": 1920,
+            "height": 1080
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "scene": "export",
+          "size": {
+            "width": 1920,
+            "height": 1080
+          },
+          "visible": true,
+          "disabled": false
+        }
+      ],
+      "checks": [],
+      "visible_observed": true,
+      "result": "PRESENTE / NO PROBADO"
+    },
+    {
+      "key": "type:P",
+      "id": null,
+      "screen": "s3",
+      "line": 515,
+      "attrs": {
+        "data-type": "P"
+      },
+      "label": "Pago 0",
+      "observations": [
+        {
+          "scene": "upload",
+          "size": {
+            "width": 1366,
+            "height": 768
+          },
+          "visible": false,
+          "disabled": true
+        },
+        {
+          "scene": "reports",
+          "size": {
+            "width": 1366,
+            "height": 768
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "scene": "viewer",
+          "size": {
+            "width": 1366,
+            "height": 768
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "scene": "columns",
+          "size": {
+            "width": 1366,
+            "height": 768
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "scene": "export",
+          "size": {
+            "width": 1366,
+            "height": 768
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "scene": "upload",
+          "size": {
+            "width": 1600,
+            "height": 900
+          },
+          "visible": false,
+          "disabled": true
+        },
+        {
+          "scene": "reports",
+          "size": {
+            "width": 1600,
+            "height": 900
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "scene": "viewer",
+          "size": {
+            "width": 1600,
+            "height": 900
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "scene": "columns",
+          "size": {
+            "width": 1600,
+            "height": 900
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "scene": "export",
+          "size": {
+            "width": 1600,
+            "height": 900
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "scene": "upload",
+          "size": {
+            "width": 1920,
+            "height": 1080
+          },
+          "visible": false,
+          "disabled": true
+        },
+        {
+          "scene": "reports",
+          "size": {
+            "width": 1920,
+            "height": 1080
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "scene": "viewer",
+          "size": {
+            "width": 1920,
+            "height": 1080
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "scene": "columns",
+          "size": {
+            "width": 1920,
+            "height": 1080
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "scene": "export",
+          "size": {
+            "width": 1920,
+            "height": 1080
+          },
+          "visible": true,
+          "disabled": false
+        }
+      ],
+      "checks": [],
+      "visible_observed": true,
+      "result": "PRESENTE / NO PROBADO"
+    },
+    {
+      "key": "prev",
+      "id": "prev",
+      "screen": "s3",
+      "line": 515,
+      "attrs": {
+        "class": "secondary",
+        "id": "prev"
+      },
+      "label": "←",
+      "observations": [
+        {
+          "scene": "upload",
+          "size": {
+            "width": 1366,
+            "height": 768
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "reports",
+          "size": {
+            "width": 1366,
+            "height": 768
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "scene": "viewer",
+          "size": {
+            "width": 1366,
+            "height": 768
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "scene": "columns",
+          "size": {
+            "width": 1366,
+            "height": 768
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "scene": "export",
+          "size": {
+            "width": 1366,
+            "height": 768
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "scene": "upload",
+          "size": {
+            "width": 1600,
+            "height": 900
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "reports",
+          "size": {
+            "width": 1600,
+            "height": 900
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "scene": "viewer",
+          "size": {
+            "width": 1600,
+            "height": 900
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "scene": "columns",
+          "size": {
+            "width": 1600,
+            "height": 900
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "scene": "export",
+          "size": {
+            "width": 1600,
+            "height": 900
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "scene": "upload",
+          "size": {
+            "width": 1920,
+            "height": 1080
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "reports",
+          "size": {
+            "width": 1920,
+            "height": 1080
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "scene": "viewer",
+          "size": {
+            "width": 1920,
+            "height": 1080
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "scene": "columns",
+          "size": {
+            "width": 1920,
+            "height": 1080
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "scene": "export",
+          "size": {
+            "width": 1920,
+            "height": 1080
+          },
+          "visible": true,
+          "disabled": false
+        }
+      ],
+      "checks": [
+        {
+          "id": "previous-page",
+          "controls": [
+            "prev"
+          ],
+          "expected": "Página 1 / 2",
+          "actual": "Página 1 / 2",
+          "result": "PASS"
+        }
+      ],
+      "visible_observed": true,
+      "result": "PASS limitado a las pruebas citadas"
+    },
+    {
+      "key": "next",
+      "id": "next",
+      "screen": "s3",
+      "line": 515,
+      "attrs": {
+        "class": "secondary",
+        "id": "next"
+      },
+      "label": "→",
+      "observations": [
+        {
+          "scene": "upload",
+          "size": {
+            "width": 1366,
+            "height": 768
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "reports",
+          "size": {
+            "width": 1366,
+            "height": 768
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "scene": "viewer",
+          "size": {
+            "width": 1366,
+            "height": 768
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "scene": "columns",
+          "size": {
+            "width": 1366,
+            "height": 768
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "scene": "export",
+          "size": {
+            "width": 1366,
+            "height": 768
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "scene": "upload",
+          "size": {
+            "width": 1600,
+            "height": 900
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "reports",
+          "size": {
+            "width": 1600,
+            "height": 900
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "scene": "viewer",
+          "size": {
+            "width": 1600,
+            "height": 900
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "scene": "columns",
+          "size": {
+            "width": 1600,
+            "height": 900
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "scene": "export",
+          "size": {
+            "width": 1600,
+            "height": 900
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "scene": "upload",
+          "size": {
+            "width": 1920,
+            "height": 1080
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "reports",
+          "size": {
+            "width": 1920,
+            "height": 1080
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "scene": "viewer",
+          "size": {
+            "width": 1920,
+            "height": 1080
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "scene": "columns",
+          "size": {
+            "width": 1920,
+            "height": 1080
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "scene": "export",
+          "size": {
+            "width": 1920,
+            "height": 1080
+          },
+          "visible": true,
+          "disabled": false
+        }
+      ],
+      "checks": [
+        {
+          "id": "next-page",
+          "controls": [
+            "next"
+          ],
+          "expected": "Página 2 / 2",
+          "actual": "Página 2 / 2",
+          "result": "PASS"
+        }
+      ],
+      "visible_observed": true,
+      "result": "PASS limitado a las pruebas citadas"
+    },
+    {
+      "key": "editcolsTop",
+      "id": "editcolsTop",
+      "screen": "s3",
+      "line": 515,
+      "attrs": {
+        "class": "secondary mini-btn",
+        "id": "editcolsTop"
+      },
+      "label": "⚙ Editar columnas",
+      "observations": [
+        {
+          "scene": "upload",
+          "size": {
+            "width": 1366,
+            "height": 768
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "reports",
+          "size": {
+            "width": 1366,
+            "height": 768
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "scene": "viewer",
+          "size": {
+            "width": 1366,
+            "height": 768
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "scene": "columns",
+          "size": {
+            "width": 1366,
+            "height": 768
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "scene": "export",
+          "size": {
+            "width": 1366,
+            "height": 768
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "scene": "upload",
+          "size": {
+            "width": 1600,
+            "height": 900
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "reports",
+          "size": {
+            "width": 1600,
+            "height": 900
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "scene": "viewer",
+          "size": {
+            "width": 1600,
+            "height": 900
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "scene": "columns",
+          "size": {
+            "width": 1600,
+            "height": 900
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "scene": "export",
+          "size": {
+            "width": 1600,
+            "height": 900
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "scene": "upload",
+          "size": {
+            "width": 1920,
+            "height": 1080
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "reports",
+          "size": {
+            "width": 1920,
+            "height": 1080
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "scene": "viewer",
+          "size": {
+            "width": 1920,
+            "height": 1080
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "scene": "columns",
+          "size": {
+            "width": 1920,
+            "height": 1080
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "scene": "export",
+          "size": {
+            "width": 1920,
+            "height": 1080
+          },
+          "visible": true,
+          "disabled": false
+        }
+      ],
+      "checks": [
+        {
+          "id": "column-initial-focus",
+          "controls": [
+            "editcolsTop"
+          ],
+          "expected": "colSearch",
+          "actual": "colSearch",
+          "result": "PASS"
+        }
+      ],
+      "visible_observed": true,
+      "result": "PASS limitado a las pruebas citadas"
+    },
+    {
+      "key": "cancel",
+      "id": "cancel",
+      "screen": "s3",
+      "line": 515,
+      "attrs": {
+        "id": "cancel"
+      },
+      "label": "",
+      "observations": [
+        {
+          "scene": "upload",
+          "size": {
+            "width": 1366,
+            "height": 768
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "reports",
+          "size": {
+            "width": 1366,
+            "height": 768
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "viewer",
+          "size": {
+            "width": 1366,
+            "height": 768
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "columns",
+          "size": {
+            "width": 1366,
+            "height": 768
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "export",
+          "size": {
+            "width": 1366,
+            "height": 768
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "upload",
+          "size": {
+            "width": 1600,
+            "height": 900
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "reports",
+          "size": {
+            "width": 1600,
+            "height": 900
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "viewer",
+          "size": {
+            "width": 1600,
+            "height": 900
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "columns",
+          "size": {
+            "width": 1600,
+            "height": 900
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "export",
+          "size": {
+            "width": 1600,
+            "height": 900
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "upload",
+          "size": {
+            "width": 1920,
+            "height": 1080
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "reports",
+          "size": {
+            "width": 1920,
+            "height": 1080
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "viewer",
+          "size": {
+            "width": 1920,
+            "height": 1080
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "columns",
+          "size": {
+            "width": 1920,
+            "height": 1080
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "export",
+          "size": {
+            "width": 1920,
+            "height": 1080
+          },
+          "visible": false,
+          "disabled": false
+        }
+      ],
+      "checks": [],
+      "visible_observed": false,
+      "result": "OCULTO o NO OBSERVADO / NO PROBADO"
+    },
+    {
+      "key": "sinmeta",
+      "id": "sinmeta",
+      "screen": "s3",
+      "line": 515,
+      "attrs": {
+        "id": "sinmeta"
+      },
+      "label": "",
+      "observations": [
+        {
+          "scene": "upload",
+          "size": {
+            "width": 1366,
+            "height": 768
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "reports",
+          "size": {
+            "width": 1366,
+            "height": 768
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "viewer",
+          "size": {
+            "width": 1366,
+            "height": 768
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "columns",
+          "size": {
+            "width": 1366,
+            "height": 768
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "export",
+          "size": {
+            "width": 1366,
+            "height": 768
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "upload",
+          "size": {
+            "width": 1600,
+            "height": 900
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "reports",
+          "size": {
+            "width": 1600,
+            "height": 900
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "viewer",
+          "size": {
+            "width": 1600,
+            "height": 900
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "columns",
+          "size": {
+            "width": 1600,
+            "height": 900
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "export",
+          "size": {
+            "width": 1600,
+            "height": 900
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "upload",
+          "size": {
+            "width": 1920,
+            "height": 1080
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "reports",
+          "size": {
+            "width": 1920,
+            "height": 1080
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "viewer",
+          "size": {
+            "width": 1920,
+            "height": 1080
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "columns",
+          "size": {
+            "width": 1920,
+            "height": 1080
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "export",
+          "size": {
+            "width": 1920,
+            "height": 1080
+          },
+          "visible": false,
+          "disabled": false
+        }
+      ],
+      "checks": [],
+      "visible_observed": false,
+      "result": "OCULTO o NO OBSERVADO / NO PROBADO"
+    },
+    {
+      "key": "closecols",
+      "id": "closecols",
+      "screen": "modal",
+      "line": 515,
+      "attrs": {
+        "class": "ghost",
+        "id": "closecols",
+        "type": "button"
+      },
+      "label": "Cerrar",
+      "observations": [
+        {
+          "scene": "upload",
+          "size": {
+            "width": 1366,
+            "height": 768
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "reports",
+          "size": {
+            "width": 1366,
+            "height": 768
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "viewer",
+          "size": {
+            "width": 1366,
+            "height": 768
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "columns",
+          "size": {
+            "width": 1366,
+            "height": 768
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "scene": "export",
+          "size": {
+            "width": 1366,
+            "height": 768
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "upload",
+          "size": {
+            "width": 1600,
+            "height": 900
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "reports",
+          "size": {
+            "width": 1600,
+            "height": 900
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "viewer",
+          "size": {
+            "width": 1600,
+            "height": 900
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "columns",
+          "size": {
+            "width": 1600,
+            "height": 900
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "scene": "export",
+          "size": {
+            "width": 1600,
+            "height": 900
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "upload",
+          "size": {
+            "width": 1920,
+            "height": 1080
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "reports",
+          "size": {
+            "width": 1920,
+            "height": 1080
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "viewer",
+          "size": {
+            "width": 1920,
+            "height": 1080
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "columns",
+          "size": {
+            "width": 1920,
+            "height": 1080
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "scene": "export",
+          "size": {
+            "width": 1920,
+            "height": 1080
+          },
+          "visible": false,
+          "disabled": false
+        }
+      ],
+      "checks": [
+        {
+          "id": "columns-close",
+          "controls": [
+            "closecols"
+          ],
+          "expected": false,
+          "actual": false,
+          "result": "PASS"
+        },
+        {
+          "id": "columns-focus-restored",
+          "controls": [
+            "closecols"
+          ],
+          "expected": "editcolsTop",
+          "actual": "",
+          "result": "FAIL"
+        }
+      ],
+      "visible_observed": true,
+      "result": "FAIL"
+    },
+    {
+      "key": "corecols",
+      "id": "corecols",
+      "screen": "modal",
+      "line": 515,
+      "attrs": {
+        "class": "secondary",
+        "id": "corecols",
+        "type": "button"
+      },
+      "label": "Recomendadas",
+      "observations": [
+        {
+          "scene": "upload",
+          "size": {
+            "width": 1366,
+            "height": 768
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "reports",
+          "size": {
+            "width": 1366,
+            "height": 768
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "viewer",
+          "size": {
+            "width": 1366,
+            "height": 768
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "columns",
+          "size": {
+            "width": 1366,
+            "height": 768
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "scene": "export",
+          "size": {
+            "width": 1366,
+            "height": 768
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "upload",
+          "size": {
+            "width": 1600,
+            "height": 900
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "reports",
+          "size": {
+            "width": 1600,
+            "height": 900
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "viewer",
+          "size": {
+            "width": 1600,
+            "height": 900
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "columns",
+          "size": {
+            "width": 1600,
+            "height": 900
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "scene": "export",
+          "size": {
+            "width": 1600,
+            "height": 900
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "upload",
+          "size": {
+            "width": 1920,
+            "height": 1080
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "reports",
+          "size": {
+            "width": 1920,
+            "height": 1080
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "viewer",
+          "size": {
+            "width": 1920,
+            "height": 1080
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "columns",
+          "size": {
+            "width": 1920,
+            "height": 1080
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "scene": "export",
+          "size": {
+            "width": 1920,
+            "height": 1080
+          },
+          "visible": false,
+          "disabled": false
+        }
+      ],
+      "checks": [
+        {
+          "id": "preset-recommended",
+          "controls": [
+            "corecols"
+          ],
+          "expected": true,
+          "actual": true,
+          "result": "PASS"
+        }
+      ],
+      "visible_observed": true,
+      "result": "PASS limitado a las pruebas citadas"
+    },
+    {
+      "key": "invoicecols",
+      "id": "invoicecols",
+      "screen": "modal",
+      "line": 515,
+      "attrs": {
+        "class": "secondary",
+        "id": "invoicecols",
+        "type": "button"
+      },
+      "label": "Fiscal",
+      "observations": [
+        {
+          "scene": "upload",
+          "size": {
+            "width": 1366,
+            "height": 768
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "reports",
+          "size": {
+            "width": 1366,
+            "height": 768
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "viewer",
+          "size": {
+            "width": 1366,
+            "height": 768
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "columns",
+          "size": {
+            "width": 1366,
+            "height": 768
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "scene": "export",
+          "size": {
+            "width": 1366,
+            "height": 768
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "upload",
+          "size": {
+            "width": 1600,
+            "height": 900
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "reports",
+          "size": {
+            "width": 1600,
+            "height": 900
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "viewer",
+          "size": {
+            "width": 1600,
+            "height": 900
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "columns",
+          "size": {
+            "width": 1600,
+            "height": 900
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "scene": "export",
+          "size": {
+            "width": 1600,
+            "height": 900
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "upload",
+          "size": {
+            "width": 1920,
+            "height": 1080
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "reports",
+          "size": {
+            "width": 1920,
+            "height": 1080
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "viewer",
+          "size": {
+            "width": 1920,
+            "height": 1080
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "columns",
+          "size": {
+            "width": 1920,
+            "height": 1080
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "scene": "export",
+          "size": {
+            "width": 1920,
+            "height": 1080
+          },
+          "visible": false,
+          "disabled": false
+        }
+      ],
+      "checks": [
+        {
+          "id": "preset-fiscal",
+          "controls": [
+            "invoicecols"
+          ],
+          "expected": true,
+          "actual": true,
+          "result": "PASS"
+        }
+      ],
+      "visible_observed": true,
+      "result": "PASS limitado a las pruebas citadas"
+    },
+    {
+      "key": "allcols",
+      "id": "allcols",
+      "screen": "modal",
+      "line": 515,
+      "attrs": {
+        "class": "secondary",
+        "id": "allcols",
+        "type": "button"
+      },
+      "label": "Todas",
+      "observations": [
+        {
+          "scene": "upload",
+          "size": {
+            "width": 1366,
+            "height": 768
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "reports",
+          "size": {
+            "width": 1366,
+            "height": 768
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "viewer",
+          "size": {
+            "width": 1366,
+            "height": 768
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "columns",
+          "size": {
+            "width": 1366,
+            "height": 768
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "scene": "export",
+          "size": {
+            "width": 1366,
+            "height": 768
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "upload",
+          "size": {
+            "width": 1600,
+            "height": 900
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "reports",
+          "size": {
+            "width": 1600,
+            "height": 900
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "viewer",
+          "size": {
+            "width": 1600,
+            "height": 900
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "columns",
+          "size": {
+            "width": 1600,
+            "height": 900
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "scene": "export",
+          "size": {
+            "width": 1600,
+            "height": 900
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "upload",
+          "size": {
+            "width": 1920,
+            "height": 1080
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "reports",
+          "size": {
+            "width": 1920,
+            "height": 1080
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "viewer",
+          "size": {
+            "width": 1920,
+            "height": 1080
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "columns",
+          "size": {
+            "width": 1920,
+            "height": 1080
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "scene": "export",
+          "size": {
+            "width": 1920,
+            "height": 1080
+          },
+          "visible": false,
+          "disabled": false
+        }
+      ],
+      "checks": [
+        {
+          "id": "preset-all",
+          "controls": [
+            "allcols"
+          ],
+          "expected": true,
+          "actual": true,
+          "result": "PASS"
+        }
+      ],
+      "visible_observed": true,
+      "result": "PASS limitado a las pruebas citadas"
+    },
+    {
+      "key": "nocols",
+      "id": "nocols",
+      "screen": "modal",
+      "line": 515,
+      "attrs": {
+        "class": "secondary",
+        "id": "nocols",
+        "type": "button"
+      },
+      "label": "Ninguna",
+      "observations": [
+        {
+          "scene": "upload",
+          "size": {
+            "width": 1366,
+            "height": 768
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "reports",
+          "size": {
+            "width": 1366,
+            "height": 768
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "viewer",
+          "size": {
+            "width": 1366,
+            "height": 768
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "columns",
+          "size": {
+            "width": 1366,
+            "height": 768
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "scene": "export",
+          "size": {
+            "width": 1366,
+            "height": 768
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "upload",
+          "size": {
+            "width": 1600,
+            "height": 900
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "reports",
+          "size": {
+            "width": 1600,
+            "height": 900
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "viewer",
+          "size": {
+            "width": 1600,
+            "height": 900
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "columns",
+          "size": {
+            "width": 1600,
+            "height": 900
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "scene": "export",
+          "size": {
+            "width": 1600,
+            "height": 900
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "upload",
+          "size": {
+            "width": 1920,
+            "height": 1080
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "reports",
+          "size": {
+            "width": 1920,
+            "height": 1080
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "viewer",
+          "size": {
+            "width": 1920,
+            "height": 1080
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "columns",
+          "size": {
+            "width": 1920,
+            "height": 1080
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "scene": "export",
+          "size": {
+            "width": 1920,
+            "height": 1080
+          },
+          "visible": false,
+          "disabled": false
+        }
+      ],
+      "checks": [
+        {
+          "id": "preset-none",
+          "controls": [
+            "nocols"
+          ],
+          "expected": 0,
+          "actual": 0,
+          "result": "PASS"
+        }
+      ],
+      "visible_observed": true,
+      "result": "PASS limitado a las pruebas citadas"
+    },
+    {
+      "key": "paycols",
+      "id": "paycols",
+      "screen": "modal",
+      "line": 515,
+      "attrs": {
+        "class": "secondary",
+        "id": "paycols",
+        "style": "display:none",
+        "type": "button"
+      },
+      "label": "Pago",
+      "observations": [
+        {
+          "scene": "upload",
+          "size": {
+            "width": 1366,
+            "height": 768
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "reports",
+          "size": {
+            "width": 1366,
+            "height": 768
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "viewer",
+          "size": {
+            "width": 1366,
+            "height": 768
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "columns",
+          "size": {
+            "width": 1366,
+            "height": 768
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "export",
+          "size": {
+            "width": 1366,
+            "height": 768
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "upload",
+          "size": {
+            "width": 1600,
+            "height": 900
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "reports",
+          "size": {
+            "width": 1600,
+            "height": 900
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "viewer",
+          "size": {
+            "width": 1600,
+            "height": 900
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "columns",
+          "size": {
+            "width": 1600,
+            "height": 900
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "export",
+          "size": {
+            "width": 1600,
+            "height": 900
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "upload",
+          "size": {
+            "width": 1920,
+            "height": 1080
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "reports",
+          "size": {
+            "width": 1920,
+            "height": 1080
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "viewer",
+          "size": {
+            "width": 1920,
+            "height": 1080
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "columns",
+          "size": {
+            "width": 1920,
+            "height": 1080
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "export",
+          "size": {
+            "width": 1920,
+            "height": 1080
+          },
+          "visible": false,
+          "disabled": false
+        }
+      ],
+      "checks": [],
+      "visible_observed": false,
+      "result": "OCULTO o NO OBSERVADO / NO PROBADO"
+    },
+    {
+      "key": "nomcols",
+      "id": "nomcols",
+      "screen": "modal",
+      "line": 515,
+      "attrs": {
+        "class": "secondary",
+        "id": "nomcols",
+        "style": "display:none",
+        "type": "button"
+      },
+      "label": "Nómina",
+      "observations": [
+        {
+          "scene": "upload",
+          "size": {
+            "width": 1366,
+            "height": 768
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "reports",
+          "size": {
+            "width": 1366,
+            "height": 768
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "viewer",
+          "size": {
+            "width": 1366,
+            "height": 768
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "columns",
+          "size": {
+            "width": 1366,
+            "height": 768
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "export",
+          "size": {
+            "width": 1366,
+            "height": 768
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "upload",
+          "size": {
+            "width": 1600,
+            "height": 900
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "reports",
+          "size": {
+            "width": 1600,
+            "height": 900
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "viewer",
+          "size": {
+            "width": 1600,
+            "height": 900
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "columns",
+          "size": {
+            "width": 1600,
+            "height": 900
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "export",
+          "size": {
+            "width": 1600,
+            "height": 900
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "upload",
+          "size": {
+            "width": 1920,
+            "height": 1080
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "reports",
+          "size": {
+            "width": 1920,
+            "height": 1080
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "viewer",
+          "size": {
+            "width": 1920,
+            "height": 1080
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "columns",
+          "size": {
+            "width": 1920,
+            "height": 1080
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "export",
+          "size": {
+            "width": 1920,
+            "height": 1080
+          },
+          "visible": false,
+          "disabled": false
+        }
+      ],
+      "checks": [],
+      "visible_observed": false,
+      "result": "OCULTO o NO OBSERVADO / NO PROBADO"
+    },
+    {
+      "key": "auditcols",
+      "id": "auditcols",
+      "screen": "modal",
+      "line": 515,
+      "attrs": {
+        "class": "secondary",
+        "id": "auditcols",
+        "type": "button"
+      },
+      "label": "Auditoría",
+      "observations": [
+        {
+          "scene": "upload",
+          "size": {
+            "width": 1366,
+            "height": 768
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "reports",
+          "size": {
+            "width": 1366,
+            "height": 768
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "viewer",
+          "size": {
+            "width": 1366,
+            "height": 768
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "columns",
+          "size": {
+            "width": 1366,
+            "height": 768
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "scene": "export",
+          "size": {
+            "width": 1366,
+            "height": 768
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "upload",
+          "size": {
+            "width": 1600,
+            "height": 900
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "reports",
+          "size": {
+            "width": 1600,
+            "height": 900
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "viewer",
+          "size": {
+            "width": 1600,
+            "height": 900
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "columns",
+          "size": {
+            "width": 1600,
+            "height": 900
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "scene": "export",
+          "size": {
+            "width": 1600,
+            "height": 900
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "upload",
+          "size": {
+            "width": 1920,
+            "height": 1080
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "reports",
+          "size": {
+            "width": 1920,
+            "height": 1080
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "viewer",
+          "size": {
+            "width": 1920,
+            "height": 1080
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "columns",
+          "size": {
+            "width": 1920,
+            "height": 1080
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "scene": "export",
+          "size": {
+            "width": 1920,
+            "height": 1080
+          },
+          "visible": false,
+          "disabled": false
+        }
+      ],
+      "checks": [
+        {
+          "id": "preset-audit",
+          "controls": [
+            "auditcols"
+          ],
+          "expected": true,
+          "actual": true,
+          "result": "PASS"
+        }
+      ],
+      "visible_observed": true,
+      "result": "PASS limitado a las pruebas citadas"
+    },
+    {
+      "key": "taxcols",
+      "id": "taxcols",
+      "screen": "modal",
+      "line": 515,
+      "attrs": {
+        "class": "secondary",
+        "id": "taxcols",
+        "type": "button"
+      },
+      "label": "Impuestos",
+      "observations": [
+        {
+          "scene": "upload",
+          "size": {
+            "width": 1366,
+            "height": 768
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "reports",
+          "size": {
+            "width": 1366,
+            "height": 768
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "viewer",
+          "size": {
+            "width": 1366,
+            "height": 768
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "columns",
+          "size": {
+            "width": 1366,
+            "height": 768
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "scene": "export",
+          "size": {
+            "width": 1366,
+            "height": 768
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "upload",
+          "size": {
+            "width": 1600,
+            "height": 900
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "reports",
+          "size": {
+            "width": 1600,
+            "height": 900
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "viewer",
+          "size": {
+            "width": 1600,
+            "height": 900
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "columns",
+          "size": {
+            "width": 1600,
+            "height": 900
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "scene": "export",
+          "size": {
+            "width": 1600,
+            "height": 900
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "upload",
+          "size": {
+            "width": 1920,
+            "height": 1080
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "reports",
+          "size": {
+            "width": 1920,
+            "height": 1080
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "viewer",
+          "size": {
+            "width": 1920,
+            "height": 1080
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "columns",
+          "size": {
+            "width": 1920,
+            "height": 1080
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "scene": "export",
+          "size": {
+            "width": 1920,
+            "height": 1080
+          },
+          "visible": false,
+          "disabled": false
+        }
+      ],
+      "checks": [
+        {
+          "id": "preset-taxes",
+          "controls": [
+            "taxcols"
+          ],
+          "expected": true,
+          "actual": true,
+          "result": "PASS"
+        }
+      ],
+      "visible_observed": true,
+      "result": "PASS limitado a las pruebas citadas"
+    },
+    {
+      "key": "applycols",
+      "id": "applycols",
+      "screen": "modal",
+      "line": 515,
+      "attrs": {
+        "class": "orange",
+        "id": "applycols",
+        "type": "button"
+      },
+      "label": "Aplicar y guardar",
+      "observations": [
+        {
+          "scene": "upload",
+          "size": {
+            "width": 1366,
+            "height": 768
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "reports",
+          "size": {
+            "width": 1366,
+            "height": 768
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "viewer",
+          "size": {
+            "width": 1366,
+            "height": 768
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "columns",
+          "size": {
+            "width": 1366,
+            "height": 768
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "scene": "export",
+          "size": {
+            "width": 1366,
+            "height": 768
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "upload",
+          "size": {
+            "width": 1600,
+            "height": 900
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "reports",
+          "size": {
+            "width": 1600,
+            "height": 900
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "viewer",
+          "size": {
+            "width": 1600,
+            "height": 900
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "columns",
+          "size": {
+            "width": 1600,
+            "height": 900
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "scene": "export",
+          "size": {
+            "width": 1600,
+            "height": 900
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "upload",
+          "size": {
+            "width": 1920,
+            "height": 1080
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "reports",
+          "size": {
+            "width": 1920,
+            "height": 1080
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "viewer",
+          "size": {
+            "width": 1920,
+            "height": 1080
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "columns",
+          "size": {
+            "width": 1920,
+            "height": 1080
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "scene": "export",
+          "size": {
+            "width": 1920,
+            "height": 1080
+          },
+          "visible": false,
+          "disabled": false
+        }
+      ],
+      "checks": [
+        {
+          "id": "empty-columns-alert",
+          "controls": [
+            "applycols"
+          ],
+          "expected": true,
+          "actual": true,
+          "result": "PASS"
+        },
+        {
+          "id": "column-search-preserves-selection-1366",
+          "result": "FAIL",
+          "expected": true,
+          "actual": false,
+          "controls": [
+            "applycols"
+          ]
+        },
+        {
+          "id": "column-search-preserves-selection-1600",
+          "result": "FAIL",
+          "expected": true,
+          "actual": false,
+          "controls": [
+            "applycols"
+          ]
+        },
+        {
+          "id": "column-search-preserves-selection-1920",
+          "result": "FAIL",
+          "expected": true,
+          "actual": false,
+          "controls": [
+            "applycols"
+          ]
+        }
+      ],
+      "visible_observed": true,
+      "result": "FAIL"
+    },
+    {
+      "key": "previewClose",
+      "id": "previewClose",
+      "screen": "previewModal",
+      "line": 515,
+      "attrs": {
+        "class": "ghost mini-btn",
+        "id": "previewClose"
+      },
+      "label": "✕ Cerrar",
+      "observations": [
+        {
+          "scene": "upload",
+          "size": {
+            "width": 1366,
+            "height": 768
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "reports",
+          "size": {
+            "width": 1366,
+            "height": 768
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "viewer",
+          "size": {
+            "width": 1366,
+            "height": 768
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "scene": "columns",
+          "size": {
+            "width": 1366,
+            "height": 768
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "export",
+          "size": {
+            "width": 1366,
+            "height": 768
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "upload",
+          "size": {
+            "width": 1600,
+            "height": 900
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "reports",
+          "size": {
+            "width": 1600,
+            "height": 900
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "viewer",
+          "size": {
+            "width": 1600,
+            "height": 900
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "scene": "columns",
+          "size": {
+            "width": 1600,
+            "height": 900
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "export",
+          "size": {
+            "width": 1600,
+            "height": 900
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "upload",
+          "size": {
+            "width": 1920,
+            "height": 1080
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "reports",
+          "size": {
+            "width": 1920,
+            "height": 1080
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "viewer",
+          "size": {
+            "width": 1920,
+            "height": 1080
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "scene": "columns",
+          "size": {
+            "width": 1920,
+            "height": 1080
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "export",
+          "size": {
+            "width": 1920,
+            "height": 1080
+          },
+          "visible": false,
+          "disabled": false
+        }
+      ],
+      "checks": [
+        {
+          "id": "preview-close",
+          "controls": [
+            "previewClose"
+          ],
+          "expected": false,
+          "actual": false,
+          "result": "PASS"
+        }
+      ],
+      "visible_observed": true,
+      "result": "PASS limitado a las pruebas citadas"
+    },
+    {
+      "key": "exportClose",
+      "id": "exportClose",
+      "screen": "exportModal",
+      "line": 524,
+      "attrs": {
+        "class": "ghost",
+        "id": "exportClose",
+        "type": "button"
+      },
+      "label": "✕ Cerrar",
+      "observations": [
+        {
+          "scene": "upload",
+          "size": {
+            "width": 1366,
+            "height": 768
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "reports",
+          "size": {
+            "width": 1366,
+            "height": 768
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "viewer",
+          "size": {
+            "width": 1366,
+            "height": 768
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "columns",
+          "size": {
+            "width": 1366,
+            "height": 768
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "export",
+          "size": {
+            "width": 1366,
+            "height": 768
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "scene": "upload",
+          "size": {
+            "width": 1600,
+            "height": 900
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "reports",
+          "size": {
+            "width": 1600,
+            "height": 900
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "viewer",
+          "size": {
+            "width": 1600,
+            "height": 900
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "columns",
+          "size": {
+            "width": 1600,
+            "height": 900
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "export",
+          "size": {
+            "width": 1600,
+            "height": 900
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "scene": "upload",
+          "size": {
+            "width": 1920,
+            "height": 1080
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "reports",
+          "size": {
+            "width": 1920,
+            "height": 1080
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "viewer",
+          "size": {
+            "width": 1920,
+            "height": 1080
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "columns",
+          "size": {
+            "width": 1920,
+            "height": 1080
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "export",
+          "size": {
+            "width": 1920,
+            "height": 1080
+          },
+          "visible": true,
+          "disabled": false
+        }
+      ],
+      "checks": [
+        {
+          "id": "export-close",
+          "controls": [
+            "exportClose"
+          ],
+          "expected": false,
+          "actual": false,
+          "result": "PASS"
+        }
+      ],
+      "visible_observed": true,
+      "result": "PASS limitado a las pruebas citadas"
+    },
+    {
+      "key": "exportCancel",
+      "id": "exportCancel",
+      "screen": "exportModal",
+      "line": 530,
+      "attrs": {
+        "class": "secondary",
+        "id": "exportCancel",
+        "type": "button"
+      },
+      "label": "Cancelar",
+      "observations": [
+        {
+          "scene": "upload",
+          "size": {
+            "width": 1366,
+            "height": 768
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "reports",
+          "size": {
+            "width": 1366,
+            "height": 768
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "viewer",
+          "size": {
+            "width": 1366,
+            "height": 768
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "columns",
+          "size": {
+            "width": 1366,
+            "height": 768
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "export",
+          "size": {
+            "width": 1366,
+            "height": 768
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "scene": "upload",
+          "size": {
+            "width": 1600,
+            "height": 900
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "reports",
+          "size": {
+            "width": 1600,
+            "height": 900
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "viewer",
+          "size": {
+            "width": 1600,
+            "height": 900
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "columns",
+          "size": {
+            "width": 1600,
+            "height": 900
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "export",
+          "size": {
+            "width": 1600,
+            "height": 900
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "scene": "upload",
+          "size": {
+            "width": 1920,
+            "height": 1080
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "reports",
+          "size": {
+            "width": 1920,
+            "height": 1080
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "viewer",
+          "size": {
+            "width": 1920,
+            "height": 1080
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "columns",
+          "size": {
+            "width": 1920,
+            "height": 1080
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "export",
+          "size": {
+            "width": 1920,
+            "height": 1080
+          },
+          "visible": true,
+          "disabled": false
+        }
+      ],
+      "checks": [
+        {
+          "id": "export-cancel",
+          "controls": [
+            "exportCancel"
+          ],
+          "expected": false,
+          "actual": false,
+          "result": "PASS"
+        }
+      ],
+      "visible_observed": true,
+      "result": "PASS limitado a las pruebas citadas"
+    },
+    {
+      "key": "exportGenerate",
+      "id": "exportGenerate",
+      "screen": "exportModal",
+      "line": 531,
+      "attrs": {
+        "class": "orange",
+        "id": "exportGenerate",
+        "type": "button"
+      },
+      "label": "Generar Excel .xlsx",
+      "observations": [
+        {
+          "scene": "upload",
+          "size": {
+            "width": 1366,
+            "height": 768
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "reports",
+          "size": {
+            "width": 1366,
+            "height": 768
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "viewer",
+          "size": {
+            "width": 1366,
+            "height": 768
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "columns",
+          "size": {
+            "width": 1366,
+            "height": 768
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "export",
+          "size": {
+            "width": 1366,
+            "height": 768
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "scene": "upload",
+          "size": {
+            "width": 1600,
+            "height": 900
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "reports",
+          "size": {
+            "width": 1600,
+            "height": 900
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "viewer",
+          "size": {
+            "width": 1600,
+            "height": 900
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "columns",
+          "size": {
+            "width": 1600,
+            "height": 900
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "export",
+          "size": {
+            "width": 1600,
+            "height": 900
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "scene": "upload",
+          "size": {
+            "width": 1920,
+            "height": 1080
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "reports",
+          "size": {
+            "width": 1920,
+            "height": 1080
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "viewer",
+          "size": {
+            "width": 1920,
+            "height": 1080
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "columns",
+          "size": {
+            "width": 1920,
+            "height": 1080
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "export",
+          "size": {
+            "width": 1920,
+            "height": 1080
+          },
+          "visible": true,
+          "disabled": false
+        }
+      ],
+      "checks": [
+        {
+          "id": "xlsx-download-1366",
+          "result": "PASS",
+          "expected": true,
+          "actual": true,
+          "controls": [
+            "exportGenerate"
+          ]
+        },
+        {
+          "id": "xlsx-download-1600",
+          "result": "PASS",
+          "expected": true,
+          "actual": true,
+          "controls": [
+            "exportGenerate"
+          ]
+        },
+        {
+          "id": "xlsx-download-1920",
+          "result": "PASS",
+          "expected": true,
+          "actual": true,
+          "controls": [
+            "exportGenerate"
+          ]
+        }
+      ],
+      "visible_observed": true,
+      "result": "PASS limitado a las pruebas citadas"
+    },
+    {
+      "key": "preview:resumen",
+      "id": null,
+      "screen": "previewModal",
+      "line": 1136,
+      "label": "resumen",
+      "attrs": {
+        "data-pv": "resumen"
+      },
+      "dynamic": true,
+      "observations": [
+        {
+          "scene": "viewer",
+          "size": {
+            "width": 1366,
+            "height": 768
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "scene": "columns",
+          "size": {
+            "width": 1366,
+            "height": 768
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "export",
+          "size": {
+            "width": 1366,
+            "height": 768
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "viewer",
+          "size": {
+            "width": 1600,
+            "height": 900
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "scene": "columns",
+          "size": {
+            "width": 1600,
+            "height": 900
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "export",
+          "size": {
+            "width": 1600,
+            "height": 900
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "viewer",
+          "size": {
+            "width": 1920,
+            "height": 1080
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "scene": "columns",
+          "size": {
+            "width": 1920,
+            "height": 1080
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "export",
+          "size": {
+            "width": 1920,
+            "height": 1080
+          },
+          "visible": false,
+          "disabled": false
+        }
+      ],
+      "checks": [],
+      "visible_observed": true,
+      "result": "PRESENTE / NO PROBADO"
+    },
+    {
+      "key": "preview:impuestos",
+      "id": null,
+      "screen": "previewModal",
+      "line": 1136,
+      "label": "impuestos",
+      "attrs": {
+        "data-pv": "impuestos"
+      },
+      "dynamic": true,
+      "observations": [
+        {
+          "scene": "viewer",
+          "size": {
+            "width": 1366,
+            "height": 768
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "scene": "columns",
+          "size": {
+            "width": 1366,
+            "height": 768
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "export",
+          "size": {
+            "width": 1366,
+            "height": 768
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "viewer",
+          "size": {
+            "width": 1600,
+            "height": 900
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "scene": "columns",
+          "size": {
+            "width": 1600,
+            "height": 900
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "export",
+          "size": {
+            "width": 1600,
+            "height": 900
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "viewer",
+          "size": {
+            "width": 1920,
+            "height": 1080
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "scene": "columns",
+          "size": {
+            "width": 1920,
+            "height": 1080
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "export",
+          "size": {
+            "width": 1920,
+            "height": 1080
+          },
+          "visible": false,
+          "disabled": false
+        }
+      ],
+      "checks": [
+        {
+          "id": "viewer-tab-impuestos-1366",
+          "result": "PASS",
+          "expected": "impuestos",
+          "actual": "impuestos",
+          "controls": [
+            "preview:impuestos"
+          ]
+        },
+        {
+          "id": "viewer-tab-impuestos-1600",
+          "result": "PASS",
+          "expected": "impuestos",
+          "actual": "impuestos",
+          "controls": [
+            "preview:impuestos"
+          ]
+        },
+        {
+          "id": "viewer-tab-impuestos-1920",
+          "result": "PASS",
+          "expected": "impuestos",
+          "actual": "impuestos",
+          "controls": [
+            "preview:impuestos"
+          ]
+        }
+      ],
+      "visible_observed": true,
+      "result": "PASS limitado a las pruebas citadas"
+    },
+    {
+      "key": "preview:conceptos",
+      "id": null,
+      "screen": "previewModal",
+      "line": 1136,
+      "label": "conceptos",
+      "attrs": {
+        "data-pv": "conceptos"
+      },
+      "dynamic": true,
+      "observations": [
+        {
+          "scene": "viewer",
+          "size": {
+            "width": 1366,
+            "height": 768
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "scene": "columns",
+          "size": {
+            "width": 1366,
+            "height": 768
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "export",
+          "size": {
+            "width": 1366,
+            "height": 768
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "viewer",
+          "size": {
+            "width": 1600,
+            "height": 900
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "scene": "columns",
+          "size": {
+            "width": 1600,
+            "height": 900
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "export",
+          "size": {
+            "width": 1600,
+            "height": 900
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "viewer",
+          "size": {
+            "width": 1920,
+            "height": 1080
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "scene": "columns",
+          "size": {
+            "width": 1920,
+            "height": 1080
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "export",
+          "size": {
+            "width": 1920,
+            "height": 1080
+          },
+          "visible": false,
+          "disabled": false
+        }
+      ],
+      "checks": [
+        {
+          "id": "viewer-tab-conceptos-1366",
+          "result": "PASS",
+          "expected": "conceptos",
+          "actual": "conceptos",
+          "controls": [
+            "preview:conceptos"
+          ]
+        },
+        {
+          "id": "viewer-tab-conceptos-1600",
+          "result": "PASS",
+          "expected": "conceptos",
+          "actual": "conceptos",
+          "controls": [
+            "preview:conceptos"
+          ]
+        },
+        {
+          "id": "viewer-tab-conceptos-1920",
+          "result": "PASS",
+          "expected": "conceptos",
+          "actual": "conceptos",
+          "controls": [
+            "preview:conceptos"
+          ]
+        }
+      ],
+      "visible_observed": true,
+      "result": "PASS limitado a las pruebas citadas"
+    },
+    {
+      "key": "preview:datos",
+      "id": null,
+      "screen": "previewModal",
+      "line": 1136,
+      "label": "datos",
+      "attrs": {
+        "data-pv": "datos"
+      },
+      "dynamic": true,
+      "observations": [
+        {
+          "scene": "viewer",
+          "size": {
+            "width": 1366,
+            "height": 768
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "scene": "columns",
+          "size": {
+            "width": 1366,
+            "height": 768
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "export",
+          "size": {
+            "width": 1366,
+            "height": 768
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "viewer",
+          "size": {
+            "width": 1600,
+            "height": 900
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "scene": "columns",
+          "size": {
+            "width": 1600,
+            "height": 900
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "export",
+          "size": {
+            "width": 1600,
+            "height": 900
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "viewer",
+          "size": {
+            "width": 1920,
+            "height": 1080
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "scene": "columns",
+          "size": {
+            "width": 1920,
+            "height": 1080
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "export",
+          "size": {
+            "width": 1920,
+            "height": 1080
+          },
+          "visible": false,
+          "disabled": false
+        }
+      ],
+      "checks": [
+        {
+          "id": "viewer-tab-datos-1366",
+          "result": "PASS",
+          "expected": "datos",
+          "actual": "datos",
+          "controls": [
+            "preview:datos"
+          ]
+        },
+        {
+          "id": "viewer-tab-datos-1600",
+          "result": "PASS",
+          "expected": "datos",
+          "actual": "datos",
+          "controls": [
+            "preview:datos"
+          ]
+        },
+        {
+          "id": "viewer-tab-datos-1920",
+          "result": "PASS",
+          "expected": "datos",
+          "actual": "datos",
+          "controls": [
+            "preview:datos"
+          ]
+        }
+      ],
+      "visible_observed": true,
+      "result": "PASS limitado a las pruebas citadas"
+    },
+    {
+      "key": "preview:xml",
+      "id": null,
+      "screen": "previewModal",
+      "line": 1136,
+      "label": "xml",
+      "attrs": {
+        "data-pv": "xml"
+      },
+      "dynamic": true,
+      "observations": [
+        {
+          "scene": "viewer",
+          "size": {
+            "width": 1366,
+            "height": 768
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "scene": "columns",
+          "size": {
+            "width": 1366,
+            "height": 768
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "export",
+          "size": {
+            "width": 1366,
+            "height": 768
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "viewer",
+          "size": {
+            "width": 1600,
+            "height": 900
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "scene": "columns",
+          "size": {
+            "width": 1600,
+            "height": 900
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "export",
+          "size": {
+            "width": 1600,
+            "height": 900
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "viewer",
+          "size": {
+            "width": 1920,
+            "height": 1080
+          },
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "scene": "columns",
+          "size": {
+            "width": 1920,
+            "height": 1080
+          },
+          "visible": false,
+          "disabled": false
+        },
+        {
+          "scene": "export",
+          "size": {
+            "width": 1920,
+            "height": 1080
+          },
+          "visible": false,
+          "disabled": false
+        }
+      ],
+      "checks": [
+        {
+          "id": "viewer-tab-xml-1366",
+          "result": "PASS",
+          "expected": "xml",
+          "actual": "xml",
+          "controls": [
+            "preview:xml"
+          ]
+        },
+        {
+          "id": "viewer-tab-xml-1600",
+          "result": "PASS",
+          "expected": "xml",
+          "actual": "xml",
+          "controls": [
+            "preview:xml"
+          ]
+        },
+        {
+          "id": "viewer-tab-xml-1920",
+          "result": "PASS",
+          "expected": "xml",
+          "actual": "xml",
+          "controls": [
+            "preview:xml"
+          ]
+        }
+      ],
+      "visible_observed": true,
+      "result": "PASS limitado a las pruebas citadas"
+    }
+  ]
+}
