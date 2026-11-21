@@ -24,6 +24,18 @@ Motor fiscal independiente en `app/fiscal`, con lector seguro por namespaces CFD
 
 59 pruebas del motor;16 fuentes oficiales con hashes;13 fixtures sintéticos con validación XSD y reglas separadas. Leer [matriz normativa](docs/06_MATRIZ_NORMATIVA_SAT.md), [entrega fiscal](docs/15_MOTOR_FISCAL_P0_REPORT.md), [API/CLI](docs/16_CONTRATO_MOTOR_FISCAL.md) y [reproducción](scripts/fiscal/README.md).
 
+## Arranque directo en Windows
+
+Para equipos corporativos que no permitan distribuir un EXE, ejecuta [Iniciar-CFDI-Reader.bat](Iniciar-CFDI-Reader.bat) desde la carpeta del repositorio. El lanzador usa `.venv` si ya existe; en el primer arranque busca Python3.11, crea el entorno local e instala las dependencias fijadas de `requirements/desktop.txt`. No requiere permisos de administrador ni modifica una instalación global de Python.
+
+La primera ejecución necesita acceso a PyPI para descargar las ruedas de Qt y el motor fiscal. Después, el arranque es local con:
+
+```powershell
+.\.venv\Scripts\python.exe -m app.desktop.main
+```
+
+El producto de escritorio no depende de un `.exe` de FiscalOps; sí requiere Python3.11 de64bits y las dependencias fijadas. `FiscalOpsData` permanece local y está excluido de Git.
+
 ## Hito preservado — SPEC011
 
 **FASE 1.1 DONE / FASE 1.2 DONE en el alcance de SPEC011.** En ese hito se estabilizó la UI y se ejecutó Qt en Windows conservando el flujo fiscal legado. La integración actual, descrita arriba, ya lo sustituye en Qt. Original, legacy y60 referencias permanecen intactos.
